@@ -1,0 +1,14 @@
+# Ignore the virtual environment
+venv/
+env/
+.venv/
+
+# Ignore the data (move this manually via email/cloud)
+data/
+
+# Ignore API keys
+.env
+
+# Ignore Python cache
+__pycache__/
+*.pyc

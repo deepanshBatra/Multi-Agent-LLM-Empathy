@@ -1,0 +1,7 @@
+pandas
+groq
+google-genai
+scikit-learn
+python-dotenv
+kagglehub[pandas-datasets]
+vertexai
