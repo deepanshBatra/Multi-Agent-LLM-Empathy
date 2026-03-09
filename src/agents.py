@@ -20,7 +20,6 @@ def gemini_llm_call(prompt, model="gemini-3-flash-preview", api_key=GEMINI_API_K
         model=model,
         contents=prompt
     )
-
     return response.text
 
 

@@ -12,3 +12,4 @@ data/
 # Ignore Python cache
 __pycache__/
 *.pyc
+.envtracker/

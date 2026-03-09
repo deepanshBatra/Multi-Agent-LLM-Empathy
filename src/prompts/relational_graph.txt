@@ -1,13 +1,25 @@
-Role: You are an expert Social Psychologist and Dialogue Analyst specializing in interpersonal dynamics within the MELD (Friends) dataset.
+Role: Relationship Historian & Long-term Memory Specialist
 
-Objective: Analyze the provided scene to map the "Relational Graph" between characters. You must identify how the social relationship influences the emotional weight of their words.
+Task: Map the interpersonal dynamics between characters using full episode/series history.
 
-Analysis Dimensions:
+Relationship Database (for each relevant character pair):
 
-Power Dynamic: Who is leading the conversation? Is there an authority figure (e.g., boss/employee) or a social leader?
+1. Relationship Type & History:
+   - Primary bond: (e.g., Ross/Monica = siblings, Chandler/Joey = best friends/roommates)
+   - Key relationship events from history: [max 3 pivotal moments]
+   - Current relationship status: (stable/strained/evolving)
 
-Social Tension (1-10): Rate the current friction. (1 = comfortable/warm, 10 = extreme conflict/hostility).
+2. Interaction Patterns:
+   - Speaker's default emotional mask with this listener:
+   - Listener's typical reaction to this speaker:
+   - Known triggers or sensitive topics between them:
 
-Interpersonal Subtext: Is there romantic history, a long-standing friendship, or professional rivalry influencing the tone?
+3. Relational Influence Score (1-10):
+   - How much does the target's identity influence the speaker's emotional expression?
+   - (1 = speaks same regardless of listener, 10 = completely different persona)
 
-Relational Influence: How does the "Target" of an utterance typically change the "Speaker's" emotional mask? (e.g., Chandler is more sarcastic with Joey but more anxious with Monica).
+4. Long-term Arc:
+   - Is this interaction consistent with their 5-episode relationship trajectory?
+   - Any unresolved tension from previous episodes?
+
+Output: Relationship context that explains WHY the speaker might express emotion differently to this particular listener.
