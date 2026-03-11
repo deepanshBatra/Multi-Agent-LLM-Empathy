@@ -19,7 +19,7 @@ Unlike single-model approaches, this system decomposes emotional reasoning into 
 
 ---
 
-## 🛠️ Setup Instructions (Powerful Laptop)
+## 🛠️ Setup Instructions
 
 ### 1. Environment & Dependencies
 Clone the repository and install the required libraries:
