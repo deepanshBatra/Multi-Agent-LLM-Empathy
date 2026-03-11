@@ -1,0 +1,1811 @@
+Dialogue_ID,Recognition_ID,Speaker,Utterance,Predicted_Emotion_Raw,Actual_Emotion
+0,0_0_3_19,Mark,Why do all youre coffee mugs have numbers on the bottom?,"{
+  ""recognition_id"": ""0_0_3_19"",
+  ""reasoning"": ""Three agents (Character Profiler, Sentiment Analyst, Social Dynamics) unanimously identify the utterance as neutral curiosity with low arousal, overriding the lone playful interpretation."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.88,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",surprise
+0,0_1_3_19,Rachel,"Oh. Thats so Monica can keep track. That way if one on them is missing, she can be like, Wheres number 27?!","{
+  ""recognition_id"": ""0_1_3_19"",
+  ""reasoning"": ""Three agents describe the utterance as lighthearted, playful teasing, which maps to Joy in the MELD taxonomy."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Sentiment Analyst""]
+  }
+}",anger
+0,0_2_3_19,Rachel,Y'know what?,"{
+  ""recognition_id"": ""0_2_3_19"",
+  ""reasoning"": ""Majority of agents (Context Historian aside) interpret the utterance as a neutral conversational opener with no strong sarcasm or high‑arousal sentiment, so neutral is adopted."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",neutral
+1,1_0_1_23,Joey,"Come on, Lydia, you can do it.","{
+  ""recognition_id"": ""1_0_1_23"",
+  ""reasoning"": ""High arousal (7) with positive sentiment from the Sentiment Analyst maps to JOY per Rule 2."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.96,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+1,1_1_1_23,Joey,Push!,"{
+  ""recognition_id"": ""1_1_1_23"",
+  ""reasoning"": ""Three of the five expert agents (Context Historian, Character Profiler, Social Dynamics) identify the utterance as a high‑energy, supportive encouragement, yielding a consensus for JOY which overrides the single anger indication."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.82,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent3""]
+  }
+}",joy
+1,1_2_1_23,Joey,"Push 'em out, push 'em out, harder, harder.","{
+  ""recognition_id"": ""1_2_1_23"",
+  ""reasoning"": ""Agent4’s high arousal with positive sentiment maps to JOY, and three agents (1, 2, 4) agree on an encouraging emotion."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent3""]
+  }
+}",joy
+1,1_3_1_23,Joey,"Push 'em out, push 'em out, way out!","{
+  ""recognition_id"": ""1_3_1_23"",
+  ""reasoning"": ""Three agents (Context Historian, Character Profiler, Social Dynamics) identify the utterance as high‑energy, supportive encouragement, outweighing the single anger indication."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent3""]
+  }
+}",joy
+1,1_4_1_23,Joey,"Let's get that ball and really move, hey, hey, ho, ho.","{
+  ""recognition_id"": ""1_4_1_23"",
+  ""reasoning"": ""Agents 1, 3, and 4 all report high arousal and positive, encouraging sentiment, which maps to JOY under the arousal‑sentiment rule and yields a strong consensus."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.93,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",joy
+1,1_5_1_23,Joey,"Let's  I was justyeah, right.","{
+  ""recognition_id"": ""1_5_1_23"",
+  ""reasoning"": ""High‑arousal negative sarcasm detected (Agent3) combined with inferred negative sentiment and high arousal for the speaker (Agent4) maps to ANGER per Rule 2."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2"", ""Agent5""]
+  }
+}",joy
+1,1_6_1_23,Joey,Push!,"{
+  ""recognition_id"": ""1_6_1_23"",
+  ""reasoning"": ""Multiple agents describe a high‑arousal, supportive, encouraging context, leading to a consensus of joy"",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",joy
+1,1_7_1_23,Joey,Push!,"{
+  ""recognition_id"": ""1_7_1_23"",
+  ""reasoning"": ""A majority of agents (Context Historian, Character Profiler, Social Dynamics) interpret the high‑arousal, supportive command as positive encouragement, leading to JOY."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent3""]
+  }
+}",joy
+2,2_0_5_16,Ross,Okay.,"{
+  ""recognition_id"": ""2_0_5_16"",
+  ""reasoning"": ""Three out of five agents (Character Profiler, Sentiment Analyst, Social Dynamics) interpret the single-word \""Okay.\"" as a neutral acknowledgement lacking strong affect, outweighing the mild positive hint from the Context Historian."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1"", ""Agent5""]
+  }
+}",neutral
+2,2_1_5_16,Rachel,"Ross, didn't you say that there was an elevator in here?","{
+  ""recognition_id"": ""2_1_5_16"",
+  ""reasoning"": ""The Sentiment Analyst reports negative sentiment, moderate arousal (6) and strong sarcasm cues that together signal sarcastic annoyance, which maps to anger."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2"", ""Agent4""]
+  }
+}",neutral
+2,2_2_5_16,Ross,"Uhh, yes I did but there isn't. Okay, here we go.","{
+  ""recognition_id"": ""2_2_5_16"",
+  ""reasoning"": ""Agent4 reports high arousal (7) with overall negative sentiment, and Rule 5 amplifies this due to a high relational influence score, resulting in an angry interpretation."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent4"", ""Agent5"", ""Agent2""],
+    ""dissenting_agents"": [""Agent1"", ""Agent3""]
+  }
+}",sadness
+2,2_3_5_16,Ross,"Okay, go left. Left! Left!","{
+  ""recognition_id"": ""2_3_5_16"",
+  ""reasoning"": ""High relational influence (score 8) combined with the very high arousal (8‑9) pushes the emotion toward the most extreme interpretation, i.e., anger"",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2""]
+  }
+}",surprise
+2,2_4_5_16,Rachel,"Okay, y'know what? There is no more left, left!","{
+  ""recognition_id"": ""2_4_5_16"",
+  ""reasoning"": ""The majority of agents (2, 3, and 4) identify high‑arousal frustration/anger in Rachel’s exclamatory statement, and the sarcasm probability is low, so anger is chosen."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",anger
+2,2_5_5_16,Ross,"Oh okay, lift it straight up over your head!","{
+  ""recognition_id"": ""2_5_5_16"",
+  ""reasoning"": ""Three agents (Context Historian, Character Profiler, Social Dynamics) converge on a positive, encouraging tone, leading to a JOY classification."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent3""]
+  }
+}",anger
+2,2_6_5_16,Ross,Straight up over your head!,"{
+  ""recognition_id"": ""2_6_5_16"",
+  ""reasoning"": ""High arousal (8) and strong negative sentiment indicate anger, and the social dynamics analysis highlights a face‑threatening power move that reinforces this interpretation."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",anger
+2,2_7_5_16,Ross,You can do it!,"{
+  ""recognition_id"": ""2_7_5_16"",
+  ""reasoning"": ""Rule 2 maps the high arousal (score 8) and positive sentiment to JOY, which is reinforced by unanimous agreement among all agents."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",joy
+2,2_8_5_16,Ross,You can do it!,"{
+  ""recognition_id"": ""2_8_5_16"",
+  ""reasoning"": ""Strong positive sentiment, high arousal, and high relational influence all converge on an intense, supportive feeling, indicating joy."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.93,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",joy
+2,2_9_5_16,Ross,Okay.,"{
+  ""recognition_id"": ""2_9_5_16"",
+  ""reasoning"": ""The majority of agents (Character Profiler, Sentiment Analyst, and Social Dynamics) interpret the brief “Okay.” as a simple, neutral acknowledgment with no strong positive or negative affect."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",neutral
+2,2_10_5_16,Ross,You got it?,"{
+  ""recognition_id"": ""2_10_5_16"",
+  ""reasoning"": ""Three of the four agents label the utterance as neutral due to low arousal, neutral sentiment, and no sarcasm or surprise signals, outweighing the single mild joy suggestion."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",neutral
+3,3_0_5_15,Steve,"Oh, okay, I get it.","{
+  ""recognition_id"": ""3_0_5_15"",
+  ""reasoning"": ""Three agents (Context Historian, Character Profiler, Sentiment Analyst) interpret the utterance as a resigned, sarcastic, and frustrated response, indicating anger."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3""],
+    ""dissenting_agents"": [""Agent4""]
+  }
+}",neutral
+3,3_1_5_15,Ross,"No wait, look. Look! I'm sorry, it's just I've never even","{
+  ""recognition_id"": ""3_1_5_15"",
+  ""reasoning"": ""High arousal (8) combined with negative, urgent language ('No wait', 'Look!', 'never even') signals anger/frustration despite the mitigating apology."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3""],
+    ""dissenting_agents"": [""Agent5""]
+  }
+}",fear
+3,3_2_5_15,Steve,Howard's the,"{
+  ""recognition_id"": ""3_2_5_15"",
+  ""reasoning"": ""Agent4 reports high arousal (8) with an implied negative sentiment, which by Rule 2 maps to ANGER and is supported by the majority of agents indicating negative, frustrated affect."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent5""]
+  }
+}",neutral
+3,3_3_5_15,Ross,"Yes but too me he's just, man.","{
+  ""recognition_id"": ""3_3_5_15"",
+  ""reasoning"": ""Multiple agents identify a dismissive, negative, and exasperated tone, leading to a consensus of anger."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.92,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+3,3_4_5_15,Steve,"Okay, fine, whatever. Welcome to the building.","{
+  ""recognition_id"": ""3_4_5_15"",
+  ""reasoning"": ""Agent4’s high arousal (7‑8) combined with negative sentiment triggers Rule 2, mapping to ANGER, which aligns with the sarcasm‑laden, dismissive tone identified by the other agents."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.88,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent4"", ""Agent5""],
+    ""dissenting_agents"": []
+  }
+}",anger
+3,3_5_5_15,Ross,"Ugh, can you believe that guy!","{
+  ""recognition_id"": ""3_5_5_15"",
+  ""reasoning"": ""High arousal (9) combined with negative sentiment polarity triggers Rule 2, mapping to ANGER."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.93,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4"", ""Agent5""],
+    ""dissenting_agents"": []
+  }
+}",disgust
+3,3_6_5_15,Phoebe,Yeah. I really like his glasses.,"{
+  ""recognition_id"": ""3_6_5_15"",
+  ""reasoning"": ""Agent4's low arousal (4) with positive polarity maps to NEUTRAL per Rule 2, and the other agents describe a de‑escalating, light‑hearted shift."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.92,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+4,4_0_4_14,Phoebe,Ohh!,"{
+  ""recognition_id"": ""4_0_4_14"",
+  ""reasoning"": ""Rule 3 was activated because Agent 4’s high‑arousal interjection signals surprise and none of the conflict‑based conditions applied, so the utterance is classified as SURPRISE"",
+  ""predicted_emotion"": ""surprise"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1"", ""Agent5""]
+  }
+}",surprise
+4,4_1_4_14,Monica,What?,"{
+  ""recognition_id"": ""4_1_4_14"",
+  ""reasoning"": ""No sarcasm or strong polarity overrides apply; the only common cue across reports is the high‑arousal, context‑driven reaction to a sudden development, leading to a default classification of SURPRISE."",
+  ""predicted_emotion"": ""surprise"",
+  ""confidence"": 0.66,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [],
+    ""dissenting_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""]
+  }
+}",neutral
+4,4_2_4_14,Phoebe,It kicked! I think the baby kicked!,"{
+  ""recognition_id"": ""4_2_4_14"",
+  ""reasoning"": ""All agents emphasize high arousal, positive sentiment, and pure excitement in Phoebe's exclamation, leading to a consensus of joy."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.93,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",surprise
+4,4_3_4_14,Monica,Oh my God!,"{
+  ""recognition_id"": ""4_3_4_14"",
+  ""reasoning"": ""All agents interpret the high‑arousal exclamation as a literal, surprise‑type reaction to the chaotic, excited moment."",
+  ""predicted_emotion"": ""surprise"",
+  ""confidence"": 0.88,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",surprise
+4,4_4_4_14,Phoebe,"Oh no wait, oh no, the elastic on my underwear busted.","{
+  ""recognition_id"": ""4_4_4_14"",
+  ""reasoning"": ""Agent4’s surprise cues trigger Rule 3, and none of the higher‑priority rules apply, leading to a SURPRISE classification."",
+  ""predicted_emotion"": ""surprise"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2""]
+  }
+}",neutral
+4,4_5_4_14,Joey,Oh my God! I overslept! I was supposed to be on the set a half an hour ago! I gotta get out of here!,"{
+  ""recognition_id"": ""4_5_4_14"",
+  ""reasoning"": ""All agents describe a high‑arousal, negative, panic‑like response, which maps to the MELD label fear."",
+  ""predicted_emotion"": ""fear"",
+  ""confidence"": 0.93,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",fear
+4,4_6_4_14,Monica,"Oh wait, Joey, you cant go like that! You stink!","{
+  ""recognition_id"": ""4_6_4_14"",
+  ""reasoning"": ""Agent4 reports high arousal (8) with negative sentiment, which triggers ANGER via Rule 2."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.92,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent4"", ""Agent5""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2"", ""Agent3""]
+  }
+}",disgust
+4,4_7_4_14,Joey,"Look, I know I feel asleep before I could shower and now I dont have time!","{
+  ""recognition_id"": ""4_7_4_14"",
+  ""reasoning"": ""Agent4 (Sentiment Analyst) reports high arousal (8) and negative sentiment polarity, which by Rule 2 maps directly to ANGER."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2"", ""Agent4""]
+  }
+}",anger
+4,4_8_4_14,Joey,"Theyre just ten blocks away, if I run, I can make it.","{
+  ""recognition_id"": ""4_8_4_14"",
+  ""reasoning"": ""Agent4 (Social Dynamics) indicates high arousal (7) with positive sentiment, which by Rule 2 maps to JOY."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2"", ""Agent4""]
+  }
+}",neutral
+5,5_0_4_20,Chandler,Youre coming on to the entire room!  Im Chandler.,"{
+  ""recognition_id"": ""5_0_4_20"",
+  ""reasoning"": ""The high‑arousal sarcastic accusation and the emerging conflict indicated by the social dynamics analysis point to anger as the dominant emotion."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",anger
+5,5_1_4_20,Chandler,Hi.,"{
+  ""recognition_id"": ""5_1_4_20"",
+  ""reasoning"": ""All agents describe the utterance as a low‑arousal, positive greeting in a playful, non‑conflictual context, leading to a consensus of neutral emotion."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+5,5_2_4_20,Marjorie,Hi.,"{
+  ""recognition_id"": ""5_2_4_20"",
+  ""reasoning"": ""Both the low arousal (1‑2) and positive sentiment of the utterance trigger Rule 2, mapping to NEUTRAL (contentment)."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+5,5_3_4_20,Chandler,You mind if I,"{
+  ""recognition_id"": ""5_3_4_20"",
+  ""reasoning"": ""Three agents (Character Profiler, Sentiment Analyst, Social Dynamics) label the utterance as neutral and the consensus rule overrides the lone playful interpretation."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",neutral
+5,5_4_4_20,Marjorie,"No, please.","{
+  ""recognition_id"": ""5_4_4_20"",
+  ""reasoning"": ""The high arousal (7‑8), negative sentiment, and strong sarcasm indicators point to a dominant feeling of anger despite the surrounding playful context."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst""],
+    ""dissenting_agents"": [""Context Historian""]
+  }
+}",neutral
+5,5_5_4_20,Chandler,"So uh, what are you in for?","{
+  ""recognition_id"": ""5_5_4_20"",
+  ""reasoning"": ""The utterance has low arousal (score 4) and a neutral‑to‑slightly‑negative sentiment, which maps to sadness per Rule 2’s arousal‑sentiment mapping."",
+  ""predicted_emotion"": ""sadness"",
+  ""confidence"": 0.62,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [],
+    ""dissenting_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""]
+  }
+}",neutral
+5,5_6_4_20,Marjorie,I talk in my sleep.,"{
+  ""recognition_id"": ""5_6_4_20"",
+  ""reasoning"": ""Low‑arousal, neutral sentiment from the Sentiment Analyst and the low‑stakes, face‑saving social function lead to a neutral classification."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent4"", ""Agent5""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",neutral
+5,5_7_4_20,Chandler,"What a coincidence, I listen in my sleep.","{
+  ""recognition_id"": ""5_7_4_20"",
+  ""reasoning"": ""Agent4’s inferred high arousal (≥7) together with a negative sentiment polarity triggers Rule 2, mapping to ANGER."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",neutral
+5,5_8_4_20,Joey,So why dont you give me your number?,"{
+  ""recognition_id"": ""5_8_4_20"",
+  ""reasoning"": ""Most agents characterize the exchange as lighthearted, playful, and confident, indicating a positive, excited tone."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent2"", ""Agent5""]
+  }
+}",neutral
+6,6_0_3_16,Joey,Previously on Friends.,"{
+  ""recognition_id"": ""6_0_3_16"",
+  ""reasoning"": ""All agents describe the utterance as a low‑arousal, mildly positive or neutral external narration, leading to a neutral classification."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+6,6_1_3_16,Monica,I dont know exactly. Its-its sorta like wrestling.,"{
+  ""recognition_id"": ""6_1_3_16"",
+  ""reasoning"": ""Moderate arousal with slightly negative/ambivalent sentiment and no sarcasm leads to a neutral, contented interpretation per Rule 2"",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",neutral
+6,6_2_3_16,Phoebe,Oh?!,"{
+  ""recognition_id"": ""6_2_3_16"",
+  ""reasoning"": ""Rule 2 applies: Sentiment Analyst (Agent4) reports a very high arousal score (9) and a negative/incredulous sentiment, which maps directly to ANGER."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent4""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent5""]
+  }
+}",surprise
+7,7_0_3_24,Monica,"Yeah, but without the costumes.","{
+  ""recognition_id"": ""7_0_3_24"",
+  ""reasoning"": ""Both the character‑grounded and social‑dynamics reports describe the utterance as a calm, pragmatic condition with no strong sarcasm or high arousal, leading to a neutral classification."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1"", ""Agent3""]
+  }
+}",neutral
+7,7_1_3_24,Phoebe,Oh.,"{
+  ""recognition_id"": ""7_1_3_24"",
+  ""reasoning"": ""Three agents (Context Historian, Character Profiler, Social Dynamics) interpret the utterance as a neutral, non‑committal response, outweighing the single sarcasm‑leaning analysis."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent3""]
+  }
+}",neutral
+7,7_2_3_24,Joey,"And its not fake, its totally brutal.","{
+  ""recognition_id"": ""7_2_3_24"",
+  ""reasoning"": ""High arousal (7‑8) and negative sentiment from Agent3 together with conflict‑oriented cues in Agent4 trigger the anger mapping in Rule 2."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",neutral
+7,7_3_3_24,Chandler,"Yeah, its two guys in a ring, and the rules are: Theyre","{
+  ""recognition_id"": ""7_3_3_24"",
+  ""reasoning"": ""All agents identify the utterance as neutral, factual, and low‑arousal with no sarcasm or conflict cues."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.94,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+7,7_4_3_24,Monica,"So you can like, bite, and pull peoples hair and stuff?","{
+  ""recognition_id"": ""7_4_3_24"",
+  ""reasoning"": ""Agent4 flags surprise cues and none of the conflict, escalating, or strained‑relationship conditions apply, so Rule 3 assigns SURPRISE."",
+  ""predicted_emotion"": ""surprise"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1"", ""Agent3""]
+  }
+}",surprise
+7,7_5_3_24,Ross,"Yeah, anything goes, except ah, eye gouging and fish hooking.","{
+  ""recognition_id"": ""7_5_3_24"",
+  ""reasoning"": ""No rule overrides apply; the high‑arousal, hyperbolic phrasing is best captured as a surprise reaction rather than joy or anger."",
+  ""predicted_emotion"": ""surprise"",
+  ""confidence"": 0.62,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2"", ""Agent4""]
+  }
+}",neutral
+7,7_6_3_24,Monica,Whats fish hooking?,"{
+  ""recognition_id"": ""7_6_3_24"",
+  ""reasoning"": ""Four agents interpret the utterance as a straightforward, information‑seeking question within a playful, low‑arousal context, yielding a neutral emotional state that outweighs the single negative sentiment cue."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.87,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent5""],
+    ""dissenting_agents"": [""Agent4""]
+  }
+}",surprise
+7,7_7_3_24,Ross,"Huh, whats fish hooking...   Thanks man, that would have been really hard to describe. What is that taste?","{
+  ""recognition_id"": ""7_7_3_24"",
+  ""reasoning"": ""No sarcasm or high‑arousal cues were detected, and the sentiment analysis shows an ambivalent, moderate‑arousal state, leading to a neutral classification."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.66,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent4""],
+    ""dissenting_agents"": [""Agent2"", ""Agent3""]
+  }
+}",neutral
+7,7_8_3_24,Joey,"What? My hands are totally clean, I just gave the duck a bath.","{
+  ""recognition_id"": ""7_8_3_24"",
+  ""reasoning"": ""The high arousal (8) and negative/defensive sentiment identified by the Sentiment Analyst dominate the context, pointing to anger."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2""]
+  }
+}",neutral
+8,8_0_2_5,Jade,"Oh, Bob, he was nothing compared to you. I had to bite my lip to keep from screaming your name.","{
+  ""recognition_id"": ""8_0_2_5"",
+  ""reasoning"": ""High arousal (9) with predominantly positive sentiment yields Joy per Rule 2, and all four agents describe a playful, affectionate, and intensely positive tone."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.94,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",sadness
+8,8_1_2_5,Chandler,"Well, that makes me feel so good.","{
+  ""recognition_id"": ""8_1_2_5"",
+  ""reasoning"": ""The utterance shows high sarcasm probability and elevated arousal while the underlying sentiment is negative, indicating anger rather than genuine joy."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.68,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2""]
+  }
+}",joy
+8,8_2_2_5,Jade,It was just so awkward and bumpy.,"{
+  ""recognition_id"": ""8_2_2_5"",
+  ""reasoning"": ""The utterance shows moderate arousal (6) with clear negative sentiment, which maps to anger in the absence of sarcasm or surprise cues."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2"", ""Agent4""]
+  }
+}",neutral
+8,8_3_2_5,Ross,Bumpy?,"{
+  ""recognition_id"": ""8_3_2_5"",
+  ""reasoning"": ""Most agents characterize the utterance as playful teasing within a light‑hearted, flirtatious scene, leading to a neutral‑to‑joy overall tone despite sarcasm cues."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.72,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent4"", ""Agent2""],
+    ""dissenting_agents"": [""Agent3""]
+  }
+}",surprise
+8,8_4_2_5,Chandler,"Well, maybe he had some kind of uh, new, cool style, that you're not familiar with.","{
+  ""recognition_id"": ""8_4_2_5"",
+  ""reasoning"": ""Agent4 reports high arousal (7) and negative sentiment polarity, which according to Rule 2 maps directly to ANGER."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent4""],
+    ""dissenting_agents"": [""Agent1"", ""Agent3"", ""Agent5""]
+  }
+}",neutral
+8,8_5_2_5,Chandler,And uh maybe you have to get used to it.,"{
+  ""recognition_id"": ""8_5_2_5"",
+  ""reasoning"": ""The identified character break forces reliance on the negative sentiment and moderate arousal, which together point to anger."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.68,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst""],
+    ""dissenting_agents"": [""Context Historian"", ""Character Profiler"", ""Social Dynamics""]
+  }
+}",neutral
+8,8_6_2_5,Jade,"Well there really wasn't much time to get used to it, you know what I mean?","{
+  ""recognition_id"": ""8_6_2_5"",
+  ""reasoning"": ""Agent3 shows negative sentiment with moderate arousal, but the character‑break rule gives priority to Agent4’s low‑intensity, face‑saving stance, leading to a neutral classification."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.62,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent4""],
+    ""dissenting_agents"": [""Agent1"", ""Agent3""]
+  }
+}",joy
+9,9_0_6_18,Phoebe,Coming through!  Oh! Coming through!  Oh! Hello! Hi!  No! Right! Coming through!,"{
+  ""recognition_id"": ""9_0_6_18"",
+  ""reasoning"": ""Rule 2 applies: the utterance has a high arousal score (9) and an overall negative/frustrated sentiment, mapping to ANGER."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3""],
+    ""dissenting_agents"": [""Agent2"", ""Agent4""]
+  }
+}",fear
+9,9_1_6_18,Monica,"Oh well, its not so bad.","{
+  ""recognition_id"": ""9_1_6_18"",
+  ""reasoning"": ""Agent3 reports strong sarcasm cues and Agent4 treats the literal sentiment as positive; with low arousal this triggers the sarcasm‑override rule, mapping to DISGUST."",
+  ""predicted_emotion"": ""disgust"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst""],
+    ""dissenting_agents"": [""Context Historian"", ""Character Profiler"", ""Social Dynamics""]
+  }
+}",neutral
+9,9_2_6_18,Fireman #1,"Yeah, most of the damage is pretty mostly contained in the bedrooms.","{
+  ""recognition_id"": ""9_2_6_18"",
+  ""reasoning"": ""All four expert agents interpret the utterance as a calm, factual assessment with low arousal and neutral/slightly positive sentiment, leading to unanimous consensus on a neutral emotion."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.93,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",sadness
+9,9_3_6_18,Phoebe,Oh!,"{
+  ""recognition_id"": ""9_3_6_18"",
+  ""reasoning"": ""The high‑arousal exclamation \""Oh!\"" in a chaotic, post‑fire scene aligns with a sudden reaction, and three agents (Context Historian, Character Profiler, Sentiment Analyst) interpret it as a surprise response."",
+  ""predicted_emotion"": ""surprise"",
+  ""confidence"": 0.72,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3""],
+    ""dissenting_agents"": [""Agent4""]
+  }
+}",surprise
+9,9_4_6_18,Rachel,My God!,"{
+  ""recognition_id"": ""9_4_6_18"",
+  ""reasoning"": ""The high‑arousal exclamation in a fire emergency, with zero sarcasm probability and consistent reports of shock and alarm, points to genuine fear."",
+  ""predicted_emotion"": ""fear"",
+  ""confidence"": 0.92,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",surprise
+9,9_5_6_18,Joey,"Hey buddy, do you think I can borrow your uniform this Thursday?","{
+  ""recognition_id"": ""9_5_6_18"",
+  ""reasoning"": ""Both the Character Profiler and Sentiment Analyst label the utterance as a neutral, low‑arousal request with no sarcasm, so the consensus defaults to NEUTRAL."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent3""],
+    ""dissenting_agents"": [""Agent1"", ""Agent4""]
+  }
+}",neutral
+9,9_6_6_18,Fireman #1,Excuse me?,"{
+  ""recognition_id"": ""9_6_6_18"",
+  ""reasoning"": ""High arousal (8) with negative sentiment from Agent4 maps to ANGER per Rule 2, reinforced by the conflict‑focused analysis of Agent5."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.92,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent4"", ""Agent5""],
+    ""dissenting_agents"": [""Agent2""]
+  }
+}",surprise
+9,9_7_6_18,Monica,Joey! Hes working!  You would look,"{
+  ""recognition_id"": ""9_7_6_18"",
+  ""reasoning"": ""Agent3’s high arousal (8) combined with a negative sentiment polarity triggers Rule 2, and the majority of agents (2, 3, 4) interpret the utterance as an angry, frustrated reprimand."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.93,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",anger
+9,9_8_6_18,Joey,"Oh, how bad is it?","{
+  ""recognition_id"": ""9_8_6_18"",
+  ""reasoning"": ""High sarcasm probability combined with high arousal and negative sentiment leads to the Anger classification per the hierarchy rules"",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2"", ""Agent4""]
+  }
+}",sadness
+9,9_9_6_18,Phoebe,"Oh, its bad. Its really bad. The only thing in there that isnt burned is an ass. Which I do","{
+  ""recognition_id"": ""9_9_6_18"",
+  ""reasoning"": ""Rule 2 maps the high arousal (10) and negative sentiment from the Sentiment Analyst to ANGER, which overrides other interpretations."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2"", ""Agent4""]
+  }
+}",sadness
+9,9_10_6_18,Chandler,Hows your room Rach?,"{
+  ""recognition_id"": ""9_10_6_18"",
+  ""reasoning"": ""Low arousal (2) and neutral sentiment, plus unanimous context of a caring, non‑sarcastic inquiry, point to a neutral emotional state."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.93,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+9,9_11_6_18,Rachel,Everythings ruined. My bed. My clothes. Look at my favorite blue sweater.,"{
+  ""recognition_id"": ""9_11_6_18"",
+  ""reasoning"": ""High arousal (9‑10), strongly negative sentiment, and multiple agents explicitly flagging anger/frustration make anger the decisive classification."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1 (Context Historian)"", ""Agent3 (Sentiment Analyst)"", ""Agent4 (Social Dynamics)""],
+    ""dissenting_agents"": []
+  }
+}",sadness
+9,9_12_6_18,Monica,Isnt that mine?,"{
+  ""recognition_id"": ""9_12_6_18"",
+  ""reasoning"": ""Sentiment analysis reports high sarcasm probability with negative sentiment and moderate arousal, and social‑dynamics notes an emerging conflict, together indicating anger."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2""]
+  }
+}",neutral
+9,9_13_6_18,Rachel,Fine! Im sorry for your loss!,"{
+  ""recognition_id"": ""9_13_6_18"",
+  ""reasoning"": ""Agent4 reports high arousal (8‑9) with a negative sentiment polarity, which according to Rule 2 maps directly to ANGER."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2""]
+  }
+}",anger
+9,9_14_6_18,Fireman #1,"So uh, youre not gonna be able to live here for a while, you ladies have a place to stay?","{
+  ""recognition_id"": ""9_14_6_18"",
+  ""reasoning"": ""Three agents interpret the utterance as a caring, pragmatic concern rather than anger, so the emotion is classified as neutral."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.8,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent3""]
+  }
+}",neutral
+9,9_15_6_18,Rachel,"Wow! Oh-okay, look pal, I am","{
+  ""recognition_id"": ""9_15_6_18"",
+  ""reasoning"": ""Agent 3’s fine‑grained analysis reports very high arousal (9) and a shift to strongly negative sentiment with clear sarcasm, which together trigger the anger pattern despite lack of other agents’ classifications."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",joy
+9,9_16_6_18,Monica,"Yes, they can stay with us.","{
+  ""recognition_id"": ""9_16_6_18"",
+  ""reasoning"": ""Rule 2 maps the low arousal (≤4) and positive sentiment of the utterance to NEUTRAL (contentment)"",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3""],
+    ""dissenting_agents"": [""Agent2"", ""Agent4""]
+  }
+}",neutral
+9,9_17_6_18,Chandler,Have you figured out what started the fire Mr. Fireman?,"{
+  ""recognition_id"": ""9_17_6_18"",
+  ""reasoning"": ""Agent3 reports high arousal (7/10) and negative sentiment, indicating impatience and frustration that maps to anger, and no rule overrides this inference."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2"", ""Agent4""]
+  }
+}",neutral
+10,10_0_6_20,Joey,Theres just so much pressure.,"{
+  ""recognition_id"": ""10_0_6_20"",
+  ""reasoning"": ""High arousal (score 7) combined with negative sentiment maps to ANGER per the arousal‑sentiment rule hierarchy."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3""],
+    ""dissenting_agents"": [""Agent2"", ""Agent4""]
+  }
+}",anger
+10,10_1_6_20,Joey,"I mean no offense, but what you guys do is very different.","{
+  ""recognition_id"": ""10_1_6_20"",
+  ""reasoning"": ""The escalating tension and critical wording (\""I mean no offense, but…\"") dominate the neutral face‑saving cues, pointing to anger as the prevailing emotion."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.66,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3""],
+    ""dissenting_agents"": [""Agent2"", ""Agent4""]
+  }
+}",neutral
+10,10_2_6_20,Joey,I dont know if youd understand.,"{
+  ""recognition_id"": ""10_2_6_20"",
+  ""reasoning"": ""Negative sentiment with moderate‑to‑high arousal and contextual cues of frustration lead to anger as the dominant emotion."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.66,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3""],
+    ""dissenting_agents"": [""Agent2"", ""Agent5""]
+  }
+}",neutral
+10,10_3_6_20,Ross,"Yeah, none of us have to deal with pressure at our jobs.","{
+  ""recognition_id"": ""10_3_6_20"",
+  ""reasoning"": ""Agent4’s high arousal (≥7) with negative sentiment maps to ANGER per Rule 2, and this is supported by the majority of agents."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.92,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent2""]
+  }
+}",neutral
+11,11_0_7_24,Rachel,"Well Phoebe, we gotta do something!","{
+  ""recognition_id"": ""11_0_7_24"",
+  ""reasoning"": ""Agent3 reports an arousal score of 8 combined with a slightly positive sentiment, which activates Rule 2 and maps the emotion to JOY."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2"", ""Agent4""]
+  }
+}",sadness
+11,11_1_7_24,Rachel,I mean theres no way Joeys gonna make it in time.,"{
+  ""recognition_id"": ""11_1_7_24"",
+  ""reasoning"": ""Three of the four agents characterize the utterance as anxiety‑based worry, which maps to the MELD label fear."",
+  ""predicted_emotion"": ""fear"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent3""]
+  }
+}",fear
+11,11_2_7_24,Rachel,So Im gonna go through the hotel and see if theres any other weddings going on.,"{
+  ""recognition_id"": ""11_2_7_24"",
+  ""reasoning"": ""Agent1 and Agent2 emphasize urgent, anxious concern, giving a majority indication of fear over the weaker anger signal from Agent3"",
+  ""predicted_emotion"": ""fear"",
+  ""confidence"": 0.66,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2""],
+    ""dissenting_agents"": [""Agent3"", ""Agent4""]
+  }
+}",neutral
+11,11_3_7_24,Phoebe,Okay. Oh but dont tell them Monicas pregnant because they frown on that.,"{
+  ""recognition_id"": ""11_3_7_24"",
+  ""reasoning"": ""Agent4 reports high arousal (7) with negative sentiment polarity, which according to Rule 2 maps directly to ANGER."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1""],
+    ""dissenting_agents"": [""Agent3"", ""Agent4"", ""Agent5""]
+  }
+}",neutral
+11,11_4_7_24,Rachel,Okay.,"{
+  ""recognition_id"": ""11_4_7_24"",
+  ""reasoning"": ""Three agents (Character Profiler, Sentiment Analyst, Social Dynamics) independently label the utterance as neutral, outweighing the single contextual hint of worry."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",neutral
+12,12_0_6_3,Ross,"Whats all this about you guys fighting?! Is this really over a room?! I mean, that is so silly!","{
+  ""recognition_id"": ""12_0_6_3"",
+  ""reasoning"": ""Majority of agents (Sentiment Analyst, Social Dynamics, Character Profiler) indicate high‑arousal, negative sentiment and conflict‑focused language, pointing to anger."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3"", ""Agent4"", ""Agent2""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",anger
+12,12_1_6_3,Monica,"Ross, we can handle this.","{
+  ""recognition_id"": ""12_1_6_3"",
+  ""reasoning"": ""Three agents (Context Historian, Character Profiler, Sentiment Analyst) converge on a positive, light‑hearted interpretation, triggering the consensus rule for JOY."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3""],
+    ""dissenting_agents"": [""Agent4""]
+  }
+}",neutral
+12,12_2_6_3,Ross,"Well, apparently not, and I cant just stand by and watch two people I care about very much be hurt over something that is so silly.","{
+  ""recognition_id"": ""12_2_6_3"",
+  ""reasoning"": ""Agent4 (Sentiment Analyst) reports high arousal (8) combined with negative sentiment, which maps directly to ANGER by Rule 2."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2""]
+  }
+}",sadness
+12,12_3_6_3,Ross,"I mean, enough of the silliness!","{
+  ""recognition_id"": ""12_3_6_3"",
+  ""reasoning"": ""Agent4’s high arousal (8‑9) with negative sentiment triggers Rule 2, mapping directly to ANGER, and all agents converge on a frustration/anger reading."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.94,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4"", ""Agent5""],
+    ""dissenting_agents"": []
+  }
+}",anger
+12,12_4_6_3,Chandler,"Well, why dont you tell her to stop being silly!","{
+  ""recognition_id"": ""12_4_6_3"",
+  ""reasoning"": ""Agent4's high arousal (7) combined with negative sentiment triggers Rule 2 → ANGER, and this is reinforced by a majority of agents (Character Profiler, Sentiment Analyst, Social Dynamics) indicating anger/exasperation."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0. nine,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",anger
+12,12_5_6_3,Ross,Okay-okay!,"{
+  ""recognition_id"": ""12_5_6_3"",
+  ""reasoning"": ""High arousal (7‑8) combined with negative sentiment per the Sentiment Analyst activates Rule 2, mapping the utterance to Anger"",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3""],
+    ""dissenting_agents"": [""Agent2"", ""Agent4"", ""Agent5""]
+  }
+}",anger
+12,12_6_6_3,Ross,"Two very good points, look Ive known you both a long time, and Ive never seen either of you one/millionth as happy as youve been since youve got together.","{
+  ""recognition_id"": ""12_6_6_3"",
+  ""reasoning"": ""Agent3 shows strong sarcasm indicators (probability >0.7) and Agent4’s inferred positive sentiment polarity with medium arousal triggers Rule 1, resulting in DISGUST."",
+  ""predicted_emotion"": ""disgust"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3""],
+    ""dissenting_agents"": [""Agent1"", ""Agent4"", ""Agent5""]
+  }
+}",sadness
+12,12_7_6_3,Ross,Do you really want to throw that all away over a room?,"{
+  ""recognition_id"": ""12_7_6_3"",
+  ""reasoning"": ""Rule 2 maps the high arousal (9) and negative sentiment (identified by the Sentiment Analyst) to ANGER, and three agents (Context Historian, Sentiment Analyst, Social Dynamics) converge on this interpretation."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0. nine,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent2""]
+  }
+}",sadness
+12,12_8_6_3,Ross,That is so silly.,"{
+  ""recognition_id"": ""12_8_6_3"",
+  ""reasoning"": ""Both the Sentiment Analyst and Social Dynamics reports identify a negative, mildly annoyed tone that best maps to anger."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.73,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",joy
+12,12_9_6_3,Ross,"Now wh-what is more important, love or silliness?","{
+  ""recognition_id"": ""12_9_6_3"",
+  ""reasoning"": ""The Sentiment Analyst reports high arousal (7) combined with mixed/negative sentiment and strong sarcasm/irritation cues, which outweigh the lighter cues from other agents."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2"", ""Agent4""]
+  }
+}",neutral
+12,12_10_6_3,Chandler,"Well, we are fond of the silliness, but we also have a soft spot for the love.","{
+  ""recognition_id"": ""12_10_6_3"",
+  ""reasoning"": ""All agents agree the utterance is sincere, positive and non‑sarcastic, leading to a joyful/positive classification despite low arousal."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.75,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2""],
+    ""dissenting_agents"": [""Agent3"", ""Agent4""]
+  }
+}",neutral
+12,12_11_6_3,Monica,Love is the best medicine.,"{
+  ""recognition_id"": ""12_11_6_3"",
+  ""reasoning"": ""Sentiment Analyst indicates a sarcasm probability > 0.7 combined with high arousal (≥7) and overall positive polarity, triggering Rule 1 which overrides to ANGER."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2"", ""Agent4""]
+  }
+}",joy
+12,12_12_6_3,Chandler,Thats laughter.,"{
+  ""recognition_id"": ""12_12_6_3"",
+  ""reasoning"": ""The Sentiment Analyst reports high arousal (7) with negative/ambivalent sentiment and strong sarcasm cues, which overrides the lighter contextual cues and points to anger."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.68,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2"", ""Agent5""]
+  }
+}",joy
+12,12_13_6_3,Monica,Why do you do it?,"{
+  ""recognition_id"": ""12_13_6_3"",
+  ""reasoning"": ""Sentiment Analyst reports high arousal (7‑8) with negative polarity, which maps to ANGER by Rule 2."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2""]
+  }
+}",neutral
+12,12_14_6_3,Chandler,I dont know.,"{
+  ""recognition_id"": ""12_14_6_3"",
+  ""reasoning"": ""All agents indicate low arousal, neutral sentiment and no sarcasm or high‑intensity cues, leading to a neutral classification"",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+12,12_15_6_3,Ross,"Okay! All right! Now, Chandler you-you wanna live with Monica, right?","{
+  ""recognition_id"": ""12_15_6_3"",
+  ""reasoning"": ""Agent4 (Sentiment Analyst) reports high arousal (9) and positive sentiment, which according to Rule 2 maps directly to JOY; this is also the majority view among agents."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.88,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3""],
+    ""dissenting_agents"": [""Agent2"", ""Agent4""]
+  }
+}",neutral
+12,12_16_6_3,Chandler,"Yeah, I do.","{
+  ""recognition_id"": ""12_16_6_3"",
+  ""reasoning"": ""Agent3 assigns a low arousal score (2) and positive sentiment polarity, which by Rule 2 maps to NEUTRAL (contentment)."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",neutral
+12,12_17_6_3,Ross,"And Mon, you wanna live with Chandler, dont ya?","{
+  ""recognition_id"": ""12_17_6_3"",
+  ""reasoning"": ""A character‑break was detected, so Rule 4 prioritises the negative sentiment polarity (moderate arousal) over expected teasing behavior, resulting in ANGER as the decisive emotion."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.62,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [],
+    ""dissenting_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""]
+  }
+}",neutral
+12,12_18_6_3,Monica,Yes.,"{
+  ""recognition_id"": ""12_18_6_3"",
+  ""reasoning"": ""No sarcasm or high‑arousal cues are present, and the playful, light‑hearted context combined with a simple affirmative yields a neutral/low‑intensity positive classification."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.73,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+12,12_19_6_3,Ross,Good! A verbal contract is binding in the state of New York!,"{
+  ""recognition_id"": ""12_19_6_3"",
+  ""reasoning"": ""No overriding rule applies, so the majority (Agents 1, 2, 4) indicating a positive, playful reaction leads to JOY"",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent3""]
+  }
+}",joy
+13,13_0_1_13,Roger,Oh.,"{
+  ""recognition_id"": ""13_0_1_13"",
+  ""reasoning"": ""Three agents (Context Historian, Character Profiler, Social Dynamics) converge on a neutral, non‑emotive acknowledgment, overriding ambiguous cues."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent3""]
+  }
+}",neutral
+13,13_1_1_13,Phoebe,"But I don't. Me, Phoebe.","{
+  ""recognition_id"": ""13_1_1_13"",
+  ""reasoning"": ""Agent4 reports high arousal (7‑9) with strong negative sentiment, and three agents (Context Historian, Sentiment Analyst, Social Dynamics) identify conflict‑driven, aggressive cues, leading to an Anger classification."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.92,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent4"", ""Agent5""],
+    ""dissenting_agents"": [""Agent2""]
+  }
+}",neutral
+13,13_2_1_13,Roger,"Well, I'm not I'm not at all surprised they feel that way.","{
+  ""recognition_id"": ""13_2_1_13"",
+  ""reasoning"": ""Strong sarcasm cues, high negative arousal and the sentiment analyst’s indication of frustration override the neutral professional readings, leading to an anger classification."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.71,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3""],
+    ""dissenting_agents"": [""Agent2"", ""Agent4""]
+  }
+}",neutral
+13,13_3_1_13,Phoebe,"You're not? See, that's why you're so great!","{
+  ""recognition_id"": ""13_3_1_13"",
+  ""reasoning"": ""Agent2 reports a very low sarcasm probability and interprets the line as sincere praise, and Agent4 describes it as face‑enhancing positive reinforcement, which together outweigh the ambiguous sarcasm cues from Agent1 and Agent3."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.68,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1"", ""Agent3""]
+  }
+}",surprise
+13,13_4_1_13,Roger,"Actually it's, it's quite, y'know, typical behaviour when you have this kind of dysfunctional group dynamic.","{
+  ""recognition_id"": ""13_4_1_13"",
+  ""reasoning"": ""Agent4’s high arousal (7) with negative sentiment maps to ANGER (Rule 2) and three agents (1, 3, 4) independently indicate anger, giving a strong consensus."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.92,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent2""]
+  }
+}",neutral
+13,13_5_1_13,Roger,"Y'know, this kind of co-dependant, emotionally stunted, sitting in your stupid coffee house with your stupid big cups which, I'm sorry, might as well have nipples on them, and you're like all 'Oh, define me!","{
+  ""recognition_id"": ""13_5_1_13"",
+  ""reasoning"": ""All four expert agents interpret the high‑arousal, negative‑valence, heavily sarcastic utterance as indicating intense anger."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.96,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",anger
+13,13_6_1_13,Roger,Define me!,"{
+  ""recognition_id"": ""13_6_1_13"",
+  ""reasoning"": ""Rule 2 maps the high arousal (8‑9) and negative sentiment polarity from the Sentiment Analyst to ANGER, which is also supported by the conflict‑focused assessments of the other agents."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.88,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent2""]
+  }
+}",anger
+13,13_7_1_13,Roger,"Love me, I need love!","{
+  ""recognition_id"": ""13_7_1_13"",
+  ""reasoning"": ""Rule 2 maps the extremely high arousal score (10) with negative sentiment polarity to ANGER."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent4""], 
+    ""dissenting_agents"": [""Agent1"", ""Agent3"", ""Agent5""]
+  }
+}",anger
+14,14_0_6_4,Phoebe,Have you really done this before?,"{
+  ""recognition_id"": ""14_0_6_4"",
+  ""reasoning"": ""Three out of four agents characterize the utterance within a light‑hearted, playful context and interpret it as a positive, amused reaction, outweighing the single agent’s suspicion of sarcasm."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent3""]
+  }
+}",surprise
+14,14_1_6_4,Joey,Yeah!,"{
+  ""recognition_id"": ""14_1_6_4"",
+  ""reasoning"": ""Agent4's high arousal score (9) with positive sentiment maps to JOY via Rule 2, and all agents independently indicate a joyful affect."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.97,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",joy
+14,14_2_6_4,Joey,Yeah!,"{
+  ""recognition_id"": ""14_2_6_4"",
+  ""reasoning"": ""Three agents (Context Historian, Character Profiler, Social Dynamics) identify a lighthearted, playful, and positive interaction, outweighing the single ambiguous sarcasm cue."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent3""]
+  }
+}",joy
+14,14_3_6_4,Joey,Yeah!,"{
+  ""recognition_id"": ""14_3_6_4"",
+  ""reasoning"": ""Three agents (Context Historian, Character Profiler, Social Dynamics) unanimously identify a lighthearted, celebratory context indicating joy, meeting the consensus rule."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.92,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent3""]
+  }
+}",joy
+14,14_4_6_4,Joey,"You just take a big, big swing.","{
+  ""recognition_id"": ""14_4_6_4"",
+  ""reasoning"": ""Three agents describe a lighthearted, supportive context and positive encouragement, yielding a consensus of JOY"",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent3""]
+  }
+}",neutral
+14,14_5_6_4,Joey,"Now, dont hold back.","{
+  ""recognition_id"": ""14_5_6_4"",
+  ""reasoning"": ""Four agents independently identify a high‑arousal, positive, supportive cue, leading to a consensus of JOY"",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+14,14_6_6_4,Phoebe,Hey!,"{
+  ""recognition_id"": ""14_6_6_4"",
+  ""reasoning"": ""The majority of agents (1, 2, and 4) identify a light‑hearted, friendly context and positive intent, leading to a Joy classification."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent3""]
+  }
+}",joy
+14,14_7_6_4,Joey,Hey-hey-hey!,"{
+  ""recognition_id"": ""14_7_6_4"",
+  ""reasoning"": ""Agent4 (Sentiment Analyst) reports high arousal (8) with positive sentiment, triggering Rule 2 → Joy (excitement), reinforced by strong relational influence."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",joy
+14,14_8_6_4,Chandler,What are you doing?,"{
+  ""recognition_id"": ""14_8_6_4"",
+  ""reasoning"": ""Three agents (Character Profiler, Sentiment Analyst, Social Dynamics) converge on a neutral, low‑arousal interpretation, outweighing the single joy‑leaning view from the Context Historian."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3"", ""Agent4"", ""Agent5""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",neutral
+14,14_9_6_4,Phoebe,Were just celebrating that Joey got his health insurance back.,"{
+  ""recognition_id"": ""14_9_6_4"",
+  ""reasoning"": ""Three agents describe a lighthearted, celebratory scene (joy) which outweighs the single sarcasm‑focused analysis."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent3""]
+  }
+}",joy
+14,14_10_6_4,Chandler,"Oh, all right.","{
+  ""recognition_id"": ""14_10_6_4"",
+  ""reasoning"": ""Context is lighthearted but the utterance is a plain, non‑emotive acknowledgment, and most agents interpret it as neutral rather than joyful."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.73,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",neutral
+15,15_0_5_20,Phoebe,"Yeah! Sure! Yep!  Oh, y'know what? If I heard a shot right now, I'd throw my body on you.","{
+  ""recognition_id"": ""15_0_5_20"",
+  ""reasoning"": ""Rule 1 fires: high sarcasm probability (>0.7) with a positive‑looking sentiment and very high arousal (score 10) leads to an ANGER override."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1 (Context Historian)"", ""Agent3 (Sentiment Analyst)""],
+    ""dissenting_agents"": []
+  }
+}",joy
+15,15_1_5_20,Gary,Oh yeah? Well maybe you and I should take a walk through a bad neighborhood.,"{
+  ""recognition_id"": ""15_1_5_20"",
+  ""reasoning"": ""Three agents (Context Historian, Character Profiler, Sentiment Analyst) converge on high‑arousal, negative‑sentiment aggression, indicating anger."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.92,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3""],
+    ""dissenting_agents"": []
+  }
+}",joy
+15,15_2_5_20,Phoebe,Okay!,"{
+  ""recognition_id"": ""15_2_5_20"",
+  ""reasoning"": ""Most agents (Context Historian, Character Profiler, Social Dynamics) interpret the exclamation as a cooperative acknowledgment rather than sarcasm or anger, yielding a neutral/agreeing stance."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.72,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent3""]
+  }
+}",joy
+15,15_3_5_20,Phoebe,Bye!,"{
+  ""recognition_id"": ""15_3_5_20"",
+  ""reasoning"": ""The majority of agents (Character Profiler and Social Dynamics) view the brief exclamation as a polite, de‑escalating farewell, leading to a neutral classification."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.62,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1"", ""Agent3""]
+  }
+}",neutral
+15,15_4_5_20,Joey,Bye!,"{
+  ""recognition_id"": ""15_4_5_20"",
+  ""reasoning"": ""Three agents (Context Historian, Sentiment Analyst, Social Dynamics) converge on a high‑arousal, negative‑valence interpretation of the exclamatory \""Bye!\"", indicating anger/annoyance."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent2""]
+  }
+}",neutral
+15,15_5_5_20,Joey,Cut it out Ross! I hate to have to save your life and kick your ass in the same day!,"{
+  ""recognition_id"": ""15_5_5_20"",
+  ""reasoning"": ""The utterance shows very high arousal (9‑10) combined with strongly negative sentiment and is identified as anger by three agents, overriding the mild playful context."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.92,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",anger
+16,16_0_4_10,Monica,"Hey, Joey, could you pass the cheese?","{
+  ""recognition_id"": ""16_0_4_10"",
+  ""reasoning"": ""All agents independently characterize the utterance as a low‑arousal, neutral request with no sarcasm or conflict cues."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.94,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+16,16_1_4_10,Joey,"Listen uh, Id prefer it if you didnt call me Joey.","{
+  ""recognition_id"": ""16_1_4_10"",
+  ""reasoning"": ""Sentiment Analyst reports a moderate‑high arousal (6) with negative sentiment, indicating irritation/anger, and no sarcasm or surprise overrides apply."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.71,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2"", ""Agent4""]
+  }
+}",neutral
+16,16_2_4_10,Joey,"Since I dont know anyone here, I thought itd be cool to try out a cool work nickname.","{
+  ""recognition_id"": ""16_2_4_10"",
+  ""reasoning"": ""Agents 1‑4 all interpret Joey's statement as a sincere, upbeat attempt to connect, indicating positive enthusiasm."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.92,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+16,16_3_4_10,A Waiter,"Hey, dragon! Heres your tips from Monday and Tuesday.","{
+  ""recognition_id"": ""16_3_4_10"",
+  ""reasoning"": ""The high arousal score (7‑8) together with the predominately negative sentiment (ambivalent/negative) points to anger as the dominant affect."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3"", ""Agent4"", ""Agent1""],
+    ""dissenting_agents"": [""Agent2""]
+  }
+}",neutral
+16,16_4_4_10,Joey,Theres like-theres like 300 bucks in this one!,"{
+  ""recognition_id"": ""16_4_4_10"",
+  ""reasoning"": ""Agent4 (Social Dynamics) identifies surprise cues and none of the conflict‑based conditions in Rule 3 apply, so the rule resolves the emotion to SURPRISE."",
+  ""predicted_emotion"": ""surprise"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",surprise
+16,16_5_4_10,The Waiter,"Yeah, people get pretty generous around the holidays. And it never hurts to wear tight trousers.","{
+  ""recognition_id"": ""16_5_4_10"",
+  ""reasoning"": ""The majority of agents interpret the line as a light‑hearted, playful comment with a mildly positive tone, resulting in a Joy classification."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3""],
+    ""dissenting_agents"": [""Agent4""]
+  }
+}",neutral
+16,16_6_4_10,Monica,Could the waiters gather around to hear tonights specials?,"{
+  ""recognition_id"": ""16_6_4_10"",
+  ""reasoning"": ""A clear majority (3 of 4 agents) classify the utterance as neutral, and no higher‑priority rule overrides this consensus."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.92,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",neutral
+16,16_7_4_10,Monica,"Okay, first there is a Chilean Sea Bass prepared with a Mango relish on a bagWhy is nobody writing these down?","{
+  ""recognition_id"": ""16_7_4_10"",
+  ""reasoning"": ""Agent4's high arousal score (≈9) with overall negative sentiment maps to ANGER per Rule 2, and all agents converge on frustration/anger."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.93,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+16,16_8_4_10,The Waiter,Because we can remember them.,"{
+  ""recognition_id"": ""16_8_4_10"",
+  ""reasoning"": ""The sentiment analysis reports very low arousal (1‑2) and neutral polarity, which outweighs the mild positive hints from other agents."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3"", ""Agent1""],
+    ""dissenting_agents"": [""Agent2"", ""Agent5""]
+  }
+}",neutral
+16,16_9_4_10,Monica,Because your all gonna make up fake specials and make me cook them like you did the other night?,"{
+  ""recognition_id"": ""16_9_4_10"",
+  ""reasoning"": ""Agent4 reports high arousal (9) and strong negative sentiment, which maps to ANGER per Rule 2."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent4"", ""Agent5""],
+    ""dissenting_agents"": []
+  }
+}",anger
+17,17_0_3_7,Ross,Hey. When you guys were kids and you played,"{
+  ""recognition_id"": ""17_0_3_7"",
+  ""reasoning"": ""Most agents (Character Profiler and Sentiment Analyst) report neutral sentiment and low arousal with no sarcasm, leading to a neutral emotion classification."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent3""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",neutral
+17,17_1_3_7,Monica,I was always Joanne.,"{
+  ""recognition_id"": ""17_1_3_7"",
+  ""reasoning"": ""The utterance is a vulnerable self‑revelation that signals insecurity and emotional pain, best matching sadness."",
+  ""predicted_emotion"": ""sadness"",
+  ""confidence"": 0.68,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1"", ""Agent3""]
+  }
+}",neutral
+17,17_2_3_7,Joey,"Question. Was ah, Egg the Gellers! the war cry of your neighbourhood?","{
+  ""recognition_id"": ""17_2_3_7"",
+  ""reasoning"": ""Three agents (2, 3, 4) converge on a neutral, dry‑humor tone, outweighing the single tense interpretation from Agent 1."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.68,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",neutral
+17,17_3_3_7,Phoebe,Ewww! Oh! Its the Mattress King!,"{
+  ""recognition_id"": ""17_3_3_7"",
+  ""reasoning"": ""The majority of agents (Character Profiler and Social Dynamics) identify a strong negative, visceral reaction consistent with disgust, outweighing the single anger indication."",
+  ""predicted_emotion"": ""disgust"",
+  ""confidence"": 0.92,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent3""]
+  }
+}",disgust
+17,17_4_3_7,Chandler,Dont look honey. Change the channel! Change the channel!,"{
+  ""recognition_id"": ""17_4_3_7"",
+  ""reasoning"": ""Rule 2 maps the utterance's high arousal (≈10) and negative sentiment to ANGER."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent4""],
+    ""dissenting_agents"": [""Agent2"", ""Agent3"", ""Agent5""]
+  }
+}",disgust
+17,17_5_3_7,Janice,"Wait! Wait! I wanna see this. After I divorce him, half of that kingdom is gonna be mine.","{
+  ""recognition_id"": ""17_5_3_7"",
+  ""reasoning"": ""High arousal (9) combined with negative‑leaning sentiment triggers Rule 2, mapping to ANGER, and is reinforced by the anger indicators in the Sentiment Analyst and Social Dynamics reports."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.92,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Context Historian"", ""Character Profiler""]
+  }
+}",joy
+17,17_6_3_7,Chandler,What a wank!,"{
+  ""recognition_id"": ""17_6_3_7"",
+  ""reasoning"": ""Three agents (Character Profiler, Sentiment Analyst, Social Dynamics) identify a high‑arousal, strongly negative response, resulting in Anger as the consensus."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.93,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",anger
+17,17_7_3_7,Janice,"Oh, I cannot believe hes using our divorce to sell mattresses.","{
+  ""recognition_id"": ""17_7_3_7"",
+  ""reasoning"": ""High arousal (≥7) combined with strongly negative sentiment maps to ANGER per Rule 2 and is supported by multiple agents."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.92,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent2"", ""Agent5""]
+  }
+}",anger
+17,17_8_3_7,Monica,I know!,"{
+  ""recognition_id"": ""17_8_3_7"",
+  ""reasoning"": ""The tense family context combined with moderate‑high arousal (score 6) and ambiguous/negative undertones leads to an angry interpretation of the exclamatory “I know!”"",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.62,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent2""]
+  }
+}",anger
+17,17_9_3_7,Monica,"And four ninety-nine for a pillow top queen set, who cares about the divorce, those babies will sell themselves.","{
+  ""recognition_id"": ""17_9_3_7"",
+  ""reasoning"": ""The utterance is a high‑arousal, dismissive line that breaks Ross's usual insecure tone in a tense, sarcastic scene, leading to an anger interpretation."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent3""]
+  }
+}",anger
+17,17_10_3_7,Monica,And Im appalled for you by the way.,"{
+  ""recognition_id"": ""17_10_3_7"",
+  ""reasoning"": ""Agent4's high arousal (7) combined with negative sentiment maps to ANGER (Rule 2), and the strong relational influence score (>7) amplifies this to a more extreme negative emotion."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent2""]
+  }
+}",anger
+17,17_11_3_7,Rachel,"You had to do it, didnt you? You couldnt just leave it alone.","{
+  ""recognition_id"": ""17_11_3_7"",
+  ""reasoning"": ""All agents highlight high‑arousal negative language, tension and accusatory tone, converging on anger"",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.92,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",sadness
+17,17_12_3_7,Ross,Four percent. Okay. I tip more than that when theres a bug in my food.,"{
+  ""recognition_id"": ""17_12_3_7"",
+  ""reasoning"": ""The utterance shows high‑arousal negative sarcasm, which maps to anger under the arousal‑sentiment rule."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.92,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent2""]
+  }
+}",disgust
+17,17_13_3_7,Rachel,"Ross, tonight was about the two of you getting along.  Oh, would you just see my chiropractor, already.","{
+  ""recognition_id"": ""17_13_3_7"",
+  ""reasoning"": ""Rule 2 applied: high inferred arousal (≈7) with negative sentiment yields ANGER."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent4""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent5""]
+  }
+}",anger
+17,17_14_3_7,Ross,"Yeah, Im gonna go to a doctor who went to school in a mini-mall.","{
+  ""recognition_id"": ""17_14_3_7"",
+  ""reasoning"": ""Agent3 reports high arousal (7‑8) with negative sentiment, which according to Rule 2 maps directly to ANGER"",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3 (Sentiment Analyst)"", ""Agent4 (Social Dynamics)""],
+    ""dissenting_agents"": [""Agent2 (Character Profiler)""]
+  }
+}",disgust
+17,17_15_3_7,Ross,"Hey Pheebs, what are you doing?","{
+  ""recognition_id"": ""17_15_3_7"",
+  ""reasoning"": ""Rule 2 maps the low arousal score (4) and slightly positive sentiment to NEUTRAL (contentment), and no sarcasm or surprise cues override this."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.92,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",neutral
+17,17_16_3_7,Phoebe,"Im, Im freaking out!","{
+  ""recognition_id"": ""17_16_3_7"",
+  ""reasoning"": ""Agents 2, 3, and 4 all identify a high‑arousal, negative‑valence outburst that aligns with fear/panic, so fear is chosen."",
+  ""predicted_emotion"": ""fear"",
+  ""confidence"": 0.94,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",fear
+17,17_17_3_7,Phoebe,Monica kinda trusted me with something and she shouldnt have!,"{
+  ""recognition_id"": ""17_17_3_7"",
+  ""reasoning"": ""Rule 2 maps the high arousal (9) and negative sentiment polarity to ANGER, and the majority of agents (Context Historian, Sentiment Analyst, Social Dynamics) align with an angry/conflict tone."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.88,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent2""]
+  }
+}",fear
+17,17_18_3_7,Phoebe,"All right, I havent lived here in a while, so I have to ask you something.","{
+  ""recognition_id"": ""17_18_3_7"",
+  ""reasoning"": ""Agent3’s sentiment analysis reports low arousal (2‑3) and neutral polarity with no sarcasm or anger cues, which overrides the vague tension noted by Agent1."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.82,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3""],
+    ""dissenting_agents"": [""Agent1""]
+  }
+}",neutral
+17,17_19_3_7,Phoebe,Does Monica still turn on the lights in her bedroom?,"{
+  ""recognition_id"": ""17_19_3_7"",
+  ""reasoning"": ""All agents converge on a low‑arousal, neutral sentiment for the utterance, leading to a neutral classification."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.87,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+17,17_20_3_7,Rachel,Um. yeah.,"{
+  ""recognition_id"": ""17_20_3_7"",
+  ""reasoning"": ""Low arousal (2‑3) together with slightly negative sentiment maps to SADNESS according to Rule 2."",
+  ""predicted_emotion"": ""sadness"",
+  ""confidence"": 0.78,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2"", ""Agent4""]
+  }
+}",neutral
+17,17_21_3_7,Phoebe,I am,"{
+  ""recognition_id"": ""17_21_3_7"",
+  ""reasoning"": ""No rule triggered a specific affect; the utterance carries neutral sentiment with high arousal and a character break, leading to a default neutral classification."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.66,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent4"", ""Agent5""],
+    ""dissenting_agents"": [""Agent1"", ""Agent2"", ""Agent3""]
+  }
+}",neutral
+17,17_22_3_7,Rachel,"All right, look, heres the bottom line Ross, this is fixable, if we act fast, okay.","{
+  ""recognition_id"": ""17_22_3_7"",
+  ""reasoning"": ""The utterance’s high‑arousal, urgent phrasing and consensus among three agents that it conveys frustration/forcefulness overrides the single neutral interpretation, leading to an anger classification."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent2""]
+  }
+}",neutral
+17,17_23_3_7,Rachel,"So, Ill invite him to brunch tomorrow and you can make nice.","{
+  ""recognition_id"": ""17_23_3_7"",
+  ""reasoning"": ""Three agents (Context Historian, Sentiment Analyst, Social Dynamics) converge on anger, and high relational influence amplifies the underlying resentment."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.88,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent2""]
+  }
+}",neutral
+17,17_24_3_7,Ross,"Look, honey, I have tried to make nice, it doesnt work.","{
+  ""recognition_id"": ""17_24_3_7"",
+  ""reasoning"": ""ArousalScore = 7 with Negative Sentiment triggers ANGER (Rule 2) and is reinforced by high relational influence and consensus among agents."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent2""]
+  }
+}",anger
+17,17_25_3_7,Rachel,"Okay, look, Ross, I realise that my Father is difficult, but thats why you have got to be the bigger man here.","{
+  ""recognition_id"": ""17_25_3_7"",
+  ""reasoning"": ""Agent4’s high arousal score (8) with negative sentiment polarity maps to ANGER (Rule 2), and this is reinforced by the strong relational influence and multiple agents indicating frustration."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.92,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent2""]
+  }
+}",neutral
+17,17_26_3_7,Ross,"Look sweetie, I could be the bigger man, I could be the biggest man, I could be a big, huge, giant man, and it still wouldnt make any difference, except that I could pick your Father up and say Like me!","{
+  ""recognition_id"": ""17_26_3_7"",
+  ""reasoning"": ""All reports indicate high arousal and negative sentiment, converging on intense frustration/anger."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.93,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",anger
+17,17_27_3_7,Ross,Like me tiny doctor!,"{
+  ""recognition_id"": ""17_27_3_7"",
+  ""reasoning"": ""Most agents (Context Historian, Sentiment Analyst, and Social Dynamics) point to a high‑arousal, tense, sarcastic‑like utterance suggesting anger"",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent2""]
+  }
+}",anger
+17,17_28_3_7,Rachel,"Okay, well cant you just try it one more time Ross? For me? For me?","{
+  ""recognition_id"": ""17_28_3_7"",
+  ""reasoning"": ""High arousal (8), negative sentiment, strong sarcasm/anger cues, and a 3‑agent consensus (Agents 1, 3, 4) all point to anger."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.86,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent2""]
+  }
+}",sadness
+17,17_29_3_7,Ross,"Rachel one brunch is not gonna solve anything. You gotta face it, okay were never gonna get along.","{
+  ""recognition_id"": ""17_29_3_7"",
+  ""reasoning"": ""High arousal (9) combined with negative sentiment and multiple reports indicating frustration/anger leads to anger per Rule 2 and consensus."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.93,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": []
+  }
+}",anger
+17,17_30_3_7,Rachel,"Okay, well you are just gonna have too, okay.","{
+  ""recognition_id"": ""17_30_3_7"",
+  ""reasoning"": ""Three agents (Context Historian, Sentiment Analyst, Social Dynamics) identify high tension, high arousal and negative sentiment, leading to a consensus of anger."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.92,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent2""]
+  }
+}",anger
+17,17_31_3_7,Rachel,"Because I already got a Mother and a Father who cannot stay in the same room together, okay, I dont wanna have to have a separate room for you too!","{
+  ""recognition_id"": ""17_31_3_7"",
+  ""reasoning"": ""High arousal (9‑10) combined with strongly negative sentiment leads three agents to label the utterance as anger, creating a clear majority consensus."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.88,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent3"", ""Agent4""],
+    ""dissenting_agents"": [""Agent2""]
+  }
+}",anger
+17,17_32_3_7,Ross,"Okay, okay, okay.  Ill get the bagels.","{
+  ""recognition_id"": ""17_32_3_7"",
+  ""reasoning"": ""The triple \""Okay\"" is interpreted by the Sentiment Analyst as reluctant, sarcastic compliance, signaling mild anger despite the Social Dynamics view of neutral accommodation."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.66,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3""],
+    ""dissenting_agents"": [""Agent1"", ""Agent4""]
+  }
+}",neutral

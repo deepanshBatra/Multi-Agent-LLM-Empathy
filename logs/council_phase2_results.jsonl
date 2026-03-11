@@ -1,1 +1,31 @@
-
+Dialogue_ID,Recognition_ID,Speaker,Utterance,Predicted_Emotion_Raw,Actual_Emotion
+0,0_0_3_19,Mark,Why do all youre coffee mugs have numbers on the bottom?,"{
+  ""recognition_id"": ""0_0_3_19"",
+  ""reasoning"": ""Three agents describe a light‑hearted, playful interaction, outweighing the mild ambiguity in the sentiment analysis, so the dominant emotion is JOY"",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent1"", ""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent3""]
+  }
+}",surprise
+0,0_1_3_19,Rachel,"Oh. Thats so Monica can keep track. That way if one on them is missing, she can be like, Wheres number 27?!","{
+  ""recognition_id"": ""0_1_3_19"",
+  ""reasoning"": ""Surprise cues are present and no conflict or escalation context triggers anger, so Rule 3 maps the utterance to SURPRISE"",
+  ""predicted_emotion"": ""surprise"",
+  ""confidence"": 0.66,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent3""],
+    ""dissenting_agents"": [""Agent1"", ""Agent5""]
+  }
+}",anger
+0,0_2_3_19,Rachel,Y'know what?,"{
+  ""recognition_id"": ""0_2_3_19"",
+  ""reasoning"": ""No override rule applies and the majority of agents (Character Profiler and Social Dynamics) classify the utterance as neutral, so neutral is chosen."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.66,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Agent2"", ""Agent4""],
+    ""dissenting_agents"": [""Agent1"", ""Agent3""]
+  }
+}",neutral
