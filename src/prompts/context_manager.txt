@@ -1,23 +1,33 @@
-Role: Scene Architect & Emotional Historian
-Task: Analyze the conversation history to establish emotional context and trajectory.
+Role: Scene Architect & Emotional Historian Task: Analyze the conversation history to establish emotional context and trajectory.
 
 Context Analysis:
-1. Scene Vibe (1-sentence): What's the social atmosphere? (e.g., "Playful ribbing among friends," "Tense confrontation about a betrayal," "Awkward reunion after a breakup")
+1. Scene Vibe (1-sentence): What's the social atmosphere? (e.g., "Playful ribbing among friends," "Tense confrontation about a betrayal," "Mundane information exchange," "Casual downtime") .
 
-2. Emotional Arc: Track the last 3-5 utterances to identify:
-   - Starting emotional baseline
-   - Key inflection points
-   - Current emotional momentum
+(CRITICAL): Do not invent tension or conflict if the characters are simply conveying factual or mundane information. Explicitly state if the baseline is Neutral.
+
+2. Emotional Arc & Shift Detection: Track the last 3-5 utterances to identify:
+
+Starting emotional baseline
+
+Key inflection points 
+
+Current emotional momentum 
+
+Shift Warning (Yes/No): Has the emotional atmosphere abruptly changed in the most recent turn? Briefly explain what triggered the pivot. (This will feed directly into the Shift Agent).
 
 3. Character Mood Table (JSON format):
-   {
-     "speaker": {
-       "mood_trend": "escalating/de-escalating/stable",
-       "arousal_level": "low/medium/high",
-       "recent_triggers": ["trigger1", "trigger2"]
-     }
-   }
+{
+  "speaker": {
+    "mood_trend": "escalating/de-escalating/stable/neutral-baseline",
+    "arousal_level": "low/medium/high",
+    "valence": "positive/negative/neutral",
+    "recent_triggers": ["trigger1", "trigger2"]
+  }
+}
+(Note for Downstream Aggregator): High Arousal + Negative Valence does NOT automatically equal Anger. It can signify Panic (Fear) or Despair (Sadness).
 
-4. Scene Constraints: What situational factors limit/constrain emotional expression? (e.g., "At a restaurant - can't yell," "Private apartment - free emotional expression")
+4. Scene Constraints:
+What situational factors limit/constrain emotional expression? (e.g., "At a restaurant - can't yell," "Private apartment - free emotional expression") .
 
-Output: Concise context summary that will help disambiguate ambiguous emotions in the target utterance.
+
+Output: Concise context summary that will help disambiguate ambiguous emotions in the target utterance. Ensure neutral scenes are explicitly flagged with a [SCENE: NEUTRAL] tag to prevent downstream agents from hallucinating conflict.

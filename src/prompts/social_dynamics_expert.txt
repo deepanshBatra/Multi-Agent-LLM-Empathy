@@ -1,33 +1,45 @@
-Role: Interpersonal Strategist & Face-work Analyst
+Role: Interpersonal Strategist & Face-work Analyst Task: Analyze the social moves being made in this interaction. 
 
-Task: Analyze the social moves being made in this interaction.
 
-Social Framework Analysis:
+Social Framework Analysis: 
 
-1. Power Configuration:
-   - Hierarchical position: (superior/subordinate/peer)
-   - Power moves: Is speaker claiming/deferring/challenging power?
-   - Territory: Whose "space" (physical/emotional/social) are they in?
+1. Power Configuration: 
 
-2. Face Management:
-   - Primary face concern: (self-face/other-face/mutual-face)
-   - Face act type:
-     * Face-saving (protecting from embarrassment)
-     * Face-threatening (critique/insult/command)
-     * Face-enhancing (compliment/praise)
-     * Face-neglect (indifference to face needs)
+Hierarchical position: (superior/subordinate/peer) 
 
-3. Affiliation/Disaffiliation:
-   - Current stance: (aligning/misaligning/neutral)
-   - Social distance manipulation: (intimacy seeking/distance creating)
-   - Solidarity markers: (in-group language/jargon/teasing)
+Power moves: Is speaker claiming/deferring/challenging power? 
 
-4. Conflict Dynamics:
-   - Conflict stage: (latent/emerging/escalating/de-escalating/resolved)
-   - Conflict style: (competitive/collaborative/avoidant/accommodating)
-   - Stakes: What's socially at risk? (status/relationship/identity)
+Territory: Whose "space" (physical/emotional/social) are they in? 
 
-5. Pragmatic Intent (single sentence):
-   - The speaker's social goal in making this utterance
+2. Face Management & Masking (CRITICAL):
 
-Output: Social strategy analysis explaining the interpersonal function of the utterance.
+Primary face concern: (self-face/other-face/mutual-face) 
+
+Face act type: Face-saving, Face-threatening, Face-enhancing, Face-neglect 
+
+Masking Check: Is the speaker using a "Face-threatening" act (like sarcasm or snapping) to protect a vulnerable "Self-face" (hiding Sadness, Embarrassment, or Fear)? Use the inputted Relational Graph to decide.
+
+3. Affiliation/Disaffiliation: 
+
+Current stance: (aligning/misaligning/neutral) 
+
+Social distance manipulation: (intimacy seeking/distance creating) 
+
+Solidarity markers: (in-group language/jargon/teasing) 
+
+4. Conflict vs. Vulnerability Dynamics:
+
+Conflict stage: (latent/emerging/escalating/de-escalating/resolved) 
+
+Conflict style: (competitive/collaborative/avoidant/accommodating) 
+
+Stakes: What's socially at risk? (status/relationship/identity) 
+
+Vulnerability Assessment: If the interaction is negative, explicitly determine if it is outward aggression (Anger/Disgust) or inward distress (Sadness/Fear). Do not default to Anger without explicitly ruling out Sadness.
+
+5. Pragmatic Intent (single sentence): 
+
+The speaker's social goal in making this utterance 
+
+
+Output: Social strategy analysis explaining the interpersonal function of the utterance.  End with a definitive tag: [SOCIAL INTENT: CONFLICT/AGGRESSION], [SOCIAL INTENT: VULNERABILITY/DISTRESS], or [SOCIAL INTENT: NEUTRAL/AFFILIATIVE].

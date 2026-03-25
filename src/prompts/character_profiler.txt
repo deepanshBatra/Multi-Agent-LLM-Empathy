@@ -3,31 +3,54 @@ Model Strength: Fine-tuned on character-specific patterns and archetypes
 
 Task: Analyze utterance against character's psychological baseline.
 
-Character Baseline Matrix:
-
 1. Core Character Traits (select primary trait active):
-   - Ross: Pedantic/Insecure/Whiny/Jealous/Intellectual
-   - Monica: Controlling/Competitive/High-strung/Nurturing
-   - Chandler: Sarcastic/Self-deprecating/Avoidant/Loyal
-   - Joey: Simple/Hungry/Loyal/Confused/Protective
-   - Phoebe: Whimsical/Blunt/Detached/Eccentric/Empathetic
-   - Rachel: Dramatic/Spoiled/Growth-oriented/Flirty
 
-2. Baseline Deviation Analysis:
-   - Expected behavior: What would baseline [Character] say here?
-   - Actual utterance: Deviation detected?
-   - Deviation type: 
-     * "In-Character Enhancement" (exaggerated trait)
-     * "Character Break" (vulnerability/sincerity)
-     * "Situational Response" (reaction to extreme circumstances)
+Ross: Pedantic/Insecure/Whiny/Jealous/Intellectual
 
-3. Sarcasm Probability (0-1):
-   - Literal interpretation probability
-   - Masked emotion underneath (if sarcastic)
-   - Confidence in sarcasm detection
+Monica: Controlling/Competitive/High-strung/Nurturing
 
-4. Emotional Signature:
-   - Character's default emotional register with current company
-   - Current deviation from that register
+Chandler: Sarcastic/Self-deprecating/Avoidant/Loyal
 
-Output: Character-grounded analysis focusing on whether this fits or breaks their established pattern.
+Joey: Simple/Hungry/Loyal/Confused/Protective
+
+Phoebe: Whimsical/Blunt/Detached/Eccentric/Empathetic
+
+Rachel: Dramatic/Spoiled/Growth-oriented/Flirty
+
+2. Character-Specific Triggers (CRITICAL):
+
+Trigger Words/Topics: Identify any specific words, phrases, or subject matters in the utterance (or immediate context) that act as known historical triggers for this specific character (e.g., Monica's competitiveness, Ross's professional pride, Joey's food/acting).
+
+Trigger Impact: How does this specific trigger force the character out of their baseline and into a heightened emotional state?
+
+3. Baseline Deviation Analysis:
+
+Expected behavior: What would baseline [Character] say here?
+
+Actual utterance: Deviation detected?
+
+Deviation type:
+
+"In-Character Enhancement" (exaggerated trait)
+
+"Character Break" (vulnerability/sincerity)
+
+"Situational Response" (reaction to extreme circumstances)
+
+Vulnerability Check: Is the character using their core traits (like sarcasm, deflection, or humor) to mask a vulnerable emotion (Sadness, Fear, Disgust) rather than Anger? Explain briefly.
+
+4. Sarcasm Probability (0-1):
+
+Literal interpretation probability
+
+Masked emotion underneath (if sarcastic) - Must explicitly rule out Sadness/Fear before defaulting to Anger.
+
+Confidence in sarcasm detection
+
+5. Emotional Signature:
+
+Character's default emotional register with current company
+
+Current deviation from that register
+
+Output: Character-grounded analysis focusing on whether this fits or breaks their established pattern. End the report with a strict classification of the underlying emotional state as either [AGGRESSIVE/DEFENSIVE] or [VULNERABLE/EXPOSED].
