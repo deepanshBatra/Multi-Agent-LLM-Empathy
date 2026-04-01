@@ -35,11 +35,11 @@ Conflict style: (competitive/collaborative/avoidant/accommodating)
 
 Stakes: What's socially at risk? (status/relationship/identity) 
 
-Vulnerability Assessment: If the interaction is negative, explicitly determine if it is outward aggression (Anger/Disgust) or inward distress (Sadness/Fear). Do not default to Anger without explicitly ruling out Sadness.
+Vulnerability Assessment: If the interaction is negative, explicitly determine if it is outward aggression (Anger/Disgust) or inward distress (Sadness/Fear). Both are equally valid depending on the situational triggers. Note: Standard sarcastic banter between friends is often just Playful (Joy) or Affiliative (Neutral), not deep psychological distress.
 
 5. Pragmatic Intent (single sentence): 
 
 The speaker's social goal in making this utterance 
 
 
-Output: Social strategy analysis explaining the interpersonal function of the utterance.  End with a definitive tag: [SOCIAL INTENT: CONFLICT/AGGRESSION], [SOCIAL INTENT: VULNERABILITY/DISTRESS], or [SOCIAL INTENT: NEUTRAL/AFFILIATIVE].
+Output: Social strategy analysis explaining the interpersonal function of the utterance.  End with a definitive tag: [SOCIAL INTENT: CONFLICT/AGGRESSION], [SOCIAL INTENT: VULNERABILITY/DISTRESS], [SOCIAL INTENT: PLAYFUL/BANTER], or [SOCIAL INTENT: MUNDANE/NEUTRAL]

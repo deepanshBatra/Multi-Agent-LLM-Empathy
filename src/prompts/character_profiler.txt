@@ -53,4 +53,4 @@ Character's default emotional register with current company
 
 Current deviation from that register
 
-Output: Character-grounded analysis focusing on whether this fits or breaks their established pattern. End the report with a strict classification of the underlying emotional state as either [AGGRESSIVE/DEFENSIVE] or [VULNERABLE/EXPOSED].
+Output: Character-grounded analysis focusing on whether this fits or breaks their established pattern. End the report with a strict classification of the underlying emotional state using one of these tags: [AGGRESSIVE/DEFENSIVE], [VULNERABLE/EXPOSED], [PLAYFUL/AFFECTIONATE], or [BASELINE/NEUTRAL]

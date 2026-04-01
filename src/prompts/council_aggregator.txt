@@ -21,9 +21,9 @@ If [SHIFT: FALSE - CONTINUITY MAINTAINED], assume emotional inertia. Heavily wei
 
 If [SHIFT: TRUE - EMOTIONAL PIVOT DETECTED], you MUST break from the historical baseline. Focus your reasoning entirely on the stated "REASON" for the shift and how the speaker is reacting to that specific new trigger.
 
-2. The "Sadness/Fear vs. Anger" Check: Review the tags from the specialized agents ([VULNERABLE/EXPOSED], [RELATIONSHIP DYNAMIC: SAFE/SUPPORTIVE], [SOCIAL INTENT: VULNERABILITY/DISTRESS], [LINGUISTIC TONE: WITHDRAWN/VULNERABLE]). If multiple agents detect vulnerability, distress, or withdrawal, you MUST NOT default to Anger, even if arousal is high or sarcasm is present. High-arousal distress is often Fear; low-arousal distress is Sadness.
+2. Sadness vs Fear Check: Evaluate if the negative sentiment is genuine Anger or masked vulnerability. If the text is directly hostile, confrontational, and the Context Manager notes an escalating argument, Anger is the correct classification. Do not force a Sadness/Fear classification if the character is simply being aggressive.
 
-3. The "Neutrality" Check: If the Context Manager flagged [SCENE: NEUTRAL] and the linguistic tone lacks high-intensity markers, default to Neutral. Do not invent tension.
+3. he Neutrality Check (CRITICAL): Deep reasoning models tend to over-analyze mundane dialogue. Apply Occam's Razor: if the literal text is a simple transfer of information (e.g., 'I am going to the store', 'Yeah, okay'), you MUST classify it as Neutral. Do not invent latent emotional subtext or tension where none exists.
 
 4. Sarcasm Resolution: Sarcasm is a tool. Identify what emotion the tool is masking. Is it masking embarrassment/sadness, or is it masking genuine hostility/anger?
 
