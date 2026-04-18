@@ -1,0 +1,1666 @@
+Dialogue_ID,Recognition_ID,Speaker,Utterance,Predicted_Emotion_Raw,Actual_Emotion
+0,0_0_3_19,Mark,Why do all youre coffee mugs have numbers on the bottom?,"{
+  ""recognition_id"": ""0_0_3_19"",
+  ""reasoning"": ""All agent reports converge on a neutral, low-arousal informational query with no emotional shift detected, making Neutral the correct classification over Joy or Surprise due to the absence of high arousal or a novel/celebratory focus. The Temporal Shift Agent confirms continuity, reinforcing the stable, mundane baseline."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics Expert"", ""Emotion Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",surprise
+0,0_1_3_19,Rachel,"Oh. Thats so Monica can keep track. That way if one on them is missing, she can be like, Wheres number 27?!","```json
+{
+  ""recognition_id"": ""0_1_3_19"",
+  ""reasoning"": ""The utterance is a neutral explanation of a tracking system, maintaining the scene's lighthearted continuity. The playful imitation within the quote does not elevate the core emotion beyond informational neutrality, with joy being less fitting due to low arousal and lack of celebratory focus."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Social Dynamics""]
+  }
+}
+```",anger
+0,0_2_3_19,Rachel,Y'know what?,"{
+  ""recognition_id"": ""0_2_3_19"",
+  ""reasoning"": ""The utterance 'Y'know what?' is a routine conversational opener with neutral valence and moderate arousal, strongly supported by multiple agents as a hard-neutral discourse marker. Although the Emotional Shift Agent detected a pivot from playful to sincere, the phrase itself lacks emotional content, making Neutral the appropriate classification over Surprise (which requires higher arousal and explicit novelty)."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Emotional Shift Detector""]
+  }
+}",neutral
+1,1_0_1_23,Joey,"Come on, Lydia, you can do it.","{
+  ""recognition_id"": ""1_0_1_23"",
+  ""reasoning"": ""The sentiment analyzer confirms positive valence, restricting the emotion to joy or surprise; given the emotional shift agent reports no shift and the context is one of continuous encouragement without novelty, joy is the correct classification over surprise. All agents align on a supportive, positive tone with no emotional pivot detected."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Social Dynamics Expert""]
+  }
+}",neutral
+1,1_1_1_23,Joey,Push!,"```json
+{
+  ""recognition_id"": ""1_1_1_23"",
+  ""reasoning"": ""Despite the Sentiment Analyzer's surface-neutral rating, all other agents and the high-energy context confirm a positive, encouraging intent with no emotional shift or novel trigger, making Joy the most consistent classification. The high arousal and present-focused urging to succeed align with celebratory encouragement rather than surprise or neutral information transfer."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst""]
+  }
+}
+```",joy
+1,1_2_1_23,Joey,"Push 'em out, push 'em out, harder, harder.","{
+  ""recognition_id"": ""1_2_1_23"",
+  ""reasoning"": ""Despite the Sentiment Analyst's report of negative valence, the contextual consensus from other agents (encouraging scene, playful/affectionate character intent, and no emotional shift) overrides this and supports a positive interpretation. The utterance functions as an energetic cheer focused on present achievement, aligning with Joy rather than a negative emotion like Anger."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst""]
+  }
+}",joy
+1,1_3_1_23,Joey,"Push 'em out, push 'em out, way out!","{
+  ""recognition_id"": ""1_3_1_23"",
+  ""reasoning"": ""Despite literal linguistic analysis suggesting negative valence and aggression, the contextual consensus from multiple agents (positive sports cheering, character-consistent encouragement, and social playful intent) overrides to indicate positive valence, requiring Joy or Surprise. Given high arousal, present/achievement focus, and no surprise trigger, Joy is selected over Anger, with the Emotion Shift Agent confirming continuity rather than a hostile pivot."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Social Dynamics Expert"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst""]
+  }
+}",joy
+1,1_4_1_23,Joey,"Let's get that ball and really move, hey, hey, ho, ho.","{
+  ""recognition_id"": ""1_4_1_23"",
+  ""reasoning"": ""The Sentiment Analyzer confirms strong positive valence and high arousal, restricting the emotion to Joy or Surprise, while the Emotional Shift Agent reports no shift, indicating continuity rather than a novel trigger. Therefore, Joy is chosen over Surprise as the utterance is a continuous, celebratory encouragement focused on shared action and connection, not an unexpected event."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",joy
+1,1_5_1_23,Joey,"Let's  I was justyeah, right.","```json
+{
+  ""recognition_id"": ""1_5_1_23"",
+  ""reasoning"": ""The utterance shows a sharp pivot from energetic cheering to fragmented, dismissive speech with negative latent sentiment, indicating resigned disappointment rather than confrontational anger. The shift to self-conscious withdrawal and sarcastic dismissal aligns with Sadness, as fear is eliminated by lack of threat and anger by avoidant conflict style."",
+  ""predicted_emotion"": ""sadness"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Context Historian"", ""Character Profiler"", ""Social Dynamics Expert""]
+  }
+}
+```",joy
+1,1_6_1_23,Joey,Push!,"{
+  ""recognition_id"": ""1_6_1_23"",
+  ""reasoning"": ""The Sentiment Analyzer reports neutral valence with high arousal, and the Emotional Shift Agent detects a true pivot from hesitation to a forceful command, making Surprise the best fit due to its high-arousal, valence-ambiguous profile triggered by an unexpected internal correction. Joy is excluded due to the neutral valence, and Neutral is unlikely given the high arousal and shift evidence."",
+  ""predicted_emotion"": ""surprise"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Context Historian"", ""Character Profiler"", ""Social Dynamics""]
+  }
+}",joy
+1,1_7_1_23,Joey,Push!,,joy
+2,2_0_5_16,Ross,Okay.,"{
+  ""recognition_id"": ""2_0_5_16"",
+  ""reasoning"": ""The Sentiment Analyzer's neutral valence filter restricts the emotion to Neutral or Surprise, and with low-moderate arousal, no shift detected, and all specialized agents agreeing on a mundane/neutral interpretation, Neutral is the clear choice. The closest alternative, Joy, is invalid due to the absence of positive valence, and Surprise is ruled out by the lack of high arousal or novelty triggers."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+2,2_10_5_16,Ross,You got it?,"{
+  ""recognition_id"": ""2_10_5_16"",
+  ""reasoning"": ""The Sentiment Analyzer reports neutral valence, which filters out all negatively valenced emotions (anger, sadness, fear, disgust) and positively valenced joy, leaving only neutral or surprise. With no emotional shift detected and context indicating a routine, supportive check for understanding, the utterance aligns best with Neutral, not Surprise, as there is no high arousal or novel trigger."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.8,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Social Dynamics Expert"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst""]
+  }
+}",neutral
+2,2_1_5_16,Rachel,"Ross, didn't you say that there was an elevator in here?","{
+  ""recognition_id"": ""2_1_5_16"",
+  ""reasoning"": ""All agents converge on a neutral interpretation, with the Sentiment Analyst's neutral valence filter and the false emotional shift confirming emotional inertia from the scene's playful-neutral baseline. The negative interrogative 'didn't you say' introduces mild surprise, but moderate arousal and the absence of a true pivot prioritize Neutral over Surprise."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics Expert"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+2,2_2_5_16,Ross,"Uhh, yes I did but there isn't. Okay, here we go.","{
+  ""recognition_id"": ""2_2_5_16"",
+  ""reasoning"": ""The utterance maintains the scene's playful problem-solving continuity ([SHIFT: FALSE]), with Ross acknowledging a minor discrepancy before pivoting to action-oriented encouragement. While agents note fleeting vulnerability, the overall valence is neutral given the mixed sentiment and moderate arousal, making Neutral more appropriate than Joy or Surprise."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst"", ""Social Dynamics""]
+  }
+}",sadness
+2,2_3_5_16,Ross,"Okay, go left. Left! Left!","```json
+{
+  ""recognition_id"": ""2_3_5_16"",
+  ""reasoning"": ""The valence pre-filter, supported by the Context Historian and Emotion Shift Agent, confirms positive valence, restricting the choice to Joy or Surprise. The sharp arousal shift reflects urgent encouragement within a playful, goal-directed context, aligning with Joy's celebratory/affiliative focus rather than Surprise's novelty-driven ambiguity."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics""]
+  }
+}
+```",surprise
+2,2_4_5_16,Rachel,"Okay, y'know what? There is no more left, left!","{
+  ""recognition_id"": ""2_4_5_16"",
+  ""reasoning"": ""The Sentiment Analyzer's negative valence and high-arousal report mandate a negative emotion, and the Shift Agent's true pivot to frustration rules out sadness due to present-focused, confrontational markers rather than past resignation. While the playful social context moderates intensity, the linguistic aggression and immediate reactive focus align more closely with anger than with lower-arousal sadness."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.8,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Context Historian"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Social Dynamics""]
+  }
+}",anger
+2,2_5_5_16,Ross,"Oh okay, lift it straight up over your head!","{
+  ""recognition_id"": ""2_5_5_16"",
+  ""reasoning"": ""The Sentiment Analyst's positive valence report and the Emotional Shift Agent's detection of a pivot to motivational encouragement align with Joy, which involves high arousal and a present/achievement focus. Surprise is the closest alternative but is less fitting as the utterance is a proactive directive rather than a reaction to an unexpected event."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Character Profiler"", ""Social Dynamics Expert"", ""Sentiment Analyst""]
+  }
+}",anger
+2,2_6_5_16,Ross,Straight up over your head!,"{
+  ""recognition_id"": ""2_6_5_16"",
+  ""reasoning"": ""Given the Emotional Shift Agent detected [SHIFT: FALSE - CONTINUITY MAINTAINED] and the Context Historian reports a playful, encouraging scene with Ross's positive valence, the utterance is interpreted as emphatic literal instruction rather than a negative idiom, favoring Joy over Anger. The high arousal and positive intent align with Joy's celebratory/affiliative focus, while dissenting agents' negative readings are overridden by contextual continuity."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst"", ""Social Dynamics""]
+  }
+}",anger
+2,2_7_5_16,Ross,You can do it!,"```json
+{
+  ""recognition_id"": ""2_7_5_16"",
+  ""reasoning"": ""The Sentiment Analyzer's positive valence restricts options to Joy or Surprise. With [SHIFT: FALSE], Ross's encouragement aligns with sustained playful support, favoring Joy over Surprise due to its celebratory focus rather than novelty."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}
+```",joy
+2,2_8_5_16,Ross,You can do it!,"{
+  ""recognition_id"": ""2_8_5_16"",
+  ""reasoning"": ""The sentiment analyzer confirms positive valence, requiring Joy or Surprise. With no emotional shift detected and the utterance serving as continuous encouragement rather than a reaction to novelty, Joy is the correct classification over Surprise."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",joy
+2,2_9_5_16,Ross,Okay.,"{
+  ""recognition_id"": ""2_9_5_16"",
+  ""reasoning"": ""The Sentiment Analyst reports neutral valence, which eliminates all negative emotions (sadness, fear, anger, disgust) and joy, leaving only neutral or surprise; low arousal rules out surprise, and the utterance is a simple acknowledgment with Social Dynamics enforcing a HARD NEUTRAL classification. The detected shift reflects a drop from high-energy encouragement to a neutral, resigned baseline, not a transition to a distinct negative emotion."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Emotional Shift Detector""]
+  }
+}",neutral
+3,3_0_5_15,Steve,"Oh, okay, I get it.","```json
+{
+  ""recognition_id"": ""3_0_5_15"",
+  ""reasoning"": ""The utterance is a neutral acknowledgment with no emotional shift detected. Despite Ross's baseline negative valence, the linguistic analysis and social intent confirm a routine exchange, overriding character context."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Character Profiler (valence baseline)""]
+  }
+}
+```",neutral
+3,3_1_5_15,Ross,"No wait, look. Look! I'm sorry, it's just I've never even","```json
+{
+  ""recognition_id"": ""3_1_5_15"",
+  ""reasoning"": ""The utterance exhibits high arousal and negative valence, with present-focused confrontation (repeated 'Look!') and reactive frustration to perceived dismissal, aligning with Anger over Sadness due to urgency and lack of resignation. The SHIFT:TRUE confirms a pivot to reactive emotional intensity."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Emotional Shift Detector"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Context Historian""]
+  }
+}
+```",fear
+3,3_2_5_15,Steve,Howard's the,"{
+  ""recognition_id"": ""3_2_5_15"",
+  ""reasoning"": ""The utterance is a linguistically neutral fragment with low arousal, and the speaker's baseline emotional state is neutral per contextual analysis; although some agents suggest underlying aggression, the mandatory valence pre-filter and absence of a shift support Neutral over Anger."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.8,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Context Historian""],
+    ""dissenting_agents"": [""Emotional Shift Detector"", ""Character Profiler"", ""Social Dynamics""]
+  }
+}",neutral
+3,3_3_5_15,Ross,"Yes but too me he's just, man.","```json
+{
+  ""recognition_id"": ""3_3_5_15"",
+  ""reasoning"": ""The Sentiment Analyzer's negative valence and Shift Agent's detection of frustration triggered by Howard's mention anchor the emotion in present-focused reactivity. Anger is chosen over Sadness due to confrontational dismissal ('just, man') rather than past-tense resignation, validated by the emotional pivot from Phoebe's lighthearted comment back to tension."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.8,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Emotional Shift Detector"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Character Profiler""]
+  }
+}
+```",neutral
+3,3_4_5_15,Steve,"Okay, fine, whatever. Welcome to the building.","{
+  ""recognition_id"": ""3_4_5_15"",
+  ""reasoning"": ""The Sentiment Analyst's strong negative valence filters out joy, surprise, and neutral, while the Emotion Shift Agent's report of no shift ([SHIFT: FALSE]) and the Critical Pre-Check eliminate Fear due to missing shift and explicit threat conditions. The utterance's present-focused, confrontational, and passive-aggressive tone—marked by 'whatever' and a sarcastic welcome—aligns with Anger's profile of reacting to a violation, rather than Sadness's past-focused resignation or Fear's future threat."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Character Profiler"", ""Social Dynamics (Steve context)"", ""Context Historian"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",anger
+3,3_5_5_15,Ross,"Ugh, can you believe that guy!","{
+  ""recognition_id"": ""3_5_5_15"",
+  ""reasoning"": ""The utterance shows high-arousal negative sentiment with present-focused confrontational tone, consistent with anger over injustice; though social dynamics suggest underlying vulnerability, the surface emotion meets anger criteria given the shift to renewed frustration against Steve's dismissive closure."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Character Profiler"", ""Context Historian"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Social Dynamics""]
+  }
+}",disgust
+3,3_6_5_15,Phoebe,Yeah. I really like his glasses.,"{
+  ""recognition_id"": ""3_6_5_15"",
+  ""reasoning"": ""The Sentiment Analyzer reports positive valence, limiting the emotion to joy or surprise; the utterance expresses genuine liking with moderate arousal and no markers of surprise, so joy is chosen over surprise. The Emotional Shift Agent confirms a pivot to positive appreciation, reinforcing joy as the speaker's lighthearted contribution."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Social Dynamics"", ""Character Profiler""]
+  }
+}",neutral
+6,6_0_3_16,Joey,Previously on Friends.,"```json
+{
+  ""recognition_id"": ""6_0_3_16"",
+  ""reasoning"": ""The Valence Pre-filter mandates Neutral given the Sentiment Analyst's NEUTRAL valence and low arousal, and all agents unanimously report a purely functional, non-emotional intent with no shift detected. The closest alternative, Surprise, is ruled out due to the absence of high arousal, novelty triggers, or any deviation from the established neutral baseline."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.99,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics Expert"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}
+```",neutral
+6,6_1_3_16,Monica,I dont know exactly. Its-its sorta like wrestling.,"```json
+{
+  ""recognition_id"": ""6_1_3_16"",
+  ""reasoning"": ""The utterance reflects neutral valence with moderate arousal, aligning with Joey's baseline uncertainty and no emotional shift. Neutral is chosen over Sadness due to the absence of past-tense resignation and adherence to the Valence Pre-Filter."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Social Dynamics Expert""]
+  }
+}
+```",neutral
+6,6_2_3_16,Phoebe,Oh?!,"```json
+{
+  ""recognition_id"": ""6_2_3_16"",
+  ""reasoning"": ""Despite neutral surface valence from the Sentiment Analyst, the high arousal (8/10) indicated by the interrobang punctuation ('?!') and the Shift Agent's confirmation of an external novelty trigger ('sorta like wrestling') clearly points to Surprise—a high-arousal, valence-ambiguous reaction to an unexpected stimulus. The closest alternative, Neutral, is overruled by the intense paralinguistic cues and the maintained emotional continuity of escalating playful curiosity."",
+  ""predicted_emotion"": ""surprise"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}
+```",surprise
+4,4_0_4_14,Phoebe,Ohh!,"```json
+{
+  ""recognition_id"": ""4_0_4_14"",
+  ""reasoning"": ""The utterance's high arousal and context of sudden realization align with Surprise, despite the Character Profiler's Joy suggestion. The Sentiment Analyzer's Neutral valence restricts to Surprise over Joy, and the shift state (FALSE) maintains the scene's excited baseline."",
+  ""predicted_emotion"": ""surprise"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Social Dynamics"", ""Emotional Shift Detector"", ""Sentiment Analyst""],
+    ""dissenting_agents"": [""Character Profiler""]
+  }
+}
+```",surprise
+4,4_1_4_14,Monica,What?,"```json
+{
+  ""recognition_id"": ""4_1_4_14"",
+  ""reasoning"": ""The utterance 'What?' is a neutral information-seeking question with no inherent emotional markers, validated by the Character Profiler and Social Dynamics reports. Despite the scene's urgent baseline, Monica's low arousal and the Shift Agent's [SHIFT: FALSE] confirm continuity, making Neutral the correct classification over Surprise."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Social Dynamics"", ""Sentiment Analyst""],
+    ""dissenting_agents"": []
+  }
+}
+```",neutral
+4,4_2_4_14,Phoebe,It kicked! I think the baby kicked!,"```json
+{
+  ""recognition_id"": ""4_2_4_14"",
+  ""reasoning"": ""The Sentiment Analyzer's POSITIVE valence filter restricts the emotion to Joy or Surprise, with all agents aligning on Phoebe's celebratory, high-arousal expression of a personal milestone rather than a novel pivot. Since the Emotional Shift Agent reports [SHIFT: FALSE - CONTINUITY MAINTAINED], indicating sustained positive excitement rather than a new surprise trigger, Joy is selected over Surprise."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Character Profiler"", ""Context Historian""],
+    ""dissenting_agents"": []
+  }
+}
+```",surprise
+4,4_3_4_14,Monica,Oh my God!,"{
+  ""recognition_id"": ""4_3_4_14"",
+  ""reasoning"": ""The sentiment analyst reports neutral valence with high arousal (9-10), which under the valence pre-filter eliminates joy (requires positive) and all negative emotions, leaving surprise or neutral. However, the high arousal rules out neutral, and the context of reacting to unexpected baby-kick news with shift continuity maintained confirms surprise as the appropriate fit over joy."",
+  ""predicted_emotion"": ""surprise"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Sentiment Analyst"", ""Emotional Shift Detector"", ""Social Dynamics""],
+    ""dissenting_agents"": []
+  }
+}",surprise
+4,4_4_4_14,Phoebe,"Oh no wait, oh no, the elastic on my underwear busted.","{
+  ""recognition_id"": ""4_4_4_14"",
+  ""reasoning"": ""The Sentiment Analyst's negative valence report restricts the emotion to anger, sadness, fear, or disgust, with fear eliminated due to lack of explicit threat and playful social intent. Although high arousal is atypical for sadness, the past-tense focus on a personal loss and the shift to embarrassment aligns best with sadness over anger or disgust."",
+  ""predicted_emotion"": ""sadness"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Character Profiler"", ""Social Dynamics""]
+  }
+}",neutral
+4,4_5_4_14,Joey,Oh my God! I overslept! I was supposed to be on the set a half an hour ago! I gotta get out of here!,"{
+  ""recognition_id"": ""4_5_4_14"",
+  ""reasoning"": ""The utterance expresses high-arousal distress focused on an imminent, time-bound professional threat (being late for the set), consistent with fear rather than anger due to its defensive, vulnerable nature and lack of confrontation. The emotional shift from a low-stakes baseline to a high-stakes crisis confirms a pivot to a panic state."",
+  ""predicted_emotion"": ""fear"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",fear
+4,4_6_4_14,Monica,"Oh wait, Joey, you cant go like that! You stink!","{
+  ""recognition_id"": ""4_6_4_14"",
+  ""reasoning"": ""The utterance is a high-arousal, confrontational prohibition triggered by a hygiene violation, with all agents indicating aggressive intent and no emotional shift from the urgent baseline. Anger is chosen over Disgust as the primary emotion because the focus is on present injustice and boundary enforcement rather than mere revulsion."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",disgust
+4,4_7_4_14,Joey,"Look, I know I feel asleep before I could shower and now I dont have time!","{
+  ""recognition_id"": ""4_7_4_14"",
+  ""reasoning"": ""The Sentiment Analyst confirms negative valence and high arousal, limiting the emotion to anger, sadness, fear, or disgust. Fear is eliminated by the mandatory gate because the Emotional Shift Agent reports no shift ([SHIFT: FALSE]), and sadness is ruled out due to the high arousal and present-focused urgency rather than past-tense resignation. The utterance expresses frustration and time pressure, aligning best with anger's present-focused, confrontational profile, even if not overtly hostile."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.6,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Sentiment Analyst"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Character Profiler""]
+  }
+}",anger
+4,4_8_4_14,Joey,"Theyre just ten blocks away, if I run, I can make it.","{
+  ""recognition_id"": ""4_8_4_14"",
+  ""reasoning"": ""The Sentiment Analyst confirms positive valence, eliminating negative emotions and aligning with joy as the speaker expresses confident determination to achieve a goal. Despite Social Dynamics noting underlying vulnerability, the emotional continuity and absence of novelty or high arousal make joy more fitting than surprise or fear."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Context Historian""],
+    ""dissenting_agents"": [""Social Dynamics""]
+  }
+}",neutral
+5,5_0_4_20,Chandler,Youre coming on to the entire room!  Im Chandler.,"{
+  ""recognition_id"": ""5_0_4_20"",
+  ""reasoning"": ""The valence is negative and the utterance is a direct, confrontational accusation with high arousal, fitting Anger's present-focused, reactive profile. Despite the playful scene context, the agents agree on an aggressive tone with no shift detected, ruling out Fear or Sadness."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Context Historian""]
+  }
+}",anger
+5,5_1_4_20,Chandler,Hi.,"{
+  ""recognition_id"": ""5_1_4_20"",
+  ""reasoning"": ""The utterance 'Hi.' is a minimal greeting with neutral valence and low arousal, representing a straightforward social reset after playful banter as indicated by the emotional shift. Despite character-based suggestions of playful or aggressive undertones, the literal content and linguistic evidence mandate a Neutral classification, adhering to the valence pre-filter and Occam's Razor principle."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Social Dynamics Expert"", ""Character Profiler""]
+  }
+}",neutral
+5,5_2_4_20,Marjorie,Hi.,"{
+  ""recognition_id"": ""5_2_4_20"",
+  ""reasoning"": ""The utterance is a routine greeting with neutral valence and low arousal, showing no emotional shift from the previous neutral baseline; thus, it is classified as neutral rather than joy or surprise due to the absence of high arousal or positive sentiment intensity."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Emotional Shift Detector"", ""Social Dynamics Expert""],
+    ""dissenting_agents"": [""Character Profiler""]
+  }
+}",neutral
+5,5_3_4_20,Chandler,You mind if I,"{
+  ""recognition_id"": ""5_3_4_20"",
+  ""reasoning"": ""The utterance is a conventional, incomplete polite request with neutral surface sentiment and low arousal; the lack of emotional shift and mundane social intent confirm a neutral exchange, outweighing any contextual playful tone as the literal text lacks emotional commitment."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics Expert"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+5,5_4_4_20,Marjorie,"No, please.","{
+  ""recognition_id"": ""5_4_4_20"",
+  ""reasoning"": ""The utterance 'No, please' shows negative valence and high arousal, with multiple agents detecting vulnerability and distress. Fear is invalidated by the hard gate (no emotional shift and no explicit threat), leaving Sadness as the best fit due to its withdrawn, pleading nature rather than confrontational anger. The shift state is false, maintaining continuity but the utterance itself contradicts the playful baseline, indicating a vulnerable interruption."",
+  ""predicted_emotion"": ""sadness"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Context Historian"", ""Emotional Shift Detector""]
+  }
+}",neutral
+5,5_5_4_20,Chandler,"So uh, what are you in for?","{
+  ""recognition_id"": ""5_5_4_20"",
+  ""reasoning"": ""The utterance is a neutral information-seeking question with low arousal and neutral surface sentiment, fitting the shift to a casual topic reset after playful banter. Despite slight hesitation indicating minor vulnerability, no strong emotional markers override the default neutral classification, and the valence filter eliminates negative emotions."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics Expert"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+5,5_6_4_20,Marjorie,I talk in my sleep.,"{
+  ""recognition_id"": ""5_6_4_20"",
+  ""reasoning"": ""The utterance is a factual self-disclosure with no linguistic markers of arousal or valence shift, maintaining the scene's casual continuity; Neutral is chosen over any latent positive emotion due to the absence of celebratory or playful language in the statement itself."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics Expert"", ""Emotion Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+5,5_7_4_20,Chandler,"What a coincidence, I listen in my sleep.","{
+  ""recognition_id"": ""5_7_4_20"",
+  ""reasoning"": ""The Sentiment Analyst reports positive valence, eliminating all negative emotions and focusing deliberation on Joy or Surprise. With the Emotional Shift Agent confirming [SHIFT: FALSE - CONTINUITY MAINTAINED], the playful, banter-filled baseline is maintained. The utterance's exclamatory structure ('What a coincidence') and focus on a novel, unexpected event align more closely with Surprise's 'present/novel event' focus than Joy's celebratory or affiliative focus."",
+  ""predicted_emotion"": ""surprise"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Emotional Shift Detector"", ""Context Historian"", ""Social Dynamics Expert"", ""Character Profiler""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+5,5_8_4_20,Joey,So why dont you give me your number?,"```json
+{
+  ""recognition_id"": ""5_8_4_20"",
+  ""reasoning"": ""The utterance shifts to direct flirtation with positive valence (Valence Pre-Filter) and high arousal, aligning with Joy's celebratory/affiliative focus. Surprise is rejected as the request is a natural escalation in playful banter, not a novel shock."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst (ambivalent valence interpretation)""]
+  }
+}
+```",neutral
+7,7_0_3_24,Monica,"Yeah, but without the costumes.","```json
+{
+  ""recognition_id"": ""7_0_3_24"",
+  ""reasoning"": ""I chose Neutral because the utterance is a straightforward, low-arousal statement with neutral valence and no emotional shift, making it a routine informational exchange rather than an emotional expression. The closest alternative, Surprise, is ruled out due to lack of high arousal and novelty trigger."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Sentiment Analyst"", ""Social Dynamics Expert"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}
+```",neutral
+7,7_1_3_24,Phoebe,Oh.,"```json
+{
+  ""recognition_id"": ""7_1_3_24"",
+  ""reasoning"": ""The utterance 'Oh.' is a neutral interjection with low arousal and no explicit valence, fitting the scene's casual tone. Despite the Emotion Shift Agent detecting a conversational energy drop, Monica's baseline remains neutral, supported by linguistic and social consensus."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Emotional Shift Detector (indirectly via shift flag)""]
+  }
+}
+```",neutral
+7,7_2_3_24,Joey,"And its not fake, its totally brutal.","{
+  ""recognition_id"": ""7_2_3_24"",
+  ""reasoning"": ""Despite the lighthearted scene baseline, Joey's utterance shows a sharp pivot to high-arousal, confrontational defense of the sport's authenticity, with strongly negative valence indicating anger rather than sadness due to its present-focused, assertive nature."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.8,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Context Historian"", ""Emotional Shift Detector""]
+  }
+}",neutral
+7,7_3_3_24,Chandler,"Yeah, its two guys in a ring, and the rules are: Theyre","{
+  ""recognition_id"": ""7_3_3_24"",
+  ""reasoning"": ""The utterance is a factual description that provides a tonal cooldown from Joey's previous emphatic assertion, aligning with a calm, informational exchange. Despite the incomplete syntax creating some pragmatic disconnect, the overall context and shift towards descriptive neutrality outweigh the latent aggressive interpretation from the Sentiment Analyst."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst""]
+  }
+}",neutral
+7,7_4_3_24,Monica,"So you can like, bite, and pull peoples hair and stuff?","{
+  ""recognition_id"": ""7_4_3_24"",
+  ""reasoning"": ""The Sentiment Analyst's final 'LINGUISTIC TONE: NEUTRAL' and the Emotional Shift Agent's [SHIFT: FALSE] confirm a stable, low-arousal informational exchange within a casual playful context, making Neutral the most fitting label over Surprise, which would require a higher-arousal response to a novel trigger."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Sentiment Analyst"", ""Emotional Shift Detector"", ""Character Profiler"", ""Social Dynamics""],
+    ""dissenting_agents"": []
+  }
+}",surprise
+7,7_5_3_24,Ross,"Yeah, anything goes, except ah, eye gouging and fish hooking.","```json
+{
+  ""recognition_id"": ""7_5_3_24"",
+  ""reasoning"": ""Despite the surface-level aggressive and violent content, the overarching conversational context is lighthearted banter with no emotional shift detected, and social intent is explicitly playful. The latent humorous sentiment overrides the superficial negativity, aligning the utterance with amusement (joy) rather than genuine anger or disgust."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Social Dynamics Expert"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst""]
+  }
+}
+```",neutral
+7,7_6_3_24,Monica,Whats fish hooking?,"{
+  ""recognition_id"": ""7_6_3_24"",
+  ""reasoning"": ""All agent reports indicate a neutral, information-seeking query with low arousal and no emotional shift, consistent with the scene's casual baseline. The closest alternative, surprise, is ruled out due to low arousal and the absence of a novel or unexpected trigger, as confirmed by the shift agent's continuity verdict."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",surprise
+7,7_7_3_24,Ross,"Huh, whats fish hooking...   Thanks man, that would have been really hard to describe. What is that taste?","{
+  ""recognition_id"": ""7_7_3_24"",
+  ""reasoning"": ""The utterance is primarily a casual information exchange of thanks and curiosity within a neutral scene baseline, aligning with the 'simple transfer of information' guideline for Neutral classification. The mild surprise expressed by 'Huh' is not strong enough to override the core neutral exchange, especially as no emotional shift was detected (SHIFT: FALSE)."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Emotional Shift Detector"", ""Sentiment Analyst"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Character Profiler""]
+  }
+}",neutral
+7,7_8_3_24,Joey,"What? My hands are totally clean, I just gave the duck a bath.","```json
+{
+  ""recognition_id"": ""7_8_3_24"",
+  ""reasoning"": ""The utterance begins with a surprised 'What?' indicating high arousal and unexpectedness, aligning with Surprise. Despite the defensive justification, the Sentiment Analyzer's positive valence restricts the emotion to Joy or Surprise, with the abrupt pivot supporting Surprise over Joy's factual neutrality."",
+  ""predicted_emotion"": ""surprise"",
+  ""confidence"": 0.75,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Emotional Shift Detector"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Context Historian"", ""Character Profiler""]
+  }
+}
+```",neutral
+8,8_0_2_5,Jade,"Oh, Bob, he was nothing compared to you. I had to bite my lip to keep from screaming your name.","```json
+{
+  ""recognition_id"": ""8_0_2_5"",
+  ""reasoning"": ""The valence pre-filter mandates a positive emotion due to the overwhelmingly positive latent sentiment toward 'you,' eliminating all negative labels. With no emotional shift detected, the playful baseline and profound affectionate breakthrough align with Joy's high-arousal, celebratory/affiliative focus, not Surprise's novelty trigger."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Social Dynamics""]
+  }
+}
+```",sadness
+8,8_1_2_5,Chandler,"Well, that makes me feel so good.","{
+  ""recognition_id"": ""8_1_2_5"",
+  ""reasoning"": ""The utterance employs sarcasm with a latent negative valence (Sentiment Analyst) and an aggressive linguistic tone, masking underlying annoyance or irritation in a present-focused, teasing context without past-tense resignation, ruling out Sadness. Despite the playful scene baseline (Context Historian) and no emotional shift (Emotion Shift Detector), the combination of negative valence and passive-aggressive confrontation aligns best with Anger as the masked emotion."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Context Historian"", ""Character Profiler""]
+  }
+}",joy
+8,8_2_2_5,Jade,It was just so awkward and bumpy.,"{
+  ""recognition_id"": ""8_2_2_5"",
+  ""reasoning"": ""The Sentiment Analyzer confirms negative valence, narrowing the emotion to Anger, Sadness, Fear, or Disgust, with Fear eliminated by the hard gate due to lack of explicit threat language in the shift reason and no imminent danger flagged. The utterance's past-tense reflection ('It was...') and vulnerable, withdrawn tone align with Sadness's focus on past loss or discomfort, not confrontational Anger or revulsion-based Disgust. The emotional pivot to sincerity supports a break from the playful baseline toward inward distress."",
+  ""predicted_emotion"": ""sadness"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Context Historian""]
+  }
+}",neutral
+8,8_3_2_5,Ross,Bumpy?,"```json
+{
+  ""recognition_id"": ""8_3_2_5"",
+  ""reasoning"": ""The utterance 'Bumpy?' is a neutral, information-seeking question with low arousal and no explicit emotional markers. Despite the scene's playful baseline, the Valence Pre-Filter mandates Neutral due to the Sentiment Analyzer's classification, overriding contextual positivity as no shift occurred."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Context Historian""]
+  }
+}
+```",surprise
+8,8_4_2_5,Chandler,"Well, maybe he had some kind of uh, new, cool style, that you're not familiar with.","{
+  ""recognition_id"": ""8_4_2_5"",
+  ""reasoning"": ""The Sentiment Analyzer reports neutral valence with low arousal, and the Emotional Shift Agent confirms no shift from the playful baseline, but the utterance's hesitant, hedging delivery aligns more with a neutral informational transfer than high-arousal joy. I prioritize Neutral over Joy because the linguistic features (hedges, disfluencies) indicate a calm, tentative suggestion rather than celebratory playfulness."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Context Historian"", ""Emotional Shift Detector"", ""Character Profiler""]
+  }
+}",neutral
+8,8_5_2_5,Chandler,And uh maybe you have to get used to it.,"{
+  ""recognition_id"": ""8_5_2_5"",
+  ""reasoning"": ""The Sentiment Analyst's negative valence filter restricts the emotion to sadness, anger, fear, or disgust, with fear eliminated due to the lack of a true emotional shift and explicit threat. While the playful scene context suggests positivity, the utterance's latent negative sentiment, defensive boundary-setting, and underlying vulnerability point toward sadness as the masked emotion rather than confrontational anger or disgust. The shift state is false, indicating emotional continuity, but the negative valence overrides the positive baseline, revealing subdued distress."",
+  ""predicted_emotion"": ""sadness"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Social Dynamics"", ""Sentiment Analyst""],
+    ""dissenting_agents"": [""Context Historian"", ""Emotion Shift Agent""]
+  }
+}",neutral
+8,8_6_2_5,Jade,"Well there really wasn't much time to get used to it, you know what I mean?","{
+  ""recognition_id"": ""8_6_2_5"",
+  ""reasoning"": ""The utterance expresses past-tense resignation about a lack of time ('wasn't much time'), with negative valence and vulnerable sincerity, aligning with sadness's focus on accepted loss; the closest alternative, neutral, is ruled out by the emotional subtext and empathetic seek ('you know what I mean?') despite the lighthearted scene baseline, and fear is invalidated by the absence of explicit threat language in the shift."",
+  ""predicted_emotion"": ""sadness"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Context Historian""]
+  }
+}",joy
+10,10_0_6_20,Joey,Theres just so much pressure.,"```json
+{
+  ""recognition_id"": ""10_0_6_20"",
+  ""reasoning"": ""The utterance expresses negative valence with medium-high arousal but lacks explicit threat markers or confrontation, aligning with Sadness' resignation to overwhelming pressure rather than Fear or Anger. Emotion Shift Agent confirms continuity, maintaining focus on Joey's vulnerable state."",
+  ""predicted_emotion"": ""sadness"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Social Dynamics"", ""Context Historian""],
+    ""dissenting_agents"": []
+  }
+}
+```",anger
+10,10_1_6_20,Joey,"I mean no offense, but what you guys do is very different.","{
+  ""recognition_id"": ""10_1_6_20"",
+  ""reasoning"": ""The utterance shows a defensive pivot from vulnerability to boundary-setting after perceived dismissal, aligning with present-focused reactive anger rather than past-resigned sadness. While agents noted vulnerability, the shift to defensive clarification and latent conflict support anger as the active emotional stance."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Social Dynamics""]
+  }
+}",neutral
+10,10_2_6_20,Joey,I dont know if youd understand.,"{
+  ""recognition_id"": ""10_2_6_20"",
+  ""reasoning"": ""The utterance expresses vulnerable resignation and self-doubt with negative valence, aligning with sadness's past-focused loss profile despite moderate arousal. While Social Dynamics hints at fear, the absence of explicit imminent threat in the shift reason and the avoidant, withdrawn tone confirm sadness over fear."",
+  ""predicted_emotion"": ""sadness"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Social Dynamics""]
+  }
+}",neutral
+10,10_3_6_20,Ross,"Yeah, none of us have to deal with pressure at our jobs.","{
+  ""recognition_id"": ""10_3_6_20"",
+  ""reasoning"": ""The valence pre-filter confirms negative latent sentiment, and the Emotional Shift Agent detects a true pivot into defensive sarcasm triggered by perceived criticism, making present-focused Anger more fitting than past-resigned Sadness. While some agents highlight underlying vulnerability, the aggressive tone and confrontational stance align with Anger's reactive injustice focus rather than Sadness's loss acceptance."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Emotional Shift Detector"", ""Context Historian""],
+    ""dissenting_agents"": [""Character Profiler"", ""Social Dynamics Expert""]
+  }
+}",neutral
+11,11_0_7_24,Rachel,"Well Phoebe, we gotta do something!","```json
+{
+  ""recognition_id"": ""11_0_7_24"",
+  ""reasoning"": ""The Sentiment Analyst's report of an aggressive, high-arousal tone combined with the mandatory negation of Fear (due to the absence of a true emotional shift and explicit threat language) points toward Anger as the strongest remaining negative valence option. While concern is present, the utterance's present-focused, forceful call to action aligns more with reactive urgency than with past-focused resignation (Sadness) or neutral information transfer."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.65,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst""],
+    ""dissenting_agents"": [""Context Historian"", ""Social Dynamics"", ""Emotional Shift Detector""]
+  }
+}
+```",sadness
+11,11_1_7_24,Rachel,I mean theres no way Joeys gonna make it in time.,"```json
+{
+  ""recognition_id"": ""11_1_7_24"",
+  ""reasoning"": ""The Sentiment Analyzer's Negative Valence restricts options to Anger, Sadness, Fear, or Disgust. The Shift Agent detected a pivot to resignation (arousal drop) with no explicit threat language, invalidating Fear via Step 1.5. Sadness anchors (resignation, low-energy focus on future loss) override Anger's confrontational markers. Contextual vulnerability aligns with Sadness over Neutral."",
+  ""predicted_emotion"": ""sadness"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Social Dynamics"", ""Emotion Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst (Linguistic Tone: Aggressive)""]
+  }
+}
+```",fear
+11,11_2_7_24,Rachel,So Im gonna go through the hotel and see if theres any other weddings going on.,"{
+  ""recognition_id"": ""11_2_7_24"",
+  ""reasoning"": ""The utterance is a factual statement of intent with neutral linguistic tone and low arousal, fitting the information-transfer profile of Neutral; although contextual concern exists, no emotional shift occurred and valence pre-filter rules out negative emotions like sadness or fear."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+11,11_3_7_24,Phoebe,Okay. Oh but dont tell them Monicas pregnant because they frown on that.,"{
+  ""recognition_id"": ""11_3_7_24"",
+  ""reasoning"": ""The valence is negative and no emotional shift occurred, maintaining a withdrawn, vulnerable concern characteristic of sadness rather than fear, which requires an explicit threat and emotional pivot. The closest alternative fear is invalidated by the shift continuity and pre-check conditions."",
+  ""predicted_emotion"": ""sadness"",
+  ""confidence"": 0.65,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Context Historian""],
+    ""dissenting_agents"": [""Character Profiler"", ""Social Dynamics""]
+  }
+}",neutral
+11,11_4_7_24,Rachel,Okay.,"```json
+{
+  ""recognition_id"": ""11_4_7_24"",
+  ""reasoning"": ""The Sentiment Analyst's ambiguous valence and Social Dynamics' HARD NEUTRAL filter place this in the neutral valence pre-filter category, and with no emotional shift detected, the utterance 'Okay.' is a simple acknowledgment in a concerned but collaborative problem-solving conversation. I chose Neutral over Sadness because the valence isn't clearly negative and Occam's Razor favors literal agreement over inferred resignation."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Social Dynamics"", ""Emotion Shift Detector"", ""Context Historian""],
+    ""dissenting_agents"": [""Character Profiler""]
+  }
+}
+```",neutral
+9,9_0_6_18,Phoebe,Coming through!  Oh! Coming through!  Oh! Hello! Hi!  No! Right! Coming through!,"{
+  ""recognition_id"": ""9_0_6_18"",
+  ""reasoning"": ""The valence pre-filter confirms negative sentiment, restricting the emotion to anger, sadness, fear, or disgust, while the shift false flag indicates emotional continuity with the urgent scene context. Anger is selected over fear because the shift detector reported no pivot and explicit threat conditions were unmet, and over sadness due to the present-focused, confrontational, and high-arousal nature of the utterance."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics""],
+    ""dissenting_agents"": []
+  }
+}",fear
+9,9_10_6_18,Chandler,Hows your room Rach?,"{
+  ""recognition_id"": ""9_10_6_18"",
+  ""reasoning"": ""The Sentiment Analyzer reports neutral valence and low arousal, which eliminates all emotions except Neutral or Surprise; low arousal rules out Surprise, and the utterance is a straightforward informational question. Although the Emotional Shift Agent detected a pivot to sincere concern, the utterance itself lacks emotional markers, and the neutrality check confirms it as a simple transfer of information."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Character Profiler"", ""Social Dynamics Expert""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+9,9_11_6_18,Rachel,Everythings ruined. My bed. My clothes. Look at my favorite blue sweater.,"{
+  ""recognition_id"": ""9_11_6_18"",
+  ""reasoning"": ""The sentiment analyzer confirms a strong negative valence, eliminating joy, surprise, and neutral. The emotional shift agent detected a true pivot to distress triggered by witnessing the physical destruction of personal belongings. The utterance's focus is on past-tense loss ('ruined'), resignation, and enumeration of specific items, aligning with sadness's profile of past-focused, resigned distress, not the future-facing threat required for fear or present-focused confrontation of anger."",
+  ""predicted_emotion"": ""sadness"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics Expert"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",sadness
+9,9_12_6_18,Monica,Isnt that mine?,"{
+  ""recognition_id"": ""9_12_6_18"",
+  ""reasoning"": ""The utterance is a factual ownership inquiry with neutral linguistic valence and moderate arousal, aligning with Monica's stable baseline; Surprise is the closest alternative but rejected due to insufficient high arousal or explicit novelty trigger in the shift reason."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Context Historian"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+9,9_13_6_18,Rachel,Fine! Im sorry for your loss!,"```json
+{
+  ""recognition_id"": ""9_13_6_18"",
+  ""reasoning"": ""The Sentiment Analyst confirms strong negative valence and high arousal, and the Emotional Shift Agent detects a pivot triggered by Monica's accusatory question, leading to a defensive, sarcastic outburst that is confrontational and present-focused, not resigned or past-oriented. This aligns with Anger rather than Sadness, as the sarcasm masks hostility, not vulnerability, and the 'loss' reference is weaponized, not sincerely mourned."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Emotional Shift Detector"", ""Social Dynamics Expert""],
+    ""dissenting_agents"": [""Character Profiler""]
+  }
+}
+```",anger
+9,9_14_6_18,Fireman #1,"So uh, youre not gonna be able to live here for a while, you ladies have a place to stay?","{
+  ""recognition_id"": ""9_14_6_18"",
+  ""reasoning"": ""The sentiment analyzer's negative valence mandates a negative emotion, and while the shift detector reports a pivot to practical concern, the speaker's hesitant delivery and withdrawn/vulnerable tone align with low-arousal, loss-oriented sadness rather than confrontational anger or fear. The focus is on the women's impending displacement—a future loss—but the speaker's manner shows empathetic distress, not aggression or imminent threat, leading to sadness over anger as the closest alternative."",
+  ""predicted_emotion"": ""sadness"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Context Historian""],
+    ""dissenting_agents"": [""Social Dynamics Expert"", ""Emotional Shift Detector""]
+  }
+}",neutral
+9,9_15_6_18,Rachel,"Wow! Oh-okay, look pal, I am","{
+  ""recognition_id"": ""9_15_6_18"",
+  ""reasoning"": ""The utterance exhibits a sharp emotional pivot to high-arousal confrontation triggered by the fireman's question, with negative valence and present-focused aggressive intent, making Anger the best fit over Sadness (which lacks resignation markers) or Fear (which fails the threat-validation gate)."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector"", ""Context Historian""],
+    ""dissenting_agents"": [""Character Profiler""]
+  }
+}",joy
+9,9_16_6_18,Monica,"Yes, they can stay with us.","{
+  ""recognition_id"": ""9_16_6_18"",
+  ""reasoning"": ""The Sentiment Analyst's positive valence filter mandates Joy or Surprise, and the low arousal and absence of novelty exclude Surprise, leaving Joy as the only viable positive emotion. The Emotional Shift Agent confirms a pivot to supportive action, reinforcing the positive, affiliative nature of the offer, not neutrality."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Character Profiler"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+9,9_17_6_18,Chandler,Have you figured out what started the fire Mr. Fireman?,"{
+  ""recognition_id"": ""9_17_6_18"",
+  ""reasoning"": ""The Sentiment Analyst's latent negative valence mandates a negative emotion classification, eliminating Joy, Surprise, and Neutral. While the scene context is concerned and no emotional shift occurred, the utterance's subtly confrontational and impatient tone, marked by the sarcastic 'Mr. Fireman' address, aligns best with Anger rather than Sadness (no past-tense resignation) or Fear (shift false eliminates threat validation)."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Character Profiler"", ""Context Historian"", ""Emotional Shift Detector""]
+  }
+}",neutral
+9,9_1_6_18,Monica,"Oh well, its not so bad.","```json
+{
+  ""recognition_id"": ""9_1_6_18"",
+  ""reasoning"": ""The utterance 'Oh well, it’s not so bad' reflects resignation and latent negativity (Valence: Negative), aligning with Sadness due to past-tense loss acceptance. Despite the emotional pivot (SHIFT: TRUE), Fear is invalidated by lack of explicit threat, and Neutral is overruled by underlying vulnerability."",
+  ""predicted_emotion"": ""sadness"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Social Dynamics"", ""Character Profiler""],
+    ""dissenting_agents"": [""Emotion Shift Detector (arousal/valence shift noted, but no direct Sadness flag)""]
+  }
+}
+```",neutral
+9,9_2_6_18,Fireman #1,"Yeah, most of the damage is pretty mostly contained in the bedrooms.","{  ""recognition_id"": ""9_2_6_18"",
+  ""reasoning"": ""The utterance serves as a factual damage report delivered with neutral valence and low arousal, aligning with a routine information transfer. The lack of emotional shift, explicit threat, or past-tense resignation markers eliminates all other emotions in favor of Neutral."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",sadness
+9,9_3_6_18,Phoebe,Oh!,"{
+  ""recognition_id"": ""9_3_6_18"",
+  ""reasoning"": ""The utterance is a high-arousal interjection with neutral linguistic valence, triggered by an unexpected sight of damage, indicating surprise rather than a negative emotion like fear or sadness due to the valence filter and absence of explicit threat markers. The emotional shift to a visceral reaction supports surprise over neutral, which would lack such arousal."",
+  ""predicted_emotion"": ""surprise"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Emotional Shift Detector"", ""Context Historian""],
+    ""dissenting_agents"": [""Social Dynamics"", ""Character Profiler""]
+  }
+}",surprise
+9,9_4_6_18,Rachel,My God!,"```json
+{
+  ""recognition_id"": ""9_4_6_18"",
+  ""reasoning"": ""I chose Surprise because the utterance is a high-arousal exclamation reacting to the unexpected sight of fire damage, and the Sentiment Analyzer reported neutral valence, which aligns with Surprise's ambiguous valence. The closest alternative, Fear, is invalid as it requires negative valence, which is not present here, and the Emotional Shift Agent reported no shift, indicating continuity in the reaction."",
+  ""predicted_emotion"": ""surprise"",
+  ""confidence"": 0.8,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Social Dynamics Expert"", ""Context Historian""]
+  }
+}
+```",surprise
+9,9_5_6_18,Joey,"Hey buddy, do you think I can borrow your uniform this Thursday?","```json
+{
+  ""recognition_id"": ""9_5_6_18"",
+  ""reasoning"": ""The utterance is a simple, polite request with low arousal and neutral valence, representing routine social exchange without emotional subtext, despite the conversational shift. I chose neutral over surprise because surprise requires high arousal and novelty, whereas Joey's calm, planned request shows neither."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics Expert"", ""Context Historian""],
+    ""dissenting_agents"": []
+  }
+}
+```",neutral
+9,9_6_6_18,Fireman #1,Excuse me?,"{
+  ""recognition_id"": ""9_6_6_18"",
+  ""reasoning"": ""The utterance 'Excuse me?' is a reactive, confrontational response to a socially inappropriate request, exhibiting high arousal and negative valence without explicit threat or past-focused resignation, making Anger the best fit over Fear (which fails the threat-validation gate) or Sadness (lacks loss/resignation markers). The emotional shift confirms a defensive pivot to the immediate provocation."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Character Profiler""]
+  }
+}",surprise
+9,9_7_6_18,Monica,Joey! Hes working!  You would look,"{
+  ""recognition_id"": ""9_7_6_18"",
+  ""reasoning"": ""The utterance is a high-arousal, negative-valence reaction to Joey's present actions, functioning as a protective and confrontational directive to respect his work, which aligns with Anger's present-focused, boundary-violation response rather than Fear's future threat or Sadness's past resignation. The detected emotional shift confirms a pivot to this reactive state, driven by an external catalyst (Joey working) that triggers Monica's defensive/aggressive stance."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Character Profiler"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",anger
+9,9_8_6_18,Joey,"Oh, how bad is it?","```json
+{
+  ""recognition_id"": ""9_8_6_18"",
+  ""reasoning"": ""The utterance reflects a negative valence (Sentiment Analyst) with high arousal but focuses on present loss assessment rather than future threat, aligning with Sadness over Fear due to absence of explicit imminent danger. The emotional pivot (Shift Agent) reinforces urgency about damage evaluation, not threat anticipation."",
+  ""predicted_emotion"": ""sadness"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics""],
+    ""dissenting_agents"": []
+  }
+}
+```",sadness
+9,9_9_6_18,Phoebe,"Oh, its bad. Its really bad. The only thing in there that isnt burned is an ass. Which I do","{
+  ""recognition_id"": ""9_9_6_18"",
+  ""reasoning"": ""The Sentiment Analyst confirms negative valence and extreme arousal (9-10), while the Emotional Shift Agent detects a true pivot to dramatic negative assessment of fire damage. Although high arousal suggests Anger, the utterance focuses on describing catastrophic loss with bitter humor as a coping mechanism, reflecting vulnerability and despair (Social Dynamics' 'VULNERABILITY/DISTRESS' flag) rather than confrontation, aligning with Sadness's loss focus over Anger's injustice focus."",
+  ""predicted_emotion"": ""sadness"",
+  ""confidence"": 0.75,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Social Dynamics Expert"", ""Sentiment Analyst""],
+    ""dissenting_agents"": []
+  }
+}",sadness
+14,14_0_6_4,Phoebe,Have you really done this before?,"{
+  ""recognition_id"": ""14_0_6_4"",
+  ""reasoning"": ""The playful group context and Chandler's in-character neutral curiosity override the latent skepticism detected linguistically, resulting in a neutral exchange rather than genuine anger. The absence of an emotional shift confirms the continuation of the lighthearted scene, making Neutral the most fitting classification over Anger."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Social Dynamics Expert"", ""Emotion Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst""]
+  }
+}",surprise
+14,14_10_6_4,Chandler,"Oh, all right.",,neutral
+14,14_1_6_4,Joey,Yeah!,"{
+  ""recognition_id"": ""14_1_6_4"",
+  ""reasoning"": ""The sentiment analyzer confirms strong positive valence and high arousal, and with no emotional shift detected, the joyful celebratory baseline from context is maintained. Surprise is ruled out due to the absence of novelty triggers, as the utterance is an enthusiastic affirmation rather than a reaction to an unexpected event."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",joy
+14,14_2_6_4,Joey,Yeah!,"{
+  ""recognition_id"": ""14_2_6_4"",
+  ""reasoning"": ""The Sentiment Analyzer's positive valence filter restricts the emotion to Joy or Surprise, and with the Emotion Shift Agent reporting no shift, the ongoing celebratory context favors Joy over Surprise as there is no novel or unexpected trigger. All other agents align with a genuine, high-arousal positive expression consistent with Joy."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",joy
+14,14_3_6_4,Joey,Yeah!,"{
+  ""recognition_id"": ""14_3_6_4"",
+  ""reasoning"": ""The utterance is a high-arousal positive exclamation within an ongoing celebratory context, and with no emotional shift detected, it reflects sustained joy rather than surprise from a novel trigger. The positive valence filter and consistent playful intent across agents support joy as the most fitting classification."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Emotion Shift Detector"", ""Social Dynamics Expert""],
+    ""dissenting_agents"": []
+  }
+}",joy
+14,14_4_6_4,Joey,"You just take a big, big swing.","```json
+{
+  ""recognition_id"": ""14_4_6_4"",
+  ""reasoning"": ""The Sentiment Analyzer's positive valence restricts the emotion to Joy or Surprise. With no emotional shift detected (SHIFT: FALSE) and the Context Historian's scene of playful celebration, Joy is chosen over Surprise due to sustained positive arousal without a surprise trigger."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Character Profiler""]
+  }
+}
+```",neutral
+14,14_5_6_4,Joey,"Now, dont hold back.","{
+  ""recognition_id"": ""14_5_6_4"",
+  ""reasoning"": ""Given the Sentiment Analyzer's positive valence report and the Emotion Shift Agent's confirmation of continuity, the emotion is classified as joy. The playful context and high arousal align with celebratory encouragement, ruling out surprise due to the absence of a novel trigger."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+14,14_6_6_4,Phoebe,Hey!,"{
+  ""recognition_id"": ""14_6_6_4"",
+  ""reasoning"": ""The utterance is a routine greeting classified as HARD NEUTRAL by social dynamics, and the valence pre-filter restricts the emotion to neutral or surprise due to neutral sentiment analysis; given the lack of novelty or shift evidence, neutral is more appropriate than surprise. The high arousal from the exclamation mark is overridden by the routine nature of the exchange and continuity of the playful baseline."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.65,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Social Dynamics"", ""Sentiment Analyst""],
+    ""dissenting_agents"": [""Context Historian"", ""Emotional Shift Detector""]
+  }
+}",joy
+14,14_7_6_4,Joey,Hey-hey-hey!,"{
+  ""recognition_id"": ""14_7_6_4"",
+  ""reasoning"": ""The utterance is a high-energy, positive exclamation that amplifies an existing playful and celebratory mood, with no emotional shift detected. Joy is selected over Surprise because the context shows continuous celebration rather than a reaction to novelty or unexpectedness."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler (Joey/Phoebe)"", ""Sentiment Analyst"", ""Social Dynamics (Joey/Phoebe)"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",joy
+14,14_8_6_4,Chandler,What are you doing?,"{
+  ""recognition_id"": ""14_8_6_4"",
+  ""reasoning"": ""The utterance is a direct, linguistically neutral question with neutral valence and low-to-moderate arousal, and the Emotion Shift Agent confirms no emotional pivot (continuity maintained). Therefore, Neutral is selected over Surprise, which would require high arousal and an unexpected trigger absent here."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics Expert"", ""Emotional Shift Detector"", ""Context Historian""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+14,14_9_6_4,Phoebe,Were just celebrating that Joey got his health insurance back.,"```json
+{
+  ""recognition_id"": ""14_9_6_4"",
+  ""reasoning"": ""The utterance maintains the scene's joyful celebration baseline with positive valence and high arousal, explaining a shared positive event. No emotional shift or novel trigger indicates Surprise; consistent celebratory focus confirms Joy."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}
+```",joy
+13,13_0_1_13,Roger,Oh.,"```json
+{
+  ""recognition_id"": ""13_0_1_13"",
+  ""reasoning"": ""The Sentiment Analyzer's NEUTRAL valence report mandates Joy, Anger, Sadness, Fear, and Disgust be eliminated, leaving only Neutral or Surprise as possible classifications. Given the Emotion Shift Agent's [SHIFT: FALSE] report indicating emotional continuity and the low arousal levels noted by both Context Historian and Sentiment Analyst, Surprise (which requires high arousal) is invalidated, leaving Neutral as the only viable option. The utterance 'Oh.' serves as a simple acknowledgment marker with minimal emotional expression, fitting Occam's Razor for routine exchanges."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.75,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Emotion Shift Detector"", ""Context Historian""],
+    ""dissenting_agents"": [""Social Dynamics Expert""]
+  }
+}
+```",neutral
+13,13_1_1_13,Phoebe,"But I don't. Me, Phoebe.","{
+  ""recognition_id"": ""13_1_1_13"",
+  ""reasoning"": ""The utterance's direct negation and assertive self-identification, combined with negative valence and moderate-high arousal, align with present-focused boundary assertion (anger) rather than past-focused resignation (sadness), despite the lack of emotional shift. The aggressive linguistic tone overrides the social dynamics' vulnerability cue, which is better interpreted as defensive annoyance."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst""],
+    ""dissenting_agents"": [""Social Dynamics Expert"", ""Context Historian""]
+  }
+}",neutral
+13,13_2_1_13,Roger,"Well, I'm not I'm not at all surprised they feel that way.","{
+  ""recognition_id"": ""13_2_1_13"",
+  ""reasoning"": ""The Sentiment Analyst firmly establishes a NEGATIVE valence, eliminating Neutral and Joy, while the Emotion Shift Agent confirms [SHIFT: FALSE], indicating emotional continuity. The utterance lacks past-tense resignation markers key to Sadness, and its present-focused, dismissively aggressive tone aligns more with Anger than with the resigned acceptance of Sadness."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Sentiment Analyst"", ""Emotion Shift Detector""],
+    ""dissenting_agents"": [""Social Dynamics""]
+  }
+}",neutral
+13,13_3_1_13,Phoebe,"You're not? See, that's why you're so great!","{
+  ""recognition_id"": ""13_3_1_13"",
+  ""reasoning"": ""The utterance expresses strong positive admiration and praise with high arousal, aligning with Joy as the dominant emotion. While there is an element of surprise in the initial question, the overall focus is on celebratory acknowledgment of Roger's quality, and the emotional pivot detected is toward genuine positivity rather than novelty."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.8,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Emotional Shift Detector"", ""Social Dynamics"", ""Context Historian""],
+    ""dissenting_agents"": []
+  }
+}",surprise
+13,13_4_1_13,Roger,"Actually it's, it's quite, y'know, typical behaviour when you have this kind of dysfunctional group dynamic.","{
+  ""recognition_id"": ""13_4_1_13"",
+  ""reasoning"": ""The utterance is a detached, analytical observation delivered with a neutral linguistic tone and low arousal, consistent with mundane social intent. Despite a contextual valence shift toward criticism, the speaker's lack of emotional expression and focus on diagnostic information justifies Neutral over Sadness or Anger."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.75,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Character Profiler"", ""Emotional Shift Detector""]
+  }
+}",neutral
+13,13_5_1_13,Roger,"Y'know, this kind of co-dependant, emotionally stunted, sitting in your stupid coffee house with your stupid big cups which, I'm sorry, might as well have nipples on them, and you're like all 'Oh, define me!","```json
+{
+  ""recognition_id"": ""13_5_1_13"",
+  ""reasoning"": ""The Sentiment Analyzer confirms strong negative valence and high arousal, and the Emotional Shift Agent detects a pivot to overt contempt through hyperbolic mockery, ruling out Fear due to absence of explicit threat. The present-focused, confrontational tone with sarcastic aggression aligns more with Anger (reactive to perceived pretension) than Disgust (which would emphasize revulsion over direct confrontation)."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Context Historian"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}
+```",anger
+13,13_6_1_13,Roger,Define me!,"{
+  ""recognition_id"": ""13_6_1_13"",
+  ""reasoning"": ""Despite surface-neutral valence, the high arousal, latent negative sentiment, and sarcastic continuity (no shift) indicate a confrontational, mocking tone consistent with anger rather than surprise or neutral. The closest alternative, surprise, is ruled out due to the lack of novelty or unexpected trigger in the context."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.75,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Sentiment Analyst (latent)"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst (surface valence neutral)""]
+  }
+}",anger
+13,13_7_1_13,Roger,"Love me, I need love!","{
+  ""recognition_id"": ""13_7_1_13"",
+  ""reasoning"": ""The utterance expresses a high-arousal plea stemming from a perceived lack of love, aligning with sadness rather than anger due to its vulnerable, non-confrontational nature. The emotional shift from sarcasm to sincerity confirms a pivot to raw emotional need, not a reactive provocation."",
+  ""predicted_emotion"": ""sadness"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",anger
+12,12_0_6_3,Ross,"Whats all this about you guys fighting?! Is this really over a room?! I mean, that is so silly!","```json
+{
+  ""recognition_id"": ""12_0_6_3"",
+  ""reasoning"": ""The Sentiment Analyzer's negative valence and high arousal, combined with the Emotion Shift Agent's report of no temporal shift, point toward a present-focused, confrontational emotion rather than past-tense resignation. Despite the Character Profiler's interpretation of sadness, the linguistic markers (exclamatory interrogatives, direct judgment, and absence of vulnerability cues) align more strongly with anger, which is reactive to a perceived injustice or silliness in the ongoing conflict."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.75,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Character Profiler""]
+  }
+}
+```",anger
+12,12_10_6_3,Chandler,"Well, we are fond of the silliness, but we also have a soft spot for the love.","```json
+{
+  ""recognition_id"": ""12_10_6_3"",
+  ""reasoning"": ""The Sentiment Analyst confirms positive valence, restricting the emotion to joy or surprise. Given the Emotion Shift Agent reports no shift (continuity maintained) and the context is playful affection without novelty, joy is the appropriate classification over surprise."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}
+```",neutral
+12,12_11_6_3,Monica,Love is the best medicine.,"```json
+{
+  ""recognition_id"": ""12_11_6_3"",
+  ""reasoning"": ""The Sentiment Analyzer's positive valence mandates Joy or Surprise, and the low arousal (3/10) and absence of novelty markers eliminate Surprise. The Emotional Shift Agent's pivot from sarcasm to sincere warmth confirms a genuine positive expression, making Joy the correct classification despite its calm delivery."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Social Dynamics""]
+  }
+}
+```",joy
+12,12_12_6_3,Chandler,Thats laughter.,"```json
+{
+  ""recognition_id"": ""12_12_6_3"",
+  ""reasoning"": ""The utterance is a factual observation ('That's laughter') with neutral linguistic features and no emotional shift detected, maintaining the scene's playful baseline. Neutral is chosen over Joy because the statement serves informational rather than celebratory purposes."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}
+```",joy
+12,12_13_6_3,Monica,Why do you do it?,"{
+  ""recognition_id"": ""12_13_6_3"",
+  ""reasoning"": ""The Sentiment Analyst's report of latent negative valence and aggressive tone restricts the emotion to negative categories, while the lack of a temporal shift and playful contextual baseline rules out Fear and Sadness. Given the present-focused, confrontational nature of the question within a teasing dynamic, Anger is the most fitting classification, interpreted as playful mock-confrontation rather than genuine hostility."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.65,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+12,12_14_6_3,Chandler,I dont know.,"```json
+{
+  ""recognition_id"": ""12_14_6_3"",
+  ""reasoning"": ""The utterance is a simple statement of lacking knowledge with neutral surface sentiment and low-moderate arousal, fitting the Neutral emotion profile per Occam's Razor. With no emotional shift detected and social intent rated mundane/neutral, Neutral is chosen over Surprise due to absence of high arousal or novelty triggers."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Social Dynamics"", ""Emotion Shift Agent""],
+    ""dissenting_agents"": []
+  }
+}
+```",neutral
+12,12_15_6_3,Ross,"Okay! All right! Now, Chandler you-you wanna live with Monica, right?","```json
+{
+  ""recognition_id"": ""12_15_6_3"",
+  ""reasoning"": ""The utterance exhibits positive valence and high arousal within a maintained playful context, aligning with joy's celebratory/affiliative focus rather than surprise's novelty pivot. Shift continuity (SHIFT: FALSE) supports sustained positive engagement over a reactive emotional shift."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.8,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Context Historian""],
+    ""dissenting_agents"": [""Character Profiler"", ""Social Dynamics""]
+  }
+}
+```",neutral
+12,12_16_6_3,Chandler,"Yeah, I do.","{
+  ""recognition_id"": ""12_16_6_3"",
+  ""reasoning"": ""The utterance 'Yeah, I do.' is a simple, direct affirmation with no emotional markers, constituting a pure informational transfer per Occam's Razor, despite the playful scene baseline and positive semantic valence. With no emotional shift detected and strong neutrality signals from character and social intent agents, the most parsimonious classification is Neutral, overriding the valence pre-filter due to the utterance's mundane nature."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Context Historian""]
+  }
+}",neutral
+12,12_17_6_3,Ross,"And Mon, you wanna live with Chandler, dont ya?","{
+  ""recognition_id"": ""12_17_6_3"",
+  ""reasoning"": ""The utterance is a playful, affiliative tease seeking confirmation, with positive valence and medium arousal consistent with joy, not surprise, as there is no unexpected novelty or high arousal. No emotional shift detected, confirming continuity of the lighthearted mood."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst""]
+  }
+}",neutral
+12,12_18_6_3,Monica,Yes.,"```json
+{
+  ""recognition_id"": ""12_18_6_3"",
+  ""reasoning"": ""The valence pre-filter from the Sentiment Analyst reports POSITIVE valence, which eliminates all negative emotions (Sadness, Fear, Anger, Disgust), leaving only Joy, Surprise, or Neutral. However, the Emotional Shift Agent confirms [SHIFT: FALSE - CONTINUITY MAINTAINED], and all other agents (Character Profiler's BASELINE/NEUTRAL, Social Dynamics' HARD NEUTRAL mandate, and the low arousal score) converge on a simple, confirmatory utterance with no concealed emotional content. Applying Occam's Razor to the literal text 'Yes.' in this supportive, playful context leads to a Neutral classification, as it is a routine information transfer without latent subtext."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Social Dynamics Expert"", ""Sentiment Analyst""],
+    ""dissenting_agents"": []
+  }
+}
+```",neutral
+12,12_19_6_3,Ross,Good! A verbal contract is binding in the state of New York!,"{
+  ""recognition_id"": ""12_19_6_3"",
+  ""reasoning"": ""The Sentiment Analyzer confirms positive valence and high arousal, and the Emotion Shift Agent reports no emotional pivot, indicating continuity with the playful, lighthearted baseline. This rules out Surprise (which requires novelty/ unexpectedness) and aligns with Joy's celebratory, affiliative focus in the present moment."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Sentiment Analyst"", ""Emotional Shift Detector"", ""Social Dynamics""],
+    ""dissenting_agents"": []
+  }
+}",joy
+12,12_1_6_3,Monica,"Ross, we can handle this.","```json
+{
+  ""recognition_id"": ""12_1_6_3"",
+  ""reasoning"": ""The Sentiment Analyst's positive valence mandates Joy or Surprise per the Valence Pre-Filter; with moderate arousal, no novel trigger, and the Emotion Shift Agent confirming continuity (SHIFT: FALSE), Joy is the appropriate classification for this calm, reassuring statement within a playful context, rather than Surprise or Neutral."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Context Historian""],
+    ""dissenting_agents"": [""Character Profiler"", ""Social Dynamics"", ""Emotional Shift Detector""]
+  }
+}
+```",neutral
+12,12_2_6_3,Ross,"Well, apparently not, and I cant just stand by and watch two people I care about very much be hurt over something that is so silly.","{
+  ""recognition_id"": ""12_2_6_3"",
+  ""reasoning"": ""The utterance shows high arousal and confrontational refusal to accept ongoing hurt, fitting anger's present-focused injustice response, and the emotional shift pivots to assertive intervention. Despite vulnerability cues, the lack of past-tense resignation and the high-arousal aggressive tone favor anger over sadness as the closest alternative."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.75,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst""],
+    ""dissenting_agents"": [""Character Profiler"", ""Social Dynamics"", ""Emotional Shift Detector""]
+  }
+}",sadness
+12,12_3_6_3,Ross,"I mean, enough of the silliness!","```json
+{
+  ""recognition_id"": ""12_3_6_3"",
+  ""reasoning"": ""The Sentiment Analyzer's negative valence mandates consideration of anger, sadness, fear, or disgust. Despite the playful context, Ross's confrontational tone ('enough of the silliness!') and high arousal align with anger's present-focused boundary violation trigger, overriding the scene's baseline. The closest alternative, neutral, is invalid due to negative valence."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.75,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Context Historian"", ""Character Profiler"", ""Social Dynamics""]
+  }
+}
+```",anger
+12,12_4_6_3,Chandler,"Well, why dont you tell her to stop being silly!","{
+  ""recognition_id"": ""12_4_6_3"",
+  ""reasoning"": ""The utterance's negative valence, high arousal, and confrontational phrasing align with anger, while the lack of past-focused resignation or explicit threat rules out sadness and fear. Despite the playful context indicating continuity (SHIFT: FALSE), the sarcastic delivery channels exasperation rather than genuine hostility."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.8,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Character Profiler"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Social Dynamics"", ""Context Historian""]
+  }
+}",anger
+12,12_5_6_3,Ross,Okay-okay!,"```json
+{
+  ""recognition_id"": ""12_5_6_3"",
+  ""reasoning"": ""The valence pre-filter is NEUTRAL (Sentiment Analyst's surface polarity) and the Emotional Shift Agent reports [SHIFT: FALSE], maintaining playful continuity from the historical context. While high arousal suggests potential Surprise, no novel/unexpected trigger exists, and Occam's Razor favors Neutral for this brief acknowledgment within playful banter over inferring latent negative emotions like Sadness. The closest alternative, Surprise, is rejected due to lack of novelty in the trigger."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst"", ""Social Dynamics Expert""]
+  }
+}
+```",anger
+12,12_6_6_3,Ross,"Two very good points, look Ive known you both a long time, and Ive never seen either of you one/millionth as happy as youve been since youve got together.","{
+  ""recognition_id"": ""12_6_6_3"",
+  ""reasoning"": ""The Sentiment Analyzer's strong positive valence restricts the classification to Joy or Surprise, and the Emotional Shift Agent's detection of a pivot from playful banter to heartfelt sincerity confirms a shift to genuine celebratory expression rather than a reaction to novelty. Joy is chosen over Surprise because the utterance focuses on celebrating an ongoing positive achievement (his friends' happiness) with extreme positive language, not on the unexpectedness of an event."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Social Dynamics""]
+  }
+}",sadness
+12,12_7_6_3,Ross,Do you really want to throw that all away over a room?,"{
+  ""recognition_id"": ""12_7_6_3"",
+  ""reasoning"": ""The valence pre-filter identifies a strongly negative latent sentiment, confining the emotion to anger, sadness, fear, or disgust. The strict fear gate eliminates fear due to missing explicit threat language in the shift reason, and sadness is ruled out by high arousal and lack of past-tense resignation. The utterance is a present-focused, confrontational challenge with aggressive linguistic markers, aligning best with anger despite some agents highlighting vulnerability."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Character Profiler"", ""Social Dynamics""]
+  }
+}",sadness
+12,12_8_6_3,Ross,That is so silly.,"{
+  ""recognition_id"": ""12_8_6_3"",
+  ""reasoning"": ""Despite the Sentiment Analyst's negative valence classification, the playful contextual baseline and lack of emotional shift override it, pointing to a mundane, teasing exchange among friends. The closest alternative, anger, is ruled out because the utterance functions as lighthearted trivialization rather than confrontational aggression, and the shift state is false, maintaining continuity with the scene's playful vibe."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Emotional Shift Detector"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Sentiment Analyst""]
+  }
+}",joy
+12,12_9_6_3,Ross,"Now wh-what is more important, love or silliness?","{
+  ""recognition_id"": ""12_9_6_3"",
+  ""reasoning"": ""The Sentiment Analyzer reports a neutral valence, which filters out all negative emotions and joy, leaving Neutral or Surprise as candidates. Despite a detected pivot to sincere vulnerability, the arousal is moderate and the focus is on a philosophical question rather than a novel event, making Neutral the most consistent classification over Surprise."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Social Dynamics"", ""Emotion Shift Detector"", ""Character Profiler""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+15,15_0_5_20,Phoebe,"Yeah! Sure! Yep!  Oh, y'know what? If I heard a shot right now, I'd throw my body on you.","{
+  ""recognition_id"": ""15_0_5_20"",
+  ""reasoning"": ""The utterance exhibits high-arousal positive sentiment and is embedded in a scene of playful banter, aligning with joy's affiliative focus. Despite a hypothetical threat mention, the overall continuity of positive playfulness (SHIFT: FALSE) and lack of genuine surprise confirms joy over surprise."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Sentiment Analyst"", ""Social Dynamics Expert"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",joy
+15,15_1_5_20,Gary,Oh yeah? Well maybe you and I should take a walk through a bad neighborhood.,"{
+  ""recognition_id"": ""15_1_5_20"",
+  ""reasoning"": ""The Sentiment Analyzer's strongly negative valence mandates a negative emotion, and the absence of past-tense resignation rules out Sadness, while the false shift and playful social context eliminate Fear. The utterance's confrontational, high-arousal challenge aligns with Anger, even if delivered in a playful banter frame."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst""],
+    ""dissenting_agents"": [""Social Dynamics Expert"", ""Emotion Shift Detector""]
+  }
+}",joy
+15,15_2_5_20,Phoebe,Okay!,"{
+  ""recognition_id"": ""15_2_5_20"",
+  ""reasoning"": ""The Sentiment Analyzer reports neutral surface valence, but the Context Historian and Emotional Shift Agent establish a playful, positive-valence baseline with no shift, indicating the exclamation mark signals enthusiastic engagement rather than surprise or neutral acknowledgment. I chose joy over neutral because the high-arousal, affiliative context overrides the lexical neutrality of 'Okay'."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst"", ""Social Dynamics Expert""]
+  }
+}",joy
+15,15_3_5_20,Phoebe,Bye!,"{
+  ""recognition_id"": ""15_3_5_20"",
+  ""reasoning"": ""The Sentiment Analyst's positive valence filter restricts the emotion to Joy or Surprise, and the absence of a shift (SHIFT: FALSE) indicates continuity with the scene's playful, positive baseline. While Surprise and Joy both fit high arousal and positive valence, the utterance is a cheerful farewell without novelty triggers, making Joy the more coherent classification."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+15,15_4_5_20,Joey,Bye!,"{
+  ""recognition_id"": ""15_4_5_20"",
+  ""reasoning"": ""Given the Emotional Shift Agent's report of [SHIFT: FALSE - CONTINUITY MAINTAINED] and the Context Historian's baseline of a lighthearted, joking scene with positive valence, the utterance is interpreted as part of the playful banter, aligning with joy rather than underlying defensiveness or aggression. The exclamation mark conveys energetic emphasis consistent with joyful interaction, not a shift to negative emotion."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst"", ""Social Dynamics Expert"", ""Character Profiler""]
+  }
+}",neutral
+15,15_5_5_20,Joey,Cut it out Ross! I hate to have to save your life and kick your ass in the same day!,"{
+  ""recognition_id"": ""15_5_5_20"",
+  ""reasoning"": ""The utterance has negative valence from strong confrontational language ('hate', 'kick your ass'), fitting anger's present-focused, confrontational profile, while the playful social context makes it performative rather than genuine hostility. I chose anger over sadness because there are no past-tense resignation markers, and fear is ruled out by the lack of emotional shift and explicit threat."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Character Profiler""],
+    ""dissenting_agents"": [""Context Historian"", ""Emotional Shift Detector"", ""Social Dynamics Expert""]
+  }
+}",anger
+16,16_0_4_10,Monica,"Hey, Joey, could you pass the cheese?","{
+  ""recognition_id"": ""16_0_4_10"",
+  ""reasoning"": ""All expert reports converge on a neutral interpretation: the utterance is a mundane, polite request with low arousal, neutral valence, and no emotional shift from the scene's baseline. The closest alternative, Joy, is ruled out due to insufficient positive valence and high arousal, while Surprise is excluded by the absence of novelty or heightened arousal."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+16,16_1_4_10,Joey,"Listen uh, Id prefer it if you didnt call me Joey.","```json
+{
+  ""recognition_id"": ""16_1_4_10"",
+  ""reasoning"": ""The Sentiment Analyzer's negative valence filter restricts the emotion to anger, sadness, fear, or disgust, with fear eliminated due to missing explicit threat conditions. Joey's present-focused, confrontational boundary-setting ('I’d prefer it if you didn’t') aligns with anger's reactive injustice trigger, not sadness's past resignation, especially given the Emotional Shift Agent's true pivot from neutral to interpersonal tension."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Social Dynamics Expert"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Context Historian""]
+  }
+}
+```",neutral
+16,16_2_4_10,Joey,"Since I dont know anyone here, I thought itd be cool to try out a cool work nickname.","{
+  ""recognition_id"": ""16_2_4_10"",
+  ""reasoning"": ""The Sentiment Analyzer confirms positive valence, restricting the choice to Joy or Surprise. The Emotional Shift Agent detected a pivot to a positive, explanatory disclosure of playful intent, with no element of novelty or unexpectedness characteristic of Surprise. Therefore, Joy is selected as the playful, affectionate emotion aligning with Joey's character and the agents' consensus."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.8,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Social Dynamics"", ""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Context Historian""]
+  }
+}",neutral
+16,16_3_4_10,A Waiter,"Hey, dragon! Heres your tips from Monday and Tuesday.","{
+  ""recognition_id"": ""16_3_4_10"",
+  ""reasoning"": ""The Sentiment Analyzer's reported Positive Valence filters the emotion to Joy or Surprise, and the Emotion Shift Agent confirms [SHIFT: FALSE], indicating emotional continuity within the established playful dynamic. The utterance is a sincere, affiliative delivery of information using a requested nickname, which aligns with Joy's present-focused, positive, and celebratory/connective profile more than the novelty-driven profile of Surprise."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Character Profiler"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+16,16_4_4_10,Joey,Theres like-theres like 300 bucks in this one!,"{
+  ""recognition_id"": ""16_4_4_10"",
+  ""reasoning"": ""The utterance reflects a sudden, unexpected discovery ('300 bucks') with high positive arousal and linguistic markers of disbelief (repeated 'like,' exclamation), making Surprise the primary reaction. I chose Surprise over Joy because the Emotional Shift Agent confirmed a pivot to novelty and the Sentiment Analyst emphasized surprise, whereas Joy would imply continuous celebration rather than an immediate shocked reaction."",
+  ""predicted_emotion"": ""surprise"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",surprise
+16,16_5_4_10,The Waiter,"Yeah, people get pretty generous around the holidays. And it never hurts to wear tight trousers.","{
+  ""recognition_id"": ""16_5_4_10"",
+  ""reasoning"": ""The Sentiment Analyzer confirms positive valence and high arousal, and the Emotional Shift Agent reports no pivot (continuity of playful banter), so the emotion is joy rather than surprise, which requires a novel trigger. This reflects the waiter's confident, humorous tone rather than a reaction to unexpected events."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Emotional Shift Detector"", ""Social Dynamics""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+16,16_6_4_10,Monica,Could the waiters gather around to hear tonights specials?,"{
+  ""recognition_id"": ""16_6_4_10"",
+  ""reasoning"": ""Despite the detected shift from playful banter to a serious demand, the utterance itself is a polite, functional request with neutral valence and low arousal, lacking any lexical or pragmatic markers of strong emotion. The closest alternative, a negative emotion like frustration, is precluded by the Sentiment Analyzer's neutral valence report and the absence of confrontational or distressed language in the utterance."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+16,16_7_4_10,Monica,"Okay, first there is a Chilean Sea Bass prepared with a Mango relish on a bagWhy is nobody writing these down?","{
+  ""recognition_id"": ""16_7_4_10"",
+  ""reasoning"": ""The Sentiment Analyst confirms negative valence, ruling out joy, neutral, and surprise; the Emotional Shift Agent detects a pivot to heightened frustration triggered by the waiters' inaction, which is present-focused and confrontational, aligning with anger rather than sadness (no past-tense resignation) or fear (no explicit threat)."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Sentiment Analyst"", ""Social Dynamics Expert"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+16,16_8_4_10,The Waiter,Because we can remember them.,"{
+  ""recognition_id"": ""16_8_4_10"",
+  ""reasoning"": ""The Sentiment Analyzer confirms neutral valence and low arousal, and multiple agents (Character Profiler, Social Dynamics) classify the utterance as a factual, mundane statement. Although the Emotional Shift Agent detected a pivot from Monica's frustration to the Waiter's calm rebuttal, the speaker's emotional state remains informational and unemotional, not meeting the criteria for Surprise or any other emotion."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Character Profiler"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Emotional Shift Detector""]
+  }
+}",neutral
+16,16_9_4_10,Monica,Because your all gonna make up fake specials and make me cook them like you did the other night?,"```json
+{
+  ""recognition_id"": ""16_9_4_10"",
+  ""reasoning"": ""The Sentiment Analyzer's Negative Valence restricts options to Anger, Sadness, Fear, or Disgust. The Emotional Shift Agent's [SHIFT: TRUE] pivots to Monica's past grievance, with high-arousal confrontation aligning with Anger's present-focused injustice response. Sadness is ruled out due to active accusation (not resignation), and Fear fails the threat validation gate."",
+  ""predicted_emotion"": ""anger"",
+  ""confidence"": 0.92,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}
+```",anger
+18,18_0_6_1,Rachel,"Okay now Joey, y'know that since you're returning all of this stuff right after the audition you're gonna have to wear underwear?","{
+  ""recognition_id"": ""18_0_6_1"",
+  ""reasoning"": ""The Sentiment Analyst reports neutral valence and moderate arousal, aligning with the Neutral emotion's low arousal and neutral valence profile—despite the playful context, the linguistic foundation does not support a high-arousal or positively valenced label like Joy. No emotional shift occurred, maintaining the scene's stable playful baseline."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+18,18_1_6_1,Joey,"All right, then you'd better show me some of that too then.","```json
+{
+  ""recognition_id"": ""18_1_6_1"",
+  ""reasoning"": ""The utterance is a playful, flirtatious retort within a continuous banter, exhibiting positive valence and moderate arousal consistent with joy; the aggressive linguistic tone reported by the Sentiment Analyst is part of the teasing dynamic rather than genuine anger, and no novelty or unexpected trigger was detected to indicate surprise."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst""]
+  }
+}
+```",neutral
+18,18_2_6_1,Rachel,"Okay, it's missing something. Ooh, I know! Umm, okay.","{
+  ""recognition_id"": ""18_2_6_1"",
+  ""reasoning"": ""The utterance exhibits a neutral-to-positive valence with a high-arousal peak during sudden realization ('Ooh, I know!'), aligning with surprise from a novel internal insight. The emotional shift away from playful banter to self-focused problem-solving confirms a pivot to unexpectedness rather than sustained joy or neutral information transfer."",
+  ""predicted_emotion"": ""surprise"",
+  ""confidence"": 0.8,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Character Profiler"", ""Social Dynamics""]
+  }
+}",neutral
+19,19_0_1_1,Joey,Really? A purse?,,surprise
+20,20_0_5_13,Rachel,It's not a purse! It's a shoulder bag.,"{
+  ""recognition_id"": ""20_0_5_13"",
+  ""reasoning"": ""The Emotional Shift Agent reported no shift, maintaining the playful baseline established by the Context Historian, and most agents (Character Profiler, Social Dynamics) aligned with a positive, bantering intent—overriding the Sentiment Analyst's latent negative reading as playful indignation rather than true anger. Thus, joy is selected over anger because the correction is delivered within a lighthearted friendship dynamic, not as a confrontational boundary violation."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst""]
+  }
+}",anger
+20,20_1_5_13,Joey,It looks like a women's purse.,"{
+  ""recognition_id"": ""20_1_5_13"",
+  ""reasoning"": ""The Sentiment Analyzer reports neutral valence and low arousal, mandating Neutral or Surprise per the valence pre-filter; the utterance is a simple factual observation with no high-arousal or unexpected elements, ruling out Surprise. While contextual agents suggest playful intent, the literal text is a straightforward information transfer, and with no emotional shift detected, Occam's Razor favors Neutral over Joy, which would require positive valence and higher arousal."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.7,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst""],
+    ""dissenting_agents"": [""Context Historian"", ""Character Profiler"", ""Social Dynamics"", ""Emotional Shift Detector""]
+  }
+}",neutral
+20,20_2_5_13,Rachel,"No Joey, look. Trust me, all the men are wearing them in the spring catalog. Look.  See look,","```json
+{
+  ""recognition_id"": ""20_2_5_13"",
+  ""reasoning"": ""The valence pre-filter confirms positive emotional context from multiple agents, restricting the choice to joy or surprise. With no detected emotional shift and a maintained playful baseline, joy is selected over surprise because the speaker's insistent persuasion represents affiliative engagement rather than reaction to novelty."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.75,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst""]
+  }
+}
+```",neutral
+20,20_3_5_13,Joey,"See look,",,neutral
+20,20_4_5_13,Rachel,Exactly! Unisex!,"{
+  ""recognition_id"": ""20_4_5_13"",
+  ""reasoning"": ""The Sentiment Analyst's positive valence report restricts the classification to joy or surprise. The Emotional Shift Agent reports no shift, indicating continuity within the established playful, flirtatious baseline described by the Context Historian. The utterance is a direct, enthusiastic affirmation ('Exactly!') of a familiar concept ('Unisex!') within a playful exchange, aligning more with celebratory, positive engagement (joy) than a reaction to a novel, unexpected event (surprise)."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",neutral
+20,20_5_5_13,Joey,Maybe you need sex.,"```json
+{
+  ""recognition_id"": ""20_5_5_13"",
+  ""reasoning"": ""The valence pre-filter resolves as POSITIVE based on contextual consensus (playful/flirtatious scene), limiting candidates to Joy or Surprise. The detected emotional pivot to novel, provocative wordplay makes Surprise the better fit over Joy, which would imply continuous celebration rather than a sudden playful twist."",
+  ""predicted_emotion"": ""surprise"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst""]
+  }
+}
+```",neutral
+20,20_6_5_13,Rachel,No! No Joey! U-N-I-sex.,"```json
+{
+  ""recognition_id"": ""20_6_5_13"",
+  ""reasoning"": ""The utterance's high arousal and negative valence initially suggest Anger, but contextual consensus on playful banter overrides this. Shift continuity (FALSE) and in-character exaggeration confirm the emotion operates within the scene's positive framework, favoring Joy over Anger."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst""]
+  }
+}
+```",joy
+20,20_7_5_13,Joey,"Well, I ain't gonna say no to that.","```json
+{
+  ""recognition_id"": ""20_7_5_13"",
+  ""reasoning"": ""The Sentiment Analyzer's positive valence filter restricts the emotion to Joy or Surprise, and with the Emotion Shift Agent confirming no pivot ([SHIFT: FALSE]), the playful baseline remains continuous rather than novel-triggered. Joy best captures the enthusiastic, affiliative agreement in this lighthearted flirtatious exchange, while Surprise is ruled out due to lack of unexpectedness."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Social Dynamics"", ""Context Historian"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}
+```",neutral

@@ -126,15 +126,53 @@ def call_emotional_shift(previous_utterance, previous_speaker, target_utterance,
 
     return response.text
 
-def call_council_aggregator(recognition_id, utterance, context, profile, sentiment, dynamics, emotional_shift):
+def call_council_aggregator(recognition_id, utterance, context, profile, sentiment, dynamics, emotional_shift, speaker_bio_card=None, previous_predictions=None):
     """Agent 7: Synthesizes expert reports into a final MELD label via OpenRouter DeepSeek."""
-    prompt = f"""
-    {council_aggregator_prompt}
     
-    METADATA:
+    # Format speaker bio card for insertion
+    bio_card_content = speaker_bio_card if speaker_bio_card else "[No speaker persona available]"
+    
+    # Format previous predictions for context with low-confidence flagging and shift tracking
+    previous_context_content = ""
+    if previous_predictions and len(previous_predictions) > 0:
+        previous_context_content = "Last 3 Predictions:\n"
+        for i, pred in enumerate(previous_predictions, 1):
+            prev_utterance = pred.get('utterance', '[N/A]')[:80]
+            prev_emotion = pred.get('emotion', 'unknown')
+            prev_confidence = pred.get('confidence', 'N/A')
+            prev_shift = pred.get('shift', 'FALSE')  # Continuity flag
+            
+            # Flag low confidence for special review
+            confidence_flag = ""
+            try:
+                conf_value = float(prev_confidence) if isinstance(prev_confidence, (int, float)) else 0.0
+                if conf_value < 0.60:
+                    confidence_flag = " ⚠️ LOW CONFIDENCE"
+            except (ValueError, TypeError):
+                pass
+            
+            # Format shift info for readability
+            shift_info = "[SHIFT: TRUE - Pivot Detected]" if prev_shift == "TRUE" else "[SHIFT: FALSE - Continuity]"
+            
+            previous_context_content += f"{i}. '{prev_utterance}...'\n   Emotion: {prev_emotion} | Confidence: {prev_confidence}{confidence_flag} | {shift_info}\n"
+    else:
+        previous_context_content = "[No previous predictions available - First utterance]"
+    
+    # Replace placeholders in the prompt with actual data
+    prompt = council_aggregator_prompt
+    prompt = prompt.replace("[SPEAKER BIO CARD WILL BE PROVIDED HERE]", bio_card_content)
+    prompt = prompt.replace("[RECENT COUNCIL DECISIONS WILL BE PROVIDED HERE]", previous_context_content)
+    
+    # Add metadata and expert reports at the end
+    prompt += f"""
+
+    ════════════════════════════════════════════════════════════
+    CURRENT UTTERANCE ANALYSIS
+    ════════════════════════════════════════════════════════════
+    
     Recognition_ID: {recognition_id}
-    
-    TARGET UTTERANCE: {utterance}
+    Target Utterance: "{utterance}"
+    Current Emotional Shift Status: {emotional_shift}
     
     EXPERT REPORTS:
     1. Context Historian: {context}

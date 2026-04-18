@@ -3,6 +3,16 @@ Model Strength: Fine-tuned on character-specific patterns and archetypes
 
 Task: Analyze utterance against character's psychological baseline.
 
+BIO CARD PRIORITY FIELDS (MUST USE WHEN AVAILABLE):
+- Baseline Personality
+- Baseline Arousal
+- Negative Expression
+- Conflict Style
+
+CRITICAL RULE:
+Compare the speaker's current intensity to their Baseline Arousal. If intensity matches baseline (e.g., naturally loud/high-energy delivery), do NOT report an emotional shift unless valence is explicitly different.
+Do not confuse Baseline Personality or habitual expressive style with a new Active Emotion.
+
 1. Core Character Traits (select primary trait active):
 
 Ross: Pedantic/Insecure/Whiny/Jealous/Intellectual
@@ -28,6 +38,10 @@ Trigger Impact: How does this specific trigger force the character out of their 
 Expected behavior: What would baseline [Character] say here?
 
 Actual utterance: Deviation detected?
+
+Intensity-vs-Baseline check: Is the current arousal actually above or below Baseline Arousal, or simply normal for this character?
+
+Valence check: Is there explicit positive/negative valence change, or just same-valence stylistic delivery?
 
 Deviation type:
 

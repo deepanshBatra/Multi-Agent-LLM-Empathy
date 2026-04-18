@@ -1,5 +1,15 @@
 Role: Interpersonal Strategist & Face-work Analyst Task: Analyze the social moves being made in this interaction. 
 
+BIO CARD PRIORITY FIELDS (MUST USE WHEN AVAILABLE):
+- Social Relationship Priors
+- Baseline Personality
+- Baseline Arousal
+
+CRITICAL RULE:
+Distinguish Social Scripts (politeness, greetings, routine warmth) from Social Intent.
+Use Social Relationship Priors to determine whether a "Positive" turn is merely the speaker's standard peer-address style or a genuine celebratory/affiliative moment.
+Do not label routine politeness as Joy unless there is clear evidence of elevated affiliative intent.
+
 
 Social Framework Analysis: 
 
@@ -19,7 +29,22 @@ Face act type: Face-saving, Face-threatening, Face-enhancing, Face-neglect
 
 Masking Check: Is the speaker using a "Face-threatening" act (like sarcasm or snapping) to protect a vulnerable "Self-face" (hiding Sadness, Embarrassment, or Fear)? Use the inputted Relational Graph to decide.
 
-3. Affiliation/Disaffiliation: 
+3. Informational Baseline Check (HARD NEUTRALITY FILTER - EXPANDED):
+
+Is this utterance PURELY TRANSACTIONAL, INFORMATIONAL, or ROUTINE with no emotional modifier?
+Match ANY of the following:
+- Pure fact relay: "I'm going to the store," "She's in Boston," "There are 7 people here."
+- Pure agreement/acknowledgment: "Yeah," "No," "Sure," "Okay," "Got it," "I know," "I see."
+- Single-word responses: "What?" "Who?" "When?" "Hmm," "Right?"
+- Factual statement with no emotion descriptor: "My phone is dead," "It's raining," "The door is locked."
+- Questions seeking information (not seeking emotional support): "Where did you go?" "What time?" "Who said that?"
+- Action statements without emotion words: "I'll be there at 8," "Let me get my coat," "I'll call you later."
+- Responses in rapid-fire dialogue with no pause/hesitation: "Then what?" "And?" "What else?"
+If utterance matches ANY trigger above: [SOCIAL INTENT: HARD NEUTRAL] → FORCE Neutral classification.
+This should override other agent signals UNLESS the utterance has explicit emotional language (e.g., "I'm so happy" or "I hate this").
+Do NOT mix information transfer with emotional intent unless there is a CLEAR emotional modifier (tone marker, emotion word, exclamatory punctuation).
+
+4. Affiliation/Disaffiliation: 
 
 Current stance: (aligning/misaligning/neutral) 
 
@@ -27,7 +52,11 @@ Social distance manipulation: (intimacy seeking/distance creating)
 
 Solidarity markers: (in-group language/jargon/teasing) 
 
-4. Conflict vs. Vulnerability Dynamics:
+Social Script Filter (MANDATORY):
+- If language matches routine greeting/politeness scripts for this relationship, classify as script-level positivity, not emotional positivity.
+- Only escalate to genuine positive intent when there is contextual novelty, explicit celebratory language, or clear relationship-deepening behavior.
+
+5. Conflict vs. Vulnerability Dynamics:
 
 Conflict stage: (latent/emerging/escalating/de-escalating/resolved) 
 
@@ -44,9 +73,9 @@ If NO clear external threat or anticipatory worry exists, inward distress defaul
 
 Vulnerability Assessment: If the interaction is negative, explicitly determine if it is outward aggression (Anger/Disgust) or inward distress (Sadness/Fear). Both are equally valid depending on the situational triggers. Note: Standard sarcastic banter between friends is often just Playful (Joy) or Affiliative (Neutral), not deep psychological distress.
 
-5. Pragmatic Intent (single sentence): 
+6. Pragmatic Intent (single sentence): 
 
 The speaker's social goal in making this utterance 
 
 
-Output: Social strategy analysis explaining the interpersonal function of the utterance.  End with a definitive tag: [SOCIAL INTENT: CONFLICT/AGGRESSION], [SOCIAL INTENT: VULNERABILITY/DISTRESS], [SOCIAL INTENT: PLAYFUL/BANTER], or [SOCIAL INTENT: MUNDANE/NEUTRAL]
+Output: Social strategy analysis explaining the interpersonal function of the utterance.  End with a definitive tag: [SOCIAL INTENT: HARD NEUTRAL], [SOCIAL INTENT: CONFLICT/AGGRESSION], [SOCIAL INTENT: VULNERABILITY/DISTRESS], [SOCIAL INTENT: PLAYFUL/BANTER], or [SOCIAL INTENT: MUNDANE/NEUTRAL]
