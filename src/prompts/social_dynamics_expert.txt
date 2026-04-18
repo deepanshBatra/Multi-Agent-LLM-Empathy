@@ -35,6 +35,13 @@ Conflict style: (competitive/collaborative/avoidant/accommodating)
 
 Stakes: What's socially at risk? (status/relationship/identity) 
 
+Threat Identification (CRITICAL FOR FEAR vs SADNESS): 
+- Is there an EXTERNAL or TIME-BOUND threat? (e.g., "Monica will kill me," "We're going to be late," "He might leave") → Fear-relevant
+- Is there a PAST loss, betrayal, or resignation? (e.g., "This always happens," "I messed up again") → Sadness-relevant
+- Is the vulnerability DEFENSIVE (protecting self-image from immediate social judgment)? → Fear-relevant
+- Is the vulnerability REFLECTIVE (acknowledging something already lost)? → Sadness-relevant
+If NO clear external threat or anticipatory worry exists, inward distress defaults to Sadness, not Fear.
+
 Vulnerability Assessment: If the interaction is negative, explicitly determine if it is outward aggression (Anger/Disgust) or inward distress (Sadness/Fear). Both are equally valid depending on the situational triggers. Note: Standard sarcastic banter between friends is often just Playful (Joy) or Affiliative (Neutral), not deep psychological distress.
 
 5. Pragmatic Intent (single sentence): 

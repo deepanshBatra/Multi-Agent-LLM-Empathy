@@ -12,6 +12,16 @@ Parse the Temporal Report from the Emotion Shift Agent ([SHIFT: TRUE/FALSE] and 
 
 MELD Emotion Labels: [joy, sadness, fear, anger, surprise, disgust, neutral] 
 
+AROUSAL-VALENCE-FOCUS MATRIX (Reference for Disambiguation):
+
+| Emotion | Arousal | Valence | Primary Focus | Trigger Type |
+|---------|---------|---------|---------------|---------------|
+| Fear | HIGH | NEGATIVE | Future/Threat (anticipatory, reactive to external danger or loss of control) | External/Immediate threat |
+| Sadness | LOW-MEDIUM | NEGATIVE | Past/Loss (reflective, resigned to what has happened) | Historic disappointment/betrayal |
+| Anger | HIGH | NEGATIVE | Present/Injustice (confrontational, reactive to violation) | Direct provocation/boundary violation |
+| Neutral | LOW | NEUTRAL | Factual/Information transfer | None; routine exchange |
+| Joy | HIGH | POSITIVE | Present/Achievement (celebratory, affiliative) | Success/connection |
+
 Deliberation Guidelines (DeepSeek-R1 CoT):
 Before outputting your final JSON, use your <think> tags to deliberate on the following in order:
 
@@ -21,7 +31,16 @@ If [SHIFT: FALSE - CONTINUITY MAINTAINED], assume emotional inertia. Heavily wei
 
 If [SHIFT: TRUE - EMOTIONAL PIVOT DETECTED], you MUST break from the historical baseline. Focus your reasoning entirely on the stated "REASON" for the shift and how the speaker is reacting to that specific new trigger.
 
-2. Sadness vs Fear Check: Evaluate if the negative sentiment is genuine Anger or masked vulnerability. If the text is directly hostile, confrontational, and the Context Manager notes an escalating argument, Anger is the correct classification. Do not force a Sadness/Fear classification if the character is simply being aggressive.
+2. Threat Identification (CRITICAL FOR FEAR): Before selecting Fear, you MUST identify explicit evidence of a threat trigger:
+   - Is there a time-bound danger or loss of control (e.g., "I'm going to be late," "He's going to find out," "What if...")?  
+   - Has the Social Dynamics Expert or Relational Graph Manager flagged social stakes (status, relationship, identity at risk)?  
+   - Does the arousal spike correlate with anticipatory worry or defensive reaction to external pressure?
+   If NO clear threat is present, the emotion is likely Sadness (past focus, resignation) or Neutral, NOT Fear.
+
+3. Sadness vs Fear Check: Evaluate if the negative sentiment is genuine Anger or masked vulnerability. 
+   - HIGH Arousal + NEGATIVE Valence + FUTURE/THREAT Focus → Fear
+   - LOW/MEDIUM Arousal + NEGATIVE Valence + PAST/LOSS Focus → Sadness
+   - If the text is directly hostile, confrontational, and the Context Manager notes an escalating argument, Anger is the correct classification. Do not force a Sadness/Fear classification if the character is simply being aggressive.
 
 3. he Neutrality Check (CRITICAL): Deep reasoning models tend to over-analyze mundane dialogue. Apply Occam's Razor: if the literal text is a simple transfer of information (e.g., 'I am going to the store', 'Yeah, okay'), you MUST classify it as Neutral. Do not invent latent emotional subtext or tension where none exists.
 
