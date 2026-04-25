@@ -7,3 +7,4 @@ kagglehub[pandas-datasets]
 vertexai
 google-cloud-aiplatform
 requests
+numpy

@@ -3532,3 +3532,1639 @@ REASON: Ross's arousal level drops from medium to low, and his valence shifts fr
 }
 ```",neutral,,sadness,0.95,"[SHIFT: TRUE - EMOTIONAL PIVOT DETECTED]
 REASON: Ross shifted his de-escalation method from downplaying the conflict with lighthearted neutral remarks to employing a serious, probing question to encourage reflection on core relationship values."
+13,13_0_1_13,Roger,Oh.,"```json
+{
+  ""recognition_id"": ""13_0_1_13"",
+  ""reasoning"": ""The utterance 'Oh.' is consistently identified as neutral in sentiment and tone by the Sentiment Analyst and Social Dynamics agents, despite the Emotional Shift Detector indicating `[SHIFT: FALSE - CONTINUITY MAINTAINED]` for the overall scene's valence. The Character Profiler's report of Roger's personal shift from intense negative (anger/despair) to neutral processing, an explicit lexical contradiction, justifies choosing Neutral over his previous negative state for this specific utterance, adhering to the Emotional Inertia Rule."",
+  ""predicted_emotion"": ""Neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Sentiment Analyst"",
+      ""Social Dynamics"",
+      ""Character Profiler""
+    ],
+    ""dissenting_agents"": [
+      ""Context Historian"",
+      ""Emotional Shift Detector""
+    ]
+  }
+}
+```",neutral,"**Character Behavioral Analysis Report: Roger**
+
+**1. Core Character Traits:**
+
+*   **Baseline Personality:** Roger is critical, dismissive, cynical, and highly judgmental, particularly towards Phoebe's social group. He expresses contempt openly.
+*   **Baseline Arousal:** Extremely high. Roger's prior utterances were a relentless tirade of aggressive criticism, filled with disdain and anger, delivered with intensity.
+*   **Negative Expression:** His dominant negative expression is explicit anger, contempt, and severe negative judgment. His language is aggressive (""dysfunctional,"" ""co-dependent,"" ""emotionally stunted,"" ""stupid coffee house,"" etc.).
+*   **Conflict Style:** Aggressive confrontation and scathing criticism.
+
+**2. Character-Specific Triggers:**
+
+*   **Trigger Words/Topics:** ""Dysfunctional group dynamic,"" ""emotionally stunted,"" ""co-dependent,"" ""stupid coffee house,"" ""stupid big cups."" These are all highly critical assessments of Phoebe's social group and the environment they inhabit.
+*   **Trigger Impact:** These topics trigger Roger's deeply held cynical and judgmental worldview, propelling him into an aggressive, critical, and angry state, significantly above his general baseline for negativity.
+
+**3. Baseline Deviation Analysis:**
+
+*   **Expected behavior:** Given his prior intense negative outburst, Roger would typically continue with more negative, critical, and aggressive commentary.
+*   **Actual utterance: ""Oh.""** This is a sudden, simple, and neutral utterance.
+*   **Deviation detected?** **Yes.** This is a significant deviation.
+*   **Intensity-vs-Baseline check:** Roger's prior arousal was extremely high (aggressive anger/contempt). His current utterance ""Oh."" is neutral, indicating a dramatic *decrease* in arousal. This is a clear shift below his previous heightened state.
+*   **Valence check:** Roger's prior utterances had strong negative valence. ""Oh."" is neutral in valence, but its unexpected neutral nature immediately following intense negativity represents a *change* in valence.
+*   **Deviation type:** ""Character Break"" or ""Situational Response."" This utterance is a stark interruption of his established aggressive and critical pattern, likely in response to Phoebe's unexpected positive feedback (""You're not? See, that's why you're so great!"").
+*   **Vulnerability Check:** Roger is *not* masking sadness or fear with ""Oh."" He is expressing neutral surprise or processing. His previous aggressive state *could* have been masking deeper frustration or disappointment, but ""Oh."" itself does not indicate vulnerability; rather, it suggests a temporary interruption of his aggressive mask.
+
+**4. Sarcasm Probability (0-1):**
+
+*   **Literal interpretation probability:** 1 (It's neutral, not sarcastic).
+*   **Masked emotion underneath (if sarcastic):** N/A (not sarcastic).
+*   **Confidence in sarcasm detection:** 1 (Very confident).
+
+**5. Emotional Signature:**
+
+*   **Character's default emotional register with current company (Phoebe):** Highly critical, aggressive, disdainful.
+*   **Current deviation from that register:** Significant shift from aggressive negativity to neutral surprise/processing.
+
+**Conclusion:**
+
+Roger's utterance ""Oh."" represents a significant departure from his established critical and aggressive patterns, likely triggered by Phoebe's unexpected positive feedback. His intense negative arousal suddenly drops to neutral, and the valence shifts from negative to neutral. This is a **Situational Response** (or Character Break) to an external stimulus, not an expression of masked sadness or fear.
+
+**Underlying emotional state:** [NEUTRAL/BASELINE]",neutral,0.95,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+13,13_1_1_13,Phoebe,"But I don't. Me, Phoebe.","```json
+{
+  ""recognition_id"": ""13_1_1_13"",
+  ""reasoning"": ""The 'HARD NEUTRALITY FILTER' applies due to the absence of explicit emotional language, despite the negative context, forcing a 'Neutral' classification. This choice is reinforced by the 'SHIFT: FALSE' state, which heavily weights the 'Neutral' previous state, and the predominant agent assessment of low arousal, which disambiguates against 'Surprise' or other high-arousal negative emotions."",
+  ""predicted_emotion"": ""Neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Character Profiler"",
+      ""Social Dynamics"",
+      ""Emotion Shift Detector""
+    ],
+    ""dissenting_agents"": [
+      ""Sentiment Analyst""
+    ]
+  }
+}
+```",neutral,"**Character: Phoebe**
+**Utterance:** ""But I don't. Me, Phoebe.""
+
+**BIO CARD PRIORITY FIELDS:**
+*   **Baseline Personality:** Whimsical/Blunt/Detached/Eccentric/Empathetic
+*   **Baseline Arousal:** Moderate, not high-strung.
+*   **Negative Expression:** Bluntness, detachment.
+*   **Conflict Style:** Detached, surprisingly blunt, or empathetic.
+
+**1. Core Character Traits (select primary trait active):**
+Phoebe's response is a neutral, factual statement in the face of intense criticism. This strongly aligns with her **Bluntness** and **Detached** traits. Her detached neutrality in such a provocative situation also reflects an extreme form of her **Eccentric** nature, as it defies conventional emotional responses.
+
+**2. Character-Specific Triggers (CRITICAL):**
+*   **Trigger Words/Topics:** Roger has just delivered a scathing, highly critical assessment of Phoebe's friends and their ""dysfunctional group dynamic."" This directly targets Phoebe's social circle, which she is a part of and generally values, even if she acknowledges its flaws.
+*   **Trigger Impact:** While such criticism would typically provoke a defensive, hurt, or even angry response from most people, Phoebe's response is an unexpected and extreme form of neutrality. Her neutral ""But I don't."" absorbs Roger's negativity without direct emotional engagement or overt display, rather than reacting defensively or with hurt. This indicates a very specific coping mechanism or an unreadable internal state.
+
+**3. Baseline Deviation Analysis:**
+*   **Expected behavior:** Given the direct criticism of her social group, one might expect Phoebe to be defensive, sad, or express agreement (bluntness) with some emotional valence.
+*   **Actual utterance:** ""But I don't. Me, Phoebe.""
+*   **Deviation detected?** Yes. Her response is extremely neutral and factual, completely lacking the emotional valence (positive or negative) that would typically accompany such a provocative statement from another person. This is a significant deviation from an expected negative reaction and also from her typical (moderate arousal) baseline; her response is remarkably low-arousal for the context.
+*   **Intensity-vs-Baseline check:** Phoebe's response is extremely low-arousal and neutral, significantly below what might be expected given the intensity of Roger's negative provocation.
+*   **Valence check:** There is no explicit positive or negative valence in Phoebe's words. It is strictly neutral, defying the negative valence of Roger's preceding statement.
+*   **Deviation type:** This is a **Situational Response** to extreme criticism, manifesting as an extreme form of emotional detachment or neutrality. It also acts as an **In-Character Enhancement** of her Detached and Blunt traits to an extreme degree.
+*   **Vulnerability Check:** Phoebe's neutral, almost expressionless ""But I don't."" in the face of aggressive criticism could be interpreted as a form of emotional masking. It prevents a direct display of vulnerability, particularly sadness or hurt, by choosing non-engagement. However, the prompt specifically asks for Sadness, Fear, or Disgust masked by *Anger*. Since there is no overt anger displayed, and her response is neutral rather than angry, this particular type of masking does not fit the prompt's criteria. Her response is more about emotional non-engagement than masking with a different, specific negative emotion.
+
+**4. Sarcasm Probability (0-1):**
+*   **Literal interpretation probability:** 1 (It appears to be a literal, factual statement of neutral intent).
+*   **Masked emotion underneath (if sarcastic):** N/A (not sarcastic).
+*   **Confidence in sarcasm detection:** 1 (Highly confident it is not sarcastic).
+
+**5. Emotional Signature:**
+*   **Character's default emotional register with current company:** Phoebe's interactions with Roger are new. Her default emotional register is moderate.
+*   **Current deviation from that register:** Phoebe's neutral, almost unreadable response to intense criticism is a significant deviation from what one might expect. She demonstrates extreme emotional control or detachment, absorbing the negativity without overt reaction.
+
+**Output Classification:**
+[BASELINE/NEUTRAL]",neutral,0.95,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+13,13_2_1_13,Roger,"Well, I'm not I'm not at all surprised they feel that way.","```json
+{
+  ""recognition_id"": ""13_2_1_13"",
+  ""reasoning"": ""The utterance is classified as Anger despite its neutral delivery because, according to the Character Profiler and Social Dynamics, this neutrality is a defensive mask for Roger's deeply aggressive, cynical, and hostile underlying disposition, a continuation confirmed by the [SHIFT: FALSE] status. This neutral tone serves to protect his self-image and deflect responsibility for the negative consequences of his prior criticism, thereby reinforcing his established conflict style."",
+  ""predicted_emotion"": ""Anger"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Character Profiler"",
+      ""Social Dynamics"",
+      ""Emotional Shift Detector""
+    ],
+    ""dissenting_agents"": [
+      ""Sentiment Analyst""
+    ]
+  }
+}
+```",neutral,"**1. Core Character Traits:** Roger (inferred: Cynical, Critical, Judgmental, Aggressive, Sarcastic, Detached)
+
+**2. Character-Specific Triggers:**
+*   **Trigger Words/Topics:** Roger's own prior aggressive critique of Phoebe's ""dysfunctional group dynamic"" and her friends' behavior. The current utterance, ""Well, I'm not I'm not at all surprised they feel that way,"" directly refers to the likely negative emotions others (implied: Phoebe's group) would experience as a result of his previous criticism.
+*   **Trigger Impact:** The utterance is a reaction to the anticipated consequences of his own negative commentary, reaffirming his cynical and detached perspective on the situation.
+
+**3. Baseline Deviation Analysis:**
+*   **Expected behavior:** Given Roger's ""default emotional mask"" of ""anger, judgment, contempt, and sarcasm"" with Phoebe, and his ""deeply held cynical worldview"" and ""aggressive criticism,"" his current utterance is highly consistent. He is not expressing a new emotion but rather confirming his expectation of a negative reaction from others, which aligns with his overall critical stance. His lack of surprise is a characteristic trait of a cynical individual.
+*   **Actual utterance:** ""Well, I'm not I'm not at all surprised they feel that way.""
+*   **Intensity-vs-Baseline check:** Roger's previous interaction was one of intense negative expression (aggression, contempt). While the *delivery* of ""not surprised"" is neutral in tone, the *content* refers to ""negative feelings."" This statement, confirming his expectation of a negative outcome from his own aggression, reinforces his negative disposition and operates within his established high negative arousal, rather than representing a new shift. He is not surprised by the negativity, which is a cynical, in-character response.
+*   **Valence check:** Negative valence (referring to ""negative feelings"" of ""they"").
+*   **Deviation type:** ""In-Character Enhancement"" (of his cynical/critical worldview and aggressive/detached disposition). It is also a ""Situational Response"" as it directly relates to his own prior interaction. It is not a character break.
+*   **Vulnerability Check:** Roger's ""default emotional mask"" is aggressive criticism and disdain. His current utterance, while neutral in tone, reinforces his detached and cynical perspective. It does not show any sadness, fear, or any other vulnerable emotion. Instead, it maintains his aggressive, detached stance, making it highly improbable he is masking vulnerability with this specific statement.
+
+**4. Sarcasm Probability (0-1):**
+*   **Literal interpretation probability:** 0.9 (Roger literally expresses no surprise).
+*   **Masked emotion underneath:** None apparent. The statement is straightforward.
+*   **Confidence in sarcasm detection:** 0.1 (Extremely low).
+
+**5. Emotional Signature:**
+*   **Character's default emotional register with current company:** Critical, aggressive, judgmental, contemptuous, sarcastic.
+*   **Current deviation from that register:** The delivery of the current utterance is more neutral than his previous aggressive critique. However, the content (acknowledging expected negative feelings from others due to his own actions) still maintains his cynical and critical perspective. It is a logical follow-up to his aggressive stance, confirming his detached expectation of others' negative reactions. It is not a deviation to positive, vulnerable, or neutral; it is a continuation of his negative disposition, just expressed with less overt aggression.
+
+**Final Classification: [AGGRESSIVE/DEFENSIVE]**",anger,0.9,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+13,13_3_1_13,Phoebe,"You're not? See, that's why you're so great!","```json
+{
+  ""recognition_id"": ""13_3_1_13"",
+  ""reasoning"": ""The utterance 'See, that's why you're so great!' expresses strong appreciation and praise for Roger, characteristic of Joy, confirmed by multiple agents identifying high positive valence, intensity, and celebratory language. While a surprise is noted in the SHIFT TRUE status due to deviation from Phoebe's baseline, the dominant sentiment is active celebration and affirmation, distinguishing it from mere shock and confirming a positive emotional pivot."",
+  ""predicted_emotion"": ""Joy"",
+  ""confidence"": 0.98,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Character Profiler"",
+      ""Sentiment Analyst"",
+      ""Social Dynamics"",
+      ""Emotional Shift Detector""
+    ],
+    ""dissenting_agents"": [
+      ""Context Historian""
+    ]
+  }
+}
+```",surprise,"**1. Core Character Traits:** Phoebe's currently active traits are:
+*   **Whimsical:** Her positive surprise and unusual appreciation for Roger's blunt criticism could be interpreted through a whimsical lens, finding value in the unexpected or unconventional.
+*   **Empathetic:** She may genuinely understand and resonate with Roger's cynical observations, seeing them as insightful rather than purely negative. This empathy could lead her to appreciate his honesty and perspective.
+
+**2. Character-Specific Triggers:**
+*   **Trigger Words/Topics:** Roger's scathing critique of Phoebe's friend group dynamic (""dysfunctional,"" ""co-dependent,"" ""emotionally stunted,"" etc.) acts as the trigger.
+*   **Trigger Impact:** Instead of being defensive or hurt, Phoebe experiences an intense positive emotional shift. This seemingly paradoxical reaction suggests she finds Roger's blunt assessment insightful, authentic, or even validating in some way. It forces her *above* her baseline detached or blunt demeanor into a state of effusive appreciation and positive affirmation.
+
+**3. Baseline Deviation Analysis:**
+*   **Expected behavior (Phoebe):** Phoebe, usually described as ""detached"" or ""blunt,"" would typically respond with a neutral observation, a whimsical, non-committal remark, or perhaps a detached acknowledgment of Roger's point. While ""empathetic,"" her empathy doesn't always manifest as overt praise.
+*   **Actual utterance:** ""You're not? See, that's why you're so great!""
+*   **Deviation detected?** Yes. The utterance displays an exceptionally strong positive valence and high intensity, which is a significant departure from her typical detached or subtly empathetic baseline.
+*   **Intensity-vs-Baseline check:** Her intensity is significantly above her baseline. The positive valence is explicit and overwhelming.
+*   **Valence check:** Clear and strong positive valence.
+*   **Deviation type:** ""In-Character Enhancement."" While highly unexpected, Phoebe's capacity for empathy and her whimsical nature allow for such an unconventional positive response to criticism. This expression, while intense, leans into her ability to find unique value and authenticity, enhancing a positive aspect of her character rather than breaking it.
+*   **Vulnerability Check:** Phoebe is openly expressing genuine appreciation and positive affirmation. This is positive vulnerability, not a mask for negative emotions.
+
+**4. Sarcasm Probability (0-1):**
+*   **Literal interpretation probability:** 0.95 (Very High). Her language is direct and celebratory.
+*   **Masked emotion underneath:** None. She is expressing genuine joy and admiration.
+*   **Confidence in sarcasm detection:** Very High (no sarcasm).
+
+**5. Emotional Signature:**
+*   **Character's default emotional register with current company (Roger):** Neutral, observant, possibly detached, as this is a new interaction.
+*   **Current deviation from that register:** A dramatic shift to an overtly positive, appreciative, and enthusiastic state, indicating high engagement and positive regard for Roger.
+
+---
+**Classification:** [PLAYFUL/AFFECTIONATE]",joy,0.98,"[SHIFT: TRUE - EMOTIONAL PIVOT DETECTED]
+REASON: Phoebe shifts from neutral observation to positive surprise and praise in response to Roger's neutral statement."
+13,13_4_1_13,Roger,"Actually it's, it's quite, y'know, typical behaviour when you have this kind of dysfunctional group dynamic.","```json
+{
+  ""recognition_id"": ""13_4_1_13"",
+  ""reasoning"": ""The valence of the utterance is negative, driven by 'dysfunctional group dynamic,' which eliminates positive and neutral emotions. Social Dynamics reported '[SHIFT: FALSE]' for Roger, indicating no deviation from his baseline persona with Phoebe, which is described by Character Profiler as 'Anger, judgment, contempt, and sarcasm' with 'aggressive language.' The utterance directly reflects these traits through critical judgment, aligning strongly with Anger. Although Sentiment Analyst mentioned 'resignation' as a latent interpretation, the aggressive, critical, and judgmental nature of the expressed sentiment, supported by multiple agents, makes Anger the most fitting predicted emotion over Sadness."",
+  ""predicted_emotion"": ""Anger"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Context Historian"",
+      ""Character Profiler"",
+      ""Sentiment Analyst"",
+      ""Social Dynamics""
+    ],
+    ""dissenting_agents"": []
+  }
+}
+```",neutral,"**1. Core Character Traits:**
+*   **Roger:** (Inferred from Relationship Database) Negative, critical, aggressive, judgmental, contemptuous. Likely uses these traits as a mask for deeper vulnerability.
+
+**2. Character-Specific Triggers:**
+*   **Trigger Words/Topics:** ""dysfunctional group dynamic,"" ""typical behavior.""
+*   **Trigger Impact:** Roger's direct and scathing criticism of Phoebe's ""dysfunctional group dynamic"" and her friends' behavior is explicitly identified as a ""significant trigger"" for Phoebe. While this section focuses on Roger, the very topic itself is designed to evoke a strong response. Roger's utterance is a direct expression of his negative ""default emotional mask"" (anger, judgment, contempt, sarcasm, aggressive language). It confirms his cynical and critical worldview regarding social dynamics, which is consistent with the ""Relationship Database"" description of his character in relation to Phoebe.
+
+**3. Baseline Deviation Analysis:**
+*   **Expected behavior:** Roger's default emotional mask with Phoebe is described as ""Anger, judgment, contempt, and sarcasm,"" with ""aggressive language."" Therefore, a critical assessment of ""dysfunctional group dynamic"" using ""aggressive language"" is perfectly in line with his expected behavior and default expression.
+*   **Actual utterance:** ""Actually it's, it's quite, y'know, typical behaviour when you have this kind of dysfunctional group dynamic.""
+*   **Deviation detected?** No. The utterance aligns perfectly with his described default mask and language.
+*   **Intensity-vs-Baseline check:** The intensity of the criticism (direct, strong, and judgmental) matches the described intensity of his default expression (aggressive language, anger, contempt). The valence (negative) also matches his default negative expression. According to the critical rule, if intensity matches baseline and valence is the same, no emotional shift is reported.
+*   **Valence check:** Negative, matching his default negative expression.
+*   **Deviation type:** ""In-Character Enhancement"" – the utterance fully embodies and enhances his known aggressive, critical, and judgmental traits.
+*   **Vulnerability Check:** No, he is not masking anger; he is expressing it directly. However, the Relationship Database suggests Roger's aggressive criticism and disdain, which are fully present in this utterance, are likely used to mask deeper vulnerabilities such as sadness or fear from Phoebe.
+
+**4. Sarcasm Probability:**
+*   **Literal interpretation probability:** 0.95 (Highly direct criticism)
+*   **Masked emotion underneath (if sarcastic):** N/A (Not sarcastic)
+*   **Confidence in sarcasm detection:** 1.0 (Very High)
+
+**5. Emotional Signature:**
+*   **Character's default emotional register with current company:** Negative, critical, aggressive, judgmental, contemptuous.
+*   **Current deviation from that register:** None. This utterance is a perfect manifestation of his default emotional mask and aggressive language with Phoebe.
+*   **Classification:** [BASELINE/NEUTRAL]",anger,0.95,
+13,13_5_1_13,Roger,"Y'know, this kind of co-dependant, emotionally stunted, sitting in your stupid coffee house with your stupid big cups which, I'm sorry, might as well have nipples on them, and you're like all 'Oh, define me!","```json
+{
+  ""recognition_id"": ""13_5_1_13"",
+  ""reasoning"": ""The utterance exhibits strong negative valence and high arousal, consistent with the [SHIFT: TRUE] status indicating a break from a neutral baseline to an intense negative outburst. While the surface expression is aggressive criticism (Anger/Contempt), the Character Profiler and Social Dynamics reports explicitly identify this aggression as a 'mask' for 'deep-seated vulnerability' and 'underlying Sadness/Fear' related to insecurity and unmet needs for love and definition, culminating in a 'despairing plea.' Therefore, Sadness is chosen as the primary predicted emotion, as it represents the core emotional shift and the revealed underlying state, rather than Anger, which serves as a defensive mechanism."",
+  ""predicted_emotion"": ""Sadness"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Context Historian"",
+      ""Character Profiler"",
+      ""Social Dynamics"",
+      ""Emotional Shift Detector""
+    ],
+    ""dissenting_agents"": []
+  }
+}
+```",anger,"**Character-grounded analysis focusing on whether this fits or breaks their established pattern.**
+
+**Analysis for Roger (Speaker):**
+
+*   **Baseline Personality:** Based on the ""Social Context,"" Roger is ""critical and dismissive."" His ""default emotional mask with this listener (Phoebe)"" is described as ""Anger, judgment, contempt, and sarcasm.""
+*   **Baseline Arousal:** His default mask is a highly negative and intense emotional state.
+*   **Negative Expression:** The utterance is overwhelmingly negative (""dysfunctional,"" ""co-dependent,"" ""emotionally stunted,"" ""stupid coffee house,"" ""stupid big cups,"" ""nipples on them"").
+*   **Conflict Style:** Highly aggressive and critical, employing direct attacks and disdain.
+
+**Critical Rule Check:**
+
+*   **Current Intensity vs. Baseline Arousal:** Roger's *expressed* intensity is very high, which is consistent with the ""Anger, judgment, contempt, and sarcasm"" described as his default emotional mask and critical nature.
+*   **Valence Check:** The *expressed* valence is negative, matching the negative valence of his default mask. Therefore, based purely on expressed intensity and valence, an emotional shift might not be reported if only considering the overt expression as the ""active emotion."" However, the *underlying* masked emotion changes the interpretation.
+
+**Deviation Analysis:**
+
+*   **Expected behavior:** Roger would typically express critical and dismissive opinions with anger and sarcasm.
+*   **Actual utterance:** Roger delivers a scathing critique, but the final phrases (""Oh, define me! Love me, I need love!"") introduce a desperate, almost pleading tone that goes beyond mere criticism.
+*   **Deviation detected?** Yes, a significant one regarding Roger's underlying emotional state. While the *expressed* anger and criticism align with his baseline mask, the *revelation of deep-seated vulnerability* (Sadness/Fear) is a substantial deviation.
+*   **Deviation type:** This is an ""In-Character Enhancement"" in terms of his critical expression, but more critically, a ""Character Break"" as it reveals a profound vulnerability and a different underlying emotional state than his typical defensive aggression.
+*   **Vulnerability Check:** The ""Oh, define me! Love me, I need love!"" directly asks for affirmation and connection, betraying a deep yearning and insecurity that underlies his aggressive criticism. The ""Social Context"" explicitly states that Roger is ""likely to mask Sadness/Fear with Anger/Sarcasm around this specific listener."" This utterance perfectly exemplifies that. The anger and contempt are a shield for a genuine need for love and acceptance.
+
+**Sarcasm Probability:**
+
+*   **Literal interpretation probability:** Low. While the initial criticisms are delivered with sarcastic disdain, the final plea is likely genuine, albeit delivered with a sarcastic edge to mitigate the vulnerability.
+*   **Masked emotion underneath:** Sadness/Fear. The plea for love and definition strongly implies a fear of not being loved or understood, and sadness related to his perceived lack of connection.
+*   **Confidence in sarcasm detection:** High for the initial criticism, but the final plea is a complex mix of genuine vulnerability and a sarcastic defense mechanism. The underlying emotion is clearly Sadness/Fear.
+
+**Emotional Signature:**
+
+*   **Character's default emotional register with current company:** Anger, judgment, contempt, sarcasm (Roger's ""default emotional mask"").
+*   **Current deviation from that register:** Significant. While the expressed anger and criticism are consistent with his mask, the raw, masked vulnerability (Sadness/Fear) conveyed in the final plea for love and definition represents a profound deviation and a momentary lowering of his typical emotional guard.
+
+---
+
+**[VULNERABLE/EXPOSED]**",sadness,0.95,"[SHIFT: TRUE - EMOTIONAL PIVOT DETECTED]
+REASON: Roger shifts from neutral, analytical observation to an intensely emotional negative outburst, characterized by high arousal (anger, desperation) and direct, critical language."
+13,13_6_1_13,Roger,Define me!,"```json
+{
+  ""recognition_id"": ""13_6_1_13"",
+  ""reasoning"": ""The predicted emotion is Anger because all agents characterize the utterance as aggressive, demanding, and confrontational, with high negative valence and arousal. Despite Character Profiler and Social Dynamics suggesting this aggression masks deeper sadness or fear, the operational shift state of [SHIFT: FALSE] indicates continuity, and Anger represents an escalation of Roger's ongoing negative emotional arc, making it the most accurate expressed emotion over Sadness or Fear."",
+  ""predicted_emotion"": ""Anger"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Context Historian"",
+      ""Character Profiler"",
+      ""Sentiment Analyst"",
+      ""Social Dynamics""
+    ],
+    ""dissenting_agents"": []
+  }
+}
+```",anger,"**Character:** Roger (no BIO CARD available, infer from social context)
+**Utterance:** ""Define me!""
+
+**1. Core Character Traits:**
+Based on the social context, Roger exhibits:
+*   **Critical/Judgmental:** ""highly critical and dismissive of Phoebe's group""
+*   **Aggressive:** ""aggressive language ('dysfunctional,' 'co-dependent,' 'emotionally stunted')""
+*   **Cynical:** His assessment of the group dynamic is entirely negative.
+*   **Demanding:** The utterance ""Define me!"" is a direct, challenging demand.
+
+**2. Character-Specific Triggers:**
+*   **Trigger Words/Topics:** The entire discussion about Phoebe's ""dysfunctional group dynamic,"" ""co-dependent"" friends, and ""emotionally stunted"" behavior acts as a critical trigger. Roger's own role and identity within this critical commentary are also likely triggers.
+*   **Trigger Impact:** The subject matter forces Roger out of a neutral state into a heightened emotional state, manifesting as aggression, frustration, and a demanding challenge. His intense critical observations of the group have escalated into a personal challenge for self-definition, suggesting a deep internal conflict or frustration.
+
+**3. Baseline Deviation Analysis:**
+*   **Expected behavior:** Roger's baseline with Phoebe and her group is critical, dismissive, and uses aggressive language.
+*   **Actual utterance:** ""Define me!""
+*   **Deviation detected?** Yes. While his baseline *is* aggressive and critical, ""Define me!"" is a demand for self-definition or a challenge to his accusers. It moves beyond simply observing and criticizing to a direct, personal, and forceful demand, indicating a heightened and more intense emotional state than his typical critical commentary.
+*   **Intensity-vs-Baseline check:** Higher intensity. This is not just a critical observation; it's an aggressive, demanding challenge, showing a significant escalation in emotional intensity.
+*   **Valence check:** Negative valence. The tone is aggressive and challenging, leaning towards anger and frustration.
+*   **Deviation type:** ""In-Character Enhancement"" and ""Vulnerability Check."" It is an enhancement of his aggressive and critical traits, but the *nature* of the demand (""Define me!"") strongly suggests a deeper, more vulnerable struggle beneath the aggression.
+*   **Vulnerability Check:** Is Roger using his core traits (aggression, criticism) to mask a vulnerable emotion (Sadness, Fear, Disgust) rather than Anger? **Yes.** Roger's intense and demanding challenge ""Define me!"" strongly suggests he is struggling with his own identity or worth, particularly in the context of his critical role. His aggression and demanding nature act as a potent defense mechanism to protect an underlying insecurity, fear of being misunderstood, or a painful sense of being undefined or dismissed himself. The demanding tone hints at a desperate need for validation or a challenge stemming from deep-seated doubts. It is highly plausible that his aggression masks deeper feelings of **Sadness or Fear** regarding his own self-perception.
+
+**4. Sarcasm Probability:**
+*   **Literal interpretation probability:** High. The utterance sounds like a genuine, albeit aggressive, demand for definition or a challenge.
+*   **Masked emotion underneath (if sarcastic):** Not applicable. The utterance is not sarcastic.
+*   **Confidence in sarcasm detection:** High (not sarcastic).
+
+**5. Emotional Signature:**
+*   **Character's default emotional register with current company (Phoebe):** Critical, dismissive, aggressive.
+*   **Current deviation from that register:** The utterance ""Define me!"" is a significant deviation. While still aggressive, it shifts from general critical observation to a direct, personal, and demanding challenge about his own identity or role, indicating a deeper, more vulnerable struggle.
+
+**Classification:** [AGGRESSIVE/DEFENSIVE]",anger,0.95,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+13,13_7_1_13,Roger,"Love me, I need love!","```json
+{
+  ""recognition_id"": ""13_7_1_13"",
+  ""reasoning"": ""The predicted emotion is Sadness due to the speaker's desperate and vulnerable plea for love, reflecting a profound sense of loss and unmet needs, which constitutes a clear shift (SHIFT: TRUE) from his previous hostile persona. Despite the positive valence of 'love,' the underlying urgent 'need' and perceived 'lack' contribute to an intense negative emotional state, strongly supported by all agents' assessments of despair and vulnerability over fear or anger (ruled out by the Hard Gate)."",
+  ""predicted_emotion"": ""Sadness"",
+  ""confidence"": 0.98,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Context Historian"",
+      ""Character Profiler"",
+      ""Sentiment Analyst"",
+      ""Social Dynamics"",
+      ""Emotional Shift Detector""
+    ],
+    ""dissenting_agents"": []
+  }
+}
+```",anger,"**Character Behavioral Analysis: Roger**
+
+**1. Core Character Traits (Roger):**
+*   **Baseline Personality:** Critical, Dismissive, Sarcastic, Contemptuous
+*   **Baseline Arousal:** High negative arousal (hostile, aggressive)
+*   **Negative Expression:** Anger, contempt, judgment
+*   **Conflict Style:** Aggressive, attacking, projecting
+
+**2. Character-Specific Triggers:**
+*   **Trigger Words/Topics:** Roger's prior monologue indicated a deep-seated criticism of Phoebe's ""dysfunctional group dynamic"" and her friends' behavior. This specific utterance (a plea for love) follows that critical outpouring. The *lack* of love, connection, or acceptance *within* such a dynamic (which he projects onto them, but likely reflects his own inner state) seems to be the underlying trigger for this expression of vulnerability.
+*   **Trigger Impact:** The preceding critical commentary, driven by Roger's own unmet needs for connection and belonging (which he projects as anger and contempt), has, in this moment, overwhelmed his usual defense mechanisms, leading to a raw emotional break.
+
+**3. Baseline Deviation Analysis:**
+*   **Expected behavior:** Given Roger's established baseline of being critical, dismissive, sarcastic, and outwardly aggressive, one would expect him to continue expressing contempt or disdain.
+*   **Actual utterance:** ""Love me, I need love!"" This is a direct and desperate plea for affection, acceptance, and validation.
+*   **Deviation detected?** **YES.** This is a significant and radical deviation from Roger's hostile, critical, and aggressive baseline. His ""default emotional mask"" of anger and contempt is completely dropped.
+*   **Intensity-vs-Baseline check:** The utterance expresses intense negative emotion (desperation, fear of not being loved), far beyond his typical high negative *arousal* of anger/contempt. The *valence* is drastically different – instead of projecting outward aggression, it's an inward plea for something he lacks.
+*   **Valence check:** There is an explicit *negative valence change* from aggressive anger/contempt to profound sadness/fear/desperation.
+*   **Deviation type:** **""Character Break"" (vulnerability/sincerity).** This is not just an exaggerated trait or a situational response, but a complete departure from his usual persona, revealing a deeply suppressed emotional state.
+*   **Vulnerability Check:** **Yes.** Roger is explicitly expressing Sadness and Fear (fear of not being loved, sadness from a perceived lack of connection/acceptance). He is not masking it with Anger or Sarcasm; he is raw and exposed. This is his vulnerability, directly communicated, indicating that the anger and contempt he usually displays are likely a defense mechanism for these deeper, more painful emotions.
+
+**4. Sarcasm Probability (0-1):**
+*   **Literal interpretation probability:** **1** (This is highly likely to be a genuine expression of a desperate need).
+*   **Masked emotion underneath (if sarcastic):** N/A (This is the raw, unmasked emotion).
+*   **Confidence in sarcasm detection:** **0** (This utterance is not sarcastic).
+
+**5. Emotional Signature:**
+*   **Character's default emotional register with current company (Phoebe):** Critical, contemptuous, angry, aggressive.
+*   **Current deviation from that register:** A profound and shocking shift to deep vulnerability, sadness, fear (of not being loved), and desperation. This reveals a hidden, extremely fragile emotional core beneath his aggressive exterior.
+
+**Classification: [VULNERABLE/EXPOSED]**",sadness,0.98,"[SHIFT: TRUE - EMOTIONAL PIVOT DETECTED]
+REASON: The speaker's expression shifted from a demanding question about identity to a vulnerable plea for love, reflecting a distinct change in the nature and focus of their intense negative emotional state, from frustration/challenge to despair/vulnerability, as described in the context summary's ""despairing plea""."
+15,15_0_5_20,Phoebe,"Yeah! Sure! Yep!  Oh, y'know what? If I heard a shot right now, I'd throw my body on you.","```json
+{
+  ""recognition_id"": ""15_0_5_20"",
+  ""reasoning"": ""The utterance exhibits overwhelming positive sentiment, deep affection, and unwavering protective commitment, as strongly indicated by multiple exclamations, strong positive lexicon, and face-enhancing social intent. Despite the Emotional Shift Agent indicating [SHIFT: FALSE - CONTINUITY MAINTAINED], the utterance's inherent positive content and high arousal strongly support Joy, suggesting continuity of a positive or non-disruptive emotional state for the recipient rather than a lack of strong sentiment, and the Context Historian's mention of anger refers to Joey's state towards an unseen character, not the sentiment of this specific utterance to the recipient."",
+  ""predicted_emotion"": ""Joy"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Sentiment Analyst"",
+      ""Social Dynamics""
+    ],
+    ""dissenting_agents"": []
+  }
+}
+```",joy,,joy,0.95,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+15,15_1_5_20,Gary,Oh yeah? Well maybe you and I should take a walk through a bad neighborhood.,"```json
+{
+  ""recognition_id"": ""15_1_5_20"",
+  ""reasoning"": ""Gary's emotional state explicitly shifts to \""positive, playful, and moderate arousal\"" as per the Emotional Shift Detector and Context Historian, driven by Phoebe's affectionate invitation. The Social Dynamics Expert confirms a \""PLAYFUL/BANTER\"" social intent, framing the utterance as an \""invitation, not a demand or threat\"" aimed at fostering connection and excitement, overriding the Sentiment Analyst's surface-level \""negative\"" polarity and \""aggressive tone\"" which describes the content and challenge rather than Gary's internal positive emotional state."",
+  ""predicted_emotion"": ""joy"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Context Historian (Current Emotional Shift Status)"",
+      ""Social Dynamics Expert"",
+      ""Emotional Shift Detector""
+    ],
+    ""dissenting_agents"": [
+      ""Sentiment Analyst""
+    ]
+  }
+}
+```",joy,,joy,0.95,"[SHIFT: TRUE - EMOTIONAL PIVOT DETECTED]
+REASON: Gary's emotional state shifts from neutral, low arousal to positive, playful, and moderate arousal in response to Phoebe's affectionate invitation, deviating from his established ""stable, low arousal, neutral"" mood trend."
+15,15_2_5_20,Phoebe,Okay!,"**Deep Chain-of-Thought Reasoning:**
+
+1.  **Input Processing & Initial Assessment:**
+    *   **Recognition_ID:** 15_2_5_20
+    *   **Target Utterance:** ""Okay!""
+    *   **Emotional Shift Status:** [SHIFT: TRUE - EMOTIONAL PIVOT DETECTED]. The shift is from neutral farewells (previous utterance) to Chandler's reaction.
+    *   **Arousal:** Sentiment Analyst (7/10), Character Profiler (intensity above baseline, high arousal), Social Dynamics (heightened arousal), Emotional Shift Detector (shift in arousal). Consensus: High Arousal.
+    *   **Valence:** Sentiment Analyst (Surface: Neutral, Latent: Ambiguous - positive or negative), Character Profiler (Ambiguous - positive or negative). Consensus: Ambiguous Valence.
+    *   **Character Context (Chandler):** Character Profiler reports a ""significant deviation from his baseline personality,"" a ""Character Break"" or ""Situational Response"" showing ""genuine emotional expression,"" and making him ""vulnerable."" Social Dynamics confirms ""genuine, unmasked emotional response"" and [VULNERABILITY/DISTRESS].
+    *   **Consensus & Conflicts:** High arousal is undisputed. Valence is ambiguous. The shift is confirmed. Chandler's atypical response and vulnerability are highlighted.
+
+2.  **Deliberation Guidelines Application:**
+
+    *   **0. VALENCE PRE-FILTER:** Given ambiguous valence but high arousal, we cannot definitively categorize as positive or negative yet. Neutrality is unlikely due to high arousal. This filter defers to further analysis.
+    *   **1. THE TEMPORAL SHIFT CHECK:** [SHIFT: TRUE] means we break from the previous neutral baseline and focus strictly on Chandler's reaction.
+    *   **1.5. ELIMINATE FALSE FEAR (HARD GATE):** Sentiment is ambiguous, but Social Dynamics does *not* flag explicit threat language or a specific external threat, only [VULNERABILITY/DISTRESS]. Therefore, Fear is *not* a valid classification.
+    *   **2. SADNESS ""LOSS"" ANCHOR:** No past-tense or resignation markers like ""It's over,"" ""I failed."" Therefore, Sadness is *not* a valid classification.
+    *   **4. SURPRISE DISAMBIGUATION:** High arousal + ambiguous valence perfectly fits the definition of Surprise (""Unexpected Event""). If it were positive, it could be Joy or Positive Surprise. If negative, Negative Surprise (Resignation). But the core element of the *deviation* from baseline and high arousal makes Surprise the leading candidate.
+    *   **6. NEUTRALITY CHECK & JOY INTENSITY GATE (CRITICAL):** ""Okay!"" with an exclamation mark is *not* low-arousal politeness or simple information transfer. It signifies high arousal. Therefore, Neutrality is *not* the primary classification. Joy requires active evidence of Achievement or Celebration, which is absent; the emphasis is on the *surprise* of the deviation.
+    *   **7. SARCASM RESOLUTION:** Both Character Profiler (Sarcasm Probability 0.1, Confidence 0.1) and Sentiment Analyst (No Irony/Sarcasm Indicators) strongly indicate that sarcasm is highly unlikely.
+
+3.  **Final Synthesis and Justification:**
+    *   The utterance ""Okay!"" with an exclamation mark clearly indicates high arousal for Chandler.
+    *   Both the Sentiment Analyst and Character Profiler explicitly state that the valence is ambiguous (could be positive or negative) for ""Okay!"" by itself, but the intensity is high.
+    *   The Emotional Shift Detector confirms [SHIFT: TRUE] from a neutral baseline to an emotional pivot.
+    *   The Character Profiler and Social Dynamics agents emphasize that this is a ""significant deviation from his baseline personality"" and a ""genuine emotional expression,"" revealing his ""vulnerability.""
+    *   Given high arousal and ambiguous valence, Surprise is the most fitting emotion. It encompasses both positive and negative unexpected reactions.
+    *   Other strong contenders like Fear, Sadness, Anger, Disgust, Joy, and Neutrality are ruled out by specific prompt guidelines or lack of evidence. For instance, Anger/Disgust would require a definitive negative valence, which ""Okay!"" lacks on its own; Joy requires explicit evidence of achievement/celebration; Neutrality is negated by high arousal.
+
+**Predicted Emotion:** Surprise
+
+**Confidence Score:** 0.9 (Very high confidence due to unanimous high arousal, ambiguous valence, strong deviation from baseline, and clear elimination of alternatives based on provided rules).
+
+**Agent Consensus:**
+*   **Agreeing Agents:** Character Profiler, Sentiment Analyst, Social Dynamics, Emotional Shift Detector.
+*   **Dissenting Agents:** None (Context Historian describes *Joey's* subsequent anger, not Chandler's emotion).
+
+**Reasoning:**
+Chandler's ""Okay!"" with an exclamation mark indicates high arousal and a significant deviation from his typical reserved, sarcastic baseline, as noted by multiple agents. While the valence (positive or negative) is ambiguous, Surprise best captures this high-arousal, unexpected reaction and the genuine emotional vulnerability Chandler displays, as per Social Dynamics, aligning with the [SHIFT: TRUE] state and explicitly ruling out alternatives like Neutrality or Anger based on the detailed deliberation guidelines.
+
+```json
+{
+  ""recognition_id"": ""15_2_5_20"",
+  ""reasoning"": ""Chandler's \""Okay!\"" with an exclamation mark signifies high arousal and a significant deviation from his usual reserved demeanor, confirmed by multiple agents including Social Dynamics and Character Profiler. Although the valence is ambiguous, Surprise is the most encompassing label for a high-arousal, unexpected reaction that reveals vulnerability, aligning with the [SHIFT: TRUE] state and explicitly ruling out alternatives like Neutrality or Anger based on the detailed deliberation guidelines."",
+  ""predicted_emotion"": ""Surprise"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}
+```",joy,"**CHARACTER: Chandler**
+
+**1. Core Character Traits (select primary trait active):** Sarcastic/Self-deprecating/Avoidant
+
+**2. Character-Specific Triggers (CRITICAL):**
+*   **Trigger Words/Topics:** None present in ""Okay!"".
+*   **Trigger Impact:** Not applicable.
+
+**3. Baseline Deviation Analysis:**
+*   **Expected behavior:** Chandler typically responds with a neutral ""Okay,"" ""Alright,"" or a self-deprecating or cynical comment. His baseline arousal is generally low-to-medium, and his negative expression often manifests as passive avoidance or a wry, defensive humor.
+*   **Actual utterance:** ""Okay!""
+*   **Deviation detected?** Yes. The exclamation mark signifies a heightened level of arousal and emphasis, deviating significantly from Chandler's typical low-to-medium arousal baseline and his usual reserved, defensive communication style.
+*   **Intensity-vs-Baseline check:** The exclamation mark indicates an intensity above Chandler's baseline arousal.
+*   **Valence check:** Ambiguous without context. It could be positive (enthusiastic agreement, surprise) or negative (resigned acceptance, sudden negative realization). In either case, it represents a departure from his neutral/cynical baseline valence.
+*   **Deviation type:** ""Character Break"" (momentarily dropping his defensive mask, showing genuine engagement or acceptance) or ""Situational Response"" (reaction to a significant, albeit unknown, event).
+*   **Vulnerability Check:** ""Okay!"" with an exclamation mark, particularly for Chandler, suggests a moment of genuine emotional expression that is *not* masked by sarcasm or self-deprecation. Whether it's positive enthusiasm or negative resignation, it indicates a moment of vulnerability where he is not deploying his usual defenses.
+
+**4. Sarcasm Probability (0-1):**
+*   **Literal interpretation probability:** 0.8
+*   **Masked emotion underneath (if sarcastic):** N/A (An exclamation mark typically signifies a genuine reaction rather than sarcasm, which usually relies on a contrasting tone or meaning).
+*   **Confidence in sarcasm detection:** 0.1
+
+**5. Emotional Signature:**
+*   **Character's default emotional register with current company:** Neutral to slightly negative (cynicism, self-deprecation).
+*   **Current deviation from that register:** Significant, due to the exclamation mark indicating heightened arousal and the absence of his typical defensive humor. This suggests a genuine, unmasked reaction that deviates from his baseline.
+
+---
+
+**[VULNERABLE/EXPOSED]**",surprise,0.9,"[SHIFT: TRUE - EMOTIONAL PIVOT DETECTED]
+REASON: The previous utterance was a neutral invitation, which triggered a positive and enthusiastic affirmation from Phoebe in the target utterance, indicating a shift in valence and arousal."
+15,15_3_5_20,Phoebe,Bye!,"```json
+{
+  ""recognition_id"": ""15_3_5_20"",
+  ""reasoning"": ""All specialized agents consistently classify 'Bye!' as neutral in valence and intent, including the Sentiment Analyst's 'LINGUISTIC TONE: NEUTRAL' and the Social Dynamics agent's 'SOCIAL INTENT: HARD NEUTRAL.' The 'SHIFT: FALSE' state confirms the utterance does not represent an emotional change for the speaker, aligning with the Neutrality Check rule for polite, transactional dialogue and ruling out alternatives like Surprise despite the exclamation."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.98,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian (for target utterance)"", ""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics"", ""Temporal Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}
+```",neutral,"**Character-grounded analysis:**
+
+For all characters, the utterance ""Bye!"" is a neutral and common farewell. Without specific contextual information, vocal tone, or facial expression, it is impossible to detect a significant deviation from their established psychological baseline or to identify a new active emotion.
+
+**Ross:**
+*   **Baseline Personality:** Neutral, potentially slightly neutral.
+*   **Baseline Arousal:** Moderate.
+*   **Negative Expression:** Neutral.
+*   **Conflict Style:** Neutral.
+*   **Triggers:** None present.
+*   **Baseline Deviation Analysis:** ""Bye!"" is a neutral utterance and does not suggest any intensity above or below Ross's typical moderate arousal. There is no explicit positive or negative valence change. No deviation detected.
+*   **Vulnerability Check:** Not applicable.
+*   **Sarcasm Probability:** 0.
+*   **Emotional Signature:** [BASELINE/NEUTRAL]
+
+**Monica:**
+*   **Baseline Personality:** Neutral, potentially neutral.
+*   **Baseline Arousal:** Moderate.
+*   **Negative Expression:** Neutral.
+*   **Conflict Style:** Neutral.
+*   **Triggers:** None present.
+*   **Baseline Deviation Analysis:** ""Bye!"" is a neutral utterance and does not suggest any intensity above or below Monica's typical moderate arousal. There is no explicit positive or negative valence change. No deviation detected.
+*   **Vulnerability Check:** Not applicable.
+*   **Sarcasm Probability:** 0.
+*   **Emotional Signature:** [BASELINE/NEUTRAL]
+
+**Chandler:**
+*   **Baseline Personality:** Neutral, potentially neutral.
+*   **Baseline Arousal:** Moderate.
+*   **Negative Expression:** Neutral.
+*   **Conflict Style:** Neutral.
+*   **Triggers:** None present.
+*   **Baseline Deviation Analysis:** ""Bye!"" is a neutral utterance and does not suggest any intensity above or below Chandler's typical moderate arousal. There is no explicit positive or negative valence change. No deviation detected.
+*   **Vulnerability Check:** Not applicable.
+*   **Sarcasm Probability:** 0.
+*   **Emotional Signature:** [BASELINE/NEUTRAL]
+
+**Joey:**
+*   **Baseline Personality:** Neutral, potentially neutral.
+*   **Baseline Arousal:** Moderate.
+*   **Negative Expression:** Neutral.
+*   **Conflict Style:** Neutral.
+*   **Triggers:** None present.
+*   **Baseline Deviation Analysis:** ""Bye!"" is a neutral utterance and does not suggest any intensity above or below Joey's typical moderate arousal. There is no explicit positive or negative valence change. No deviation detected.
+*   **Vulnerability Check:** Not applicable.
+*   **Sarcasm Probability:** 0.
+*   **Emotional Signature:** [BASELINE/NEUTRAL]
+
+**Phoebe:**
+*   **Baseline Personality:** Neutral, potentially neutral.
+*   **Baseline Arousal:** Moderate.
+*   **Negative Expression:** Neutral.
+*   **Conflict Style:** Neutral.
+*   **Triggers:** None present.
+*   **Baseline Deviation Analysis:** ""Bye!"" is a neutral utterance and does not suggest any intensity above or below Phoebe's typical moderate arousal. There is no explicit positive or negative valence change. No deviation detected.
+*   **Vulnerability Check:** Not applicable.
+*   **Sarcasm Probability:** 0.
+*   **Emotional Signature:** [BASELINE/NEUTRAL]
+
+**Rachel:**
+*   **Baseline Personality:** Neutral, potentially neutral.
+*   **Baseline Arousal:** Moderate.
+*   **Negative Expression:** Neutral.
+*   **Conflict Style:** Neutral.
+*   **Triggers:** None present.
+*   **Baseline Deviation Analysis:** ""Bye!"" is a neutral utterance and does not suggest any intensity above or below Rachel's typical moderate arousal. There is no explicit positive or negative valence change. No deviation detected.
+*   **Vulnerability Check:** Not applicable.
+*   **Sarcasm Probability:** 0.
+*   **Emotional Signature:** [BASELINE/NEUTRAL]",neutral,0.98,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+15,15_4_5_20,Joey,Bye!,"```json
+{
+  ""recognition_id"": ""15_4_5_20"",
+  ""reasoning"": ""Despite the exclamation mark suggesting heightened arousal, the Hard Neutrality Filter and Social Script Filter from Social Dynamics critically categorize 'Bye!' as a routine, mundane, polite farewell, not conveying strong positive or negative sentiment. The Emotional Shift Detector confirms [SHIFT: FALSE], indicating Chandler's emotional state remains consistent with his neutral-to-slightly-neutral negative baseline, thus reinforcing a Neutral classification over any alternative."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Social Dynamics Expert"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst (on arousal intensity, not valence)""]
+  }
+}
+```",neutral,"Please provide the character whose utterance you would like me to analyze against their psychological baseline.
+
+Once a character is provided from the list below, I will apply the following analysis:
+
+**Core Character Traits:**
+*   **Ross:** Pedantic, Insecure, Whiny, Jealous, Intellectual
+*   **Monica:** Controlling, Competitive, High-strung, Nurturing
+*   **Chandler:** Sarcastic, Self-deprecating, Avoidant, Loyal
+*   **Joey:** Simple, Hungry, Loyal, Confused, Protective
+*   **Phoebe:** Whimsical, Blunt, Detached, Eccentric, Empathetic
+*   **Rachel:** Dramatic, Spoiled, Growth-oriented, Flirty
+
+---
+
+**(To illustrate the process, let's assume for a moment the character is Chandler.)**
+
+**Character Selected:** Chandler
+
+**BIO CARD PRIORITY FIELDS:**
+*   **Baseline Personality:** Sarcastic, Self-deprecating, Avoidant, Loyal
+*   **Baseline Arousal:** Low to Moderate (typically subdued, but can be higher with anxiety or active sarcasm)
+*   **Negative Expression:** Fear, Sadness (often masked by sarcasm), Anxiety
+*   **Conflict Style:** Avoidance, humor as deflection
+
+**1. Core Character Traits (select primary trait active):**
+The utterance ""Bye!"" itself doesn't strongly activate any single primary trait. It's a neutral farewell.
+
+**2. Character-Specific Triggers (CRITICAL):**
+*   **Trigger Words/Topics:** None in ""Bye!""
+*   **Trigger Impact:** No specific triggers are present to force Chandler out of his baseline state.
+
+**3. Baseline Deviation Analysis:**
+*   **Expected behavior:** For Chandler, a simple ""Bye!"" would typically be neutral in tone, possibly subdued or slightly melancholic, reflecting his general baseline emotional register. It would not usually be energetic or highly emotional unless the context explicitly dictated it (e.g., leaving an upsetting or very joyful situation).
+*   **Actual utterance:** ""Bye!""
+*   **Intensity-vs-Baseline check:** The utterance ""Bye!"" on its own doesn't inherently indicate a significant deviation from Chandler's baseline arousal. It's a neutral, expected farewell. It's not unusually loud, overly expressive, or emotionally charged in a way that suggests a heightened state *beyond* his baseline.
+*   **Valence check:** Neutral valence. No explicit positive or negative sentiment is conveyed solely by the word ""Bye!"" in isolation.
+*   **Deviation type:** None. This is consistent with baseline behavior for a neutral farewell.
+*   **Vulnerability Check:** Not applicable. A neutral ""Bye!"" does not inherently suggest masked vulnerability.
+
+**4. Sarcasm Probability (0-1):**
+*   **Literal interpretation probability:** 1 (Highly probable, as it's a direct, neutral farewell).
+*   **Masked emotion underneath (if sarcastic):** N/A (No sarcasm detected).
+*   **Confidence in sarcasm detection:** 1 (Very confident it's not sarcastic).
+
+**5. Emotional Signature:**
+*   **Character's default emotional register with current company:** Neutral to slightly neutral-negative (often reserved or self-deprecating).
+*   **Current deviation from that register:** None.
+
+---
+
+**[BASELINE/NEUTRAL]**",neutral,0.95,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+15,15_5_5_20,Joey,Cut it out Ross! I hate to have to save your life and kick your ass in the same day!,"```json
+{
+  ""recognition_id"": ""15_5_5_20"",
+  ""reasoning"": ""The utterance exhibits strong negative valence, high arousal, and explicit aggressive language ('kick your ass', 'hate to'). The Shift Agent confirmed an emotional pivot to intense anger, and all specialized agents concur on the aggressive and confrontational nature of the expression, ruling out Fear, Sadness, Surprise, Neutral, and Joy due to specific deliberation guidelines."",
+  ""predicted_emotion"": ""Anger"",
+  ""confidence"": 0.99,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler (Joey's Persona)"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}
+```",anger,"**Character: Monica**
+
+**1. Core Character Traits Active:** Controlling, Competitive.
+
+**2. Character-Specific Triggers:**
+*   **Trigger Words/Topics:** Ross's behavior (implied). ""Saving your life"" (past event, contributing to frustration). ""Kicking your ass"" (direct threat/challenge).
+*   **Trigger Impact:** Monica is forced out of her baseline state. The utterance expresses intense anger, frustration, and a desire to assert control over Ross. The combination of having to rescue him and then discipline him has pushed her past her normal high-arousal threshold into an overtly aggressive stance.
+
+**3. Baseline Deviation Analysis:**
+*   **Expected behavior:** Monica, being High-strung and Controlling, often exhibits high arousal and direct communication.
+*   **Actual utterance:** ""Cut it out Ross! I hate to have to save your life and kick your ass in the same day!""
+*   **Intensity-vs-Baseline check:** While Monica's baseline arousal is high, the phrase ""I hate to"" and the explicit threat ""kick your ass"" represent a significant *increase* in negative intensity and an escalation beyond her typical high-arousal state. This is not just her normal loud delivery; it's an outburst of anger.
+*   **Valence check:** Explicitly negative valence (""hate to"").
+*   **Deviation type:** ""In-Character Enhancement"" (exaggerated controlling and competitive tendencies escalating into anger) and ""Situational Response"" (direct reaction to Ross's actions in a high-stakes scenario).
+*   **Vulnerability Check:** Monica is using direct aggression and control to express her anger and frustration, rather than masking a vulnerable emotion like sadness or fear.
+
+**4. Sarcasm Probability:**
+*   **Literal interpretation probability:** 0.9 (Very high confidence she means this literally in anger).
+*   **Masked emotion underneath:** Anger/Frustration.
+*   **Confidence in sarcasm detection:** Low (it is not sarcastic).
+
+**5. Emotional Signature:**
+*   **Character's default emotional register with current company:** Varies with Ross; can be nurturing, but also critical and controlling.
+*   **Current deviation from that register:** Significant deviation towards overt anger and direct aggression, moving away from a neutral or purely nurturing stance.
+
+**Classification: [AGGRESSIVE/DEFENSIVE]**",anger,0.99,"[SHIFT: TRUE - EMOTIONAL PIVOT DETECTED]
+REASON: Joey's emotional state abruptly shifted from neutral farewells to intense anger, triggered by his hostile warnings directed at Ross."
+14,14_0_6_4,Phoebe,Have you really done this before?,"```json
+{
+  ""recognition_id"": ""14_0_6_4"",
+  ""reasoning"": ""Despite the 'really' suggesting moderate arousal and potential surprise, the Sentiment Analyst explicitly assessed 'Neutral Valence' and 'Neutral/Mild Sentiment Intensity'. Furthermore, the Social Dynamics expert determined '[SOCIAL INTENT: HARD NEUTRAL]' for a question seeking information, and the Deliberation Guidelines' 'Neutrality Check' mandates 'Neutral' for simple information transfer without inventing latent subtext, overriding the potential for Surprise."",
+  ""predicted_emotion"": ""Neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Social Dynamics"", ""Context Historian"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}
+```",surprise,I need to know which character is speaking to perform this analysis. Please provide the character's name.,neutral,0.95,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+14,14_10_6_4,Chandler,"Oh, all right.","```json
+{
+  ""recognition_id"": ""14_10_6_4"",
+  ""reasoning"": ""Despite the surrounding scene's positive vibe, the Shift Agent explicitly reports [SHIFT: FALSE], indicating continuity in Chandler's emotional state. All specialized agents—Character Profiler, Sentiment Analyst, and Social Dynamics—definitively classify 'Oh, all right' as neutral, aligning with Chandler's baseline personality and a low-arousal acknowledgment as dictated by the HARD NEUTRALITY FILTER."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Context Historian""]
+  }
+}
+```",neutral,"**Character Analyzed:** Chandler
+
+**1. Core Character Traits:** Sarcastic, Self-deprecating, Avoidant, Loyal
+
+**2. Baseline Personality:** Chandler's baseline personality tends towards the avoidant and slightly pessimistic. He uses sarcasm and self-deprecating humor as primary coping mechanisms and social defense. His general emotional state is often neutral to slightly negative, with a tendency to deflect or be resigned.
+
+**3. Baseline Arousal:** Chandler's baseline arousal is typically low to medium. He is not naturally boisterous or highly expressive unless his defenses are heightened or he is actively engaging in a sarcastic tirade. His ""neutral"" is often a dry, slightly subdued delivery.
+
+**4. Negative Expression:** His primary modes of negative expression are sarcasm, cynicism, self-deprecation, and active avoidance.
+
+**5. Conflict Style:** Avoidant, deflective, utilizes humor, can become defensive.
+
+---
+
+**6. Character-Specific Triggers:**
+*   **Trigger Words/Topics:** Emotional vulnerability, direct confrontation, topics related to his past trauma (parents' divorce), commitment, strong negative emotions from others directed at him, discussions about his perceived inadequacies.
+*   **Trigger Impact:** These triggers typically cause him to either intensify his defensive humor (sarcasm, deflection) or withdraw into a state of genuine distress (anxiety, fear, sadness). The utterance ""Oh, all right"" does not immediately suggest one of these known triggers.
+
+---
+
+**7. Baseline Deviation Analysis:**
+
+*   **Expected behavior:** For Chandler at baseline, ""Oh, all right"" would most likely be delivered in a neutral, slightly dry, perhaps slightly resigned or non-enthusiastic tone. It would indicate a neutral acceptance, mild agreement, or mild concession without strong emotion.
+
+*   **Actual utterance:** ""Oh, all right.""
+
+*   **Intensity-vs-Baseline check:** The utterance itself is neutral in content. Without additional context (e.g., tone of voice, body language), the intensity of ""Oh, all right"" aligns very well with Chandler's Baseline Arousal. A neutral or slightly resigned delivery of ""Oh, all right"" is entirely consistent with his typical emotional range and expressive style. It does not clearly indicate a significant shift *above* or *below* his established baseline arousal.
+
+*   **Valence check:** The utterance itself is neutral. It does not explicitly convey positive or negative valence without further contextual cues.
+
+*   **Deviation type:** Given its neutral content and likely neutral to slightly resigned delivery, this utterance falls into the category of ""Baseline/Neutral"" or ""In-Character Enhancement"" if a slight resignation is implied (which is consistent with his character). It does not represent a ""Character Break"" or a reaction to extreme circumstances.
+
+*   **Vulnerability Check:** The phrase ""Oh, all right"" itself does not obviously mask a deep vulnerable emotion like Sadness or Fear. If delivered with a strong sigh or downcast expression (not indicated by the utterance alone), it could potentially hint at resignation or sadness, but as a standalone utterance, it is too neutral to suggest deep masked vulnerability *beyond* his typical self-deprecating or cynical tendencies.
+
+---
+
+**8. Sarcasm Probability (0-1):**
+*   **Literal interpretation probability:** High (0.8) - It is a very common, neutral phrase often used literally.
+*   **Masked emotion underneath (if sarcastic):** If sarcastic, it would most likely mask annoyance, impatience, or a feigned indifference. It is less likely to mask deep sadness or fear in this specific utterance, as Chandler's sarcasm is typically a more active defensive mechanism, not a deep emotional concealment for pain in such a neutral phrase.
+*   **Confidence in sarcasm detection:** Low (0.2) - Without tone, context, or further body language, it is very difficult to definitively determine sarcasm for such a generic and neutral phrase.
+
+---
+
+**9. Emotional Signature:**
+
+*   **Character's default emotional register with current company:** Chandler's default emotional register with friends is often neutral to slightly negative, punctuated by dry humor and occasional genuine affection or concern, but rarely intense positive expression in a neutral interaction.
+*   **Current deviation from that register:** The utterance ""Oh, all right"" does not represent a significant deviation from his baseline emotional register. A neutral, resigned, or slightly apathetic ""Oh, all right"" fits perfectly within his established patterns and typical expressive range.
+
+---
+
+**Classification:** [BASELINE/NEUTRAL]",neutral,0.95,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+14,14_1_6_4,Joey,Yeah!,"```json
+{
+  ""recognition_id"": ""14_1_6_4"",
+  ""reasoning"": ""The utterance \""Yeah!\"" is classified as Joy despite the unknown speaker, as the strong scene context from the Context Historian and Emotional Shift Detector explicitly indicates shared joy and celebration over positive news. These agents describe the utterance as an \""exuberant,\"" \""enthusiastic affirmation\"" of \""positive valence,\"" overriding the generic \""neutral-professional baseline\"" fallback for an unknown persona given the clear celebratory context."",
+  ""predicted_emotion"": ""Joy"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Character Profiler"", ""Social Dynamics""]
+  }
+}
+```",joy,"I cannot provide an analysis for the utterance ""Yeah!"" without knowing **who the speaker is**.
+
+Each character has a unique ""psychological baseline"" and specific patterns of expression that determine how an utterance like ""Yeah!"" should be interpreted. Please specify which character said ""Yeah!"" (e.g., ""Monica: Yeah!"", ""Chandler: Yeah!"").
+
+Once the speaker is identified, I can analyze:
+*   Their baseline arousal and how ""Yeah!"" deviates (e.g., is it typical enthusiasm for them, or an unusual surge?).
+*   Their baseline personality and whether ""Yeah!"" is an ""In-Character Enhancement"" or a ""Character Break.""
+*   Potential triggers.
+*   The positive valence of ""Yeah!"" and whether it masks any negative emotions (unlikely for ""Yeah!"" in isolation).
+*   The probability of sarcasm (very low for ""Yeah!"" in isolation).",joy,0.95,"[SHIFT: TRUE - EMOTIONAL PIVOT DETECTED]
+REASON: The conversation shifts from neutral (Phoebe's neutral question) to positive and high-arousal (Joey's enthusiastic affirmation, driven by the recent positive news of getting health insurance back)."
+14,14_2_6_4,Joey,Yeah!,"```json
+{
+  ""recognition_id"": ""14_2_6_4"",
+  ""reasoning"": ""The utterance \""Yeah!\"" expresses strong positive valence and high arousal, reinforced by the exclamation mark and the Sentiment Analyst's 'aggressive' (forceful enthusiasm) linguistic tone, which aligns with the Context Historian's report of a consistently celebratory atmosphere among friends due to positive news. As the Emotion Shift Agent reports [SHIFT: FALSE], this utterance perpetuates the existing positive emotional momentum, clearly indicating Joy over neutral or negative alternatives."",
+  ""predicted_emotion"": ""Joy"",
+  ""confidence"": 1.0,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Sentiment Analyst"", ""Social Dynamics"", ""Character Profiler""],
+    ""dissenting_agents"": []
+  }
+}
+```",joy,"**Disclaimer:** No speaker or specific social context was provided for the utterance ""Yeah!"". Therefore, this analysis will proceed hypothetically, demonstrating the application of the framework based on general interpretations of the utterance and character archetypes from the provided list.
+
+---
+
+**Target Utterance:** ""Yeah!""
+
+**1. Core Character Traits (Hypothetical - applying to a generic ""speaker""):**
+Without a specific character, it's impossible to identify primary traits. ""Yeah!"" is a general affirmative.
+
+**2. Character-Specific Triggers (Hypothetical):**
+Without a specific character or context, no character-specific triggers can be identified.
+
+**3. Baseline Deviation Analysis (Hypothetical):**
+*   **Expected behavior:** ""Yeah!"" is a common affirmative response. The exclamation mark suggests enthusiasm or strong agreement, but can also be a baseline expression for naturally effusive individuals.
+*   **Actual utterance:** ""Yeah!""
+*   **Deviation detected?** Possible, depending on the speaker's typical expressiveness. If the speaker is generally reserved, ""Yeah!"" would be a significant deviation. If they are naturally enthusiastic and frequently use exclamations, it might be within their ""In-Character Enhancement"" range.
+*   **Intensity-vs-Baseline check:** The exclamation mark increases the intensity above a simple ""Yeah."" If the speaker's Baseline Arousal already includes frequent enthusiastic affirmatives, this might not represent a *new* emotional shift, but rather an enhancement of their baseline positive expressiveness.
+*   **Valence check:** ""Yeah!"" generally carries positive valence (agreement, affirmation, enthusiasm).
+*   **Deviation type:** Most likely ""In-Character Enhancement"" (exaggerated positive trait) if the speaker is generally positive and enthusiastic, or ""Situational Response"" if the speaker is usually reserved and this is an unexpected display of enthusiasm.
+*   **Vulnerability Check:** ""Yeah!"" is not typically used to mask sadness, fear, or disgust. It's an open expression of agreement, affirmation, or enthusiasm.
+
+**4. Sarcasm Probability:**
+*   **Literal interpretation probability:** 0.9 (Very high, ""Yeah!"" is almost always literal).
+*   **Masked emotion underneath:** None. It's a direct affirmation.
+*   **Confidence in sarcasm detection:** 1.0 (Extremely confident it is not sarcastic).
+
+**5. Emotional Signature:**
+*   **Character's default emotional register with current company:** Without a character or social context, this is undefined.
+*   **Current deviation from that register:** Without a character or social context, this is undefined.
+*   **Classification:** Based on the general positive valence and emphasis, the utterance ""Yeah!"" most directly aligns with: **[PLAYFUL/AFFECTIONATE]** (if indicating enthusiastic agreement or joy) or **[BASELINE/NEUTRAL]** (if it's a common, non-emphatic affirmation for the speaker).
+
+---
+**Conclusion (Hypothetical Analysis):**
+
+The utterance ""Yeah!"" is a strong affirmative with positive valence. Depending on the speaker's established **Baseline Arousal** and **Baseline Personality** (specifically their natural expressive style), this could represent either an **[PLAYFUL/AFFECTIONATE]** state (e.g., enthusiastic agreement, joy) or fall within their **[BASELINE/NEUTRAL]** expressive range (e.g., a simple, direct affirmation for a generally positive and expressive individual). Without a specific character or contextual information, it is difficult to determine if this signifies a deviation from a character's typical emotional register or merely an enhancement of their habitual positive expressiveness.",joy,1.0,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+14,14_3_6_4,Joey,Yeah!,"```json
+{
+  ""recognition_id"": ""14_3_6_4"",
+  ""reasoning"": ""Based on the mandatory valence pre-filter, the positive sentiment identified by the Sentiment Analyst (Extreme, Positive/Enthusiastic) restricts the final emotion to either Joy or Surprise. The Emotional Shift Detector confirms [SHIFT: FALSE], indicating continuity in the scene's emotional state, which the Context Historian describes as 'consistently positive' and a 'strong shift to joy' initiated earlier, reinforced by 'shared joy and celebration over positive news.' This active celebratory context strongly aligns with the definition of Joy, rather than merely positive surprise. Therefore, Joy is the most accurate classification."",
+  ""predicted_emotion"": ""Joy"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}
+```",joy,"As your Character Behavioral Specialist, I am ready to provide a character-grounded analysis of any utterance you provide, based on the specific psychological profiles of the Friends characters and their established patterns. To proceed, please provide two pieces of information:
+
+1.  **The Character's Name:** (e.g., Ross, Monica, Chandler, Joey, Phoebe, Rachel)
+2.  **The Utterance to Analyze:** (e.g., ""Yeah!"", ""Oh my god!"", ""I'm fine."")
+
+Once I have these, I will generate a comprehensive report using the following framework:
+
+---
+
+### Character Behavioral Analysis Report
+
+**Character:** [Character's Name]
+**Utterance:** ""[Utterance]""
+
+---
+
+#### 1. Core Character Traits (Primary Trait Active)
+
+*   [Identify the primary trait from the Bio Card (e.g., Chandler: Sarcastic, Monica: Controlling, Ross: Intellectual) that appears most relevant or prominent in this specific utterance or its implied context. If multiple are equally relevant or none clearly stand out, explain why or state ""N/A - Neutral affirmation/response.""]
+
+#### 2. Character-Specific Triggers
+
+*   **Trigger Words/Topics:**
+    *   [Identify any specific words, phrases, or subject matters in the utterance (or immediate context, if provided) that are known historical triggers for this character.]
+*   **Trigger Impact:**
+    *   [Explain how this specific trigger forces the character out of their baseline and into a heightened emotional state, or reinforces an existing one.]
+
+#### 3. Baseline Deviation Analysis
+
+*   **Expected Behavior:**
+    *   [Describe what neutral, baseline behavior and communication would typically look like for this character in a similar situation, considering their Baseline Personality and Baseline Arousal.]
+*   **Actual Utterance:**
+    *   [Reiterate the utterance and, if tone is specified or implied, describe it (e.g., neutral, enthusiastic, exasperated).]
+*   **Intensity-vs-Baseline Check:**
+    *   [Compare the current intensity (arousal level) of the utterance to the character's Baseline Arousal. If intensity matches baseline (e.g., naturally loud/high-energy delivery for that character), do NOT report an emotional shift unless valence is explicitly different. If intensity is significantly *above* or *below* baseline, describe the change.]
+*   **Valence Check:**
+    *   [Determine if there is an explicit positive or negative valence change from the character's typical emotional register, or if it's merely a stylistic delivery within their usual valence.]
+*   **Deviation Type:**
+    *   **""In-Character Enhancement""**: [If the utterance is an intensified expression of a core trait without breaking character, e.g., an overly sarcastic Chandler, an extra competitive Monica.]
+    *   **""Character Break""**: [If the utterance reveals a vulnerability, sincerity, or emotion that is uncharacteristic for the character and not easily masked by their usual defenses, e.g., a genuinely tearful Chandler, a completely submissive Monica.]
+    *   **""Situational Response""**: [If the utterance is a direct, albeit intense, reaction to an extreme external circumstance that temporarily overrides core traits, e.g., Phoebe's shock at a sudden event.]
+*   **Vulnerability Check:**
+    *   [Explain briefly if the character is using their core traits (like sarcasm, deflection, or humor) to mask a vulnerable emotion (Sadness, Fear, Disgust) rather than expressing Anger. If no vulnerability is detected, state ""No apparent masking of vulnerability.""]
+
+#### 4. Sarcasm Probability (0-1)
+
+*   **Literal Interpretation Probability:** [0.0 (highly sarcastic) to 1.0 (highly literal)]
+*   **Masked Emotion Underneath:** [If sarcastic, explicitly state the underlying emotion, ruling out Sadness/Fear before defaulting to Anger if appropriate. If not sarcastic, state ""N/A - Not sarcastic.""]
+*   **Confidence in Sarcasm Detection:** [Low, Medium, High]
+
+#### 5. Emotional Signature
+
+*   **Character's Default Emotional Register with Current Company:**
+    *   [Describe the character's typical emotional state and expression when interacting with the implied company, considering their Baseline Personality, Negative Expression, and Conflict Style.]
+*   **Current Deviation from That Register:**
+    *   [Analyze how the current utterance *deviates* from that default register, if at all. Consider changes in valence, intensity, and primary trait expression.]
+
+---
+
+**Underlying Emotional State Classification:**
+
+Based on the character-grounded analysis, the most appropriate classification for the underlying emotional state of the character is:
+
+*   **[AGGRESSIVE/DEFENSIVE]**
+*   **[VULNERABLE/EXPOSED]**
+*   **[PLAYFUL/AFFECTIONATE]**
+*   **[BASELINE/NEUTRAL]**
+
+---
+
+**I await your character's name and the utterance you wish for me to analyze.**",joy,0.95,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+14,14_4_6_4,Joey,"You just take a big, big swing.","```json
+{
+  ""recognition_id"": ""14_4_6_4"",
+  ""reasoning"": ""Despite the Emotion Shift Detector's conflicting characterization of the utterance as 'neutral, reflective,' the Sentiment Analyst and Social Dynamics Expert strongly agree on its positive valence, extreme intensity, and high arousal (Score 9), interpreting it as forceful, proactive encouragement and a call to bold action with strong solidarity. Given the [SHIFT: TRUE] status, which indicates a pivot, and the positive, high-arousal nature of the 'big, big swing' utterance, Joy is the most fitting emotion as it signifies active celebration of potential and achievement, representing a shift from a potentially lower arousal or neutral state to this positive, emphatic encouragement."",
+  ""predicted_emotion"": ""Joy"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Sentiment Analyst"",
+      ""Social Dynamics""
+    ],
+    ""dissenting_agents"": [
+      ""Context Historian"",
+      ""Emotional Shift Detector""
+    ]
+  }
+}
+```",neutral,,joy,0.95,"[SHIFT: TRUE - EMOTIONAL PIVOT DETECTED]
+REASON: The speaker's emotional state shifted from an exuberant positive exclamation to a neutral, reflective statement, indicating a significant decrease in arousal and a change in valence."
+14,14_5_6_4,Joey,"Now, dont hold back.","```json
+{
+  ""recognition_id"": ""14_5_6_4"",
+  ""reasoning"": ""Despite the Sentiment Analyst's 'aggressive' tone tag, the collective reports of shared joy and celebration (Context Historian), positive valence and extreme intensity (Sentiment Analyst), and playful, uninhibited interaction (Social Dynamics), heavily point to Joy. The [SHIFT: FALSE] status confirms continuity with the existing celebratory atmosphere, making Joy a more fitting label than Surprise, which typically implies a sudden, new event."",
+  ""predicted_emotion"": ""Joy"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Context Historian"",
+      ""Sentiment Analyst"",
+      ""Social Dynamics"",
+      ""Emotional Shift Detector""
+    ],
+    ""dissenting_agents"": []
+  }
+}
+```",neutral,,joy,0.95,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+14,14_6_6_4,Phoebe,Hey!,"```json
+{
+  ""recognition_id"": ""14_6_6_4"",
+  ""reasoning"": ""The utterance \""Hey!\"" is classified as Joy due to its positive valence, high arousal indicated by the exclamation mark and Phoebe's persona, and the overarching context of shared celebration. The Emotional Shift Detector confirms continuity of this positive atmosphere, overcoming the Sentiment Analyst's forced Neutral tag and the Social Dynamics agent's assessment of mundane neutrality by prioritizing the strong positive context."",
+  ""predicted_emotion"": ""Joy"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Context Historian"",
+      ""Emotional Shift Detector""
+    ],
+    ""dissenting_agents"": [
+      ""Sentiment Analyst"",
+      ""Social Dynamics""
+    ]
+  }
+}
+```",joy,,joy,0.95,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+14,14_7_6_4,Joey,Hey-hey-hey!,"{
+  ""recognition_id"": ""14_7_6_4"",
+  ""reasoning"": ""The final emotion is classified as Joy due to the strong positive valence and high arousal expressed in 'Hey-hey-hey!', reinforced by the Context Historian's report of a consistently positive and celebratory atmosphere and the Sentiment Analyst's finding of extreme positive sentiment. The [SHIFT: FALSE] status confirms continuity of this established positive mood, making Joy a consistent and well-supported classification, rather than surprise or neutrality."",
+  ""predicted_emotion"": ""Joy"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Context Historian"",
+      ""Character Profiler"",
+      ""Sentiment Analyst"",
+      ""Social Dynamics""
+    ],
+    ""dissenting_agents"": []
+  }
+}",joy,"**Character Behavioral Analysis: ""Hey-hey-hey!""**
+
+**Speaker:** Unknown
+
+**1. Core Character Traits:**
+Given the lack of a speaker, we must consider how each character *might* interpret or express this utterance.
+
+**2. Character-Specific Triggers:**
+Without a specific speaker or context, character-specific triggers cannot be identified. The utterance ""Hey-hey-hey!"" itself is a general, enthusiastic greeting.
+
+**3. Baseline Deviation Analysis:**
+
+*   **Expected behavior:** A standard greeting (e.g., ""Hi,"" ""Hello"") or a character's typical idiosyncratic greeting (e.g., Chandler's neutral tone, Ross's slight whine, Joey's simple enthusiasm).
+*   **Actual utterance:** ""Hey-hey-hey!""
+*   **Deviation detected?**
+    *   For **Joey**, **Phoebe**, **Rachel**, and potentially **Monica**, this utterance could very well fall within their established baseline for a positive, enthusiastic greeting. These characters are generally more outwardly expressive and energetic in positive situations.
+    *   For **Ross** (Pedantic/Insecure/Whiny/Jealous/Intellectual) and **Chandler** (Sarcastic/Self-deprecating/Avoidant/Loyal), ""Hey-hey-hey!"" represents a significant deviation from their typical baseline. Their greetings are usually more subdued, cynical, or neutral.
+*   **Intensity-vs-Baseline check:**
+    *   For characters like Joey, Phoebe, Rachel, and Monica, the positive intensity of ""Hey-hey-hey!"" could match their naturally high-energy delivery in positive contexts. Therefore, for them, it might *not* indicate an emotional *shift* but rather an in-character expression of joy.
+    *   For Ross and Chandler, the positive intensity clearly exceeds their typical baseline arousal.
+*   **Valence check:** The utterance has explicit positive valence.
+*   **Deviation type:**
+    *   If spoken by Joey, Phoebe, Rachel, or Monica (in a naturally enthusiastic manner): **In-Character Enhancement** (an exaggerated but typical positive expression).
+    *   If spoken by Ross or Chandler: **Character Break** (a significant shift to an unexpectedly positive and energetic demeanor).
+*   **Vulnerability Check:** If ""Hey-hey-hey!"" is a character break for Ross or Chandler, it is unlikely to be masking Sadness or Fear. Instead, it might be a forced cheerfulness stemming from discomfort, an attempt to be ""normal,"" or a desperate effort to appear positive, which could still be a form of vulnerability, but not Sadness/Fear directly. Its overt enthusiasm makes it an unlikely mask for inherently negative core emotions.
+
+**4. Sarcasm Probability (0-1):**
+*   **Literal interpretation probability:** 0.9 (The exclamation marks and repetition strongly suggest genuine enthusiasm rather than sarcasm.)
+*   **Masked emotion underneath:** N/A (Highly unlikely to be sarcastic without strong contextual cues; the positive valence and enthusiasm contradict this interpretation.)
+*   **Confidence in sarcasm detection:** 0.1 (Very low, given the utterance's inherent positive and enthusiastic nature.)
+
+**5. Emotional Signature:**
+
+*   **Character's default emotional register with current company:** Cannot be determined without a speaker or specific context.
+*   **Current deviation from that register:** Cannot be determined without a speaker or specific context.
+
+**Conclusion (Strict Classification):**
+
+Given the utterance ""Hey-hey-hey!"" is overwhelmingly positive and enthusiastic, and is a common expression of joy or friendly greeting, the most fitting strict classification of the underlying emotional state is:
+
+**[PLAYFUL/AFFECTIONATE]**",joy,0.95,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+14,14_8_6_4,Chandler,What are you doing?,"```json
+{
+  ""recognition_id"": ""14_8_6_4"",
+  ""reasoning"": ""Despite the overall scene's positive momentum reported by the Context Historian, all specialized agents concur that Chandler's specific utterance, 'What are you doing?', is neutral in its linguistic tone, social intent, and character state. The Emotional Shift Detector confirms [SHIFT: FALSE], indicating continuity with Chandler's neutral state, overriding the general celebratory vibe for this particular utterance."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Character Profiler"",
+      ""Sentiment Analyst"",
+      ""Social Dynamics"",
+      ""Emotional Shift Detector""
+    ],
+    ""dissenting_agents"": []
+  }
+}
+```",neutral,"The utterance ""What are you doing?"" is a neutral, factual question. Without a specific character or accompanying context (tone, body language, situation), it is impossible to detect any deviation from a character's baseline psychological state.
+
+**1. Core Character Traits:**
+This utterance does not activate or highlight any specific core traits for any of the listed characters. It is a neutral interrogative.
+
+**2. Character-Specific Triggers:**
+No trigger words, phrases, or topics are present in this neutral question.
+
+**3. Baseline Deviation Analysis:**
+*   **Expected behavior:** For any character, asking ""What are you doing?"" in a neutral tone is considered baseline behavior.
+*   **Actual utterance:** No deviation detected.
+*   **Intensity-vs-Baseline check:** The intensity is neutral, aligning with any character's baseline arousal.
+*   **Valence check:** Neutral valence.
+*   **Deviation type:** None detected. This is not an enhancement, a break, or a response to extreme circumstances.
+*   **Vulnerability Check:** No vulnerability is detected.
+
+**4. Sarcasm Probability:**
+*   Literal interpretation probability: 1
+*   Masked emotion underneath: Neutral
+*   Confidence in sarcasm detection: Very low (0/1)
+
+**5. Emotional Signature:**
+This utterance is entirely neutral and aligns with the baseline behavior of any character.
+
+**[BASELINE/NEUTRAL]**",neutral,0.95,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+14,14_9_6_4,Phoebe,Were just celebrating that Joey got his health insurance back.,"```json
+{
+  ""recognition_id"": ""14_9_6_4"",
+  ""reasoning"": ""The utterance expresses clear positive sentiment and high arousal through keywords like \""celebrating\"" and \""health insurance back,\"" confirmed by all agents. Despite the Sentiment Analyst's forced \""Neutral\"" tag due to framework limitations, the strong evidence of a `[SHIFT: TRUE]` emotional pivot to joy and relief supports the classification of Joy over its closest alternative, Surprise."",
+  ""predicted_emotion"": ""Joy"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}
+```",joy,"**Analysis of Utterance: ""We're just celebrating that Joey got his health insurance back.""**
+
+**Character:** Monica Geller (assumed speaker, given her nurturing nature and inclination to organize and lead group activities)
+
+**1. Core Character Traits (select primary trait active):**
+*   **Nurturing:** Her deep care for her friends' well-being is strongly active, leading to joy and support for Joey.
+*   **Controlling:** She likely organized or is actively participating in the celebration, demonstrating her need to manage and facilitate positive events.
+*   **High-strung:** Her inherent high arousal manifests here as enthusiastic and expressive joy, rather than anxiety or stress.
+
+**2. Character-Specific Triggers:**
+*   **Trigger Words/Topics:** ""Celebrating,"" ""Joey got his health insurance back."" These phrases directly trigger Monica's nurturing instincts and her desire for her loved ones' security and happiness. A significant positive development for a close friend like Joey would undoubtedly evoke a strong positive emotional response.
+*   **Trigger Impact:** This event forces Monica out of any potential negative baseline state (such as stress about control or imperfections) into a heightened state of unequivocal positive emotion (Joy, Relief, Excitement).
+
+**3. Baseline Deviation Analysis:**
+*   **Expected behavior:** Monica, even at baseline, can be high-energy and expressive. However, her usual high arousal might stem from stress, competitiveness, or the need for order.
+*   **Actual utterance:** ""We're just celebrating that Joey got his health insurance back."" The utterance expresses pure, focused joy and relief.
+*   **Intensity-vs-Baseline check:** While Monica's baseline arousal is high, the *valence* of this utterance is explicitly positive, a distinct shift from any potential negative baseline expressions (like anger, stress, or control-related frustration). Her high energy is channeled into clear, unadulterated happiness for a friend.
+*   **Valence check:** Explicit positive valence (celebration of good news for a friend).
+*   **Deviation type:** Situational Response (a significant positive event for a close friend, causing genuine joy and relief).
+*   **Vulnerability Check:** Not applicable; this is an expression of genuine joy and relief, not a masking of vulnerability.
+
+**4. Sarcasm Probability (0-1):**
+*   **Literal interpretation probability:** 1
+*   **Masked emotion underneath (if sarcastic):** N/A
+*   **Confidence in sarcasm detection:** 0
+
+**5. Emotional Signature:**
+*   **Character's default emotional register with current company:** Neutral to positive, can be easily stressed or competitive.
+*   **Current deviation from that register:** Significant positive deviation; her high arousal is channeled into unambiguous joy and profound relief for a friend's well-being. This is a clear manifestation of her nurturing and loyal traits.
+
+**Strict Classification of Underlying Emotional State:** [PLAYFUL/AFFECTIONATE]",joy,0.95,"[SHIFT: TRUE - EMOTIONAL PIVOT DETECTED]
+REASON: The conversation shifted from Chandler's neutral inquiry to Phoebe's positive and high-arousal celebration of Joey's health insurance."
+16,16_0_4_10,Monica,"Hey, Joey, could you pass the cheese?","```json
+{
+  ""recognition_id"": ""16_0_4_10"",
+  ""reasoning"": ""The predicted emotion is Neutral because all expert reports consistently indicate low arousal, neutral valence, and a transactional request. This choice prioritizes Neutral over Surprise and Joy, which would require higher arousal or positive valence, respectively, particularly given the [SHIFT: FALSE] status maintaining a stable neutral baseline for Joey."",
+  ""predicted_emotion"": ""Neutral"",
+  ""confidence"": 0.98,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Context Historian"",
+      ""Sentiment Analyst"",
+      ""Social Dynamics"",
+      ""Emotional Shift Detector""
+    ],
+    ""dissenting_agents"": []
+  }
+}
+```",neutral,"Please specify which character is speaking the utterance ""Hey, Joey, could you pass the cheese?"" so I can analyze it against their psychological baseline.",neutral,0.98,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+16,16_1_4_10,Joey,"Listen uh, Id prefer it if you didnt call me Joey.","```json
+{
+  ""recognition_id"": ""16_1_4_10"",
+  ""reasoning"": ""The utterance expresses a clear negative preference and deep personal discomfort, as indicated by the Emotion Shift Detector [SHIFT: TRUE]. Social Dynamics and Character Profiler explicitly identify the ongoing use of the name as an external threat to his emotional comfort and identity, leading to a classification of **Fear** (and [VULNERABILITY/DISTRESS])."",
+  ""predicted_emotion"": ""Fear"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Sentiment Analyst"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Context Historian""]
+  }
+}
+```",neutral,"Here's the analysis of Joey's utterance:
+
+**1. Core Character Traits (Joey):** Simple, Hungry, Loyal, Confused, Protective.
+
+**2. Character-Specific Triggers:**
+*   **Trigger Words/Topics:** The utterance itself is the trigger. Joey's own name, ""Joey,"" is the subject of his unusual request.
+*   **Trigger Impact:** This is a significant and uncharacteristic request for Joey. For someone named Joey to ask *not* to be called Joey suggests a profound internal conflict, discomfort, or a negative association with his own identity. This forces him out of his baseline simple, neutral state into a heightened state of distress or vulnerability.
+
+**3. Baseline Deviation Analysis:**
+*   **Expected behavior:** For someone named Joey, the expected behavior is to respond to and accept being called ""Joey"" without issue.
+*   **Actual utterance: Deviation detected?** YES. This is a profound deviation. He is explicitly stating a preference *not* to be called his own name.
+*   **Intensity-vs-Baseline check:** This is a clear departure from his low/neutral baseline arousal. The request, while polite (""I'd prefer""), is extremely unusual and indicative of a significant underlying issue.
+*   **Valence check:** Negative valence. He is expressing a strong negative sentiment regarding his own name.
+*   **Deviation type:** **Character Break**. This is an unexpected and uncharacteristic request that reveals a deeply troubled or vulnerable aspect of Joey's inner state, contradicting his usual simple and direct personality.
+*   **Vulnerability Check:** Yes, this unequivocally points to a vulnerable emotion. Requesting not to be called one's own name is a severe expression of identity distress, shame, fear of association, or profound sadness. Given Joey's simple and protective nature, this unmasking of such deep discomfort is a significant character break that suggests a deep personal wound or crisis. He is not using his core traits (like humor or confusion) to mask this; rather, he is directly expressing a profound negative preference.
+
+**4. Sarcasm Probability:**
+*   **Literal interpretation probability:** High. Joey is not typically sarcastic, especially about deeply personal matters. His delivery of ""I'd prefer it"" sounds like a genuine, if uncomfortable, request.
+*   **Masked emotion underneath:** Given the extreme nature of the request, if it were sarcastic, it would likely mask intense anger or frustration. However, the phrasing ""I'd prefer"" and the directness strongly suggest a genuine, serious feeling rather than a sarcastic one.
+*   **Confidence in sarcasm detection:** Very low (meaning, highly confident it is *not* sarcasm).
+
+**5. Emotional Signature:**
+*   **Character's default emotional register with current company:** Neutral, friendly, occasionally confused or protective.
+*   **Current deviation from that register:** Significant deviation. He is expressing deep personal discomfort, distress, or a sense of identity crisis.
+
+**Classification:** [VULNERABLE/EXPOSED]",fear,0.9,"[SHIFT: TRUE - EMOTIONAL PIVOT DETECTED]
+REASON: Joey shifts from a neutral emotional state to expressing clear discomfort and negative preference regarding being called ""Joey""."
+16,16_2_4_10,Joey,"Since I dont know anyone here, I thought itd be cool to try out a cool work nickname.","```json
+{
+  ""recognition_id"": ""16_2_4_10"",
+  ""reasoning"": ""Despite positive lexical cues ('cool') and a desire for connection, the Emotional Shift Detector reports [SHIFT: FALSE - CONTINUITY MAINTAINED] from Joey's neutral baseline, which the Character Profiler explicitly classifies as [BASELINE/NEUTRAL]. The Sentiment Analyst's 'high arousal' is contradicted by the Character Profiler's 'neutral/low' arousal assessment, triggering the Neutrality Check & Joy Intensity Gate, which necessitates a Neutral classification when arousal is low."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Context Historian"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst"", ""Social Dynamics""]
+  }
+}
+```",neutral,"**Character:** Joey
+
+**1. Core Character Traits active:** Simple, Loyal (desire for connection/friendship)
+
+**2. Character-Specific Triggers:**
+*   **Trigger Words/Topics:** ""don't know anyone here,"" ""cool work nickname.""
+*   **Trigger Impact:** These elements indicate Joey's baseline desire for social connection and his simple, straightforward approach to making friends. They do not trigger a heightened emotional state like anger, fear, or profound sadness, but rather an activation of his neutral-to-mildly positive social engagement drive.
+
+**3. Baseline Deviation Analysis:**
+*   **Expected behavior (Joey):** Joey, when entering a new social environment and not knowing people, would typically be friendly, straightforward, and eager to make new connections. His ""simple"" nature would lead him to adopt an overt, easy-to-understand method for this, such as suggesting a nickname. This behavior is entirely consistent with his baseline.
+*   **Actual utterance:** No significant deviation detected. This utterance is perfectly in character.
+*   **Intensity-vs-Baseline check:** The utterance reflects a neutral-to-mildly positive intensity, which is well within Joey's baseline arousal for friendly social interaction. It does not suggest a dramatic shift in energy or a heightened emotional state beyond his typical positive engagement.
+*   **Valence check:** The explicit valence is positive (""cool""). There is no negative valence.
+*   **Deviation type:** ""In-Character Enhancement"" (his simple, friendly nature and desire for social connection are enhanced, but not broken).
+*   **Vulnerability Check:** Joey is not using core traits to mask a vulnerable emotion. This is a genuine, straightforward attempt at social integration.
+
+**4. Sarcasm Probability:**
+*   **Literal interpretation probability:** 1 (highly likely to be literal).
+*   **Masked emotion underneath (if sarcastic):** N/A (not sarcastic).
+*   **Confidence in sarcasm detection:** 1 (highly confident it is not sarcastic).
+
+**5. Emotional Signature:**
+*   **Character's default emotional register with current company:** Neutral, friendly, hopeful for connection.
+*   **Current deviation from that register:** None; the utterance aligns perfectly with his baseline friendly and simple social approach.
+
+**Classification: [BASELINE/NEUTRAL]**",neutral,0.9,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+16,16_3_4_10,A Waiter,"Hey, dragon! Heres your tips from Monday and Tuesday.","```json
+{
+  ""recognition_id"": ""16_3_4_10"",
+  ""reasoning"": ""The utterance is classified as Neutral due to the strong application of the HARD NEUTRALITY FILTER by the Social Dynamics agent, which overrides other emotional cues from the Sentiment Analyst as 'Hey, dragon!' does not constitute explicit emotional language as defined by the filter. This decision is reinforced by the [SHIFT: FALSE] status, indicating continuity with a neutral scene baseline, and the inability to apply personalized context grounding due to the unidentified speaker."",
+  ""predicted_emotion"": ""Neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Social Dynamics"", ""Context Historian"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": [""Sentiment Analyst"", ""Character Profiler""]
+  }
+}
+```",neutral,"**Analysis Impossible: Speaker Not Identified**
+
+The provided utterance, ""Hey, dragon! Here's your tips from Monday and Tuesday,"" cannot be analyzed as per the instructions due to a critical missing piece of information: **the identity of the speaker.**
+
+The prompt requires a ""Character-grounded analysis focusing on whether this fits or breaks their established pattern,"" which necessitates knowing *which* character is speaking so that their specific ""Baseline Personality,"" ""Baseline Arousal,"" ""Negative Expression,"" and ""Conflict Style"" (from the BIO CARD PRIORITY FIELDS) can be applied. Without this, all subsequent analytical steps are impossible:
+
+*   **Core Character Traits:** Cannot determine the active trait without a speaker.
+*   **Character-Specific Triggers:** Cannot identify triggers or their impact without a specific character's known historical triggers.
+*   **Baseline Deviation Analysis:** Cannot compare the speaker's current intensity to their Baseline Arousal, determine deviation type, or assess vulnerability without knowing the character's baseline.
+*   **Sarcasm Probability:** While ""Hey, dragon!"" strongly suggests a playful or teasing tone, the *probability* of sarcasm and any *masked emotion underneath* is entirely dependent on the speaker's individual psychological profile and relationship with the recipient.
+*   **Emotional Signature:** Cannot determine the character's default emotional register with current company or any deviation from it without a known speaker.
+
+Therefore, a character-grounded analysis, as strictly defined, cannot be performed.",neutral,0.95,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+16,16_4_4_10,Joey,Theres like-theres like 300 bucks in this one!,"```json
+{
+  ""recognition_id"": ""16_4_4_10"",
+  ""reasoning"": ""Despite the Context Historian reporting `[SHIFT: FALSE]`, the Sentiment Analyst provides strong lexical and paralinguistic evidence for `Positive Surprise` in the utterance, including an exclamation mark, repetition, and high arousal. This constitutes an 'explicit lexical contradiction' to a neutral previous state or baseline, overriding the neutral classifications from the Character Profiler and Social Dynamics."",
+  ""predicted_emotion"": ""Positive Surprise"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst""],
+    ""dissenting_agents"": [""Character Profiler"", ""Social Dynamics"", ""Context Historian (on overall scene shift, not necessarily utterance-specific emotion if contradiction exists)""]
+  }
+}
+```",surprise,"**Analysis of Utterance: ""Theres like-theres like 300 bucks in this one!""**
+
+**Missing Information:** The speaker of the target utterance is not provided. A complete and accurate character-grounded analysis is impossible without knowing who is speaking. The following analysis assumes a generic, neutral delivery and discusses potential interpretations based on the provided character profiles, highlighting the limitations due to the missing speaker.
+
+**1. Core Character Traits (Not applicable without a speaker):**
+Cannot identify an active primary trait without knowing the character.
+
+**2. Character-Specific Triggers (Not applicable without a speaker):**
+Cannot identify triggers or their impact without a character.
+
+**3. Baseline Deviation Analysis:**
+*   **Expected behavior:** For most characters, a neutral, factual statement about money, especially without strong emotional indicators, would likely fall within their baseline arousal and valence.
+*   **Actual utterance:** ""There's like-there's like 300 bucks in this one!""
+*   **Intensity-vs-Baseline check:** The utterance appears to be neutral in tone and factual in content. The use of ""like"" suggests a casual, possibly slightly understated or neutral delivery rather than heightened arousal. It does not indicate a significant emotional shift from a neutral baseline.
+*   **Valence check:** Neutral valence. There is no explicit positive or negative emotional content; it's a simple statement of fact about an amount of money.
+*   **Deviation type:** Most likely **[BASELINE/NEUTRAL]** for most characters. Without a specific character and their established baseline for this type of statement, it's impossible to determine a deviation.
+*   **Vulnerability Check:** Not applicable. The statement is factual and neutral, not indicative of masking vulnerable emotions like sadness or fear, nor is it expressed in an angry manner.
+
+**4. Sarcasm Probability (0-1):**
+*   **Literal interpretation probability:** 0.9 (Very high likelihood that it is a neutral, factual statement about money).
+*   **Masked emotion underneath:** None apparent. The phrasing does not suggest a sarcastic intent; it's a direct statement.
+*   **Confidence in sarcasm detection:** Low (Very low likelihood of sarcasm).
+
+**5. Emotional Signature:**
+*   **Character's default emotional register with current company:** Unknown without a character.
+*   **Current deviation from that register:** Unknown without a character.
+
+**Classification of the underlying emotional state (for the utterance itself, given its neutral content): [BASELINE/NEUTRAL]**",positive surprise,0.85,
+16,16_5_4_10,The Waiter,"Yeah, people get pretty generous around the holidays. And it never hurts to wear tight trousers.","```json
+{
+  ""recognition_id"": ""16_5_4_10"",
+  ""reasoning"": ""The Sentiment Analyst identified positive valence, moderate arousal (6-7), and moderate-strong intensity, with 'holidays' and 'generous' being key positive lexical indicators. The Linguistic Tone agent described the tone as 'aggressive,' clarified as 'assertive, self-interested pursuit of advantage,' which aligns with a confident and proactive expression of positive sentiment, such as Joy. While the Social Dynamics agent classified it as 'Hard Neutral' and the Shift Agent indicated a shift to a 'low-arousal neutral-positive explanation of tip trends,' I prioritize the direct linguistic analysis of this specific utterance's content and tone, which clearly indicates positive sentiment, moderate arousal, and confident optimism, making Joy the most accurate classification for this specific trigger, despite the conflicting interpretations of its broader conversational role or explicit emotional statement."",
+  ""predicted_emotion"": ""Joy"",
+  ""confidence"": 0.75,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Sentiment Analyst"", ""Linguistic Tone""],
+    ""dissenting_agents"": [""Social Dynamics"", ""Emotional Shift Detector (regarding the specific nature of the current utterance's emotional state)""]
+  }
+}
+```",neutral,,joy,0.75,"[SHIFT: TRUE - EMOTIONAL PIVOT DETECTED]
+REASON: The conversation shifts from Joey's high-arousal positive surprise (""300 bucks in this one!"") to The Waiter's low-arousal neutral-positive explanation of tip trends, causing a distinct drop in emotional intensity and a subtle change in valence."
+16,16_6_4_10,Monica,Could the waiters gather around to hear tonights specials?,"```json
+{
+  ""recognition_id"": ""16_6_4_10"",
+  ""reasoning"": ""This utterance is a neutral, professional instruction from a superior to staff, completely devoid of emotional words or sentiment. Despite the overall scene's 'neutral-negative' momentum due to another character's previous frustration, the [SHIFT: FALSE] status for this specific utterance confirms its continuity with a neutral baseline, triggering the 'Hard Neutral' rule as a low-arousal, transactional statement."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.98,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Context Historian"",
+      ""Character Profiler"",
+      ""Sentiment Analyst"",
+      ""Social Dynamics"",
+      ""Emotional Shift Detector""
+    ],
+    ""dissenting_agents"": []
+  }
+}
+```",neutral,"**Target Utterance:** ""Could the waiters gather around to hear tonight's specials?""
+
+**Analysis:**
+
+1.  **Core Character Traits:**
+    *   Not applicable. This utterance does not originate from any of the named characters.
+
+2.  **Character-Specific Triggers:**
+    *   Not applicable. This utterance does not originate from any of the named characters.
+
+3.  **Baseline Deviation Analysis:**
+    *   **Expected behavior:** Neutral, instructional communication in a restaurant setting.
+    *   **Actual utterance:** No deviation detected. This is a neutral, factual instruction.
+    *   **Intensity-vs-Baseline check:** The utterance is neutral in tone and content, matching a neutral baseline for any speaker in this context.
+    *   **Valence check:** Neutral valence.
+    *   **Deviation type:** Not applicable.
+    *   **Vulnerability Check:** Not applicable.
+
+4.  **Sarcasm Probability (0-1):**
+    *   **Literal interpretation probability:** 1.0 (highly probable this is a literal, neutral instruction).
+    *   **Masked emotion underneath (if sarcastic):** Not applicable.
+    *   **Confidence in sarcasm detection:** 0 (no sarcasm detected).
+
+5.  **Emotional Signature:**
+    *   **Character's default emotional register with current company:** Neutral.
+    *   **Current deviation from that register:** None.
+
+---
+
+**[BASELINE/NEUTRAL]**",neutral,0.98,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+16,16_7_4_10,Monica,"Okay, first there is a Chilean Sea Bass prepared with a Mango relish on a bagWhy is nobody writing these down?","```json
+{
+  ""recognition_id"": ""16_7_4_10"",
+  ""reasoning"": ""Despite Monica's mild frustration suggested by the Context Historian, the Social Dynamics agent's 'HARD NEUTRALITY FILTER' and 'Question seeking information (not seeking emotional support)' are decisive. Coupled with the Emotional Shift Detector's '[SHIFT: FALSE - CONTINUITY MAINTAINED]', the utterance is classified as Neutral because it's a simple transfer of information and a question, adhering to the Neutrality Check guidelines."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Social Dynamics"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}
+```",neutral,,neutral,0.95,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+16,16_8_4_10,The Waiter,Because we can remember them.,"{
+  ""recognition_id"": ""16_8_4_10"",
+  ""reasoning"": ""The utterance 'Because we can remember them.' is spoken by The Waiter, whose neutral, factual response defused Monica's mild frustration and suspicion, triggering an emotional pivot to neutral for the scene. All expert reports (Context Historian, Character Profiler, Sentiment Analyst, and Emotional Shift Detector) consistently classify the utterance itself as neutral in tone, sentiment, and arousal, confirming a neutral emotional state for The Waiter."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Context Historian"", ""Character Profiler"", ""Sentiment Analyst"", ""Emotional Shift Detector""],
+    ""dissenting_agents"": []
+  }
+}",neutral,"**Analysis of Utterance: ""Because we can remember them.""**
+
+**Character Identified:** Unknown (critical information missing)
+
+**BIO CARD PRIORITY FIELDS (NOT PROVIDED):**
+*   Baseline Personality
+*   Baseline Arousal
+*   Negative Expression
+*   Conflict Style
+
+**Core Character Traits (Primary Trait Active):**
+Cannot determine due to missing speaker identification.
+
+**Character-Specific Triggers:**
+Cannot determine due to missing speaker identification and context.
+
+**Baseline Deviation Analysis:**
+
+*   **Expected behavior:** Without knowing the speaker, their baseline personality, or typical emotional register, it is impossible to establish expected behavior. The utterance ""Because we can remember them"" is neutral in tone and content in isolation.
+*   **Actual utterance:** ""Because we can remember them.""
+*   **Intensity-vs-Baseline check:** In the absence of a known baseline arousal level, there is no explicit indication that the intensity of this utterance deviates from any particular baseline. It appears to be delivered at a neutral conversational intensity.
+*   **Valence check:** The utterance itself carries a neutral valence. ""Remember"" is a neutral cognitive action, and ""them"" is a neutral pronoun. There is no explicit positive or negative language or tone discernible from the isolated phrase.
+*   **Deviation type:** Cannot determine due to missing speaker identification and context.
+*   **Vulnerability Check:** There is no indication that the core traits (sarcasm, deflection, humor, etc.) are being used to mask vulnerability. The utterance is neutral and appears straightforward.
+
+**Sarcasm Probability:**
+
+*   **Literal interpretation probability:** 0.9 (Very high, as there's nothing inherently sarcastic about the phrase itself).
+*   **Masked emotion underneath:** None apparent.
+*   **Confidence in sarcasm detection:** 0.0 (Extremely low, as there are no textual or contextual cues for sarcasm).
+
+**Emotional Signature:**
+
+*   **Character's default emotional register with current company:** Unknown.
+*   **Current deviation from that register:** Unknown.
+
+---
+
+**Underlying Emotional State Classification:**
+
+Based solely on the utterance ""Because we can remember them"" without any contextual information, speaker identification, or character baseline data, the most accurate classification is:
+
+**[BASELINE/NEUTRAL]**
+
+*   **Reasoning:** The utterance itself is neutral in tone, content, and intensity. There are no explicit markers of heightened positive or negative emotion, nor any indication of a deviation from a baseline, as that baseline is unknown.",neutral,0.95,"[SHIFT: TRUE - EMOTIONAL PIVOT DETECTED]
+REASON: The neutral, factual response from The Waiter defused Monica's mild frustration and suspicion."
+16,16_9_4_10,Monica,Because your all gonna make up fake specials and make me cook them like you did the other night?,"```json
+{
+  ""recognition_id"": ""16_9_4_10"",
+  ""reasoning"": ""The utterance exhibits strong negative valence, with the Sentiment Analyst highlighting 'fake', 'make me', 'exploitation', 'resentment', and 'betrayal', alongside 'high arousal indicating strong anger, frustration, and exploitation'. The Social Dynamics expert identifies 'conflict/aggression' and 'direct confrontation', and the Linguistic Tone is aggressive. While the Emotional Shift Detector reports [SHIFT: FALSE], the Context Historian notes Monica's 'mild frustration and suspicion' and a 'slightly neutral-negative' momentum, indicating this utterance is an escalation and manifestation of existing negative sentiment rather than an abrupt shift, hence confirming Anger."",
+  ""predicted_emotion"": ""Anger"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Context Historian"",
+      ""Sentiment Analyst"",
+      ""Social Dynamics"",
+      ""Emotional Shift Detector""
+    ],
+    ""dissenting_agents"": []
+  }
+}
+```",anger,,anger,0.95,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+19,19_0_1_1,Joey,Really? A purse?,"```json
+{
+  ""recognition_id"": ""19_0_1_1"",
+  ""reasoning"": ""The Character Profiler and Social Dynamics agents strongly indicate a positive and authentic reaction of surprise, consistent with Joey's unmasked persona and playful banter within his safe friendship with Chandler. While the Sentiment Analyst detected negative judgment towards the item, this is outweighed by the consensus on Joey's genuine positive surprise and social intent. The [SHIFT: FALSE] status supports a neutral or positive surprise, as it represents a continuation or natural enhancement from a neutral baseline rather than a significant negative shift."",
+  ""predicted_emotion"": ""positive surprise"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [""Character Profiler"", ""Social Dynamics""],
+    ""dissenting_agents"": [""Sentiment Analyst"", ""Context Historian""]
+  }
+}
+```",surprise,"**1. Core Character Traits:** Joey: Simple, Loyal, Unmasked
+
+**2. Character-Specific Triggers:** No specific trigger words or topics are present in the utterance ""Really? A purse?"".
+
+**3. Baseline Deviation Analysis:**
+*   **Expected behavior (Joey and Chandler):** Joey is almost entirely unmasked and authentic with Chandler, expressing emotions directly and without pretense. With Chandler, Joey's Baseline Arousal is generally moderate, but he readily expresses surprise when genuinely encountered.
+*   **Actual utterance:** ""Really? A purse?"" This is a direct expression of surprise.
+*   **Intensity-vs-Baseline check:** The exclamation ""Really?"" indicates a heightened emotional state of surprise, which is above Joey's typical neutral baseline but is a natural and authentic reaction for him in a safe relationship.
+*   **Valence check:** The valence is positive or neutral surprise, not negative or critical. It's an expression of genuine, unmasked astonishment.
+*   **Deviation type:** ""In-Character Enhancement"" – Joey's authentic surprise is consistent with his unmasked, genuine persona with Chandler.
+*   **Vulnerability Check:** No, this is not a mask for a vulnerable emotion. It is a direct, uninhibited expression of surprise, reflecting Joey's complete psychological safety with Chandler.
+
+**4. Sarcasm Probability:**
+*   Literal interpretation probability: 100% (direct surprise).
+*   Masked emotion underneath: N/A (no sarcasm).
+*   Confidence in sarcasm detection: Very High.
+
+**5. Emotional Signature:**
+Joey's default emotional register with Chandler is unmasked, authentic, and often positive. His current deviation from that register is a spontaneous expression of positive surprise, consistent with his genuine nature in their highly safe and supportive friendship.
+
+**[PLAYFUL/AFFECTIONATE]**",positive surprise,0.9,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+24,24_0_5_3,Phoebe,Can I tell you a little secret?,"```json
+{
+  ""recognition_id"": ""24_0_5_3"",
+  ""reasoning"": ""Phoebe's Bio Card describes her as 'playful, teasing, and affectionate with close friends.' The utterance 'Can I tell you a little secret?' aligns perfectly with this persona, indicating an intent to deepen the relationship and build trust through an intimate, confidential exchange. The Sentiment Analyst explicitly labels the sentiment as 'Positive,' citing trust, intimacy, and relationship deepening. The Social Dynamics report strongly supports this with 'PLAYFUL/BANTER,' 'intimacy seeking,' 'strong solidarity marker,' and 'genuine positive intent,' emphasizing a 'lighthearted shared moment.' While the Context Historian's Character Mood Table for Phoebe indicates 'neutral valence' and 'low arousal,' this directly conflicts with its own 'Scene Vibe: Playful sharing of a secret between friends, filled with positive anticipation' and the overwhelming positive evidence from other expert reports and Phoebe's Bio Card. Therefore, the most fitting emotion for Phoebe, who is initiating a playful and bonding act with a close friend, is joy."",
+  ""predicted_emotion"": ""joy""
+}
+```",neutral,"**Please provide the character's name.** Without this critical information, I cannot perform the analysis as requested, as all subsequent steps depend on the character's specific BIO CARD fields and individual traits.",joy,N/A,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+24,24_1_5_3,Rachel,Yeah!,"```json
+{
+  ""recognition_id"": ""24_1_5_3"",
+  ""reasoning"": ""The utterance 'Yeah!' strongly expresses positive affirmation and heightened enthusiasm, signifying a sudden increase in positive valence and arousal as Rachel anticipates hearing Phoebe's secret."",
+  ""predicted_emotion"": ""joy""
+}
+```",joy,"**Character Behavioral Analysis: ""Yeah!""**
+
+**Utterance:** ""Yeah!""
+
+**Analysis:**
+
+Due to the absence of a specific character from the provided list (Ross, Monica, Chandler, Joey, Phoebe, Rachel), this analysis will be based on a generalized interpretation of the utterance ""Yeah!"" as a standalone expression and will extrapolate potential character-specific interpretations.
+
+1.  **Core Character Traits (Not Applicable):** Without a specific character, I cannot select a primary trait active.
+
+2.  **Character-Specific Triggers (Not Applicable):** Without a specific character and context, no trigger words, topics, or their impact can be identified.
+
+3.  **Baseline Deviation Analysis:**
+    *   **Expected behavior:** For most individuals, a neutral or calm state is considered baseline.
+    *   **Actual utterance:** ""Yeah!""
+    *   **Intensity-vs-Baseline check:** ""Yeah!"" is an exclamatory affirmation, inherently signifying a heightened state of positive arousal. It is significantly *above* a neutral baseline.
+    *   **Valence check:** There is an explicit positive valence change from a neutral baseline.
+    *   **Deviation type:** Without a character, a definitive type cannot be assigned. However, the expression ""Yeah!"" strongly suggests either an **""In-Character Enhancement""** (if the character is generally positive and enthusiastic, exaggerating that trait) or potentially a **""Character Break""** (if the character is typically reserved, negative, or avoidant, representing a moment of uncharacteristic positive sincerity).
+    *   **Vulnerability Check:** ""Yeah!"" primarily expresses joy, agreement, or enthusiasm. It is not typically used to mask vulnerable emotions such as Sadness, Fear, or Disgust, but rather to openly express positive sentiment.
+
+4.  **Sarcasm Probability:**
+    *   **Literal interpretation probability:** High (approx. 0.95). ""Yeah!"" is almost universally understood as a direct, positive affirmation or expression of excitement.
+    *   **Masked emotion underneath:** None, as it is highly unlikely to be sarcastic in isolation.
+    *   **Confidence in sarcasm detection:** Very High.
+
+5.  **Emotional Signature:**
+    The utterance ""Yeah!"" is a strong, positive affirmation. While it does not perfectly align with ""Affectionate"" in all contexts, its enthusiastic and positive nature makes **[PLAYFUL/AFFECTIONATE]** the closest and most appropriate classification for a generic positive exclamation, as it denotes positive engagement and often an unreserved expression of joy or agreement.
+
+**Conclusion (General Interpretation without Specific Character Context):**
+
+This utterance, ""Yeah!"", reflects a moment of heightened positive arousal and explicit positive valence. It represents a significant deviation from a neutral baseline. Without a specific character, it is inferred to be an expression of strong agreement, enthusiasm, or joy.
+
+**Strict Classification:** [PLAYFUL/AFFECTIONATE]",joy,N/A,"[SHIFT: TRUE - EMOTIONAL PIVOT DETECTED]
+REASON: Rachel's utterance ""Yeah!"" shows a sudden increase in positive valence and arousal from neutral, triggered by the anticipation of hearing a secret from Phoebe."
+24,24_2_5_3,Phoebe,I want to keep one.,"```json
+{
+  ""recognition_id"": ""24_2_5_3"",
+  ""reasoning"": ""Despite positive anticipation from Rachel, Phoebe's utterance 'I want to keep one' is classified as neutral because it is a factual statement of preference/desire, not containing explicit emotional language, as per the Social Dynamics expert's HARD NEUTRALITY FILTER and corroborated by the Context Historian's neutral valence for Phoebe's mood table."",
+  ""predicted_emotion"": ""neutral""
+}
+```",neutral,,neutral,N/A,"[SHIFT: TRUE - EMOTIONAL PIVOT DETECTED]
+REASON: The emotional state shifted from Rachel's high positive arousal and anticipation (indicated by ""Yeah!"") to Phoebe's neutral and calm statement of intent."
+24,24_3_5_3,Rachel,"Ohh, I'm gonna be on the news!","```json
+{
+  ""recognition_id"": ""24_3_5_3"",
+  ""reasoning"": ""The utterance 'Ohh, I'm gonna be on the news!' uses the interjection 'Ohh' and an exclamation mark, which, combined with the content of being featured on the news, strongly indicates a positive, high-arousal emotion. Rachel's Bio Card describes her as 'charismatic and emotionally expressive' with 'high arousal' and 'positive valence' during emotional shifts, particularly when interacting with friends like Phoebe. All expert reports (Context Historian, Sentiment Analyst, Social Dynamics, Emotional Shift Detector) unanimously identify the emotion as 'joy' or 'positive' and highlight a clear 'emotional pivot' to 'escalating joy and positive anticipation.' There is no conflicting information from any source to suggest any other emotion."",
+  ""predicted_emotion"": ""joy""
+}
+```",joy,,joy,N/A,"[SHIFT: TRUE - EMOTIONAL PIVOT DETECTED]
+REASON: Rachel's shift from neutral curiosity to escalating joy and positive anticipation, triggered by Phoebe preparing to share a secret."
+18,18_0_6_1,Rachel,"Okay now Joey, y'know that since you're returning all of this stuff right after the audition you're gonna have to wear underwear?","```json
+{
+  ""recognition_id"": ""18_0_6_1"",
+  ""reasoning"": ""The predicted emotion is Joy, reflecting the playful teasing and positive valence consistently reported by all agents, especially the Character Profiler's 'Strict Classification: [PLAYFUL/AFFECTIONATE]' and Social Dynamics' 'SOCIAL INTENT: PLAYFUL/BANTER]'. Although the Sentiment Analyst rated arousal as 'Moderate' and the Character Profiler as 'Low', the Valence Pre-filter mandates Joy or Surprise for positive valence, and the 'Joy Intensity Gate' does not apply here as the utterance is playful and not transactional/polite. The [SHIFT: FALSE] status further supports a continuation of positive, playful interaction rather than a sudden shift to Neutral or Surprise, reinforcing the choice of Joy as the most fitting positive emotion."",
+  ""predicted_emotion"": ""Joy"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Context Historian"",
+      ""Character Profiler"",
+      ""Sentiment Analyst"",
+      ""Social Dynamics""
+    ],
+    ""dissenting_agents"": []
+  }
+}
+```",neutral,"**Character:** Rachel Green
+
+**Core Character Traits (active):** Playful, Teasing, Flirty (with Joey), Comfortable
+
+**Character-Specific Triggers (present):** None apparent in the utterance or immediate context.
+
+**Baseline Deviation Analysis:**
+
+*   **Expected behavior:** Rachel, particularly in a safe and supportive relationship with Joey, is expected to engage in playful teasing and lighthearted banter. Her Baseline Arousal for such interactions is moderate and positive.
+*   **Actual utterance:** ""Okay now Joey, y'know that since you're returning all of this stuff right after the audition you're gonna have to wear underwear?""
+*   **Deviation detected?** No. This utterance is entirely consistent with Rachel's Baseline Personality of being playful and teasing, especially with Joey. It does not represent a shift in emotional state.
+*   **Intensity-vs-Baseline check:** The intensity of her delivery appears to be moderate, aligning with her Baseline Arousal for this type of interaction. It is not excessively loud, aggressive, or unusually subdued.
+*   **Valence check:** The valence is positive (playful, teasing), which is consistent with her expected behavior in this specific context.
+*   **Deviation type:** ""In-Character Enhancement"" – This is a clear and slightly exaggerated expression of her baseline playful and teasing nature, which is a hallmark of her dynamic with Joey. It does not signify a break from character or an extreme situational response.
+*   **Vulnerability Check:** Rachel's teasing about Joey's underwear is lighthearted and not indicative of her masking a vulnerable emotion. It is an outward expression of a positive, comfortable, and playful emotional state.
+
+**Sarcasm Probability:**
+
+*   Literal interpretation probability: 0.9 (Rachel genuinely expects Joey to wear underwear for the audition/return, regardless of the teasing tone).
+*   Masked emotion underneath: N/A (There is no masking of sadness or fear; the emotion is openly playful).
+*   Confidence in sarcasm detection: 0.9 (Very confident she is not being sarcastic).
+
+**Emotional Signature:**
+
+*   **Character's default emotional register with current company (Joey):** Playful, teasing, comfortable, positive.
+*   **Current deviation from that register:** None. This utterance is perfectly aligned with her default register with Joey.
+
+**Analysis Conclusion:** Rachel's utterance is fully in character, reflecting her playful and teasing dynamic with Joey in a safe and supportive context.
+
+**Strict Classification:** [PLAYFUL/AFFECTIONATE]",joy,0.9,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+18,18_1_6_1,Joey,"All right, then you'd better show me some of that too then.","```json
+{
+  ""recognition_id"": ""18_1_6_1"",
+  ""reasoning"": ""The utterance occurs within a context of playful teasing and casual banter among friends, with the Context Historian reporting a 'continuing playful exchange' and 'Shift Warning: No,' indicating stability. While the Sentiment Analyst noted an 'aggressive tone' due to 'you'd better,' this is superseded by the consensus from the Character Profiler and Social Dynamics agent classifying Rachel as 'flirty, playful,' and the social intent as '[PLAYFUL/BANTER]' within a positive, reciprocal interaction. The overall positive valence and active engagement in a celebratory, light-hearted dynamic points to Joy rather than Surprise or any negative emotion."",
+  ""predicted_emotion"": ""Joy"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Context Historian (positive valence, playful teasing, no shift)"",
+      ""Character Profiler (positive, playful valence, genuine playfulness)"",
+      ""Social Dynamics (playful/banter, intimacy seeking)""
+    ],
+    ""dissenting_agents"": [
+      ""Sentiment Analyst (linguistic tone: aggressive, latent sentiment: slightly negative to neutral)""
+    ]
+  }
+}
+```",neutral,"**1. Core Character Traits (active):**
+*   **Rachel:** Flirty, Playful, Growth-oriented
+
+**2. Character-Specific Triggers:**
+*   **Trigger Words/Topics:** The utterance itself, or the playful interaction it's part of. ""Show me some of that too"" refers to reciprocal playful teasing or affection.
+*   **Trigger Impact:** This utterance *is* the playful act. It does not force Rachel out of her baseline into a new heightened emotional state, but rather confirms and continues her playful and flirty baseline with Joey.
+
+**3. Baseline Deviation Analysis:**
+*   **Expected behavior:** With Joey, Rachel is typically playful, teasing, and flirty. Her Baseline Arousal with him is moderate, characterized by this lightheartedness.
+*   **Actual utterance:** ""All right, then you'd better show me some of that too then."" This aligns perfectly with her expected behavior and established dynamic with Joey.
+*   **Intensity-vs-Baseline check:** The intensity of the utterance (likely a light, teasing tone) matches her playful baseline arousal with Joey. There is no significant *increase* in arousal beyond her typical playfulness, nor a *decrease* into a negative or subdued state.
+*   **Valence check:** The utterance has a positive, playful valence, which is consistent with her playful baseline with Joey. There is no explicit change in valence.
+*   **Deviation type:** None. This is consistent with her baseline and is an ""In-Character Confirmation"" of their established playful dynamic.
+*   **Vulnerability Check:** Rachel's use of playful teasing is her typical persona with Joey. It does not appear to be masking vulnerability here; rather, it is a genuine expression of her positive emotion within their safe and supportive friendship.
+
+**4. Sarcasm Probability:**
+*   **Literal interpretation probability:** 0.9 (Very high, she genuinely wants to reciprocate or continue the playful interaction.)
+*   **Masked emotion underneath (if sarcastic):** Not sarcastic.
+*   **Confidence in sarcasm detection:** High (She is genuinely playful.)
+
+**5. Emotional Signature:**
+*   **Character's default emotional register with current company:** Playful, teasing, light-hearted.
+*   **Current deviation from that register:** None. Rachel is operating within her default playful register with Joey.
+
+**Final Classification:** [PLAYFUL/AFFECTIONATE]",joy,0.95,"{""error"":{""message"":""This request requires more credits, or fewer max_tokens. You requested up to 16000 tokens, but can only afford 6914. To increase, visit https://openrouter.ai/settings/credits and add more credits"",""code"":402,""metadata"":{""provider_name"":null}},""user_id"":""user_3BQ157Ob4R96MciEiRMeZPTG4FK""}"
+18,18_2_6_1,Rachel,"Okay, it's missing something. Ooh, I know! Umm, okay.","```json
+{
+  ""recognition_id"": ""18_2_6_1"",
+  ""reasoning"": ""The utterance \""Ooh, I know!\"" exhibits strong positive valence and high arousal, reflecting a sudden insight or discovery. The Character Profiler explicitly identifies a \""distinct positive shift in valence and arousal\"" within the utterance and notes \""Joy clearly elevates her emotional state above a neutral baseline,\"" aligning with Joy rather than Surprise. The Social Dynamics agent supports this with \""sharing excitement\"" and \""creating a shared positive moment,\"" further confirming positive sentiment in a playful context. While the Context Historian tags the overall scene as \""NEUTRAL,\"" its detailed description supports a \""stable and positive\"" emotional atmosphere, not one devoid of positive sentiment for the individual utterance. The Emotional Shift Detector and Sentiment Analyst reports were unavailable, preventing their direct contribution, but the available agents provide robust evidence for Joy."",
+  ""predicted_emotion"": ""Joy"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Context Historian (description)"",
+      ""Character Profiler"",
+      ""Social Dynamics""
+    ],
+    ""dissenting_agents"": [
+      ""Context Historian (tag)"",
+      ""Sentiment Analyst"",
+      ""Emotional Shift Detector""
+    ]
+  }
+}
+```",neutral,"**Character Analysis: Rachel**
+
+*   **Baseline Personality:** Dramatic, Growth-oriented
+*   **Baseline Arousal:** Moderate (capable of high expressiveness, but ""Ooh, I know!"" indicates a positive *shift* in valence and arousal from her previous statement, regardless of her overall dramatic nature).
+
+**Utterance Analysis:**
+
+*   **Actual utterance:** ""Okay, it's missing something. Ooh, I know! Umm, okay.""
+*   **Trigger Words/Topics:** None of Rachel's specific triggers (e.g., career, Ross) are present in the utterance or the immediate context.
+*   **Trigger Impact:** Not applicable.
+
+**Baseline Deviation Analysis:**
+
+*   **Expected behavior:** Rachel, being growth-oriented and dramatic, is likely to be engaged in active problem-solving or idea generation, and to express her thoughts with some degree of enthusiasm. Her playful nature with Joey suggests she's comfortable sharing these moments.
+*   **Actual utterance:** Rachel identifies a problem (""missing something""), then has a sudden insight (""Ooh, I know!""), and then reflects. This pattern fits her proactive and expressive personality.
+*   **Intensity-vs-Baseline check:** The ""Ooh, I know!"" signifies a sudden increase in arousal and a distinct positive shift in valence, moving from a neutral observation (""missing something"") to an excited realization. Even though Rachel can be dramatic, this specific positive insight and expression of joy clearly elevates her emotional state above a neutral baseline.
+*   **Valence check:** There is an explicit positive valence change from neutral/slightly negative to positive excitement.
+*   **Deviation type:** ""Situational Response"" – a positive reaction to a sudden insight or realization, fitting within her expressive nature without being a ""character break"" or ""in-character enhancement"" of a negative trait.
+*   **Vulnerability Check:** There is no indication of sadness, fear, or disgust being masked. Rachel's expression is one of genuine positive discovery.
+
+**Sarcasm Probability:**
+
+*   Literal interpretation probability: 1 (Rachel appears to be genuinely having an insight.)
+*   Masked emotion underneath: N/A (No masking of negative emotions.)
+*   Confidence in sarcasm detection: 1
+
+**Emotional Signature:**
+
+*   Character's default emotional register with current company (Joey): playful, teasing.
+*   Current deviation from that register: The utterance, while not directly teasing, reflects a shared positive moment of discovery and enthusiasm with Joey. This aligns with and enhances the playful and supportive nature of their friendship.
+
+**Classification:** [PLAYFUL/AFFECTIONATE]",joy,0.9,"{""error"":{""message"":""This request requires more credits, or fewer max_tokens. You requested up to 16000 tokens, but can only afford 6914. To increase, visit https://openrouter.ai/settings/credits and add more credits"",""code"":402,""metadata"":{""provider_name"":null}},""user_id"":""user_3BQ157Ob4R96MciEiRMeZPTG4FK""}"
