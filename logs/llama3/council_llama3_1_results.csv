@@ -1,0 +1,165 @@
+Dialogue_ID,Recognition_ID,Speaker,Utterance,Predicted_Emotion_Raw,Actual_Emotion,predicted_emotion,confidence,emotional_shift_report
+0,0_1,Rachel,"Oh. Thats so Monica can keep track. That way if one on them is missing, she can be like, Wheres number 27?!","```json
+{
+  ""recognition_id"": ""0_1"",
+  ""reasoning"": ""Rachel's delivery is consistently described as neutral, calm, and informative by multiple agents (Context Historian, Character Profiler, Social Dynamics). The Emotional Shift Detector reports '[SHIFT: FALSE - CONTINUITY MAINTAINED]', indicating no change in Rachel's emotional state from a previous neutral prediction. While the utterance describes a hypothetical negative emotional reaction from a third party, the 'predicted_emotion' refers to Rachel's own state, which remains neutral."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Context Historian"",
+      ""Character Profiler"",
+      ""Social Dynamics"",
+      ""Emotional Shift Detector""
+    ],
+    ""dissenting_agents"": [
+      ""Sentiment Analyst""
+    ]
+  }
+}
+```",anger,neutral,0.9,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+0,0_2,Rachel,Y'know what?,"```json
+{
+  ""recognition_id"": ""0_2"",
+  ""reasoning"": ""All five expert agents concur that the utterance 'Y'know what?' is neutral in both valence and arousal for the speaker, Rachel, within the given context. Despite Rachel's typically high baseline arousal, the utterance functions as a neutral, anticipatory discourse marker to introduce information, rather than expressing any strong positive or negative emotion or masking other sentiments."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 1.0,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Context Historian"",
+      ""Character Profiler"",
+      ""Sentiment Analyst"",
+      ""Social Dynamics"",
+      ""Emotional Shift Detector""
+    ],
+    ""dissenting_agents"": []
+  }
+}
+```",neutral,neutral,1.0,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+1,1_0,Joey,"Come on, Lydia, you can do it.","```json
+{
+  ""recognition_id"": ""1_0"",
+  ""reasoning"": ""The utterance expresses strong positive sentiment and high arousal encouragement, with all agents agreeing on positive valence and moderate to high arousal. However, multiple agents (Sentiment Analyst, Social Dynamics, Character Profiler) apply strict 'Hard Neutrality Filters' or similar criteria, explicitly stating that explicit emotional naming is absent or that the utterance represents a neutral baseline/mundane social intent. Despite the intrinsic positive nature, these rigid constraints force the final classification to Neutral, as it doesn't meet the criteria for Joy (requiring achieved celebration) and is not negative."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.85,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Character Profiler (tagged BASELINE/NEUTRAL)"",
+      ""Sentiment Analyst (tagged LINGUISTIC TONE: NEUTRAL)"",
+      ""Social Dynamics (tagged SOCIAL INTENT: MUNDANE/NEUTRAL)""
+    ],
+    ""dissenting_agents"": []
+  }
+}
+```",neutral,neutral,0.85,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+1,1_2,Joey,"Push 'em out, push 'em out, harder, harder.","```json
+{
+  ""recognition_id"": ""1_2"",
+  ""reasoning"": ""The utterance expresses strong positive valence and high arousal through intense, repetitive encouragement and a direct imperative, strongly indicating Joy. All expert analyses confirm this positive sentiment, high arousal, and Joey's ability to escalate to high energy, with no negative or neutral indicators present."",
+  ""predicted_emotion"": ""Joy"",
+  ""confidence"": 1.0,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Context Historian"",
+      ""Character Profiler"",
+      ""Sentiment Analyst"",
+      ""Social Dynamics""
+    ],
+    ""dissenting_agents"": []
+  }
+}
+```",joy,Joy,1.0,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+1,1_3,Joey,"Push 'em out, push 'em out, way out!","```json
+{
+  ""recognition_id"": ""1_3"",
+  ""reasoning"": ""The utterance 'Push 'em out, push 'em out, way out!' represents a direct, high-arousal display of enthusiastic encouragement and support from Joey, aligning with his positive character and affiliative intent towards Lydia's success. Although the Sentiment Analyst identifies a negative surface sentiment due to the forceful 'expulsion' of 'em' and an aggressive tone, this interpretation is overridden by the consensus that Joey's intent is genuinely positive towards Lydia, viewing 'em' as an obstacle to be overcome, making Joy the most fitting emotion."",
+  ""predicted_emotion"": ""Joy"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Context Historian"",
+      ""Character Profiler"",
+      ""Social Dynamics""
+    ],
+    ""dissenting_agents"": [
+      ""Sentiment Analyst""
+    ]
+  }
+}
+```",joy,Joy,0.9,[SHIFT: FALSE - CONTINUITY MAINTAINED]
+1,1_5,Joey,"Let's  I was justyeah, right.","```json
+{
+  ""recognition_id"": ""1_5"",
+  ""reasoning"": ""The utterance 'Let's— I was just—yeah, right.' is strongly classified as Neutral. Character Profiler, Sentiment Analyst, and Social Dynamics all explicitly tag the utterance's current state as Neutral or Baseline, highlighting extreme hesitation, fragmentation, internal processing, and uncertainty. Although Context Historian and Emotional Shift Detector note a significant temporal shift *from* positive encouragement *to* this neutral, hesitant state, they do not classify the target utterance itself as any other emotion. The utterance lacks clear positive, negative, or strong emotional valence, and adheres to the Neutrality Gate."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 1.0,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Character Profiler"",
+      ""Sentiment Analyst"",
+      ""Social Dynamics"",
+      ""Context Historian"",
+      ""Emotional Shift Detector""
+    ],
+    ""dissenting_agents"": []
+  }
+}
+```",joy,neutral,1.0,"Temporal Dynamics Report:
+
+**BIO PRIORITY CHECK:**
+*   **Baseline Arousal (Joey):** High (previously).
+*   **Conflict Style (Joey):** Positive encouragement (previously).
+*   **Negative Expression (Joey):** Absent (previously).
+
+**SHIFT ANALYSIS:**
+1.  **Micro-Baseline (one turn ago):** Joey expressed very high arousal and positive valence through enthusiastic encouragement (""Let's get that ball and really move, hey, hey, ho, ho."").
+2.  **Delta Detection:**
+    *   **Energy (Arousal) spike/drop?** Yes, there is a significant drop in energy/arousal from enthusiastic encouragement to hesitation and a neutral tone.
+    *   **Valence flip (Positive <-> Negative)?** No flip to negative, but a strong shift *away* from strong positive to neutral/ambiguous valence. This constitutes an emotional continuity break in terms of intensity.
+    *   **Character-Pattern check:** Joey's established pattern was high-energy, positive encouragement. The hesitation and neutral tone in the target utterance clearly deviate from this pattern.
+3.  **Trigger ID:** The shift is triggered by Joey's internal hesitation and self-correction, as described in the `CONTEXT SUMMARY`.
+
+**GATES CHECK:**
+*   Anger shift: Not applicable, no anger detected.
+*   Sincerity shift != Fear: Not applicable, no fear detected.
+
+---
+[SHIFT: TRUE - EMOTIONAL PIVOT DETECTED]
+REASON: Internal hesitation and self-correction."
+1,1_6,Joey,Push!,"```json
+{
+  ""recognition_id"": ""1_6"",
+  ""reasoning"": ""Despite strong positive sentiment and high arousal identified by Context Historian, Character Profiler, and Sentiment Analyst, the utterance 'Push!' is a single-word imperative verb. According to the DECISION GUIDELINES' 'HARD NEUTRALITY FILTER (CRITICAL)' (applied by Social Dynamics), single-word responses are forced neutral unless explicit emotional language is present. As 'Push' is not explicit emotional language, the strict application of this critical filter necessitates a neutral classification, overriding other positive indicators."",
+  ""predicted_emotion"": ""neutral"",
+  ""confidence"": 0.95,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Social Dynamics""
+    ],
+    ""dissenting_agents"": [
+      ""Context Historian"",
+      ""Character Profiler"",
+      ""Sentiment Analyst""
+    ]
+  }
+}
+```",joy,neutral,0.95,"[SHIFT: TRUE - EMOTIONAL PIVOT DETECTED]
+REASON: Significant increase in arousal and positive valence, transitioning from hesitation and mild negative expression to high-energy, positive encouragement."
+1,1_7,Joey,Push!,"```json
+{
+  ""recognition_id"": ""1_7"",
+  ""reasoning"": ""The utterance 'Push!' represents high-arousal, positive encouragement aligning with Joey's baseline as an enthusiastic, supportive motivator, and the scene's vibe of high-energy encouragement. While Sentiment Analyst noted an 'aggressive tone' and Social Dynamics tagged 'playful/banter', the overwhelming evidence points to forceful *positive* influence, direct support, and absence of negative expression or conflict, making Joy the most fitting emotion for the intent to motivate success."",
+  ""predicted_emotion"": ""Joy"",
+  ""confidence"": 0.9,
+  ""agent_consensus"": {
+    ""agreeing_agents"": [
+      ""Context Historian"",
+      ""Character Profiler""
+    ],
+    ""dissenting_agents"": [
+      ""Sentiment Analyst"",
+      ""Social Dynamics""
+    ]
+  }
+}
+```",joy,Joy,0.9,[SHIFT: FALSE - CONTINUITY MAINTAINED]
