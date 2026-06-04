@@ -55,7 +55,10 @@ def call_tuned_gemini(model_obj, prompt, utterance_text):
     """General caller for your fine-tuned Gemini endpoints."""
     full_prompt = f"{prompt}\n\nTARGET UTTERANCE: {utterance_text}"
     response = model_obj.generate_content(full_prompt)
-    return response.text
+    try:
+        return response.text
+    except ValueError:
+        return "".join([part.text for part in response.candidates[0].content.parts])
 
 def call_tuned_profiler(utterance, social_graph):
     context = f"Social Context: {social_graph}"
@@ -77,7 +80,10 @@ def call_social_dynamics(utterance, profile, social_graph):
         model="gemini-2.0-flash", 
         contents=prompt
     )
-    return response.text
+    try:
+        return response.text
+    except ValueError:
+        return "".join([part.text for part in response.candidates[0].content.parts])
 
 def call_gpt_oss_aggregator(recognition_id, utterance, context, profile, sentiment, dynamics):
     """Agent 6: Synthesizes expert reports into a final MELD label."""

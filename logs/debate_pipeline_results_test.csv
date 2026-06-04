@@ -1,0 +1,12 @@
+Dialogue_ID,Recognition_ID,Speaker,Utterance,Actual_Emotion,predicted_emotion,confidence,outcome,winning_agent,vote_plain,vote_linguistic,vote_context,reason_plain,reason_linguistic,reason_context,arbitrator_reasoning
+0,0_0,Mark,Why do all youre coffee mugs have numbers on the bottom?,surprise,neutral,0.6667,unanimous,majority,neutral,neutral,neutral,,,,
+0,0_1,Rachel,"Oh. Thats so Monica can keep track. That way if one on them is missing, she can be like, Wheres number 27?!",anger,neutral,0.6667,unanimous,majority,neutral,neutral,neutral,,,,
+0,0_2,Rachel,Y'know what?,neutral,neutral,0.6667,unanimous,majority,neutral,neutral,neutral,,,,
+1,1_0,Joey,"Come on, Lydia, you can do it.",neutral,neutral,0.3333,unanimous,majority,neutral,neutral,neutral,,,,
+1,1_1,Joey,Push!,joy,joy,0.0,majority,majority,joy,joy,neutral,,,,
+1,1_2,Joey,"Push 'em out, push 'em out, harder, harder.",joy,joy,0.0,unanimous,majority,joy,joy,joy,,,,
+1,1_3,Joey,"Push 'em out, push 'em out, way out!",joy,joy,0.6,unanimous,majority,joy,joy,joy,,,,
+1,1_4,Joey,"Let's get that ball and really move, hey, hey, ho, ho.",joy,joy,0.95,unanimous,majority,joy,joy,joy,,,,
+1,1_5,Joey,"Let's  I was justyeah, right.",joy,neutral,0.4933,unanimous,majority,neutral,neutral,neutral,,,,
+1,1_6,Joey,Push!,joy,joy,0.9267,unanimous,majority,joy,joy,joy,,,,
+1,1_7,Joey,Push!,joy,joy,0.99,majority,majority,joy,joy,anger,,,,

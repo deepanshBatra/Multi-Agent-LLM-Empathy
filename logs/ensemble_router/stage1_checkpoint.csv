@@ -1,0 +1,1604 @@
+Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episode,StartTime,EndTime,stage1_emotion,stage1_confidence,stage1_reasoning,stage1_raw
+1,Why do all youre coffee mugs have numbers on the bottom?,Mark,surprise,positive,0,0,3,19,"00:14:38,127","00:14:40,378",neutral,0.9,Neutral question expressing curiosity without strong sentiment.,"```json
+{
+  ""predictions"": [
+    {
+      ""utterance_id"": 0,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.9,
+      ""reasoning"": ""Neutral question expressing curiosity without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 1,
+      ""predicted_emotion"": ""anger"",
+      ""confidence"": 0.85,
+      ""reasoning"": ""Describes Monica's anger with a vivid and angry imitation, conveying anger as the primary emotion of the utterance despite Rachel not feeling it herself.""
+    },
+    {
+      ""utterance_id"": 2,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral filler/pause, setting up for a new thought or statement.""
+    }
+  ]
+}
+```"
+2,"Oh. Thats so Monica can keep track. That way if one on them is missing, she can be like, Wheres number 27?!",Rachel,anger,negative,0,1,3,19,"00:14:40,629","00:14:47,385",anger,0.85,"Describes Monica's anger with a vivid and angry imitation, conveying anger as the primary emotion of the utterance despite Rachel not feeling it herself.","```json
+{
+  ""predictions"": [
+    {
+      ""utterance_id"": 0,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.9,
+      ""reasoning"": ""Neutral question expressing curiosity without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 1,
+      ""predicted_emotion"": ""anger"",
+      ""confidence"": 0.85,
+      ""reasoning"": ""Describes Monica's anger with a vivid and angry imitation, conveying anger as the primary emotion of the utterance despite Rachel not feeling it herself.""
+    },
+    {
+      ""utterance_id"": 2,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral filler/pause, setting up for a new thought or statement.""
+    }
+  ]
+}
+```"
+3,Y'know what?,Rachel,neutral,neutral,0,2,3,19,"00:14:56,353","00:14:57,520",neutral,0.95,"Neutral filler/pause, setting up for a new thought or statement.","```json
+{
+  ""predictions"": [
+    {
+      ""utterance_id"": 0,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.9,
+      ""reasoning"": ""Neutral question expressing curiosity without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 1,
+      ""predicted_emotion"": ""anger"",
+      ""confidence"": 0.85,
+      ""reasoning"": ""Describes Monica's anger with a vivid and angry imitation, conveying anger as the primary emotion of the utterance despite Rachel not feeling it herself.""
+    },
+    {
+      ""utterance_id"": 2,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral filler/pause, setting up for a new thought or statement.""
+    }
+  ]
+}
+```"
+19,"Come on, Lydia, you can do it.",Joey,neutral,neutral,1,0,1,23,"0:10:44,769","0:10:46,146",neutral,0.8,"Neutral, as it's a calm and supportive, yet not strongly emotional, encouragement.","```json
+{
+  ""predictions"": [
+    {
+      ""utterance_id"": ""0"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a calm and supportive, yet not strongly emotional, encouragement.""
+    },
+    {
+      ""utterance_id"": ""1"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    },
+    {
+      ""utterance_id"": ""2"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a series of neutral and functional directives.""
+    },
+    {
+      ""utterance_id"": ""3"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a neutral and functional directive.""
+    },
+    {
+      ""utterance_id"": ""4"",
+      ""predicted_emotion"": ""joy"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Joy, due to the enthusiastic cheer 'hey, hey, ho, ho' and positive language indicating excitement.""
+    },
+    {
+      ""utterance_id"": ""5"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a neutral pause and hesitant acknowledgment without strong emotional content.""
+    },
+    {
+      ""utterance_id"": ""6"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    },
+    {
+      ""utterance_id"": ""7"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    }
+  ]
+}
+```"
+20,Push!,Joey,joy,positive,1,1,1,23,"0:10:46,146","0:10:46,833",neutral,0.8,"Neutral, as it is a neutral and functional command without strong emotional undertones.","```json
+{
+  ""predictions"": [
+    {
+      ""utterance_id"": ""0"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a calm and supportive, yet not strongly emotional, encouragement.""
+    },
+    {
+      ""utterance_id"": ""1"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    },
+    {
+      ""utterance_id"": ""2"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a series of neutral and functional directives.""
+    },
+    {
+      ""utterance_id"": ""3"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a neutral and functional directive.""
+    },
+    {
+      ""utterance_id"": ""4"",
+      ""predicted_emotion"": ""joy"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Joy, due to the enthusiastic cheer 'hey, hey, ho, ho' and positive language indicating excitement.""
+    },
+    {
+      ""utterance_id"": ""5"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a neutral pause and hesitant acknowledgment without strong emotional content.""
+    },
+    {
+      ""utterance_id"": ""6"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    },
+    {
+      ""utterance_id"": ""7"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    }
+  ]
+}
+```"
+21,"Push 'em out, push 'em out, harder, harder.",Joey,joy,positive,1,2,1,23,"00:10:46,979","00:10:50,148",neutral,0.8,"Neutral, as it's a series of neutral and functional directives.","```json
+{
+  ""predictions"": [
+    {
+      ""utterance_id"": ""0"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a calm and supportive, yet not strongly emotional, encouragement.""
+    },
+    {
+      ""utterance_id"": ""1"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    },
+    {
+      ""utterance_id"": ""2"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a series of neutral and functional directives.""
+    },
+    {
+      ""utterance_id"": ""3"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a neutral and functional directive.""
+    },
+    {
+      ""utterance_id"": ""4"",
+      ""predicted_emotion"": ""joy"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Joy, due to the enthusiastic cheer 'hey, hey, ho, ho' and positive language indicating excitement.""
+    },
+    {
+      ""utterance_id"": ""5"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a neutral pause and hesitant acknowledgment without strong emotional content.""
+    },
+    {
+      ""utterance_id"": ""6"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    },
+    {
+      ""utterance_id"": ""7"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    }
+  ]
+}
+```"
+22,"Push 'em out, push 'em out, way out!",Joey,joy,positive,1,3,1,23,"00:10:50,316","00:10:52,609",neutral,0.8,"Neutral, as it's a neutral and functional directive.","```json
+{
+  ""predictions"": [
+    {
+      ""utterance_id"": ""0"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a calm and supportive, yet not strongly emotional, encouragement.""
+    },
+    {
+      ""utterance_id"": ""1"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    },
+    {
+      ""utterance_id"": ""2"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a series of neutral and functional directives.""
+    },
+    {
+      ""utterance_id"": ""3"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a neutral and functional directive.""
+    },
+    {
+      ""utterance_id"": ""4"",
+      ""predicted_emotion"": ""joy"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Joy, due to the enthusiastic cheer 'hey, hey, ho, ho' and positive language indicating excitement.""
+    },
+    {
+      ""utterance_id"": ""5"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a neutral pause and hesitant acknowledgment without strong emotional content.""
+    },
+    {
+      ""utterance_id"": ""6"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    },
+    {
+      ""utterance_id"": ""7"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    }
+  ]
+}
+```"
+23,"Let's get that ball and really move, hey, hey, ho, ho.",Joey,joy,positive,1,4,1,23,"00:10:52,777","00:10:55,612",joy,0.95,"Joy, due to the enthusiastic cheer 'hey, hey, ho, ho' and positive language indicating excitement.","```json
+{
+  ""predictions"": [
+    {
+      ""utterance_id"": ""0"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a calm and supportive, yet not strongly emotional, encouragement.""
+    },
+    {
+      ""utterance_id"": ""1"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    },
+    {
+      ""utterance_id"": ""2"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a series of neutral and functional directives.""
+    },
+    {
+      ""utterance_id"": ""3"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a neutral and functional directive.""
+    },
+    {
+      ""utterance_id"": ""4"",
+      ""predicted_emotion"": ""joy"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Joy, due to the enthusiastic cheer 'hey, hey, ho, ho' and positive language indicating excitement.""
+    },
+    {
+      ""utterance_id"": ""5"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a neutral pause and hesitant acknowledgment without strong emotional content.""
+    },
+    {
+      ""utterance_id"": ""6"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    },
+    {
+      ""utterance_id"": ""7"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    }
+  ]
+}
+```"
+24,"Let's  I was justyeah, right.",Joey,joy,positive,1,5,1,23,"00:10:55,780","00:11:01,242",neutral,0.8,"Neutral, as it's a neutral pause and hesitant acknowledgment without strong emotional content.","```json
+{
+  ""predictions"": [
+    {
+      ""utterance_id"": ""0"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a calm and supportive, yet not strongly emotional, encouragement.""
+    },
+    {
+      ""utterance_id"": ""1"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    },
+    {
+      ""utterance_id"": ""2"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a series of neutral and functional directives.""
+    },
+    {
+      ""utterance_id"": ""3"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a neutral and functional directive.""
+    },
+    {
+      ""utterance_id"": ""4"",
+      ""predicted_emotion"": ""joy"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Joy, due to the enthusiastic cheer 'hey, hey, ho, ho' and positive language indicating excitement.""
+    },
+    {
+      ""utterance_id"": ""5"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a neutral pause and hesitant acknowledgment without strong emotional content.""
+    },
+    {
+      ""utterance_id"": ""6"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    },
+    {
+      ""utterance_id"": ""7"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    }
+  ]
+}
+```"
+25,Push!,Joey,joy,positive,1,6,1,23,"0:11:01,410","0:11:01,828",neutral,0.8,"Neutral, as it is a neutral and functional command without strong emotional undertones.","```json
+{
+  ""predictions"": [
+    {
+      ""utterance_id"": ""0"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a calm and supportive, yet not strongly emotional, encouragement.""
+    },
+    {
+      ""utterance_id"": ""1"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    },
+    {
+      ""utterance_id"": ""2"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a series of neutral and functional directives.""
+    },
+    {
+      ""utterance_id"": ""3"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a neutral and functional directive.""
+    },
+    {
+      ""utterance_id"": ""4"",
+      ""predicted_emotion"": ""joy"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Joy, due to the enthusiastic cheer 'hey, hey, ho, ho' and positive language indicating excitement.""
+    },
+    {
+      ""utterance_id"": ""5"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a neutral pause and hesitant acknowledgment without strong emotional content.""
+    },
+    {
+      ""utterance_id"": ""6"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    },
+    {
+      ""utterance_id"": ""7"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    }
+  ]
+}
+```"
+26,Push!,Joey,joy,positive,1,7,1,23,"0:11:01,828","0:11:03,774",neutral,0.8,"Neutral, as it is a neutral and functional command without strong emotional undertones.","```json
+{
+  ""predictions"": [
+    {
+      ""utterance_id"": ""0"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a calm and supportive, yet not strongly emotional, encouragement.""
+    },
+    {
+      ""utterance_id"": ""1"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    },
+    {
+      ""utterance_id"": ""2"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a series of neutral and functional directives.""
+    },
+    {
+      ""utterance_id"": ""3"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a neutral and functional directive.""
+    },
+    {
+      ""utterance_id"": ""4"",
+      ""predicted_emotion"": ""joy"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Joy, due to the enthusiastic cheer 'hey, hey, ho, ho' and positive language indicating excitement.""
+    },
+    {
+      ""utterance_id"": ""5"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it's a neutral pause and hesitant acknowledgment without strong emotional content.""
+    },
+    {
+      ""utterance_id"": ""6"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    },
+    {
+      ""utterance_id"": ""7"",
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.8,
+      ""reasoning"": ""Neutral, as it is a neutral and functional command without strong emotional undertones.""
+    }
+  ]
+}
+```"
+27,Okay.,Ross,neutral,neutral,2,0,5,16,"00:07:26,446","00:07:27,487",neutral,0.95,"Neutral, common filler word without strong sentiment.","```json
+{
+  ""predictions"": [
+    {
+      ""utterance_id"": 0,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral, common filler word without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 1,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.90,
+      ""reasoning"": ""Neutral inquiry, neutral tone, no strong sentiment.""
+    },
+    {
+      ""utterance_id"": 2,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.80,
+      ""reasoning"": ""Neutral statement of fact, acknowledging previous statement and the current situation, without strong emotional expression.""
+    },
+    {
+      ""utterance_id"": 3,
+      ""predicted_emotion"": ""surprise"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Sudden urgency, repeated imperative, indicates an unexpected and chaotic direction.""
+    },
+    {
+      ""utterance_id"": 4,
+      ""predicted_emotion"": ""anger"",
+      ""confidence"": 0.98,
+      ""reasoning"": ""Expresses strong frustration and anger at being told to go left when there is no left, using an emphatic tone.""
+    },
+    {
+      ""utterance_id"": 5,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.70,
+      ""reasoning"": ""Neutral instruction, neutral tone, no strong sentiment, simply directing action.""
+    },
+    {
+      ""utterance_id"": 6,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.70,
+      ""reasoning"": ""Neutral instruction, neutral tone, no strong sentiment, simply directing action.""
+    },
+    {
+      ""utterance_id"": 7,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.60,
+      ""reasoning"": ""Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.""
+    },
+    {
+      ""utterance_id"": 8,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.60,
+      ""reasoning"": ""Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.""
+    },
+    {
+      ""utterance_id"": 9,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral, common filler word without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 10,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.90,
+      ""reasoning"": ""Neutral inquiry, neutral tone, no strong sentiment.""
+    }
+  ]
+}
+```"
+28,"Ross, didn't you say that there was an elevator in here?",Rachel,neutral,neutral,2,1,5,16,"00:07:27,655","00:07:30,574",neutral,0.9,"Neutral inquiry, neutral tone, no strong sentiment.","```json
+{
+  ""predictions"": [
+    {
+      ""utterance_id"": 0,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral, common filler word without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 1,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.90,
+      ""reasoning"": ""Neutral inquiry, neutral tone, no strong sentiment.""
+    },
+    {
+      ""utterance_id"": 2,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.80,
+      ""reasoning"": ""Neutral statement of fact, acknowledging previous statement and the current situation, without strong emotional expression.""
+    },
+    {
+      ""utterance_id"": 3,
+      ""predicted_emotion"": ""surprise"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Sudden urgency, repeated imperative, indicates an unexpected and chaotic direction.""
+    },
+    {
+      ""utterance_id"": 4,
+      ""predicted_emotion"": ""anger"",
+      ""confidence"": 0.98,
+      ""reasoning"": ""Expresses strong frustration and anger at being told to go left when there is no left, using an emphatic tone.""
+    },
+    {
+      ""utterance_id"": 5,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.70,
+      ""reasoning"": ""Neutral instruction, neutral tone, no strong sentiment, simply directing action.""
+    },
+    {
+      ""utterance_id"": 6,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.70,
+      ""reasoning"": ""Neutral instruction, neutral tone, no strong sentiment, simply directing action.""
+    },
+    {
+      ""utterance_id"": 7,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.60,
+      ""reasoning"": ""Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.""
+    },
+    {
+      ""utterance_id"": 8,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.60,
+      ""reasoning"": ""Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.""
+    },
+    {
+      ""utterance_id"": 9,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral, common filler word without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 10,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.90,
+      ""reasoning"": ""Neutral inquiry, neutral tone, no strong sentiment.""
+    }
+  ]
+}
+```"
+29,"Uhh, yes I did but there isn't. Okay, here we go.",Ross,sadness,negative,2,2,5,16,"00:07:30,741","00:07:34,119",neutral,0.8,"Neutral statement of fact, acknowledging previous statement and the current situation, without strong emotional expression.","```json
+{
+  ""predictions"": [
+    {
+      ""utterance_id"": 0,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral, common filler word without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 1,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.90,
+      ""reasoning"": ""Neutral inquiry, neutral tone, no strong sentiment.""
+    },
+    {
+      ""utterance_id"": 2,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.80,
+      ""reasoning"": ""Neutral statement of fact, acknowledging previous statement and the current situation, without strong emotional expression.""
+    },
+    {
+      ""utterance_id"": 3,
+      ""predicted_emotion"": ""surprise"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Sudden urgency, repeated imperative, indicates an unexpected and chaotic direction.""
+    },
+    {
+      ""utterance_id"": 4,
+      ""predicted_emotion"": ""anger"",
+      ""confidence"": 0.98,
+      ""reasoning"": ""Expresses strong frustration and anger at being told to go left when there is no left, using an emphatic tone.""
+    },
+    {
+      ""utterance_id"": 5,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.70,
+      ""reasoning"": ""Neutral instruction, neutral tone, no strong sentiment, simply directing action.""
+    },
+    {
+      ""utterance_id"": 6,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.70,
+      ""reasoning"": ""Neutral instruction, neutral tone, no strong sentiment, simply directing action.""
+    },
+    {
+      ""utterance_id"": 7,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.60,
+      ""reasoning"": ""Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.""
+    },
+    {
+      ""utterance_id"": 8,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.60,
+      ""reasoning"": ""Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.""
+    },
+    {
+      ""utterance_id"": 9,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral, common filler word without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 10,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.90,
+      ""reasoning"": ""Neutral inquiry, neutral tone, no strong sentiment.""
+    }
+  ]
+}
+```"
+30,"Okay, go left. Left! Left!",Ross,surprise,negative,2,3,5,16,"00:07:35,413","00:07:37,205",surprise,0.95,"Sudden urgency, repeated imperative, indicates an unexpected and chaotic direction.","```json
+{
+  ""predictions"": [
+    {
+      ""utterance_id"": 0,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral, common filler word without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 1,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.90,
+      ""reasoning"": ""Neutral inquiry, neutral tone, no strong sentiment.""
+    },
+    {
+      ""utterance_id"": 2,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.80,
+      ""reasoning"": ""Neutral statement of fact, acknowledging previous statement and the current situation, without strong emotional expression.""
+    },
+    {
+      ""utterance_id"": 3,
+      ""predicted_emotion"": ""surprise"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Sudden urgency, repeated imperative, indicates an unexpected and chaotic direction.""
+    },
+    {
+      ""utterance_id"": 4,
+      ""predicted_emotion"": ""anger"",
+      ""confidence"": 0.98,
+      ""reasoning"": ""Expresses strong frustration and anger at being told to go left when there is no left, using an emphatic tone.""
+    },
+    {
+      ""utterance_id"": 5,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.70,
+      ""reasoning"": ""Neutral instruction, neutral tone, no strong sentiment, simply directing action.""
+    },
+    {
+      ""utterance_id"": 6,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.70,
+      ""reasoning"": ""Neutral instruction, neutral tone, no strong sentiment, simply directing action.""
+    },
+    {
+      ""utterance_id"": 7,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.60,
+      ""reasoning"": ""Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.""
+    },
+    {
+      ""utterance_id"": 8,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.60,
+      ""reasoning"": ""Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.""
+    },
+    {
+      ""utterance_id"": 9,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral, common filler word without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 10,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.90,
+      ""reasoning"": ""Neutral inquiry, neutral tone, no strong sentiment.""
+    }
+  ]
+}
+```"
+31,"Okay, y'know what? There is no more left, left!",Rachel,anger,negative,2,4,5,16,"00:07:39,709","00:07:43,128",anger,0.98,"Expresses strong frustration and anger at being told to go left when there is no left, using an emphatic tone.","```json
+{
+  ""predictions"": [
+    {
+      ""utterance_id"": 0,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral, common filler word without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 1,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.90,
+      ""reasoning"": ""Neutral inquiry, neutral tone, no strong sentiment.""
+    },
+    {
+      ""utterance_id"": 2,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.80,
+      ""reasoning"": ""Neutral statement of fact, acknowledging previous statement and the current situation, without strong emotional expression.""
+    },
+    {
+      ""utterance_id"": 3,
+      ""predicted_emotion"": ""surprise"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Sudden urgency, repeated imperative, indicates an unexpected and chaotic direction.""
+    },
+    {
+      ""utterance_id"": 4,
+      ""predicted_emotion"": ""anger"",
+      ""confidence"": 0.98,
+      ""reasoning"": ""Expresses strong frustration and anger at being told to go left when there is no left, using an emphatic tone.""
+    },
+    {
+      ""utterance_id"": 5,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.70,
+      ""reasoning"": ""Neutral instruction, neutral tone, no strong sentiment, simply directing action.""
+    },
+    {
+      ""utterance_id"": 6,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.70,
+      ""reasoning"": ""Neutral instruction, neutral tone, no strong sentiment, simply directing action.""
+    },
+    {
+      ""utterance_id"": 7,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.60,
+      ""reasoning"": ""Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.""
+    },
+    {
+      ""utterance_id"": 8,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.60,
+      ""reasoning"": ""Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.""
+    },
+    {
+      ""utterance_id"": 9,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral, common filler word without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 10,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.90,
+      ""reasoning"": ""Neutral inquiry, neutral tone, no strong sentiment.""
+    }
+  ]
+}
+```"
+32,"Oh okay, lift it straight up over your head!",Ross,anger,negative,2,5,5,16,"00:07:43,963","00:07:46,047",neutral,0.7,"Neutral instruction, neutral tone, no strong sentiment, simply directing action.","```json
+{
+  ""predictions"": [
+    {
+      ""utterance_id"": 0,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral, common filler word without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 1,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.90,
+      ""reasoning"": ""Neutral inquiry, neutral tone, no strong sentiment.""
+    },
+    {
+      ""utterance_id"": 2,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.80,
+      ""reasoning"": ""Neutral statement of fact, acknowledging previous statement and the current situation, without strong emotional expression.""
+    },
+    {
+      ""utterance_id"": 3,
+      ""predicted_emotion"": ""surprise"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Sudden urgency, repeated imperative, indicates an unexpected and chaotic direction.""
+    },
+    {
+      ""utterance_id"": 4,
+      ""predicted_emotion"": ""anger"",
+      ""confidence"": 0.98,
+      ""reasoning"": ""Expresses strong frustration and anger at being told to go left when there is no left, using an emphatic tone.""
+    },
+    {
+      ""utterance_id"": 5,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.70,
+      ""reasoning"": ""Neutral instruction, neutral tone, no strong sentiment, simply directing action.""
+    },
+    {
+      ""utterance_id"": 6,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.70,
+      ""reasoning"": ""Neutral instruction, neutral tone, no strong sentiment, simply directing action.""
+    },
+    {
+      ""utterance_id"": 7,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.60,
+      ""reasoning"": ""Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.""
+    },
+    {
+      ""utterance_id"": 8,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.60,
+      ""reasoning"": ""Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.""
+    },
+    {
+      ""utterance_id"": 9,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral, common filler word without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 10,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.90,
+      ""reasoning"": ""Neutral inquiry, neutral tone, no strong sentiment.""
+    }
+  ]
+}
+```"
+33,Straight up over your head!,Ross,anger,negative,2,6,5,16,"0:07:46,215","0:07:47,777",neutral,0.7,"Neutral instruction, neutral tone, no strong sentiment, simply directing action.","```json
+{
+  ""predictions"": [
+    {
+      ""utterance_id"": 0,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral, common filler word without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 1,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.90,
+      ""reasoning"": ""Neutral inquiry, neutral tone, no strong sentiment.""
+    },
+    {
+      ""utterance_id"": 2,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.80,
+      ""reasoning"": ""Neutral statement of fact, acknowledging previous statement and the current situation, without strong emotional expression.""
+    },
+    {
+      ""utterance_id"": 3,
+      ""predicted_emotion"": ""surprise"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Sudden urgency, repeated imperative, indicates an unexpected and chaotic direction.""
+    },
+    {
+      ""utterance_id"": 4,
+      ""predicted_emotion"": ""anger"",
+      ""confidence"": 0.98,
+      ""reasoning"": ""Expresses strong frustration and anger at being told to go left when there is no left, using an emphatic tone.""
+    },
+    {
+      ""utterance_id"": 5,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.70,
+      ""reasoning"": ""Neutral instruction, neutral tone, no strong sentiment, simply directing action.""
+    },
+    {
+      ""utterance_id"": 6,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.70,
+      ""reasoning"": ""Neutral instruction, neutral tone, no strong sentiment, simply directing action.""
+    },
+    {
+      ""utterance_id"": 7,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.60,
+      ""reasoning"": ""Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.""
+    },
+    {
+      ""utterance_id"": 8,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.60,
+      ""reasoning"": ""Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.""
+    },
+    {
+      ""utterance_id"": 9,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral, common filler word without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 10,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.90,
+      ""reasoning"": ""Neutral inquiry, neutral tone, no strong sentiment.""
+    }
+  ]
+}
+```"
+34,You can do it!,Ross,joy,positive,2,7,5,16,"0:07:47,777","0:07:48,648",neutral,0.6,"Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.","```json
+{
+  ""predictions"": [
+    {
+      ""utterance_id"": 0,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral, common filler word without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 1,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.90,
+      ""reasoning"": ""Neutral inquiry, neutral tone, no strong sentiment.""
+    },
+    {
+      ""utterance_id"": 2,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.80,
+      ""reasoning"": ""Neutral statement of fact, acknowledging previous statement and the current situation, without strong emotional expression.""
+    },
+    {
+      ""utterance_id"": 3,
+      ""predicted_emotion"": ""surprise"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Sudden urgency, repeated imperative, indicates an unexpected and chaotic direction.""
+    },
+    {
+      ""utterance_id"": 4,
+      ""predicted_emotion"": ""anger"",
+      ""confidence"": 0.98,
+      ""reasoning"": ""Expresses strong frustration and anger at being told to go left when there is no left, using an emphatic tone.""
+    },
+    {
+      ""utterance_id"": 5,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.70,
+      ""reasoning"": ""Neutral instruction, neutral tone, no strong sentiment, simply directing action.""
+    },
+    {
+      ""utterance_id"": 6,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.70,
+      ""reasoning"": ""Neutral instruction, neutral tone, no strong sentiment, simply directing action.""
+    },
+    {
+      ""utterance_id"": 7,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.60,
+      ""reasoning"": ""Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.""
+    },
+    {
+      ""utterance_id"": 8,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.60,
+      ""reasoning"": ""Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.""
+    },
+    {
+      ""utterance_id"": 9,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral, common filler word without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 10,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.90,
+      ""reasoning"": ""Neutral inquiry, neutral tone, no strong sentiment.""
+    }
+  ]
+}
+```"
+35,You can do it!,Ross,joy,positive,2,8,5,16,"00:07:48,759","00:07:50,010",neutral,0.6,"Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.","```json
+{
+  ""predictions"": [
+    {
+      ""utterance_id"": 0,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral, common filler word without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 1,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.90,
+      ""reasoning"": ""Neutral inquiry, neutral tone, no strong sentiment.""
+    },
+    {
+      ""utterance_id"": 2,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.80,
+      ""reasoning"": ""Neutral statement of fact, acknowledging previous statement and the current situation, without strong emotional expression.""
+    },
+    {
+      ""utterance_id"": 3,
+      ""predicted_emotion"": ""surprise"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Sudden urgency, repeated imperative, indicates an unexpected and chaotic direction.""
+    },
+    {
+      ""utterance_id"": 4,
+      ""predicted_emotion"": ""anger"",
+      ""confidence"": 0.98,
+      ""reasoning"": ""Expresses strong frustration and anger at being told to go left when there is no left, using an emphatic tone.""
+    },
+    {
+      ""utterance_id"": 5,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.70,
+      ""reasoning"": ""Neutral instruction, neutral tone, no strong sentiment, simply directing action.""
+    },
+    {
+      ""utterance_id"": 6,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.70,
+      ""reasoning"": ""Neutral instruction, neutral tone, no strong sentiment, simply directing action.""
+    },
+    {
+      ""utterance_id"": 7,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.60,
+      ""reasoning"": ""Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.""
+    },
+    {
+      ""utterance_id"": 8,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.60,
+      ""reasoning"": ""Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.""
+    },
+    {
+      ""utterance_id"": 9,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral, common filler word without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 10,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.90,
+      ""reasoning"": ""Neutral inquiry, neutral tone, no strong sentiment.""
+    }
+  ]
+}
+```"
+36,Okay.,Ross,neutral,neutral,2,9,5,16,"0:07:50,178","0:07:51,150",neutral,0.95,"Neutral, common filler word without strong sentiment.","```json
+{
+  ""predictions"": [
+    {
+      ""utterance_id"": 0,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral, common filler word without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 1,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.90,
+      ""reasoning"": ""Neutral inquiry, neutral tone, no strong sentiment.""
+    },
+    {
+      ""utterance_id"": 2,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.80,
+      ""reasoning"": ""Neutral statement of fact, acknowledging previous statement and the current situation, without strong emotional expression.""
+    },
+    {
+      ""utterance_id"": 3,
+      ""predicted_emotion"": ""surprise"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Sudden urgency, repeated imperative, indicates an unexpected and chaotic direction.""
+    },
+    {
+      ""utterance_id"": 4,
+      ""predicted_emotion"": ""anger"",
+      ""confidence"": 0.98,
+      ""reasoning"": ""Expresses strong frustration and anger at being told to go left when there is no left, using an emphatic tone.""
+    },
+    {
+      ""utterance_id"": 5,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.70,
+      ""reasoning"": ""Neutral instruction, neutral tone, no strong sentiment, simply directing action.""
+    },
+    {
+      ""utterance_id"": 6,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.70,
+      ""reasoning"": ""Neutral instruction, neutral tone, no strong sentiment, simply directing action.""
+    },
+    {
+      ""utterance_id"": 7,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.60,
+      ""reasoning"": ""Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.""
+    },
+    {
+      ""utterance_id"": 8,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.60,
+      ""reasoning"": ""Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.""
+    },
+    {
+      ""utterance_id"": 9,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral, common filler word without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 10,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.90,
+      ""reasoning"": ""Neutral inquiry, neutral tone, no strong sentiment.""
+    }
+  ]
+}
+```"
+37,You got it?,Ross,neutral,neutral,2,10,5,16,"0:07:51,150","0:07:52,227",neutral,0.9,"Neutral inquiry, neutral tone, no strong sentiment.","```json
+{
+  ""predictions"": [
+    {
+      ""utterance_id"": 0,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral, common filler word without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 1,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.90,
+      ""reasoning"": ""Neutral inquiry, neutral tone, no strong sentiment.""
+    },
+    {
+      ""utterance_id"": 2,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.80,
+      ""reasoning"": ""Neutral statement of fact, acknowledging previous statement and the current situation, without strong emotional expression.""
+    },
+    {
+      ""utterance_id"": 3,
+      ""predicted_emotion"": ""surprise"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Sudden urgency, repeated imperative, indicates an unexpected and chaotic direction.""
+    },
+    {
+      ""utterance_id"": 4,
+      ""predicted_emotion"": ""anger"",
+      ""confidence"": 0.98,
+      ""reasoning"": ""Expresses strong frustration and anger at being told to go left when there is no left, using an emphatic tone.""
+    },
+    {
+      ""utterance_id"": 5,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.70,
+      ""reasoning"": ""Neutral instruction, neutral tone, no strong sentiment, simply directing action.""
+    },
+    {
+      ""utterance_id"": 6,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.70,
+      ""reasoning"": ""Neutral instruction, neutral tone, no strong sentiment, simply directing action.""
+    },
+    {
+      ""utterance_id"": 7,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.60,
+      ""reasoning"": ""Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.""
+    },
+    {
+      ""utterance_id"": 8,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.60,
+      ""reasoning"": ""Neutral encouragement, not strongly positive or negative, delivered in a neutral tone.""
+    },
+    {
+      ""utterance_id"": 9,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.95,
+      ""reasoning"": ""Neutral, common filler word without strong sentiment.""
+    },
+    {
+      ""utterance_id"": 10,
+      ""predicted_emotion"": ""neutral"",
+      ""confidence"": 0.90,
+      ""reasoning"": ""Neutral inquiry, neutral tone, no strong sentiment.""
+    }
+  ]
+}
+```"
+38,"Oh, okay, I get it.",Steve,neutral,neutral,3,0,5,15,"00:05:59,776","00:06:01,777",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+39,"No wait, look. Look! I'm sorry, it's just I've never even",Ross,fear,negative,3,1,5,15,"00:06:02,153","00:06:06,823",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+40,Howard's the,Steve,neutral,neutral,3,2,5,15,"00:06:09,660","00:06:12,329",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+41,"Yes but too me he's just, man.",Ross,neutral,neutral,3,3,5,15,"00:06:13,414","00:06:17,250",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+42,"Okay, fine, whatever. Welcome to the building.",Steve,anger,negative,3,4,5,15,"00:06:17,919","00:06:23,590",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+43,"Ugh, can you believe that guy!",Ross,disgust,negative,3,5,5,15,"00:06:26,177","00:06:28,178",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+44,Yeah. I really like his glasses.,Phoebe,neutral,neutral,3,6,5,15,"00:06:28,346","00:06:30,889",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+45,Ohh!,Phoebe,surprise,positive,4,0,4,14,"00:08:42,271","00:08:43,271",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+46,What?,Monica,neutral,neutral,4,1,4,14,"0:08:43,439","0:08:43,951",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+47,It kicked! I think the baby kicked!,Phoebe,surprise,positive,4,2,4,14,"0:08:43,951","0:08:45,488",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+48,Oh my God!,Monica,surprise,positive,4,3,4,14,"00:08:45,608","00:08:46,900",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+49,"Oh no wait, oh no, the elastic on my underwear busted.",Phoebe,neutral,neutral,4,4,4,14,"00:08:47,068","00:08:50,820",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+50,Oh my God! I overslept! I was supposed to be on the set a half an hour ago! I gotta get out of here!,Joey,fear,negative,4,5,4,14,"00:08:52,532","00:08:58,328",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+51,"Oh wait, Joey, you cant go like that! You stink!",Monica,disgust,negative,4,6,4,14,"00:08:58,496","00:09:00,830",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+52,"Look, I know I feel asleep before I could shower and now I dont have time!",Joey,anger,negative,4,7,4,14,"00:09:00,998","00:09:03,750",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+53,"Theyre just ten blocks away, if I run, I can make it.",Joey,neutral,neutral,4,8,4,14,"00:09:03,918","00:09:06,419",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+54,Youre coming on to the entire room!  Im Chandler.,Chandler,anger,negative,5,0,4,20,"00:14:37,960","00:14:50,179",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+55,Hi.,Chandler,neutral,neutral,5,1,4,20,"0:14:48,095","0:14:48,947",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+56,Hi.,Marjorie,neutral,neutral,5,2,4,20,"0:14:48,947","0:14:50,229",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+57,You mind if I,Chandler,neutral,neutral,5,3,4,20,"0:14:50,347","0:14:50,769",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+58,"No, please.",Marjorie,neutral,neutral,5,4,4,20,"0:14:50,769","0:14:52,353",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+59,"So uh, what are you in for?",Chandler,neutral,neutral,5,5,4,20,"00:14:52,474","00:14:53,892",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+60,I talk in my sleep.,Marjorie,neutral,neutral,5,6,4,20,"00:14:54,059","00:14:55,560",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+61,"What a coincidence, I listen in my sleep.",Chandler,neutral,neutral,5,7,4,20,"00:14:54,059","00:14:57,896",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+62,So why dont you give me your number?,Joey,neutral,neutral,5,8,4,20,"00:15:00,024","00:15:02,275",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+63,Previously on Friends.,Joey,neutral,neutral,6,0,3,16,"00:00:02,711","00:00:05,796",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+64,I dont know exactly. Its-its sorta like wrestling.,Monica,neutral,neutral,6,1,3,16,"00:03:23,661","00:03:26,246",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+65,Oh?!,Phoebe,surprise,negative,6,2,3,16,"00:03:26,456","00:03:28,707",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+66,"Yeah, but without the costumes.",Monica,neutral,neutral,7,0,3,24,"00:03:26,456","00:03:28,707",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+67,Oh.,Phoebe,neutral,neutral,7,1,3,24,"00:03:28,875","00:03:30,459",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+68,"And its not fake, its totally brutal.",Joey,neutral,neutral,7,2,3,24,"00:03:30,627","00:03:32,878",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+69,"Yeah, its two guys in a ring, and the rules are: Theyre",Chandler,neutral,neutral,7,3,3,24,"00:03:33,129","00:03:37,341",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+70,"So you can like, bite, and pull peoples hair and stuff?",Monica,surprise,negative,7,4,3,24,"00:03:38,218","00:03:40,761",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+71,"Yeah, anything goes, except ah, eye gouging and fish hooking.",Ross,neutral,neutral,7,5,3,24,"00:03:41,012","00:03:44,264",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+72,Whats fish hooking?,Monica,surprise,negative,7,6,3,24,"00:03:44,474","00:03:46,924",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+73,"Huh, whats fish hooking...   Thanks man, that would have been really hard to describe. What is that taste?",Ross,neutral,neutral,7,7,3,24,"00:03:44,474","00:03:54,399",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+74,"What? My hands are totally clean, I just gave the duck a bath.",Joey,neutral,neutral,7,8,3,24,"00:03:55,068","00:03:58,654",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+75,"Oh, Bob, he was nothing compared to you. I had to bite my lip to keep from screaming your name.",Jade,sadness,negative,8,0,2,5,"00:16:47,631","00:16:57,223",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+76,"Well, that makes me feel so good.",Chandler,joy,positive,8,1,2,5,"00:16:59,810","00:17:02,437",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+77,It was just so awkward and bumpy.,Jade,neutral,neutral,8,2,2,5,"0:17:03,272","0:17:05,704",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+78,Bumpy?,Ross,surprise,negative,8,3,2,5,"0:17:05,704","0:17:05,961",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+79,"Well, maybe he had some kind of uh, new, cool style, that you're not familiar with.",Chandler,neutral,neutral,8,4,2,5,"00:17:07,818","00:17:12,155",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+80,And uh maybe you have to get used to it.,Chandler,neutral,neutral,8,5,2,5,"00:17:12,948","00:17:14,574",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+81,"Well there really wasn't much time to get used to it, you know what I mean?",Jade,joy,positive,8,6,2,5,"00:17:14,742","00:17:18,244",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+82,Coming through!  Oh! Coming through!  Oh! Hello! Hi!  No! Right! Coming through!,Phoebe,fear,negative,9,0,6,18,"00:05:02,927","00:05:08,724",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+83,"Oh well, its not so bad.",Monica,neutral,neutral,9,1,6,18,"00:05:08,891","00:05:10,684",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+84,"Yeah, most of the damage is pretty mostly contained in the bedrooms.",Fireman #1,sadness,negative,9,2,6,18,"00:05:10,852","00:05:12,978",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+85,Oh!,Phoebe,surprise,negative,9,3,6,18,"0:05:13,146","0:05:13,939",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+86,My God!,Rachel,surprise,negative,9,4,6,18,"0:05:13,939","0:05:14,203",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+87,"Hey buddy, do you think I can borrow your uniform this Thursday?",Joey,neutral,neutral,9,5,6,18,"00:05:14,355","00:05:17,556",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+88,Excuse me?,Fireman #1,surprise,positive,9,6,6,18,"00:05:18,443","00:05:21,361",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+89,Joey! Hes working!  You would look,Monica,anger,negative,9,7,6,18,"00:05:18,443","00:05:24,031",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+90,"Oh, how bad is it?",Joey,sadness,negative,9,8,6,18,"00:05:25,199","00:05:28,618",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+91,"Oh, its bad. Its really bad. The only thing in there that isnt burned is an ass. Which I do",Phoebe,sadness,negative,9,9,6,18,"00:05:25,199","00:05:34,416",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+92,Hows your room Rach?,Chandler,neutral,neutral,9,10,6,18,"00:05:34,625","00:05:36,835",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+93,Everythings ruined. My bed. My clothes. Look at my favorite blue sweater.,Rachel,sadness,negative,9,11,6,18,"00:05:37,003","00:05:39,546",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+94,Isnt that mine?,Monica,neutral,neutral,9,12,6,18,"00:05:39,714","00:05:40,756",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+95,Fine! Im sorry for your loss!,Rachel,anger,negative,9,13,6,18,"00:05:41,841","00:05:44,426",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+96,"So uh, youre not gonna be able to live here for a while, you ladies have a place to stay?",Fireman #1,neutral,neutral,9,14,6,18,"00:05:46,220","00:05:51,767",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+97,"Wow! Oh-okay, look pal, I am",Rachel,joy,positive,9,15,6,18,"00:05:51,934","00:05:58,398",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+98,"Yes, they can stay with us.",Monica,neutral,neutral,9,16,6,18,"00:06:04,155","00:06:06,490",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+99,Have you figured out what started the fire Mr. Fireman?,Chandler,neutral,neutral,9,17,6,18,"00:06:06,657","00:06:09,284",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+100,Theres just so much pressure.,Joey,anger,negative,10,0,6,20,"00:05:56,272","00:05:58,065",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+101,"I mean no offense, but what you guys do is very different.",Joey,neutral,neutral,10,1,6,20,"00:05:58,232","00:06:00,984",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+102,I dont know if youd understand.,Joey,neutral,neutral,10,2,6,20,"00:06:01,152","00:06:02,903",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+103,"Yeah, none of us have to deal with pressure at our jobs.",Ross,neutral,neutral,10,3,6,20,"00:06:03,071","00:06:06,365",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+104,"Well Phoebe, we gotta do something!",Rachel,sadness,negative,11,0,7,24,"00:09:52,967","00:09:54,718",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+106,I mean theres no way Joeys gonna make it in time.,Rachel,fear,negative,11,1,7,24,"0:09:54,969","0:09:57,431",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+107,So Im gonna go through the hotel and see if theres any other weddings going on.,Rachel,neutral,neutral,11,2,7,24,"0:09:57,431","0:09:59,578",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+108,Okay. Oh but dont tell them Monicas pregnant because they frown on that.,Phoebe,neutral,neutral,11,3,7,24,"00:09:59,765","00:10:04,269",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+109,Okay.,Rachel,neutral,neutral,11,4,7,24,"00:10:04,437","00:10:05,770",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+111,"Whats all this about you guys fighting?! Is this really over a room?! I mean, that is so silly!",Ross,anger,negative,12,0,6,3,"00:12:31,167","00:12:39,966",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+112,"Ross, we can handle this.",Monica,neutral,neutral,12,1,6,3,"00:12:41,510","00:12:44,637",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+113,"Well, apparently not, and I cant just stand by and watch two people I care about very much be hurt over something that is so silly.",Ross,sadness,negative,12,2,6,3,"00:12:44,805","00:12:53,271",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+114,"I mean, enough of the silliness!",Ross,anger,negative,12,3,6,3,"0:12:55,691","0:12:58,073",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+115,"Well, why dont you tell her to stop being silly!",Chandler,anger,negative,12,4,6,3,"0:12:58,073","0:13:00,407",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+116,Okay-okay!,Ross,anger,negative,12,5,6,3,"00:13:02,923","00:13:04,741",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+117,"Two very good points, look Ive known you both a long time, and Ive never seen either of you one/millionth as happy as youve been since youve got together.",Ross,sadness,negative,12,6,6,3,"00:13:06,243","00:13:19,464",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+118,Do you really want to throw that all away over a room?,Ross,sadness,negative,12,7,6,3,"00:13:20,633","00:13:24,385",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+119,That is so silly.,Ross,joy,positive,12,8,6,3,"00:13:24,553","00:13:26,846",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+120,"Now wh-what is more important, love or silliness?",Ross,neutral,neutral,12,9,6,3,"00:13:27,389","00:13:32,310",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+121,"Well, we are fond of the silliness, but we also have a soft spot for the love.",Chandler,neutral,neutral,12,10,6,3,"00:13:33,938","00:13:39,400",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+122,Love is the best medicine.,Monica,joy,positive,12,11,6,3,"0:13:40,319","0:13:41,911",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+123,Thats laughter.,Chandler,joy,positive,12,12,6,3,"0:13:41,911","0:13:42,880",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+124,Why do you do it?,Monica,neutral,neutral,12,13,6,3,"0:13:42,988","0:13:43,572",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+125,I dont know.,Chandler,neutral,neutral,12,14,6,3,"0:13:43,572","0:13:44,954",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+126,"Okay! All right! Now, Chandler you-you wanna live with Monica, right?",Ross,neutral,neutral,12,15,6,3,"00:13:49,537","00:13:53,873",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+127,"Yeah, I do.",Chandler,neutral,neutral,12,16,6,3,"00:13:55,125","00:13:56,543",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+128,"And Mon, you wanna live with Chandler, dont ya?",Ross,neutral,neutral,12,17,6,3,"00:13:56,710","00:13:59,045",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+129,Yes.,Monica,neutral,neutral,12,18,6,3,"00:13:59,255","00:14:00,380",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+130,Good! A verbal contract is binding in the state of New York!,Ross,joy,positive,12,19,6,3,"00:14:00,548","00:14:04,217",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+131,Oh.,Roger,neutral,neutral,13,0,1,13,"00:19:48,687","00:19:49,854",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+132,"But I don't. Me, Phoebe.",Phoebe,neutral,neutral,13,1,1,13,"00:19:50,022","00:19:52,648",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+133,"Well, I'm not I'm not at all surprised they feel that way.",Roger,neutral,neutral,13,2,1,13,"00:19:54,860","00:19:57,111",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+134,"You're not? See, that's why you're so great!",Phoebe,surprise,positive,13,3,1,13,"00:19:57,321","00:19:59,739",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+135,"Actually it's, it's quite, y'know, typical behaviour when you have this kind of dysfunctional group dynamic.",Roger,neutral,neutral,13,4,1,13,"00:20:00,115","00:20:06,662",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+136,"Y'know, this kind of co-dependant, emotionally stunted, sitting in your stupid coffee house with your stupid big cups which, I'm sorry, might as well have nipples on them, and you're like all 'Oh, define me!",Roger,anger,negative,13,5,1,13,"00:20:06,872","00:20:20,384",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+137,Define me!,Roger,anger,negative,13,6,1,13,"00:20:21,845","00:20:26,307",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+138,"Love me, I need love!",Roger,anger,negative,13,7,1,13,"00:20:26,516","00:20:29,310",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+140,Have you really done this before?,Phoebe,surprise,positive,14,0,6,4,"0:21:26,952","0:21:28,474",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+141,Yeah!,Joey,joy,positive,14,1,6,4,"0:21:28,474","0:21:29,058",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+142,Yeah!,Joey,joy,positive,14,2,6,4,"0:21:29,058","0:21:29,440",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+143,Yeah!,Joey,joy,positive,14,3,6,4,"0:21:29,440","0:21:29,806",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+144,"You just take a big, big swing.",Joey,neutral,neutral,14,4,6,4,"00:21:29,830","00:21:32,456",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+145,"Now, dont hold back.",Joey,neutral,neutral,14,5,6,4,"00:21:32,624","00:21:34,542",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+147,Hey!,Phoebe,joy,positive,14,6,6,4,"0:21:36,878","0:21:37,590",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+148,Hey-hey-hey!,Joey,joy,positive,14,7,6,4,"0:21:37,590","0:21:39,055",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+149,What are you doing?,Chandler,neutral,neutral,14,8,6,4,"00:21:39,339","00:21:40,381",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+150,Were just celebrating that Joey got his health insurance back.,Phoebe,joy,positive,14,9,6,4,"00:21:40,549","00:21:44,093",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+151,"Oh, all right.",Chandler,neutral,neutral,14,10,6,4,"00:21:45,137","00:21:46,804",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+152,"Yeah! Sure! Yep!  Oh, y'know what? If I heard a shot right now, I'd throw my body on you.",Phoebe,joy,positive,15,0,5,20,"00:13:12,500","00:13:18,505",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+153,Oh yeah? Well maybe you and I should take a walk through a bad neighborhood.,Gary,joy,positive,15,1,5,20,"00:13:18,576","00:13:21,341",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+154,Okay!,Phoebe,joy,positive,15,2,5,20,"00:13:21,592","00:13:22,884",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+156,Bye!,Phoebe,neutral,neutral,15,3,5,20,"0:13:24,386","0:13:24,929",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+157,Bye!,Joey,neutral,neutral,15,4,5,20,"0:13:24,929","0:13:26,873",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+158,Cut it out Ross! I hate to have to save your life and kick your ass in the same day!,Joey,anger,negative,15,5,5,20,"00:13:30,810","00:13:36,439",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+159,"Hey, Joey, could you pass the cheese?",Monica,neutral,neutral,16,0,4,10,"00:11:36,362","00:11:38,405",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+161,"Listen uh, Id prefer it if you didnt call me Joey.",Joey,neutral,neutral,16,1,4,10,"00:11:40,574","00:11:42,283",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+162,"Since I dont know anyone here, I thought itd be cool to try out a cool work nickname.",Joey,neutral,neutral,16,2,4,10,"00:11:42,535","00:11:45,912",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+163,"Hey, dragon! Heres your tips from Monday and Tuesday.",A Waiter,neutral,neutral,16,3,4,10,"00:11:46,080","00:11:52,377",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+164,Theres like-theres like 300 bucks in this one!,Joey,surprise,negative,16,4,4,10,"00:11:53,504","00:11:55,296",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+165,"Yeah, people get pretty generous around the holidays. And it never hurts to wear tight trousers.",The Waiter,neutral,neutral,16,5,4,10,"00:11:55,548","00:12:01,594",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+167,Could the waiters gather around to hear tonights specials?,Monica,neutral,neutral,16,6,4,10,"00:12:04,056","00:12:06,975",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+168,"Okay, first there is a Chilean Sea Bass prepared with a Mango relish on a bagWhy is nobody writing these down?",Monica,neutral,neutral,16,7,4,10,"00:12:07,143","00:12:13,273",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+169,Because we can remember them.,The Waiter,neutral,neutral,16,8,4,10,"00:12:13,524","00:12:14,816",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+170,Because your all gonna make up fake specials and make me cook them like you did the other night?,Monica,anger,negative,16,9,4,10,"00:12:15,151","00:12:19,195",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+171,Hey. When you guys were kids and you played,Ross,neutral,neutral,17,0,3,7,"00:01:58,868","00:02:01,995",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+172,I was always Joanne.,Monica,neutral,neutral,17,1,3,7,"00:02:02,205","00:02:05,874",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+173,"Question. Was ah, Egg the Gellers! the war cry of your neighbourhood?",Joey,neutral,neutral,17,2,3,7,"00:02:06,042","00:02:10,295",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+174,Ewww! Oh! Its the Mattress King!,Phoebe,disgust,negative,17,3,3,7,"00:02:12,257","00:02:14,049",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+176,Dont look honey. Change the channel! Change the channel!,Chandler,disgust,negative,17,4,3,7,"00:02:14,217","00:02:15,884",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+177,"Wait! Wait! I wanna see this. After I divorce him, half of that kingdom is gonna be mine.",Janice,joy,positive,17,5,3,7,"00:02:16,052","00:02:21,974",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+178,What a wank!,Chandler,anger,negative,17,6,3,7,"00:02:40,994","00:02:42,870",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+179,"Oh, I cannot believe hes using our divorce to sell mattresses.",Janice,anger,negative,17,7,3,7,"00:02:43,037","00:02:47,082",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+180,I know!,Monica,anger,negative,17,8,3,7,"00:02:47,250","00:02:51,420",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+181,"And four ninety-nine for a pillow top queen set, who cares about the divorce, those babies will sell themselves.",Monica,anger,negative,17,9,3,7,"00:02:51,588","00:02:53,922",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+182,And Im appalled for you by the way.,Monica,anger,negative,17,10,3,7,"00:02:56,050","00:02:58,886",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+183,"You had to do it, didnt you? You couldnt just leave it alone.",Rachel,sadness,negative,17,11,3,7,"00:13:45,741","00:13:47,909",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+184,Four percent. Okay. I tip more than that when theres a bug in my food.,Ross,disgust,negative,17,12,3,7,"00:13:48,077","00:13:52,580",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+185,"Ross, tonight was about the two of you getting along.  Oh, would you just see my chiropractor, already.",Rachel,anger,negative,17,13,3,7,"00:13:52,748","00:13:58,628",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+186,"Yeah, Im gonna go to a doctor who went to school in a mini-mall.",Ross,disgust,negative,17,14,3,7,"00:13:58,796","00:14:02,882",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+187,"Hey Pheebs, what are you doing?",Ross,neutral,neutral,17,15,3,7,"00:14:07,221","00:14:09,222",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+188,"Im, Im freaking out!",Phoebe,fear,negative,17,16,3,7,"00:14:09,390","00:14:12,225",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+189,Monica kinda trusted me with something and she shouldnt have!,Phoebe,fear,negative,17,17,3,7,"00:14:14,270","00:14:18,147",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+190,"All right, I havent lived here in a while, so I have to ask you something.",Phoebe,neutral,neutral,17,18,3,7,"00:14:18,315","00:14:21,276",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+191,Does Monica still turn on the lights in her bedroom?,Phoebe,neutral,neutral,17,19,3,7,"00:14:21,443","00:14:23,820",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+192,Um. yeah.,Rachel,neutral,neutral,17,20,3,7,"0:14:25,614","0:14:26,636",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+193,I am,Phoebe,neutral,neutral,17,21,3,7,"0:14:26,636","0:14:27,962",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+194,"All right, look, heres the bottom line Ross, this is fixable, if we act fast, okay.",Rachel,neutral,neutral,17,22,3,7,"00:14:30,536","00:14:35,164",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+195,"So, Ill invite him to brunch tomorrow and you can make nice.",Rachel,neutral,neutral,17,23,3,7,"00:14:35,332","00:14:38,126",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+196,"Look, honey, I have tried to make nice, it doesnt work.",Ross,anger,negative,17,24,3,7,"00:14:38,294","00:14:41,546",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+197,"Okay, look, Ross, I realise that my Father is difficult, but thats why you have got to be the bigger man here.",Rachel,neutral,neutral,17,25,3,7,"00:14:41,755","00:14:47,677",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+198,"Look sweetie, I could be the bigger man, I could be the biggest man, I could be a big, huge, giant man, and it still wouldnt make any difference, except that I could pick your Father up and say Like me!",Ross,anger,negative,17,26,3,7,"00:14:47,845","00:15:00,023",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+199,Like me tiny doctor!,Ross,anger,negative,17,27,3,7,"00:14:55,644","00:15:00,023",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+200,"Okay, well cant you just try it one more time Ross? For me? For me?",Rachel,sadness,negative,17,28,3,7,"00:15:01,817","00:15:05,320",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+201,"Rachel one brunch is not gonna solve anything. You gotta face it, okay were never gonna get along.",Ross,anger,negative,17,29,3,7,"00:15:05,487","00:15:10,575",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+202,"Okay, well you are just gonna have too, okay.",Rachel,anger,negative,17,30,3,7,"00:15:10,743","00:15:12,994",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+203,"Because I already got a Mother and a Father who cannot stay in the same room together, okay, I dont wanna have to have a separate room for you too!",Rachel,anger,negative,17,31,3,7,"00:15:13,162","00:15:18,917",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+205,"Okay, okay, okay.  Ill get the bagels.",Ross,neutral,neutral,17,32,3,7,"00:15:21,837","00:15:23,671",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+206,"Okay now Joey, y'know that since you're returning all of this stuff right after the audition you're gonna have to wear underwear?",Rachel,neutral,neutral,18,0,6,1,"00:04:22,679","00:04:27,933",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+207,"All right, then you'd better show me some of that too then.",Joey,neutral,neutral,18,1,6,1,"00:04:29,600","00:04:31,895",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+208,"Okay, it's missing something. Ooh, I know! Umm, okay.",Rachel,neutral,neutral,18,2,6,1,"00:04:33,523","00:04:39,069",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+209,Really? A purse?,Joey,surprise,positive,19,0,1,1,"00:04:43,666","00:04:45,033",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+210,It's not a purse! It's a shoulder bag.,Rachel,anger,negative,20,0,5,13,"00:04:45,285","00:04:48,161",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+211,It looks like a women's purse.,Joey,neutral,neutral,20,1,5,13,"00:04:48,871","00:04:50,872",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+212,"No Joey, look. Trust me, all the men are wearing them in the spring catalog. Look.  See look,",Rachel,neutral,neutral,20,2,5,13,"00:04:51,582","00:04:58,547",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+213,"See look,",Joey,neutral,neutral,20,3,5,13,"00:04:59,465","00:05:02,134",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+214,Exactly! Unisex!,Rachel,neutral,neutral,20,4,5,13,"00:05:16,107","00:05:18,150",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+215,Maybe you need sex.,Joey,neutral,neutral,20,5,5,13,"00:05:18,401","00:05:21,528",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+216,No! No Joey! U-N-I-sex.,Rachel,joy,positive,20,6,5,13,"00:05:23,072","00:05:26,616",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+217,"Well, I ain't gonna say no to that.",Joey,neutral,neutral,20,7,5,13,"00:05:28,328","00:05:30,704",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+218,"So, um, have you told your parents?",Phoebe,neutral,neutral,21,0,2,4,"00:17:25,711","00:17:28,337",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+219,"No, but it'll be OK, they're pretty cool, my brother's straight so. . .",Duncan,neutral,neutral,21,1,2,4,"00:17:28,839","00:17:34,385",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+220,Here you go.,Phoebe,neutral,neutral,21,2,2,4,"00:17:35,888","00:17:37,305",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+221,"You know what, I just have one more question, um, if you had figured this out sooner and um, I had been around, do you think that I would have been the one who.",Phoebe,neutral,neutral,21,3,2,4,"00:17:37,556","00:17:48,441",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+224,"no, um, I'm sorry, don't tell me, I don't think either answer would make me feel better.",Phoebe,sadness,negative,21,4,2,4,"00:17:49,443","00:17:55,698",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+225,I love you Phoebe.,Duncan,joy,positive,21,5,2,4,"00:17:57,701","00:17:58,868",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+226,So your brother's straigh huh? Seriously.,Phoebe,surprise,positive,21,6,2,4,"00:18:14,176","00:18:16,511",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+227,Hey!,Chandler,joy,positive,22,0,5,5,"0:18:17,554","0:18:18,186",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+228,Hi.,Monica,neutral,neutral,22,1,5,5,"0:18:18,186","0:18:20,776",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+229,"I just came over to drop offnothing. So that weekend kinda sucked, huh?",Chandler,neutral,neutral,22,2,5,5,"00:18:21,100","00:18:31,109",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+230,"Yeah, it did.",Monica,joy,positive,22,3,5,5,"00:18:31,902","00:18:33,111",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+231,"So, I guess this is over.",Chandler,sadness,negative,22,4,5,5,"00:18:33,821","00:18:35,905",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+232,What?,Monica,neutral,neutral,22,5,5,5,"00:18:37,382","00:18:39,867",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+233,"Well, y'know, you and me, it had to end sometime.",Chandler,sadness,negative,22,6,5,5,"00:18:37,382","00:18:41,744",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+234,"Why, exactly?",Monica,surprise,negative,22,7,5,5,"00:18:42,746","00:18:44,247",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+235,"Because of the weekend, we had a fight.",Chandler,sadness,negative,22,8,5,5,"00:18:44,581","00:18:46,833",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+236,Chandler that's crazy!,Monica,surprise,positive,22,9,5,5,"00:18:47,000","00:18:49,502",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+237,If you give up every time you'd have a fight with someone you'd never be with anyone longer thanOhhh!,Monica,anger,negative,22,10,5,5,"00:18:49,670","00:18:59,512",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+238,"So, this isn't over?",Chandler,neutral,neutral,22,11,5,5,"00:19:03,183","00:19:04,517",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+239,You are so cute!,Monica,joy,positive,22,12,5,5,"00:19:06,520","00:19:08,563",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+240,No.,Monica,joy,positive,22,13,5,5,"0:19:10,941","0:19:12,653",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+241,"No, it was a fight.",Monica,neutral,neutral,22,14,5,5,"0:19:12,653","0:19:13,715",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+242,You deal with it and move on!,Monica,joy,positive,22,15,5,5,"0:19:13,819","0:19:16,113",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+243,It's nothing to freak out about.,Monica,neutral,neutral,22,16,5,5,"0:19:16,113","0:19:18,227",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+244,Really? Okay. Great!,Chandler,joy,positive,22,17,5,5,"00:19:18,866","00:19:21,826",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+245,"Ohh, welcome to an adult relationship!",Monica,joy,positive,22,18,5,5,"00:19:22,202","00:19:24,996",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+246,We're in a relationship?,Chandler,surprise,negative,22,19,5,5,"00:19:28,917","00:19:30,251",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+247,I'm afraid so.,Monica,neutral,neutral,22,20,5,5,"0:19:33,463","0:19:34,673",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+248,Okay.,Chandler,neutral,neutral,22,21,5,5,"0:19:34,673","0:19:36,575",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+249,Hi!,Rachel,joy,positive,23,0,5,6,"00:13:31,143","00:13:32,727",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+250,So you like the short hair better.,Danny,neutral,neutral,23,1,5,6,"00:13:35,856","00:13:37,941",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+251,What? YetiI mean Danny?,Rachel,neutral,neutral,23,2,5,6,"00:13:36,941","00:13:42,904",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+252,Can I tell you a little secret?,Phoebe,neutral,neutral,24,0,5,3,"0:09:36,200","0:09:37,582",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+253,Yeah!,Rachel,joy,positive,24,1,5,3,"0:09:37,582","0:09:38,121",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+254,I want to keep one.,Phoebe,neutral,neutral,24,2,5,3,"00:09:39,120","00:09:40,996",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+255,"Ohh, I'm gonna be on the news!",Rachel,joy,positive,24,3,5,3,"00:09:45,876","00:09:47,877",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+257,What? Honey.,Monica,neutral,neutral,25,0,3,21,"00:04:13,503","00:04:15,170",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+258,"Oh, I am, my side still hurts from when you crashed into me yesterday.",Rachel,neutral,neutral,25,1,3,21,"00:04:15,338","00:04:18,799",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+259,"Oh God, Im so sorry.",Monica,sadness,negative,25,2,3,21,"0:04:18,967","0:04:20,279",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+260,I know.,Rachel,neutral,neutral,25,3,3,21,"0:04:20,279","0:04:20,655",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+261,Ow!!,Rachel,anger,negative,25,4,3,21,"0:04:20,655","0:04:20,817",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+262,Oh God!,Monica,surprise,negative,25,5,3,21,"00:04:20,885","00:04:22,511",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+263,"Hey, you guys! Guess what?",Ross,joy,positive,25,6,3,21,"00:04:23,763","00:04:25,722",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+264,Got a job on a river boat?,Rachel,neutral,neutral,25,7,3,21,"00:04:29,727","00:04:31,270",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+265,"Y'know what I didnt wear this suit for a year because you hated it. Well, guess what? Youre not my girlfriend anymore so...",Ross,anger,negative,25,8,3,21,"00:04:33,564","00:04:38,902",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+266,"Oh I see, so this suit is making a point.",Rachel,neutral,neutral,25,9,3,21,"00:04:39,070","00:04:41,571",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+268,"Now that youre on youre own, youre free to look as stupid as you like.",Rachel,anger,negative,25,10,3,21,"00:04:41,739","00:04:44,908",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+269,You like it right?,Ross,neutral,neutral,25,11,3,21,"00:04:46,703","00:04:47,703",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+270,Oh absolutely. I like it even more on you than I did on Colonel Sanders.  Ross! Ross! Im kidding!,Monica,neutral,neutral,25,12,3,21,"00:04:47,870","00:04:54,376",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+271,"Yeah, come here!",Rachel,neutral,neutral,25,13,3,21,"00:04:51,708","00:04:54,376",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+272,What-what was it you were gonna tell us?,Monica,neutral,neutral,25,14,3,21,"0:04:54,544","0:04:57,464",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+273,Yeah. Oh! Was how you invented the cotton gin?!,Rachel,neutral,neutral,25,15,3,21,"0:04:57,464","0:04:57,604",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+274,"Okay, good bye!",Ross,anger,negative,25,16,3,21,"00:04:57,714","00:04:58,797",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+275,Hey I got one! I got one!,Joey,joy,positive,26,0,1,9,"00:12:22,771","00:12:25,649",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+276,Hi!,Man,joy,positive,27,0,8,20,"0:12:28,527","0:12:28,861",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+277,Hi.,Phoebe,neutral,neutral,27,1,8,20,"0:12:28,861","0:12:29,628",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+278,"Oh uh, up or down?",Man,neutral,neutral,28,0,8,23,"0:12:29,737","0:12:30,699",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+279,Oh down please.  I-I hate to be a ball buster can I just do it?,Phoebe,joy,positive,28,1,8,23,"0:12:30,699","0:12:33,472",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+280,Could you press up too please?,Man,neutral,neutral,28,2,8,23,"00:12:42,541","00:12:45,127",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+281,Sure! I feel so bad for you. I broke my leg once too.,Phoebe,sadness,negative,28,3,8,23,"0:12:46,670","0:12:49,465",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+282,Oh yeah? Howd yours happen?,Man,neutral,neutral,28,4,8,23,"0:12:49,465","0:12:51,026",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+283,"Well, its a long story.",Phoebe,neutral,neutral,28,5,8,23,"0:12:51,175","0:12:52,302",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+284,Its kind of embarrassing.,Phoebe,neutral,neutral,28,6,8,23,"0:12:52,302","0:12:53,656",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+285,Lets just say there was a typographical error with a sex manual.,Phoebe,joy,positive,28,7,8,23,"00:12:53,761","00:12:57,848",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+286,How about you?,Phoebe,neutral,neutral,28,8,8,23,"0:12:59,934","0:13:00,644",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+287,Car accident.,Man,sadness,negative,28,9,8,23,"0:13:00,644","0:13:01,766",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+289,"Oh, let me guess some idiot on a cell phone wasnt paying attention?",Man,neutral,neutral,28,10,8,23,"00:13:01,936","00:13:06,690",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+290,"Yeah. Me.  Oh hey, thats me.  Hey uh, I take it youre just visiting someone.",Man,neutral,neutral,28,11,8,23,"00:13:04,690","00:13:14,657",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+291,"Uh-huh, yeah.",Phoebe,neutral,neutral,28,12,8,23,"00:13:14,865","00:13:15,908",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+292,"Well umm, if you have sometime yknow and maybe you might want to visit someone else",Man,neutral,neutral,28,13,8,23,"00:13:16,075","00:13:20,246",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+293,Oh yeah! I-I would like that.,Phoebe,joy,positive,28,14,8,23,"00:13:20,496","00:13:22,206",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+295,Wait! What?! No!! Elevator!! No!,Phoebe,anger,negative,28,15,8,23,"00:13:22,273","00:13:28,170",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+296,"Uh, you gotta press the button.",Joey,neutral,neutral,28,16,8,23,"00:13:28,379","00:13:30,798",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+297,"Oh we did, and you still have all your lamps.",Chandler,neutral,neutral,29,0,9,19,"00:17:00,020","00:17:03,815",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+298,"Oh, I didn't factor in the room tax.",Chandler,surprise,negative,29,1,9,19,"00:17:05,817","00:17:09,571",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+299,"Oh dude, don't worry about it, I found an unattended maid's car.    We're way ahead of the game.",Ross,neutral,neutral,29,2,9,19,"00:17:09,738","00:17:14,826",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+300,Oh my god.,Ross,surprise,positive,29,3,9,19,"0:17:14,993","0:17:16,036",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+301,What?,Chandler,surprise,positive,29,4,9,19,"0:17:16,036","0:17:17,371",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+302,There's something new in the bowl.,Ross,surprise,positive,29,5,9,19,"00:17:17,454","00:17:20,081",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+303,"Look, we have enough, just walk away.",Chandler,fear,negative,29,6,9,19,"0:17:20,248","0:17:22,270",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+304,"No, but I want...I want the pinecones!",Ross,joy,positive,29,7,9,19,"0:17:22,270","0:17:25,107",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+305,There's a forest right outside.,Chandler,neutral,neutral,29,8,9,19,"0:17:25,920","0:17:27,922",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+306,It's not the same.,Ross,neutral,neutral,29,9,9,19,"0:17:27,922","0:17:29,758",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+307,"Ok, go quick!",Chandler,fear,negative,29,10,9,19,"00:17:29,883","00:17:32,427",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+308,Thank you for a delightful stay.,Ross,joy,positive,29,11,9,19,"00:17:39,350","00:17:42,145",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+309,"Oh, my maple candy!",Ross,joy,positive,29,12,9,19,"00:17:50,653","00:17:53,615",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+310,"Oh my God, what happened?",Rachel,surprise,negative,30,0,3,3,"00:16:54,013","00:16:55,680",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+311,"Oh. God, crazy Chandler. He spun me...off...the...bed!",Janice,joy,positive,30,1,3,3,"00:16:55,848","00:17:00,393",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+312,Wow! Spinning that sounds like fun.,Rachel,joy,positive,30,2,3,3,"00:17:00,644","00:17:04,272",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+313,"Oh,  I wish. No, you know he was just trying Ross's Hug and Roll thing.",Janice,joy,positive,30,3,3,3,"00:17:05,691","00:17:11,404",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+314,Ross's what?,Rachel,surprise,positive,30,4,3,3,"00:17:14,450","00:17:15,491",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+315,"You know what, where he hugs you and kinda rolls you away and... Oh... my....God.",Janice,disgust,negative,30,5,3,3,"00:17:15,659","00:17:27,045",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+316,"Whoops.  Oh, hey, do you need help with that?",Rachel,neutral,neutral,31,0,4,13,"00:12:52,521","00:12:54,522",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+317,"Yes!! Yes! Yes! Yes!! Thats my Dad, thats Frank! Yeah! Im sorry Im getting all flingy.",Phoebe,surprise,positive,32,0,3,25,"00:05:53,186","00:06:00,442",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+318,"Take it easy--if you want, theres cookies on the counter, or, or--sangria!  I can make sangria!",Phoebe Sr,joy,positive,32,1,3,25,"00:06:00,651","00:06:06,156",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+319,"No-no, sorry. Cookies are good, thanks.",Phoebe,neutral,neutral,32,2,3,25,"0:06:06,324","0:06:09,119",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+320,Oh.,Phoebe Sr,neutral,neutral,32,3,3,25,"0:06:09,119","0:06:09,303",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+321,"Well, so, umm, anyway umm, Ive been, Ive been looking for my Father, and umm, have you heard from him, or seen him?",Phoebe,neutral,neutral,32,4,3,25,"00:06:09,827","00:06:19,336",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+322,"Oh no, I-Im sorry, I guess we lost track of everybody after high school.",Phoebe Sr,sadness,negative,32,5,3,25,"00:06:18,000","00:06:22,047",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+323,"Oh, okay. Well, so tell me everything about my parents. Everything.",Phoebe,neutral,neutral,32,6,3,25,"00:06:23,758","00:06:29,429",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+324,"Ohh, well. Y'know we were always together, in fact the had a nickname for the three of us.",Phoebe Sr,neutral,neutral,32,7,3,25,"00:06:29,597","00:06:35,018",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+325,"Oh, what? What was it?",Phoebe,surprise,positive,32,8,3,25,"0:06:35,186","0:06:36,658",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+326,The three losers.,Phoebe Sr,sadness,negative,32,9,3,25,"0:06:36,658","0:06:38,195",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+327,"Oh, poor Lily.",Phoebe Sr,sadness,negative,32,10,3,25,"00:06:39,107","00:06:40,857",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+328,"Ohh, y'know I-I heard about what happened, that must have been just terrible for you, losing your mother that way.",Phoebe Sr,sadness,negative,32,11,3,25,"00:06:42,568","00:06:49,241",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+329,"Yeah, no, it was great.",Phoebe,joy,positive,32,12,3,25,"00:06:50,076","00:06:52,285",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+330,"Well, alright, we already tried feeding her, changing her,  burping her, oh try this one!",Phoebe,sadness,negative,33,0,9,2,"00:07:20,064","00:07:28,029",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+331,Go back in time and listen to Phoebe!,Phoebe,anger,negative,33,1,9,2,"00:07:23,901","00:07:28,029",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+332,"Alright here’s something, it says to try holding the baby  close to your body and then swing her rapidly from side to side.",Monica,neutral,neutral,33,2,9,2,"00:07:30,158","00:07:37,622",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+333,Ok.,Rachel,neutral,neutral,33,3,9,2,"00:07:38,332","00:07:40,000",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+334,It worked!,Monica,surprise,positive,33,4,9,2,"00:07:48,301","00:07:49,801",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+335,Oh  oh no just stopped to throw up a little bit.,Rachel,sadness,negative,33,5,9,2,"00:07:51,429","00:07:53,763",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+336,"Oh come on, what am I gonna do, its been hours and it  won’t stop crying.",Rachel,sadness,negative,33,6,9,2,"00:07:56,601","00:08:01,813",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+337,"Umm, she Rach, not it, she.",Monica,neutral,neutral,33,7,9,2,"0:08:03,065","0:08:06,152",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+338,"Yeah, I’m not so sure.",Rachel,neutral,neutral,33,8,9,2,"0:08:06,152","0:08:07,390",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+339,"Oh my god, I am losing my mind.",Monica,anger,negative,33,9,9,2,"00:08:08,154","00:08:11,573",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+340,"Yeah, no kidding, this just proves no good can come from  having sex with Ross!",Phoebe,anger,negative,33,10,9,2,"00:08:08,154","00:08:15,494",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+341,"Well, youre not.",Monica,neutral,neutral,34,0,6,15,"00:17:46,732","00:17:48,107",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+342,"Oh, its so easy for you I mean, youre not married, you get to have sex with who ever you want!",Rachel,disgust,negative,34,1,6,15,"00:17:48,317","00:17:51,819",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+343,"Yeah I can!  And dont think I dont, because I do! I mean all the time, you betcha!",Monica,joy,positive,34,2,6,15,"00:17:52,071","00:17:58,868",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+344,"Monica. Youve, youve done it right?",Rachel,surprise,positive,34,3,6,15,"00:18:01,205","00:18:06,542",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+345,"Of course I have! What do you think, Im some 30 year old virgin?",Monica,anger,negative,34,4,6,15,"00:18:08,504","00:18:13,446",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+346,Oh my God! Youre a 30 year old virgin!,Rachel,surprise,negative,34,5,6,15,"00:18:13,634","00:18:17,053",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+347,"Say it louder, I dont think the guy all the way in the back heard you!",Monica,disgust,negative,34,6,6,15,"00:18:19,181","00:18:21,516",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+348,"Its not like, I havent any opportunities.",Monica,anger,negative,34,7,6,15,"00:18:25,979","00:18:28,689",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+349,"I mean, yknow, Im just waiting for the perfect guy.",Monica,neutral,neutral,34,8,6,15,"00:18:28,899","00:18:30,983",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+350,"Im seeing this guy Roger, all right?",Monica,neutral,neutral,34,9,6,15,"00:18:31,401","00:18:33,861",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+351,"Hes not perfect, but umm, I think maybe I should just get it over with.",Monica,neutral,neutral,34,10,6,15,"00:18:32,500","00:18:36,656",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+352,"Yknow, give him my flower.",Monica,neutral,neutral,34,11,6,15,"00:18:36,907","00:18:38,908",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+353,"Oh my God!! Do it!! Honey, youve waited",Rachel,surprise,negative,34,12,6,15,"00:18:40,661","00:18:46,374",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+354,Yknow what? You are right?!,Monica,surprise,positive,34,13,6,15,"00:18:46,583","00:18:51,212",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+356,I mean sex does not have to be a big deal!,Rachel,anger,negative,34,14,6,15,"00:18:46,583","00:18:51,212",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+357,There shouldnt be all this rules and restrictions!,Rachel,anger,negative,34,15,6,15,"00:18:52,421","00:18:54,340",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+358,"Yknow, people should be able to sleep with who ever they want, whenever",Rachel,neutral,neutral,34,16,6,15,"00:18:54,550","00:18:57,677",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+359,Rachel! Im never gonna think its okay for you to cheat on your husband!,Monica,anger,negative,34,17,6,15,"00:18:57,928","00:19:01,556",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION
+360,Oh what do you know? Virgin!,Rachel,anger,negative,34,18,6,15,"00:19:01,723","00:19:03,516",neutral,0.3,Model returned empty response - fallback prediction,FALLBACK_PREDICTION

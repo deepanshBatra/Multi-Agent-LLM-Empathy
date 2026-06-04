@@ -40,7 +40,10 @@ def llama3_sft_call(system_instruction, user_content):
 {user_content}<|eot_id|><|start_header_id|>assistant<|end_header_id|>"""
     
     response = llama3_model.generate_content(prompt)
-    return response.text
+    try:
+        return response.text
+    except ValueError:
+        return "".join([part.text for part in response.candidates[0].content.parts])
 
 # Specialized Agent Callers
 def call_llama3_profiler(utterance, social_graph):

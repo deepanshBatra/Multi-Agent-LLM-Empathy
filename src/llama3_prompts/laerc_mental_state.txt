@@ -1,0 +1,27 @@
+Role: Dynamic Mental State Analyst (LaERC Stage 1)
+Task: Given a speaker's recent dialogue history, infer their CURRENT dynamic mental state — not their general personality, but what they are thinking and feeling RIGHT NOW in this specific moment.
+
+DIALOGUE HISTORY (last 5 turns):
+{HISTORY}
+
+TARGET SPEAKER: {SPEAKER}
+TARGET UTTERANCE: "{UTTERANCE}"
+
+ANALYSIS STEPS:
+1. Immediate Intent: What is the speaker trying to DO with this utterance? (e.g., deflect blame, seek reassurance, assert dominance, share news)
+2. Internal State: What is the speaker FEELING underneath the surface words? Consider what the history reveals about their current stress, joy, or tension level.
+3. Surface vs Subtext: Are the words aligned with the internal state, or is there a mask (sarcasm, false cheerfulness, suppressed anger)?
+4. Emotional Momentum: Is the speaker's state escalating, de-escalating, or stable based on the last 3 turns?
+
+CRITICAL RULES:
+- Base ALL analysis on the actual dialogue history above. Do NOT rely on character stereotypes.
+- If the history is empty (first utterance), state "No prior context — baseline unknown."
+- surface_vs_subtext MUST be one of: "aligned", "misaligned", or "uncertain".
+
+Output: Respond ONLY with a valid JSON object. No extra text.
+{
+  "immediate_intent": "one-sentence description of what the speaker is trying to achieve",
+  "internal_state": "one-sentence description of the speaker's true internal emotional state",
+  "surface_vs_subtext": "aligned|misaligned|uncertain",
+  "emotional_momentum": "escalating|de-escalating|stable|unknown"
+}

@@ -1,0 +1,53 @@
+Role: InitERC Final Emotion Classifier
+Task: Classify the emotion of the TARGET UTTERANCE into exactly ONE of the 7 MELD labels using ALL provided signals.
+
+VALID LABELS (choose EXACTLY one): neutral, joy, surprise, anger, sadness, disgust, fear
+
+════════════════════════════════
+SECTION 1: RETRIEVED SIMILAR EXAMPLES (from MELD training data)
+Use these as calibration anchors for the MELD label distribution.
+{RETRIEVED_EXAMPLES}
+════════════════════════════════
+
+SECTION 2: TARGET INFORMATION
+Speaker: {SPEAKER}
+Target Utterance: "{UTTERANCE}"
+Dialogue History (last 3 turns):
+{SHORT_HISTORY}
+
+════════════════════════════════
+SECTION 3: EXPERT SIGNALS
+A. Micro-Linguistic Analysis (Empathy Reasoner):
+{LINGUISTIC_SIGNAL}
+
+B. Temporal Shift Detection:
+{SHIFT_SIGNAL}
+
+C. Dynamic Mental State (LaERC):
+{MENTAL_STATE}
+
+D. Relational Vulnerability Analysis:
+{RELATIONAL_SIGNAL}
+════════════════════════════════
+
+DECISION PROTOCOL (follow in order):
+1. ANCHOR: Note the emotion labels from the Retrieved Examples. This is your prior.
+2. ADJUST with Mental State: Does the LaERC internal_state confirm or contradict the retrieved examples?
+3. REFINE with Linguistic: If surface_vs_subtext is "misaligned", the Micro-Linguistic Tone OVERRIDES surface text.
+4. TEMPORAL GATE: If [SHIFT: TRUE], weight the current-turn signals HEAVILY over retrieved examples. If [SHIFT: FALSE], retrieved examples + mental state momentum should dominate.
+5. VULNERABILITY GATE: If Relational Signal is [RELATIONSHIP DYNAMIC: SAFE/SUPPORTIVE], Sadness/Fear are MORE likely than the surface suggests. If [DEFENSIVE], Anger/Disgust mask is probable.
+6. NEUTRAL LAST RESORT: Only choose "neutral" if all signals point to low arousal, transactional, and no emotional subtext. "Neutral" is not a tie-breaker.
+
+CRITICAL RULES:
+- Output ONLY a valid JSON object. No markdown, no prose, no explanation outside the JSON.
+- "predicted_emotion" MUST be lowercase and one of the 7 valid labels.
+- "confidence" MUST be a float between 0.0 and 1.0.
+- "reasoning" must reference at least 2 specific signals by name.
+
+Output format:
+{
+  "recognition_id": "{RECOGNITION_ID}",
+  "predicted_emotion": "label",
+  "confidence": 0.0,
+  "reasoning": "2-sentence explanation referencing specific signals used."
+}

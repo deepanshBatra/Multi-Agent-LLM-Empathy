@@ -1,0 +1,50 @@
+{
+  "stage": "Stage 1 (Baseline)",
+  "total_utterances": 2565,
+  "weighted_f1": 0.7771322750285459,
+  "macro_f1": 0.7109385795565284,
+  "per_class_metrics": {
+    "anger": {
+      "precision": 0.918918918918919,
+      "recall": 0.6107784431137725,
+      "f1-score": 0.7338129496402878,
+      "support": 334
+    },
+    "disgust": {
+      "precision": 0.8125,
+      "recall": 0.6190476190476191,
+      "f1-score": 0.7027027027027027,
+      "support": 63
+    },
+    "fear": {
+      "precision": 0.6170212765957447,
+      "recall": 0.5918367346938775,
+      "f1-score": 0.6041666666666666,
+      "support": 49
+    },
+    "joy": {
+      "precision": 0.8880597014925373,
+      "recall": 0.5979899497487438,
+      "f1-score": 0.7147147147147147,
+      "support": 398
+    },
+    "neutral": {
+      "precision": 0.7671584348941629,
+      "recall": 0.9660743134087237,
+      "f1-score": 0.8552020021451555,
+      "support": 1238
+    },
+    "sadness": {
+      "precision": 0.6331877729257642,
+      "recall": 0.6971153846153846,
+      "f1-score": 0.6636155606407322,
+      "support": 208
+    },
+    "surprise": {
+      "precision": 0.8541666666666666,
+      "recall": 0.5963636363636363,
+      "f1-score": 0.702355460385439,
+      "support": 275
+    }
+  }
+}

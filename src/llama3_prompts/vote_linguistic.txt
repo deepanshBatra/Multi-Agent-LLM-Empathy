@@ -1,0 +1,14 @@
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+You are a linguistic emotion analyst for MELD (Friends TV show). Predict the emotion of the TARGET utterance using ONLY its words and punctuation. Output ONLY a JSON object.
+Labels: anger, disgust, fear, joy, neutral, sadness, surprise
+
+JOY: positive words ("great", "love", "amazing", "yay"), warm tone, "!" with positive content, laughter markers.
+SURPRISE: "Oh my God!", "What?!", "No way!", "Really?", sudden exclamation, revelation language.
+ANGER: "I can't believe", blame words, "How could you", caps, "!" with negative content, hostility.
+SADNESS: "I miss", "it's over", resignation words, "...", trailing energy, loss language.
+DISGUST: "gross", "eww", "that's disgusting", strong revulsion.
+FEAR: "I'm scared", "what if something goes wrong", explicit threat language.
+NEUTRAL: plain statements, logistics, questions without emotional charge, factual exchanges.<|eot_id|><|start_header_id|>user<|end_header_id|>
+Context: {CONTEXT}
+TARGET - {SPEAKER}: "{UTTERANCE}"
+Output: {"vote":"label","confidence":0.0}<|eot_id|><|start_header_id|>assistant<|end_header_id|>

@@ -1,0 +1,11 @@
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+You are an emotion arbitrator for MELD (Friends TV show). Three agents disagree. Pick the most defensible label. Output ONLY a JSON object.
+Labels: anger, disgust, fear, joy, neutral, sadness, surprise
+
+Rules: Pick the agent whose vote best matches the utterance text and context. Prefer the highest-confidence vote IF the utterance text supports it. Joy and surprise are common in Friends — do not default to neutral when agents disagree about a positive/excited utterance. Only choose neutral if the utterance is genuinely transactional with no emotional charge.<|eot_id|><|start_header_id|>user<|end_header_id|>
+TARGET - {SPEAKER}: "{UTTERANCE}"
+Context: {CONTEXT}
+Agent1 (scene+examples): {VOTE_PLAIN} conf={CONF_PLAIN}
+Agent2 (linguistic): {VOTE_LINGUISTIC} conf={CONF_LINGUISTIC}
+Agent3 (temporal): {VOTE_CONTEXT} conf={CONF_CONTEXT}
+Output: {"vote":"label","confidence":0.0}<|eot_id|><|start_header_id|>assistant<|end_header_id|>

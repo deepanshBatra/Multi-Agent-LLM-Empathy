@@ -1,0 +1,3 @@
+Stage,Utterances,Weighted F1,Macro F1
+Stage 1 (Baseline),2565,0.7771,0.7109
+Stage 2 (With Refinements),2565,0.7771,0.7109

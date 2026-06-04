@@ -26,7 +26,10 @@ llama3_model = GenerativeModel(
 def call_llama3(prompt: str) -> str:
     """Call the deployed Vertex AI endpoint and return plain text output."""
     response = llama3_model.generate_content(prompt)
-    return response.text
+    try:
+        return response.text
+    except ValueError:
+        return "".join([part.text for part in response.candidates[0].content.parts])
 
 
 if __name__ == "__main__":

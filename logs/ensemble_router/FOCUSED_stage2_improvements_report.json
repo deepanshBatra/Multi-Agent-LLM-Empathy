@@ -1,0 +1,51 @@
+{
+  "stage": "Stage 2 (Improvements Only)",
+  "total_utterances": 326,
+  "weighted_f1": 0.4573072038935608,
+  "macro_f1": 0.22839048718940425,
+  "improvement_vs_stage1": -31.98250711349851,
+  "per_class_metrics": {
+    "anger": {
+      "precision": 1.0,
+      "recall": 0.030303030303030304,
+      "f1-score": 0.058823529411764705,
+      "support": 33
+    },
+    "disgust": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4
+    },
+    "fear": {
+      "precision": 1.0,
+      "recall": 0.14285714285714285,
+      "f1-score": 0.25,
+      "support": 7
+    },
+    "joy": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 49
+    },
+    "neutral": {
+      "precision": 0.5813953488372093,
+      "recall": 0.9887005649717514,
+      "f1-score": 0.7322175732217573,
+      "support": 177
+    },
+    "sadness": {
+      "precision": 0.3333333333333333,
+      "recall": 0.2,
+      "f1-score": 0.25,
+      "support": 25
+    },
+    "surprise": {
+      "precision": 0.75,
+      "recall": 0.1935483870967742,
+      "f1-score": 0.3076923076923077,
+      "support": 31
+    }
+  }
+}

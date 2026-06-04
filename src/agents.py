@@ -20,7 +20,10 @@ def gemini_llm_call(prompt, model="gemini-3-flash-preview", api_key=GEMINI_API_K
         model=model,
         contents=prompt
     )
-    return response.text
+    try:
+        return response.text
+    except ValueError:
+        return "".join([part.text for part in response.candidates[0].content.parts])
 
 
 def groq_llm_call(prompt, model, api_key):
